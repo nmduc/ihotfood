@@ -1,6 +1,6 @@
 <section class="user">
 	<div class="profile-img">
-		<p><img src="<?php echo base_url(); ?>static/admin/images/uiface2.png" alt="" height="40" width="40" /> Welcome back John Doe</p>
+		<p><img src="<?php echo base_url(); ?>static/admin/images/atuchstx.jpeg" alt="" height="40" width="40" /> Welcome back Ngoc Tran</p>
 	</div>
 	<div class="buttons">
 		<button class="ico-font">&#9206;</button>
