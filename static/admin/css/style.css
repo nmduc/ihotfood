@@ -4,10 +4,6 @@
 	filter: none;
 }
 
-/* http://meyerweb.com/eric/tools/css/neset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1913,4 +1909,11 @@ ul.icon-fonts li .unicode {
 ul.icon-fonts li .html {
 	color: #999;
 	font-size: 12px;
+}
+
+/** Additional **/
+#login_form .form_error {
+	color: #FF0000 ;
+	text-align: left;
+	margin-bottom: 5px;
 }

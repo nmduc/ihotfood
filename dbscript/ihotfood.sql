@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `articles` (
   `end_date` date DEFAULT NULL,
   `title` varchar(255) NOT NULL,
   `content` text NOT NULL,
-  `publish_time` datetime NOT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `publish_time` datetime NOT NULL,
   PRIMARY KEY (`id`),
   KEY `restaurant_id` (`restaurant_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `user_id` int(11) NOT NULL,
   `review_id` int(11) NOT NULL,
   `content` text NOT NULL,
-  `publish_time` datetime NOT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `publish_time` datetime NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`,`review_id`),
   KEY `review_id` (`review_id`)
@@ -131,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `reviews` (
   `content` text NOT NULL,
   `album_id` int(11) NOT NULL,
   `rating` int(1) NOT NULL COMMENT 'value range 1-5',
-  `publish_time` datetime NOT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `publish_time` datetime NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`,`restaurant_id`),
   KEY `restaurant_id` (`restaurant_id`),
