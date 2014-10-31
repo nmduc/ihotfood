@@ -19,10 +19,11 @@
 			<li class="divider"></li>
 			<?php if ( ! $this->session->userdata('username')) { ?>
 			<li>
-				<a class="small button" href="<?php echo base_url()?>index.php/user/login/show_login">Login</a>
+				<a href="<?php echo base_url()?>index.php/user/login/show_login">Login</a>
 			</li>
+			<li class="divider"></li>
 			<li>
-				<a class="small button" href="<?php echo base_url()?>index.php/user/login/show_register">Register</a>
+				<a href="<?php echo base_url()?>index.php/user/login/show_register">Register</a>
 			</li>
 			<?php } else { $username = $this->session->userdata('username'); ?>
 			<li class="has-dropdown">
