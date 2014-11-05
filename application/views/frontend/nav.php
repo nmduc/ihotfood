@@ -25,6 +25,12 @@
 			<li>
 				<a href="<?php echo base_url()?>index.php/user/login/show_register">Register</a>
 			</li>
+
+			<?php if ($this->session->userdata('facebookLoginURL')) { ?>
+				<li class='divider'></li> 
+				<li><a href="<?php echo $this->session->userdata('facebookLoginURL')?>">Facebook</a></li>
+			<?php } ?>	
+
 			<?php } else { $username = $this->session->userdata('username'); ?>
 			<li class="has-dropdown">
 				<a href="#">
@@ -38,6 +44,7 @@
 			
 			</li>
 			<?php } ?>
+			
 		</ul>
 	</section>
 </nav>
