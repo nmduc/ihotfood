@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 16, 2014 at 12:16 AM
+-- Generation Time: Nov 05, 2014 at 09:09 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -53,6 +53,22 @@ CREATE TABLE IF NOT EXISTS `articles` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `ci_sessions`
+--
+
+CREATE TABLE IF NOT EXISTS `ci_sessions` (
+  `session_id` varchar(40) NOT NULL DEFAULT '0',
+  `ip_address` varchar(45) NOT NULL DEFAULT '0',
+  `user_agent` varchar(120) NOT NULL,
+  `last_activity` int(10) unsigned NOT NULL DEFAULT '0',
+  `user_data` text NOT NULL,
+  PRIMARY KEY (`session_id`),
+  KEY `last_activity_idx` (`last_activity`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `comments`
 --
 
@@ -93,13 +109,17 @@ CREATE TABLE IF NOT EXISTS `restaurants` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `owner_id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `address` text NOT NULL,
+  `address_number` int(11) DEFAULT NULL,
+  `address_street` varchar(255) NOT NULL,
+  `address_ward` varchar(255) NOT NULL,
+  `address_city` varchar(255) NOT NULL,
   `phone_number` varchar(15) NOT NULL,
   `description` text NOT NULL,
   `album_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`),
-  KEY `owner_id` (`owner_id`)
+  KEY `owner_id` (`owner_id`),
+  KEY `address_city` (`address_city`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -173,16 +193,21 @@ CREATE TABLE IF NOT EXISTS `super_users` (
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'User ID',
   `username` varchar(255) NOT NULL,
-  `password` text NOT NULL COMMENT 'User''s password (encrypted string)',
+  `password` varchar(255) NOT NULL COMMENT 'User''s password (encrypted string)',
   `email` varchar(255) NOT NULL,
   `account_type` int(2) unsigned NOT NULL COMMENT '0- owner; 1-superuser',
   `fullname` varchar(255) DEFAULT NULL,
+  `gender` varchar(1) NOT NULL COMMENT '''M''- male; ''F''-Female',
   `dob` date DEFAULT NULL,
   `profile_picture` varchar(255) DEFAULT NULL COMMENT 'name of the photo stored in the database',
+  `facebookID` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`,`email`),
-  KEY `account_type` (`account_type`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+  UNIQUE KEY `facebookID_2` (`facebookID`),
+  KEY `account_type` (`account_type`),
+  KEY `facebookID` (`facebookID`),
+  KEY `facebookID_3` (`facebookID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 --
 -- Constraints for dumped tables

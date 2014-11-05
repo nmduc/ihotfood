@@ -66,12 +66,22 @@ class Basic_user_model extends CI_Model{
 		$q = $this->db->insert('users', $data);
 		return $q;
 	}
+
+	// --------------------------------------------------------------------
+	 /**
+	  * Create new user from input arguments
+	  *
+	  */
+	function create_member_from_array($userdata) {
+		$q = $this->db->insert('users', $userdata);
+		return $q;
+	}
+
 	// --------------------------------------------------------------------
 	 /**
 	  * Get user info
 	  *
 	  */
-	
 	function get_user_info($username) {
 		$this->db->where('username', $username);
 		$query = $this->db->get('users');
@@ -89,5 +99,21 @@ class Basic_user_model extends CI_Model{
 		$this->db->where('username', $username);
 		$query = $this->db->update('users', $data);
 	}
-	
+
+	// --------------------------------------------------------------------
+	/**
+	 * Generate random password (without special characters)
+	 * Used when creating users using facebook information
+	 */
+	function generate_password($passLength) {
+		$alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
+    	$pass = array(); 
+    	$alphabetLength = strlen($alphabet) - 1; 
+    	for ($i = 0; $i < $passLength; $i++) {
+    	    $n = rand(0, $alphabetLength);
+    	    $pass[] = $alphabet[$n];
+    	}
+    	return implode($pass); //turn the array into a string
+	}
+
 }
