@@ -114,4 +114,40 @@ class Manage extends MY_Controller {
 	 		}
 	 	}
 	 }
+
+	 // --------------------------------------------------------------------
+	 /**
+	 */
+	public function add_location() {
+		// set rulse for basic information fields
+		$this->form_validation->set_rules ( 'name', 'Restaurant Name', 'required|trim|max_length[200]|xss_clean' );
+		$this->form_validation->set_rules ( 'address_number', 'Address Number', 'required|trim|max_length[4]|numeric|xss_clean' );
+		$this->form_validation->set_rules ( 'address_street', 'Address Street', 'required|trim|max_length[200]|xss_clean' );
+		$this->form_validation->set_rules ( 'address_ward', 'Address Ward', 'required|trim|max_length[200]|xss_clean' );
+		$this->form_validation->set_rules ( 'address_city', 'Address City', 'required|trim|max_length[200]|xss_clean' );
+		$this->form_validation->set_rules ( 'zipcode', 'Zipcode', 'required|trim|max_length[10]|numeric|xss_clean' );
+		$this->form_validation->set_rules ( 'phone_number', 'Phone Number', 'required|trim|max_length[200]|numeric|xss_clean' );
+		$this->form_validation->set_rules ( 'email', 'Email', 'trim|max_length[200]|valid_email|xss_clean' );
+		$this->form_validation->set_rules ( 'website', 'Website', 'trim|max_length[200]|xss_clean' );
+		
+		// set rules for other information fields
+		$this->form_validation->set_rules ( 'capacity', 'Capacity', 'required|trim|is_natural|xss_clean' );
+		$this->form_validation->set_rules ( 'opening_hour', 'Opening Hour', 'required|trim|max_length[2]|is_natural|less_than[24]|xss_clean' );
+		$this->form_validation->set_rules ( 'closing_hour', 'Closing Hour', 'required|trim|max_length[2]|is_natural|less_than[24]|xss_clean' );
+		$this->form_validation->set_rules ( 'lowest_price', 'Lowest Price', 'trim|max_length[10]|xss_clean' );
+		$this->form_validation->set_rules ( 'highest_price', 'Highest Price', 'trim|max_length[10]|xss_clean' );
+		
+		if ($this->form_validation->run () == TRUE && $this->session->userdata('username')) {
+			$this->load->model ( 'restaurant_model' );
+			$this->load->model ( 'user/basic_user_model' );
+			// get user ID
+			//var_dump($this->basic_user_model->get_user_info($this->session->userdata('username')));
+			$ownerID = (int)$this->basic_user_model->get_user_info($this->session->userdata('username'))['id'];
+			echo $ownerID;
+			// create new restaurant
+			$this->restaurant_model->create_restaurant ($ownerID);
+			redirect ( 'welcome' );
+		}
+		$this->show_add_location ();
+	}
 }

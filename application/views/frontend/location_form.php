@@ -15,39 +15,67 @@
 							<label>Name <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_name" placeholder="Restaurant name" />
-				        	<?php echo form_error('restaurant_name', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="name" placeholder="Restaurant name" />
+				        	<?php echo form_error('name', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 					<div class="row">
 						<div class="small-3 columns">
-							<label>Address <small>required</small></label>
+							<label>Address number <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_address" placeholder="Restaurant address" />
-				        	<?php echo form_error('res_address', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="address_number" placeholder="Address number" />
+				        	<?php echo form_error('address_number', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
+					<div class="row">
+						<div class="small-3 columns">
+							<label>Address ward <small>required</small></label>
+				        </div>
+				        <div class="small-9 columns">
+				          	<input type="text" name="address_ward" placeholder="Address ward" />
+				        	<?php echo form_error('address_ward', '<small class="error">', '</small>'); ?>
+				        </div>
+				    </div>
+					<div class="row">
+						<div class="small-3 columns">
+							<label>Address street <small>required</small></label>
+				        </div>
+				        <div class="small-9 columns">
+				          	<input type="text" name="address_street" placeholder="Address street" />
+				        	<?php echo form_error('address_street', '<small class="error">', '</small>'); ?>
+				        </div>
+				    </div>
+					<div class="row">
+						<div class="small-3 columns">
+							<label>Address city <small>required</small></label>
+				        </div>
+				        <div class="small-9 columns">
+				          	<input type="text" name="address_city" placeholder="Address city" />
+				        	<?php echo form_error('address_city', '<small class="error">', '</small>'); ?>
+				        </div>
+				    </div>
+
 				    <div class="row">
 						<div class="small-3 columns">
 							<label>Zipcode <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<select>
-								<option value="husker">Location</option>
-								<option value="starbuck">Etterbeek</option>
-								<option value="hotdog">Hot Ixelles</option>
-								<option value="apollo">Scharbeek</option>
+				          	<select name="zipcode">
+								<option value="1050">Ixelles</option>
+								<option value="1000">Etterbeek</option>
+								<option value="1040">Hot Ixelles</option>
+								<option value="1060">Scharbeek</option>
 							</select>
 				        </div>
 				    </div>
 				    <div class="row">
 				    	<div class="small-3 columns">
-							<label>Phone</label>
+							<label>Phone number</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_phone" placeholder="Restaurant phone" />
-				        	<?php echo form_error('res_phone', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="phone_number" placeholder="Restaurant phone number" />
+				        	<?php echo form_error('phone_number', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 				    <div class="row">
@@ -55,8 +83,17 @@
 							<label>Email</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_email" placeholder="Restaurant email" />
-				        	<?php echo form_error('res_email', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="email" placeholder="Restaurant email" />
+				        	<?php echo form_error('email', '<small class="error">', '</small>'); ?>
+				        </div>
+				    </div>
+				    <div class="row">
+				    	<div class="small-3 columns">
+							<label>Website</label>
+				        </div>
+				        <div class="small-9 columns">
+				          	<input type="text" name="website" placeholder="Restaurant website" />
+				        	<?php echo form_error('website', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 				</fieldset>
@@ -68,8 +105,8 @@
 							<label>Capacity <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_capacity" placeholder="Restaurant name" />
-				        	<?php echo form_error('res_capacity', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="capacity" placeholder="Restaurant capacity" />
+				        	<?php echo form_error('capacity', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 					<div class="row">
@@ -77,35 +114,35 @@
 							<label>Opening hour <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_opening_hour" placeholder="Restaurant address" />
-				        	<?php echo form_error('res_opening_hour', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="opening_hour" placeholder="Opening hour" />
+				        	<?php echo form_error('opening_hour', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 				    <div class="row">
 						<div class="small-3 columns">
-							<label>Closing hour</label>
+							<label>Closing hour <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_closing_hour" placeholder="Restaurant address" />
-				        	<?php echo form_error('res_closing_hour', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="closing_hour" placeholder="Closing hour" />
+				        	<?php echo form_error('closing_hour', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 				    <div class="row">
 				    	<div class="small-3 columns">
-							<label>Minimum price</label>
+							<label>Lowest price</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_minimum_price" placeholder="Restaurant address" />
-				        	<?php echo form_error('res_minimum_price', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="loweset_price" placeholder="Lowest price" />
+				        	<?php echo form_error('lowest_price', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 				    <div class="row">
 				    	<div class="small-3 columns">
-							<label>Maximum price</label>
+							<label>Highest price</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="res_maximum_Price" placeholder="Restaurant address" />
-				        	<?php echo form_error('res_maximum_Price', '<small class="error">', '</small>'); ?>
+				          	<input type="text" name="highest_price" placeholder="Highest price" />
+				        	<?php echo form_error('highest_price', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 				    <div class="row">
@@ -113,8 +150,11 @@
 							<label>Language</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input id="checkbox1" type="checkbox"><label for="checkbox1">English</label>
-				          	<input id="checkbox2" type="checkbox"><label for="checkbox2">French</label>
+				          	<input id="checkbox1" type="checkbox"><label for="english">English</label>
+				          	<input id="checkbox2" type="checkbox"><label for="french">French</label>
+				          	<input id="checkbox2" type="checkbox"><label for="spanish">Spanish</label>
+				          	<input id="checkbox2" type="checkbox"><label for="dutch">Dutch</label>
+				          	<input id="checkbox2" type="checkbox"><label for="vietnamese">Vietnamese</label>
 				        </div>
 				    </div>
 					
@@ -143,10 +183,11 @@
 				        </div>
 				        <div class="small-9 columns">
 				          	<select>
-								<option value="husker">Turkey</option>
-								<option value="starbuck">French</option>
-								<option value="hotdog">Italy</option>
-								<option value="apollo">Holland</option>
+								<option value="vietnam">Vietnam</option>
+								<option value="french">French</option>
+								<option value="italy">Italy</option>
+								<option value="holland">Holland</option>
+								<option value="belgium">Belgium</option>
 							</select>
 				        </div>
 				    </div>

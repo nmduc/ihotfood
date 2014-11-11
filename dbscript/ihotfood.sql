@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 05, 2014 at 09:09 PM
+-- Generation Time: Nov 12, 2014 at 12:21 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -53,22 +53,6 @@ CREATE TABLE IF NOT EXISTS `articles` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ci_sessions`
---
-
-CREATE TABLE IF NOT EXISTS `ci_sessions` (
-  `session_id` varchar(40) NOT NULL DEFAULT '0',
-  `ip_address` varchar(45) NOT NULL DEFAULT '0',
-  `user_agent` varchar(120) NOT NULL,
-  `last_activity` int(10) unsigned NOT NULL DEFAULT '0',
-  `user_data` text NOT NULL,
-  PRIMARY KEY (`session_id`),
-  KEY `last_activity_idx` (`last_activity`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `comments`
 --
 
@@ -113,14 +97,30 @@ CREATE TABLE IF NOT EXISTS `restaurants` (
   `address_street` varchar(255) NOT NULL,
   `address_ward` varchar(255) NOT NULL,
   `address_city` varchar(255) NOT NULL,
+  `zipcode` varchar(10) NOT NULL,
   `phone_number` varchar(15) NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `website` varchar(255) DEFAULT NULL,
+  `capacity` int(11) NOT NULL,
+  `opening_hour` int(2) unsigned NOT NULL,
+  `closing_hour` int(2) unsigned NOT NULL,
+  `lowest_price` int(10) unsigned DEFAULT NULL,
+  `highest_price` int(10) unsigned DEFAULT NULL,
   `description` text NOT NULL,
   `album_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`),
   KEY `owner_id` (`owner_id`),
   KEY `address_city` (`address_city`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
+
+--
+-- Dumping data for table `restaurants`
+--
+
+INSERT INTO `restaurants` (`id`, `owner_id`, `name`, `address_number`, `address_street`, `address_ward`, `address_city`, `zipcode`, `phone_number`, `email`, `website`, `capacity`, `opening_hour`, `closing_hour`, `lowest_price`, `highest_price`, `description`, `album_id`) VALUES
+(10, 8, 'a', 1, 'a', 'a', 'a', '', '+84488875689', 'itgunner@gmail.com', '', 0, 1, 11, 0, 0, '', 0),
+(11, 8, 'test', 123, 'test', 'test', 'test', '1050', '+84488875689', 'itgunner@gmail.com', '', 123, 0, 23, 0, 0, '', 0);
 
 -- --------------------------------------------------------
 
@@ -207,7 +207,15 @@ CREATE TABLE IF NOT EXISTS `users` (
   KEY `account_type` (`account_type`),
   KEY `facebookID` (`facebookID`),
   KEY `facebookID_3` (`facebookID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `password`, `email`, `account_type`, `fullname`, `gender`, `dob`, `profile_picture`, `facebookID`) VALUES
+(8, 'user895242430486609', '$2y$10$hecPoD4tUY29RSajG7ozAOkQny/sEZwXj88zcgWcf67N.aRa9/uHu', 'itgunner@gmail.com', 0, 'Minh Duc Nguyen', 'm', '1990-05-09', NULL, '895242430486609'),
+(9, 'mduc', '$2y$10$3snTm0xJgD4ekbNrR57xDO42Tji0Zwjjv/YhYlJK1KzmfL82ZexPy', 'a@a.com', 0, '0', '', NULL, NULL, NULL);
 
 --
 -- Constraints for dumped tables
@@ -236,7 +244,7 @@ ALTER TABLE `medias`
 -- Constraints for table `restaurants`
 --
 ALTER TABLE `restaurants`
-  ADD CONSTRAINT `restaurant_owner_fk` FOREIGN KEY (`owner_id`) REFERENCES `restaurant_owners` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `restaurant_owner_fk` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `restaurant_owners`
