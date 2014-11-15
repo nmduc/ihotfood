@@ -1,4 +1,6 @@
 <?php include 'metadata.php'?>
+<script src="<?php echo base_url(); ?>static/frontend/js/zmultiselect/zurb5-multiselect.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/zmultiselect/zurb5-multiselect.css" />
 <body>
 	<?php require 'nav.php'?>
 	<?php require 'static_header.php'?>
@@ -7,6 +9,7 @@
 			<h3>Add new restaurant</h3>
 			<p>Your favorite restaurants is not in iHootFood? Let's share it!</p>
 			<?php echo form_open('user/manage/add_location'); ?>
+
 				<!-------- BASIC INFORMATION -------->
 				<fieldset>
     				<legend>Basic information</legend>
@@ -161,35 +164,39 @@
 				</fieldset>
 				<fieldset>
     				<legend>Category</legend>
-					<div class="row">
+				    <div class="row">
 						<div class="small-3 columns">
 							<label>Types</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<select>
-								<option value="husker">Fast food</option>
-								<option value="starbuck">Fast casual</option>
-								<option value="hotdog">Casual dining</option>
-								<option value="apollo">Brasserie and bistro</option>
-								<option value="apollo">Coffeehouse</option>
-								<option value="apollo">Mongolian barbecue</option>
-								<option value="apollo">Pub</option>
-							</select>
+				          	<select id="type-select">
+				          		<?php 
+				          			foreach($categories as $abbrev => $description) {
+				          				echo "<option value='$abbrev'>$description</option>\n";	
+				          			}
+				          		?>
+							</optgroup>
+			                </select>
+			                <?php echo form_error('categories', '<small class="error">', '</small>'); ?>
 				        </div>
+				        <input type="hidden" name="categories" id="selected-categories">
 				    </div>
 				    <div class="row">
 						<div class="small-3 columns">
 							<label>Country</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<select>
-								<option value="vietnam">Vietnam</option>
-								<option value="french">French</option>
-								<option value="italy">Italy</option>
-								<option value="holland">Holland</option>
-								<option value="belgium">Belgium</option>
-							</select>
+				          	<select id="country-select">
+				          		<?php 
+				          			foreach($countries as $abbrev => $name) {
+				          				echo "<option value='$abbrev'>$name</option>\n";	
+				          			}
+				          		?>
+							</optgroup>
+			                </select>
+			                <?php echo form_error('countries', '<small class="error">', '</small>'); ?>
 				        </div>
+				        <input type="hidden" name="countries" id="selected-countries">
 				    </div>
 				</fieldset>
 				<div class="large-12">
@@ -198,6 +205,25 @@
 			</form>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$("select#type-select").zmultiselect({
+			live: "#selected-categories",
+		    filter: true,
+		    filterPlaceholder: 'filter...',
+		    filterResult: true,
+		    filterResultText: "Showed",
+		    selectedText: ['Selected','of']
+		});
+
+		$("select#country-select").zmultiselect({
+			live : "#selected-countries",
+		    filter: true,
+		    filterPlaceholder: 'filter...',
+		    filterResult: true,
+		    filterResultText: "Showed",
+		    selectedText: ['Selected','of']
+		});
+	</script>
 	<?php require 'scripts.php'?>
 	<?php require 'footer.php';?>
 </body>

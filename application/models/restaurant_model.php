@@ -27,7 +27,10 @@ class Restaurant_Model extends CI_Model{
 			'lowest_price' => $this->input->post('lowest_price'),
 			'highest_price' => $this->input->post('highest_price'),
 		);
-		$q = $this->db->insert('restaurants', $data);
-		return $q;
+		$this->db->insert('restaurants', $data);
+		$id= $this->db->insert_id();
+		echo $id;
+		return $id;
 	}
 }
+

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 12, 2014 at 12:21 AM
+-- Generation Time: Nov 15, 2014 at 09:32 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -53,6 +53,29 @@ CREATE TABLE IF NOT EXISTS `articles` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `categories`
+--
+
+CREATE TABLE IF NOT EXISTS `categories` (
+  `abbrev` varchar(5) NOT NULL,
+  `description` varchar(255) NOT NULL,
+  PRIMARY KEY (`abbrev`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`abbrev`, `description`) VALUES
+('cd', 'Casual dining'),
+('cf', 'Coffe shop'),
+('ff', 'Fast food'),
+('lx', 'Luxury'),
+('pub', 'Pub');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `comments`
 --
 
@@ -66,6 +89,29 @@ CREATE TABLE IF NOT EXISTS `comments` (
   KEY `user_id` (`user_id`,`review_id`),
   KEY `review_id` (`review_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `countries`
+--
+
+CREATE TABLE IF NOT EXISTS `countries` (
+  `abbrev` varchar(3) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  PRIMARY KEY (`abbrev`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `countries`
+--
+
+INSERT INTO `countries` (`abbrev`, `name`) VALUES
+('be', 'Belgium'),
+('en', 'England'),
+('fr', 'France'),
+('nl', 'Netherlands'),
+('vn', 'Vietnam');
 
 -- --------------------------------------------------------
 
@@ -109,20 +155,33 @@ CREATE TABLE IF NOT EXISTS `restaurants` (
   `description` text NOT NULL,
   `album_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `name` (`name`),
   KEY `owner_id` (`owner_id`),
   KEY `address_city` (`address_city`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
-
---
--- Dumping data for table `restaurants`
---
-
-INSERT INTO `restaurants` (`id`, `owner_id`, `name`, `address_number`, `address_street`, `address_ward`, `address_city`, `zipcode`, `phone_number`, `email`, `website`, `capacity`, `opening_hour`, `closing_hour`, `lowest_price`, `highest_price`, `description`, `album_id`) VALUES
-(10, 8, 'a', 1, 'a', 'a', 'a', '', '+84488875689', 'itgunner@gmail.com', '', 0, 1, 11, 0, 0, '', 0),
-(11, 8, 'test', 123, 'test', 'test', 'test', '1050', '+84488875689', 'itgunner@gmail.com', '', 123, 0, 23, 0, 0, '', 0);
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `restaurant_category_links`
+--
+
+CREATE TABLE IF NOT EXISTS `restaurant_category_links` (
+  `restaurant_id` int(11) NOT NULL,
+  `category_abbrev` varchar(5) NOT NULL,
+  KEY `restaurant_id` (`restaurant_id`),
+  KEY `category_abbrev` (`category_abbrev`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Table structure for table `restaurant_country_links`
+--
+
+CREATE TABLE IF NOT EXISTS `restaurant_country_links` (
+  `restaurant_id` int(11) NOT NULL,
+  `country_abbrev` varchar(3) NOT NULL,
+  KEY `restaurant_id` (`restaurant_id`),
+  KEY `country_abbrev` (`country_abbrev`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Table structure for table `restaurant_owners`
@@ -210,14 +269,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `username`, `password`, `email`, `account_type`, `fullname`, `gender`, `dob`, `profile_picture`, `facebookID`) VALUES
-(8, 'user895242430486609', '$2y$10$hecPoD4tUY29RSajG7ozAOkQny/sEZwXj88zcgWcf67N.aRa9/uHu', 'itgunner@gmail.com', 0, 'Minh Duc Nguyen', 'm', '1990-05-09', NULL, '895242430486609'),
-(9, 'mduc', '$2y$10$3snTm0xJgD4ekbNrR57xDO42Tji0Zwjjv/YhYlJK1KzmfL82ZexPy', 'a@a.com', 0, '0', '', NULL, NULL, NULL);
-
---
 -- Constraints for dumped tables
 --
 
@@ -245,6 +296,20 @@ ALTER TABLE `medias`
 --
 ALTER TABLE `restaurants`
   ADD CONSTRAINT `restaurant_owner_fk` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `restaurant_category_links`
+--
+ALTER TABLE `restaurant_category_links`
+  ADD CONSTRAINT `restaurant_category_links_ibfk_1` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `restaurant_category_links_ibfk_2` FOREIGN KEY (`category_abbrev`) REFERENCES `categories` (`abbrev`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `restaurant_country_links`
+--
+ALTER TABLE `restaurant_country_links`
+  ADD CONSTRAINT `restaurant_country_links_ibfk_1` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `restaurant_country_links_ibfk_2` FOREIGN KEY (`country_abbrev`) REFERENCES `countries` (`abbrev`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `restaurant_owners`
