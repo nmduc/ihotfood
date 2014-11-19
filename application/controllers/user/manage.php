@@ -15,9 +15,11 @@ class Manage extends MY_Controller {
 	public function show_add_location() {
 		$this->load->model( 'country_restaurant_model' );
 		$this->load->model( 'category_restaurant_model' );
+		$this->load->model( 'language_restaurant_model' );
 		$data = array( 
 			'countries' => $this->country_restaurant_model->get_country_list(),
 			'categories' => $this->category_restaurant_model->get_category_list(),
+			'languages' => $this->language_restaurant_model->get_language_list(),
 		);
 		$this->load->view ( 'frontend/location_form', $data );
 	}
@@ -146,12 +148,14 @@ class Manage extends MY_Controller {
 		// set rules for fields related to category
 		$this->form_validation->set_rules ( 'countries', 'Country', 'required|xss_clean|callback_validate_country' );
 		$this->form_validation->set_rules ( 'categories', 'Type', 'required|xss_clean|callback_validate_category' );
+		$this->form_validation->set_rules ( 'languages', 'Language', 'xss_clean|callback_validate_language' );
 
 		if ($this->form_validation->run () == TRUE && $this->session->userdata('username')) {
 			$this->load->model ( 'user/basic_user_model' );
 			$this->load->model ( 'restaurant_model' );
 			$this->load->model ( 'country_restaurant_model' );
 			$this->load->model ( 'category_restaurant_model' );
+			$this->load->model ( 'language_restaurant_model' );
 			
 			// get user ID
 			$userID = (int)$this->basic_user_model->get_user_info($this->session->userdata('username'))['id'];
@@ -163,9 +167,14 @@ class Manage extends MY_Controller {
 				$this->country_restaurant_model->create_country_restaurant_link($restaurant_id, $abbrev);
 			}
 
-			// create link between restaurant and its corresponding country tags
+			// create link between restaurant and its corresponding category tags
 			foreach(explode(',', $this->input->post('categories')) as $abbrev) {
 				$this->category_restaurant_model->create_category_restaurant_link($restaurant_id, $abbrev);
+			}
+
+			// create link between restaurant and its spoken languages
+			foreach(explode(',', $this->input->post('languages')) as $abbrev) {
+				$this->language_restaurant_model->create_language_restaurant_link($restaurant_id, $abbrev);
 			}
 
 			redirect ( 'welcome' );
@@ -185,13 +194,26 @@ class Manage extends MY_Controller {
 		}
 	}
 
-	// validate list of country abbrevations selected
+	// validate list of category abbrevations selected
 	public function validate_category($categories) {
 		foreach(explode(',', $categories) as $abbrev) {
 			$this->load->model('category_restaurant_model');
 			$query = $this->category_restaurant_model->validateCategoryAbbrev($abbrev);
 			if(! $query) {
 				$this->form_validation->set_message ( 'validate_category', 'Error with selected type(s)' );
+				return FALSE;
+			}
+		}
+	}
+
+	// validate list of language abbrevations selected
+	public function validate_language($languages) {
+		if( ! $languages) return TRUE;
+		foreach(explode(',', $languages) as $abbrev) {
+			$this->load->model('language_restaurant_model');
+			$query = $this->language_restaurant_model->validateLanguageAbbrev($abbrev);
+			if(! $query) {
+				$this->form_validation->set_message ( 'validate_language', 'Error with selected language(s)' );
 				return FALSE;
 			}
 		}

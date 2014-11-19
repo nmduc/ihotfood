@@ -153,14 +153,18 @@
 							<label>Language</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input id="checkbox1" type="checkbox"><label for="english">English</label>
-				          	<input id="checkbox2" type="checkbox"><label for="french">French</label>
-				          	<input id="checkbox2" type="checkbox"><label for="spanish">Spanish</label>
-				          	<input id="checkbox2" type="checkbox"><label for="dutch">Dutch</label>
-				          	<input id="checkbox2" type="checkbox"><label for="vietnamese">Vietnamese</label>
+				          	<select id="language-select">
+				          		<?php 
+				          			foreach($languages as $abbrev => $name) {
+				          				echo "<option value='$abbrev'>$name</option>\n";	
+				          			}
+				          		?>
+							</optgroup>
+			                </select>
+			                <?php echo form_error('languages', '<small class="error">', '</small>'); ?>
 				        </div>
+				        <input type="hidden" name="languages" id="selected-languages">
 				    </div>
-					
 				</fieldset>
 				<fieldset>
     				<legend>Category</legend>
@@ -206,6 +210,15 @@
 		</div>
 	</div>
 	<script type="text/javascript">
+		$("select#language-select").zmultiselect({
+			live: "#selected-languages",
+		    filter: true,
+		    filterPlaceholder: 'filter...',
+		    filterResult: true,
+		    filterResultText: "Showed",
+		    selectedText: ['Selected','of']
+		});
+
 		$("select#type-select").zmultiselect({
 			live: "#selected-categories",
 		    filter: true,
