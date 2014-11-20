@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2014 at 09:32 PM
+-- Generation Time: Nov 20, 2014 at 11:24 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -116,6 +116,30 @@ INSERT INTO `countries` (`abbrev`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `languages`
+--
+
+CREATE TABLE IF NOT EXISTS `languages` (
+  `abbrev` varchar(3) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  PRIMARY KEY (`abbrev`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `languages`
+--
+
+INSERT INTO `languages` (`abbrev`, `name`) VALUES
+('de', 'German'),
+('en', 'English'),
+('fr', 'French'),
+('jp', 'Japanese'),
+('nl', 'Dutch'),
+('vn', 'Vietnamese');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `medias`
 --
 
@@ -144,6 +168,7 @@ CREATE TABLE IF NOT EXISTS `restaurants` (
   `address_ward` varchar(255) NOT NULL,
   `address_city` varchar(255) NOT NULL,
   `zipcode` varchar(10) NOT NULL,
+  `latlong` varchar(255) NOT NULL,
   `phone_number` varchar(15) NOT NULL,
   `email` varchar(255) DEFAULT NULL,
   `website` varchar(255) DEFAULT NULL,
@@ -157,9 +182,7 @@ CREATE TABLE IF NOT EXISTS `restaurants` (
   PRIMARY KEY (`id`),
   KEY `owner_id` (`owner_id`),
   KEY `address_city` (`address_city`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
-
--- --------------------------------------------------------
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
 
 --
 -- Table structure for table `restaurant_category_links`
@@ -181,6 +204,17 @@ CREATE TABLE IF NOT EXISTS `restaurant_country_links` (
   `country_abbrev` varchar(3) NOT NULL,
   KEY `restaurant_id` (`restaurant_id`),
   KEY `country_abbrev` (`country_abbrev`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Table structure for table `restaurant_language_links`
+--
+
+CREATE TABLE IF NOT EXISTS `restaurant_language_links` (
+  `restaurant_id` int(11) NOT NULL,
+  `language_abbrev` varchar(3) NOT NULL,
+  KEY `restaurant_id` (`restaurant_id`),
+  KEY `language_abbrev` (`language_abbrev`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -310,6 +344,13 @@ ALTER TABLE `restaurant_category_links`
 ALTER TABLE `restaurant_country_links`
   ADD CONSTRAINT `restaurant_country_links_ibfk_1` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `restaurant_country_links_ibfk_2` FOREIGN KEY (`country_abbrev`) REFERENCES `countries` (`abbrev`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `restaurant_language_links`
+--
+ALTER TABLE `restaurant_language_links`
+  ADD CONSTRAINT `restaurant_language_links_ibfk_1` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurants` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `restaurant_language_links_ibfk_2` FOREIGN KEY (`language_abbrev`) REFERENCES `languages` (`abbrev`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `restaurant_owners`

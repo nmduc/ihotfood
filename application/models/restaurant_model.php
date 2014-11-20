@@ -16,6 +16,7 @@ class Restaurant_Model extends CI_Model{
 			'address_ward' => $this->input->post('address_ward'),
 			'address_city' => $this->input->post('address_city'),
 			'zipcode' => $this->input->post('zipcode'),
+			'latlong' => $this->input->post('latlong'),
 			'phone_number' => $this->input->post('phone_number'),
 			'email' => $this->input->post('email'),
 			'website' => $this->input->post('website'),

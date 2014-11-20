@@ -134,6 +134,7 @@ class Manage extends MY_Controller {
 		$this->form_validation->set_rules ( 'address_ward', 'Address Ward', 'required|trim|max_length[200]|xss_clean' );
 		$this->form_validation->set_rules ( 'address_city', 'Address City', 'required|trim|max_length[200]|xss_clean' );
 		$this->form_validation->set_rules ( 'zipcode', 'Zipcode', 'required|trim|max_length[10]|numeric|xss_clean' );
+		$this->form_validation->set_rules ( 'latlong', 'Lattitude-Longtitude', 'required|trim|max_length[255]|xss_clean|callback_validate_latlong' );
 		$this->form_validation->set_rules ( 'phone_number', 'Phone Number', 'required|trim|max_length[200]|numeric|xss_clean' );
 		$this->form_validation->set_rules ( 'email', 'Email', 'trim|max_length[200]|valid_email|xss_clean' );
 		$this->form_validation->set_rules ( 'website', 'Website', 'trim|max_length[200]|xss_clean' );
@@ -208,7 +209,7 @@ class Manage extends MY_Controller {
 
 	// validate list of language abbrevations selected
 	public function validate_language($languages) {
-		if( ! $languages) return TRUE;
+		if( strlen($languages) == 0) return TRUE;	// this field is not required so if it can be empty
 		foreach(explode(',', $languages) as $abbrev) {
 			$this->load->model('language_restaurant_model');
 			$query = $this->language_restaurant_model->validateLanguageAbbrev($abbrev);
@@ -217,5 +218,16 @@ class Manage extends MY_Controller {
 				return FALSE;
 			}
 		}
+	}
+
+	public function validate_latlong($latlong) {
+		$pieces = explode(",", $latlong);
+		for($i=0; $i < count($pieces); $i++) {
+			if(!is_numeric($pieces[$i])) {
+				$this->form_validation->set_message ( 'validate_latlong', 'Lattitude-Longtitude not valid' );
+				return FALSE;
+			}
+		}
+		return TRUE;
 	}
 }

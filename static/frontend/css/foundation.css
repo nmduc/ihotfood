@@ -5920,3 +5920,5 @@ th.hide-for-touch {
   .form-label span{
     color:#c00;
   }
+
+  #map-canvas img { max-width:none; } /* this is to fix broken google map zoom */
