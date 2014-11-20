@@ -1,6 +1,14 @@
 <?php
 
 class Restaurant_Model extends CI_Model{
+	public function get_restaurant_list() {
+		$query = $this->db->get('restaurants');
+		$restaurantList = array();
+		foreach ($query->result() as $row) {
+			array_push($restaurantList, $row);
+		}
+		return $restaurantList;
+	}
 	// --------------------------------------------------------------------
  	/**
 	  * Create new restaurant

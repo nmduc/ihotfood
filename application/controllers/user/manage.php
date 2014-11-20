@@ -13,9 +13,9 @@ class Manage extends MY_Controller {
 		$this->load->view ( 'frontend/pwd_edit' );
 	}
 	public function show_add_location() {
-		$this->load->model( 'country_restaurant_model' );
-		$this->load->model( 'category_restaurant_model' );
-		$this->load->model( 'language_restaurant_model' );
+		$this->load->model( 'restaurant/country_restaurant_model' );
+		$this->load->model( 'restaurant/category_restaurant_model' );
+		$this->load->model( 'restaurant/language_restaurant_model' );
 		$data = array( 
 			'countries' => $this->country_restaurant_model->get_country_list(),
 			'categories' => $this->category_restaurant_model->get_category_list(),
@@ -186,7 +186,7 @@ class Manage extends MY_Controller {
 	// validate list of country abbrevations selected
 	public function validate_country($countries) {
 		foreach(explode(',', $countries) as $abbrev) {
-			$this->load->model('country_restaurant_model');
+			$this->load->model('restaurant/country_restaurant_model');
 			$query = $this->country_restaurant_model->validateCountryAbbrev($abbrev);
 			if(! $query) {
 				$this->form_validation->set_message ( 'validate_country', 'Error with selected country(s)' );
@@ -198,7 +198,7 @@ class Manage extends MY_Controller {
 	// validate list of category abbrevations selected
 	public function validate_category($categories) {
 		foreach(explode(',', $categories) as $abbrev) {
-			$this->load->model('category_restaurant_model');
+			$this->load->model('restaurant/category_restaurant_model');
 			$query = $this->category_restaurant_model->validateCategoryAbbrev($abbrev);
 			if(! $query) {
 				$this->form_validation->set_message ( 'validate_category', 'Error with selected type(s)' );
@@ -211,7 +211,7 @@ class Manage extends MY_Controller {
 	public function validate_language($languages) {
 		if( strlen($languages) == 0) return TRUE;	// this field is not required so if it can be empty
 		foreach(explode(',', $languages) as $abbrev) {
-			$this->load->model('language_restaurant_model');
+			$this->load->model('restaurant/language_restaurant_model');
 			$query = $this->language_restaurant_model->validateLanguageAbbrev($abbrev);
 			if(! $query) {
 				$this->form_validation->set_message ( 'validate_language', 'Error with selected language(s)' );
