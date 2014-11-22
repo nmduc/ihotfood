@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://ihotfood.com/';
+$config['base_url']	= 'http://localhost:8888/ihotfood/';
 
 /*
 |--------------------------------------------------------------------------
