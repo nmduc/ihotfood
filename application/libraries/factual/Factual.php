@@ -39,7 +39,7 @@ class Factual {
 	 * @param string key your oauth key.
 	 * @param string secret your oauth secret.
 	 */
-	public function __construct($key, $secret) {
+	public function __construct($key='4sOtelbKr06TQuChBkncoPK4CU2L6lZMvRhZKK0V', $secret='sAwMcWsbTMc1vd3tmTS0OJZGOcK1wLhXZWwwEYSQ') {
 		//load configuration
 		$this->loadConfig();
 		$this->factHome = $this->config['factual']['endpoint']; //assign endpoint
