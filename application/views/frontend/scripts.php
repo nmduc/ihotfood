@@ -109,6 +109,8 @@
 		dateFormat: "dd-mm-yy"
 	});
 
+	$(".user-photos").dropzone({ url: "/file/post" });
+	
 	
 
 	new WOW().init();
