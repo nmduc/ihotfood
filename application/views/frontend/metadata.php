@@ -20,6 +20,4 @@
 	<script src="<?php echo base_url(); ?>static/frontend/js/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/foundation.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
-	<script src="//use.typekit.net/fwu5rfp.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
 </head>

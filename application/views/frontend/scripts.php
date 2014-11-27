@@ -14,6 +14,23 @@
 		},
 		SELF.setupDropzone = function() {
 			$(".user-photos").dropzone({ url: "/file/post" });			
+		},
+		SELF.setupSearch = function(){
+			$('#search_map_btn').click(function(){
+				$.ajax({
+					method: 'POST',
+					url: '<?php base_url()?>index.php/user/search/',
+					dataType: 'json',
+					data: {
+						s_postcode: $('#s_postcode').val(),
+						s_country: $('#s_country').val(),
+						s_keyword: $('#s_keyword').val()
+					},
+					success: function(data, xhr){
+						console.log(data);
+					}
+				});
+			});
 		}
 		SELF.setupScaleSlider = function() {
 	        var _SlideshowTransitions = [
@@ -124,6 +141,7 @@
 		ngoctran.setupDatepicker();
 		ngoctran.setupWow();
 		ngoctran.setupDropzone();
-		ngoctran.setupScaleSlider();
+		//ngoctran.setupScaleSlider();
+		ngoctran.setupSearch();	
 	});
 </script>
