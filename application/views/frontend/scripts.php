@@ -15,11 +15,53 @@
 		SELF.setupDropzone = function() {
 			$(".user-photos").dropzone({ url: "/file/post" });			
 		},
+		SELF.setupMap = function() {
+			$("#map_canvas").gmap3({
+				map:{
+					options: {
+						center:[46.578498,2.457275],
+						zoom: 4
+					}
+				},
+				marker: {
+					values:[
+						{address:"86000 Poitiers, France", data:"Poitiers : great city !"}
+					],
+					options:{
+						draggable: false
+					}
+				},
+				events:{
+					mouseover: function(marker, event, context){
+						var map = $(this).gmap3("get"),
+							infowindow = $(this).gmap3({get:{name:"infowindow"}});
+		                if (infowindow){
+		                  infowindow.open(map, marker);
+		                  infowindow.setContent(context.data);
+		                } else {
+		                  $(this).gmap3({
+		                    infowindow:{
+		                      anchor:marker, 
+		                      options:{content: context.data}
+		                    }
+		                  });
+		                }
+					},
+					mouseout: function(){
+		                var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+		                if (infowindow){
+		                  infowindow.close();
+		                }
+					}
+				}
+				
+			});
+		},
 		SELF.setupSearch = function(){
 			$('#search_map_btn').click(function(){
 				$.ajax({
-					method: 'POST',
-					url: '<?php base_url()?>index.php/user/search/',
+					type: 'POST',
+					url: '<?php base_url()?>index.php/user/search/search_res/',
 					dataType: 'json',
 					data: {
 						s_postcode: $('#s_postcode').val(),
@@ -28,6 +70,54 @@
 					},
 					success: function(data, xhr){
 						console.log(data);
+						var jsonArr = [];
+						for(i = 0; i < data.length; i++) {
+							console.log(data[i]);
+							jsonArr.push({
+								latLng: [data[i]['latitude'], data[i]['longitude']],
+								data:  data[i]['name']
+							});
+						}
+						console.log([{latLng:[48.8620722, 2.352047], data:"Paris !"},{address:"86000 Poitiers, France", data:"Poitiers : great city !"},]);
+						console.log(jsonArr);
+						$("#map_canvas").gmap3({
+							map:{
+								options: {
+									center:[46.578498,2.457275],
+									zoom: 1
+								}
+							},
+							marker: {
+								values: jsonArr,
+								options:{
+									draggable: false
+								}
+							},
+							events:{
+								mouseover: function(marker, event, context){
+									var map = $(this).gmap3("get"),
+										infowindow = $(this).gmap3({get:{name:"infowindow"}});
+					                if (infowindow){
+					                  infowindow.open(map, marker);
+					                  infowindow.setContent(context.data);
+					                } else {
+					                  $(this).gmap3({
+					                    infowindow:{
+					                      anchor:marker, 
+					                      options:{content: context.data}
+					                    }
+					                  });
+					                }
+								},
+								mouseout: function(){
+					                var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+					                if (infowindow){
+					                  infowindow.close();
+					                }
+								}
+							}
+							
+						});
 					}
 				});
 			});
@@ -142,6 +232,7 @@
 		ngoctran.setupWow();
 		ngoctran.setupDropzone();
 		//ngoctran.setupScaleSlider();
+		ngoctran.setupMap();
 		ngoctran.setupSearch();	
 	});
 </script>

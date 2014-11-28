@@ -4,6 +4,7 @@
 <div class="row search-box-wrapper">
 		<div class="large-12 columns search-box">
 			<select name="s_postcode" id="s_postcode">
+				<option value="3121">3121</option>
 				<option value="4101">4101</option>
 				<option value="4000">4000</option>
 			</select>
@@ -19,18 +20,18 @@
 		</div>
 	</div>
 <script>
-	function initialize() {
-        var mapCanvas = document.getElementById('map_canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
-          scrollwheel: false,
-          navigationControl: false,
-          mapTypeControl: false,
-          scaleControl: false,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
+// 	function initialize() {
+//         var mapCanvas = document.getElementById('map_canvas');
+//         var mapOptions = {
+//           center: new google.maps.LatLng(44.5403, -78.5463),
+//           zoom: 8,
+//           scrollwheel: false,
+//           navigationControl: false,
+//           mapTypeControl: false,
+//           scaleControl: false,
+//           mapTypeId: google.maps.MapTypeId.ROADMAP
+//         }
+//         var map = new google.maps.Map(mapCanvas, mapOptions)
+//     }
+//     google.maps.event.addDomListener(window, 'load', initialize);
 </script>
