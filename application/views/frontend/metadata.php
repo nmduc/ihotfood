@@ -16,7 +16,7 @@
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/wow.min.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.slider.min.js"></script>
-	
+	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jquery.autocomplete.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/dropzone.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/foundation.min.js"></script>

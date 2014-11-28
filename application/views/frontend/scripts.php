@@ -15,6 +15,11 @@
 		SELF.setupDropzone = function() {
 			$(".user-photos").dropzone({ url: "/file/post" });			
 		},
+		SELF.setupAutocomplete = function(){
+			$('#s_keyword').autocomplete({
+				serviceUrl: '<?php base_url() ?>index.php/user/search/search_suggestion'
+			});
+		},
 		SELF.setupMap = function() {
 			$("#map_canvas").gmap3({
 				map:{
@@ -69,7 +74,6 @@
 						s_keyword: $('#s_keyword').val()
 					},
 					success: function(data, xhr){
-						console.log(data);
 						var jsonArr = [];
 						for(i = 0; i < data.length; i++) {
 							console.log(data[i]);
@@ -78,8 +82,6 @@
 								data:  data[i]['name']
 							});
 						}
-						console.log([{latLng:[48.8620722, 2.352047], data:"Paris !"},{address:"86000 Poitiers, France", data:"Poitiers : great city !"},]);
-						console.log(jsonArr);
 						$("#map_canvas").gmap3({
 							map:{
 								options: {
@@ -232,6 +234,7 @@
 		ngoctran.setupWow();
 		ngoctran.setupDropzone();
 		//ngoctran.setupScaleSlider();
+		ngoctran.setupAutocomplete();
 		ngoctran.setupMap();
 		ngoctran.setupSearch();	
 	});
