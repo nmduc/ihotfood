@@ -6,7 +6,7 @@ class Welcome extends CI_Controller {
 			$this->load->library("../controllers/user/facebook_login");
 			$this->session->set_userdata('facebookLoginURL', $this->facebook_login->get_facebook_login_url());
 		}
-		$this->load->model('restaurant_model');
+		$this->load->model('restaurant/restaurant_model');
 		$data = array(
 			'restaurants' => $this->restaurant_model->get_restaurant_list(),
 		);

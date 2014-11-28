@@ -38,6 +38,7 @@
 				</a>
 				<ul class="dropdown">
 					<li><a href="<?php echo base_url()?>index.php/user/manage/show_add_location">Add location</a></li>
+					<li><a href="<?php echo base_url()?>index.php/user/manage/show_user_restaurant">Manage locations</a></li>
 					<li><a href="<?php echo base_url()?>index.php/user/manage">Edit profile</a></li>
 					<li><a href="<?php echo base_url()?>index.php/user/login/do_logout">Logout</a></li>
 		        </ul>

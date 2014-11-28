@@ -162,7 +162,6 @@ class Manage extends MY_Controller {
 			$userID = (int)$this->basic_user_model->get_user_info($this->session->userdata('username'))['id'];
 			// create new restaurant
 			$restaurant_id = $this->restaurant_model->create_restaurant ($userID);
-			echo $restaurant_id;
 			// create link between restaurant and its corresponding country tags
 			foreach(explode(',', $this->input->post('countries')) as $abbrev) {
 				$this->country_restaurant_model->create_country_restaurant_link($restaurant_id, $abbrev);
@@ -178,7 +177,9 @@ class Manage extends MY_Controller {
 				$this->language_restaurant_model->create_language_restaurant_link($restaurant_id, $abbrev);
 			}
 
-			redirect ( 'welcome' );
+			//redirect ( 'welcome' );
+			//$this->show_user_restaurant();
+			redirect( '/restaurant/show_restaurant/' .  $restaurant_id);
 		}
 		$this->show_add_location ();
 	}
@@ -221,7 +222,11 @@ class Manage extends MY_Controller {
 	}
 
 	public function validate_latlong($latlong) {
-		$pieces = explode(",", $latlong);
+		$pieces = explode(',', $latlong);
+		if(count($pieces) != 2) {
+			$this->form_validation->set_message ( 'validate_latlong', 'Lattitude-Longtitude not valid' );
+			return FALSE;
+		}
 		for($i=0; $i < count($pieces); $i++) {
 			if(!is_numeric($pieces[$i])) {
 				$this->form_validation->set_message ( 'validate_latlong', 'Lattitude-Longtitude not valid' );
@@ -230,4 +235,6 @@ class Manage extends MY_Controller {
 		}
 		return TRUE;
 	}
+
+	
 }

@@ -9,6 +9,16 @@ class Restaurant_Model extends CI_Model{
 		}
 		return $restaurantList;
 	}
+
+	public function get_restaurant_by_id($id) {
+		$this->db->where('id',$id);
+		$query = $this->db->get('restaurants');
+		if($query->num_rows == 1){
+			return $query->row();
+		} 
+		return null;
+	}
+
 	// --------------------------------------------------------------------
  	/**
 	  * Create new restaurant
