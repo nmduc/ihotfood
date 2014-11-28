@@ -235,6 +235,17 @@ class Manage extends MY_Controller {
 		}
 		return TRUE;
 	}
-
+	/* END adding location
+	*
+	*/
 	
+
+	/* USER manage location
+	*
+	* 
+	*/
+	public function manage_restaurant($restaurantId) {
+		$this->load->library("../controllers/restaurant");
+		$this->restaurant->show_restaurant($restaurantId);
+	}
 }

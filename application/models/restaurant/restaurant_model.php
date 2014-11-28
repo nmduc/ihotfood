@@ -2,8 +2,8 @@
 
 class Restaurant_Model extends CI_Model{
 	public function get_restaurant_list() {
-		$query = $this->db->get('restaurants');
 		$restaurantList = array();
+		$query = $this->db->get('restaurants');
 		foreach ($query->result() as $row) {
 			array_push($restaurantList, $row);
 		}
@@ -19,6 +19,18 @@ class Restaurant_Model extends CI_Model{
 		return null;
 	}
 
+	// return list of restaurant created by a specific user
+	public function get_restaurant_by_user($userId) {
+		$restaurantList = array();
+		$this->db->where('owner_id',$userId);
+		$query = $this->db->get('restaurants');
+		foreach ($query->result() as $row) {
+			array_push($restaurantList, $row);
+		}
+		return $restaurantList;
+	}
+
+	
 	// --------------------------------------------------------------------
  	/**
 	  * Create new restaurant

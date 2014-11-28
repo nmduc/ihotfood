@@ -8,10 +8,12 @@ class Restaurant extends CI_Controller {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($id);
 		if(! $restaurant ) {
+			// return 404
+			
 		}
 		$data = array (
 			'restaurant' => $restaurant,
 		);
-		$this->load->view ( 'frontend/show_restaurant', $data );
+		$this->load->view ( 'frontend/view_restaurant', $data );
 	}
 }
