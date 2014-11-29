@@ -13,6 +13,14 @@ class Manage extends MY_Controller {
 		$this->load->view ( 'frontend/pwd_edit' );
 	}
 	public function show_add_location() {
+		if( ! $this->session->userdata('username')) {
+			// raise 403
+			$data = array(
+				"heading" => "Permission denied",
+				"message" => "You need to login to add a new location",
+			);	
+			$this->load->view("../errors/error_403", $data);
+		}
 		$this->load->model( 'restaurant/country_restaurant_model' );
 		$this->load->model( 'restaurant/category_restaurant_model' );
 		$this->load->model( 'restaurant/language_restaurant_model' );
@@ -20,6 +28,43 @@ class Manage extends MY_Controller {
 			'countries' => $this->country_restaurant_model->get_country_list(),
 			'categories' => $this->category_restaurant_model->get_category_list(),
 			'languages' => $this->language_restaurant_model->get_language_list(),
+		);
+		$this->load->view ( 'frontend/location_form', $data );
+	}
+	public function show_edit_location($resId) {
+		$this->load->model( 'restaurant/country_restaurant_model' );
+		$this->load->model( 'restaurant/category_restaurant_model' );
+		$this->load->model( 'restaurant/language_restaurant_model' );
+		$this->load->model( 'restaurant/restaurant_model' );
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+		if( ! $restaurant) {
+			// raise 404
+			$data = array(
+				"heading" => "Error 404",
+				"message" => "Restaurant not found",
+			);	
+			$this->load->view("../errors/error_403", $data);
+		}
+		if( ! $this->session->userdata('id')) {
+			// raise 403
+			$data = array(
+				"heading" => "Permission denied",
+				"message" => "You need to login first to edit location",
+			);	
+			$this->load->view("../errors/error_403", $data);
+		}
+		else if ( $restaurant->owner_id != $this->session->userdata('id')){
+			$data = array(
+				"heading" => "Permission denied",
+				"message" => "You need to be the owner of this restaurant",
+			);	
+			$this->load->view("../errors/error_403", $data);
+		}
+		$data = array( 
+			'countries' => $this->country_restaurant_model->get_country_list(),
+			'categories' => $this->category_restaurant_model->get_category_list(),
+			'languages' => $this->language_restaurant_model->get_language_list(),
+			'restaurant' => $restaurant,
 		);
 		$this->load->view ( 'frontend/location_form', $data );
 	}
