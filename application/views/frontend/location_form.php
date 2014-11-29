@@ -130,6 +130,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				        	<?php echo form_error('name', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
+				    <div class="row">
+						<div class="small-3 columns">
+							<label>Description <small>required</small></label>
+				        </div>
+				        <div class="small-9 columns">
+				          	<input type="text" name="description" placeholder="Restaurant description" />
+				        	<?php echo form_error('description', '<small class="error">', '</small>'); ?>
+				        </div>
+				    </div>
 					<div class="row">
 						<div class="small-3 columns">
 							<label>Address number <small>required</small></label>

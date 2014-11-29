@@ -1,6 +1,17 @@
 <?php include 'metadata.php'?>
 <body>
 	<?php require 'nav.php'?>
+	<!-- Begin Restaurant Navigation bar -->
+	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; ">
+		<div class="large-12 large-centered" >
+			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
+			<a href=""><div class="large-2 columns">  <font color="white">Detail</font> </div></a>
+			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
+			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
+			<a href=""><div class="large-2 columns">  <font color="white">Map</font> </div></a>
+			<div class="large-2 columns"></div>
+		</div>
+	</div>
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
@@ -48,36 +59,42 @@
 									style=" width: 100%; height: 100%; border: none;position:absolute; top: 0; left: 0;"></thumbnailtemplate>
 							</div>
 							<div class=c></div>
-						</div>
+						</div>	
 					</div>
 				</div>
 				<!-- Thumbnail Item Skin End -->
 			</div>
 			<div class="large-5 columns">
 				<div class="row">
-					<h3 class="restaurant-name">Elite Galeto Coffee 2</h3>
-					<p class="restaurant-description">Cafe/kem- Y, Nhatban - Cap doi,
-						Gia dinh, Nhom hoi</p>
+					<h3 class="restaurant-name"><?php echo $restaurant->name ?></h3>
+					<p class="restaurant-description">
+						<?php echo ( ((strlen($restaurant->description)) > 200) ? 
+								substr($restaurant->description, 0, 200) . "..." . "(<a href=''> read more</a>)" 
+							: 	$restaurant->description) ?> </p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-location-arrow"></i>&nbsp; 11 Trần Quốc Toản, P.
-						8, Quận 3, TP. HCM
+						<i class="fa fa-location-arrow"></i>&nbsp; 
+						<?php echo "". $restaurant->address_number . " , " . $restaurant->address_street .
+								   " , " . $restaurant->address_ward . " , " . $restaurant->address_city;
+						?>
 					</p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-phone"></i>&nbsp; 0909752955
+						<i class="fa fa-phone"></i>&nbsp; <?php echo $restaurant->phone_number ?>
 					</p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-clock-o"></i>&nbsp; 6.00AM - 10.00PM
+						<i class="fa fa-clock-o"></i>&nbsp; 
+						<?php echo "" . $restaurant->opening_hour . ".00 - " . $restaurant->closing_hour . ".00" ?>
 					</p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-money"></i>&nbsp; 20.000 - 40.0000
+						<i class="fa fa-money"></i>&nbsp; 
+						<?php echo "" . $restaurant->lowest_price . " - " . $restaurant->highest_price ?>
 					</p>
 				</div>
 			</div>

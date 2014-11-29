@@ -30,7 +30,7 @@ class Restaurant_Model extends CI_Model{
 		return $restaurantList;
 	}
 
-	
+
 	// --------------------------------------------------------------------
  	/**
 	  * Create new restaurant
@@ -41,6 +41,7 @@ class Restaurant_Model extends CI_Model{
 			'owner_id' => $ownerID,
 			// basic restaurant information
 			'name' => $this->input->post('name'),
+			'description' => $this->input->post('description'),
 			'address_number' => $this->input->post('address_number'),
 			'address_street' => $this->input->post('address_street'),
 			'address_ward' => $this->input->post('address_ward'),
@@ -60,7 +61,6 @@ class Restaurant_Model extends CI_Model{
 		);
 		$this->db->insert('restaurants', $data);
 		$id= $this->db->insert_id();
-		echo $id;
 		return $id;
 	}
 }

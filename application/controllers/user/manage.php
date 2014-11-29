@@ -129,6 +129,7 @@ class Manage extends MY_Controller {
 	public function add_location() {
 		// set rulse for basic information fields
 		$this->form_validation->set_rules ( 'name', 'Restaurant Name', 'required|trim|max_length[200]|xss_clean' );
+		$this->form_validation->set_rules ( 'description', 'Restaurant Description', 'required|trim|xss_clean' );
 		$this->form_validation->set_rules ( 'address_number', 'Address Number', 'required|trim|max_length[4]|numeric|xss_clean' );
 		$this->form_validation->set_rules ( 'address_street', 'Address Street', 'required|trim|max_length[200]|xss_clean' );
 		$this->form_validation->set_rules ( 'address_ward', 'Address Ward', 'required|trim|max_length[200]|xss_clean' );
@@ -153,10 +154,10 @@ class Manage extends MY_Controller {
 
 		if ($this->form_validation->run () == TRUE && $this->session->userdata('username')) {
 			$this->load->model ( 'user/basic_user_model' );
-			$this->load->model ( 'restaurant_model' );
-			$this->load->model ( 'country_restaurant_model' );
-			$this->load->model ( 'category_restaurant_model' );
-			$this->load->model ( 'language_restaurant_model' );
+			$this->load->model ( 'restaurant/restaurant_model' );
+			$this->load->model ( 'restaurant/country_restaurant_model' );
+			$this->load->model ( 'restaurant/category_restaurant_model' );
+			$this->load->model ( 'restaurant/language_restaurant_model' );
 			
 			// get user ID
 			$userID = (int)$this->basic_user_model->get_user_info($this->session->userdata('username'))['id'];
