@@ -17,63 +17,33 @@
 		},
 		SELF.setupAutocomplete = function(){
 			$('#s_keyword').autocomplete({
-				serviceUrl: '<?php base_url() ?>index.php/user/search/search_suggestion'
+				serviceUrl: '<?php echo base_url("index.php/user/search/search_suggestion") ?>'
 			});
 		},
 		SELF.setupMap = function() {
-			$("#map_canvas").gmap3({
-				map:{
-					options: {
-						center:[46.578498,2.457275],
-						zoom: 4
-					}
-				},
-				marker: {
-					values:[
-						{address:"86000 Poitiers, France", data:"Poitiers : great city !"}
-					],
-					options:{
-						draggable: false
-					}
-				},
-				events:{
-					mouseover: function(marker, event, context){
-						var map = $(this).gmap3("get"),
-							infowindow = $(this).gmap3({get:{name:"infowindow"}});
-		                if (infowindow){
-		                  infowindow.open(map, marker);
-		                  infowindow.setContent(context.data);
-		                } else {
-		                  $(this).gmap3({
-		                    infowindow:{
-		                      anchor:marker, 
-		                      options:{content: context.data}
-		                    }
-		                  });
-		                }
-					},
-					mouseout: function(){
-		                var infowindow = $(this).gmap3({get:{name:"infowindow"}});
-		                if (infowindow){
-		                  infowindow.close();
-		                }
-					}
-				}
-				
-			});
+			$("#map_canvas").gmap3();
 		},
 		SELF.setupSearch = function(){
-			$('#search_map_btn').click(function(){
-				$.ajax({
-					type: 'POST',
-					url: '<?php base_url()?>index.php/user/search/search_res/',
-					dataType: 'json',
-					data: {
-						s_postcode: $('#s_postcode').val(),
-						s_country: $('#s_country').val(),
-						s_keyword: $('#s_keyword').val()
-					},
-					success: function(data, xhr){
+			$('#s_keyword').keypress(function(e){
+				if (e.keyCode == 13 && !e.shiftKey) {
+					e.preventDefault();
+					SELF.doAjaxSearch();
+				}
+			});
+			$('#search_map_btn').click(SELF.doAjaxSearch);
+		},
+		SELF.doAjaxSearch = function(){
+			$.ajax({
+				type: 'POST',
+				url: '<?php base_url()?>index.php/user/search/search_res/',
+				dataType: 'json',
+				data: {
+					s_postcode: $('#s_postcode').val(),
+					s_country: $('#s_country').val(),
+					s_keyword: $('#s_keyword').val()
+				},
+				success: function(data, xhr){
+					if (data.length > 0) {
 						var jsonArr = [];
 						for(i = 0; i < data.length; i++) {
 							console.log(data[i]);
@@ -83,16 +53,16 @@
 							});
 						}
 						$("#map_canvas").gmap3({
-							map:{
-								options: {
-									center:[46.578498,2.457275],
-									zoom: 1
+							map: {
+								options:{
+									zoom:12
 								}
 							},
 							marker: {
 								values: jsonArr,
 								options:{
-									draggable: false
+									draggable: true,
+		                            animation: google.maps.Animation.DROP
 								}
 							},
 							events:{
@@ -120,10 +90,13 @@
 							}
 							
 						});
+						var markers=$("#map_canvas").gmap3({action:'get',name:'marker',all:true})
+						
+						
 					}
-				});
+				}
 			});
-		}
+		},
 		SELF.setupScaleSlider = function() {
 	        var _SlideshowTransitions = [
 	        //Fade in L
@@ -210,8 +183,6 @@
 	        };
 
 	        var jssor_slider1 = new $JssorSlider$("slider_container", options);
-	        //responsive code begin
-	        //you can remove responsive code if you don't want the slider scales while window resizes
 	        function ScaleSlider() {
 	            var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
 	            if (parentWidth)

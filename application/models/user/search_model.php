@@ -50,13 +50,14 @@ class Search_Model extends CI_Model{
 	}
 	// --------------------------------------------------------------------
 	/**
-	 * Get restaurants by name like
+	 * Get restaurants by wildcard
 	 *
 	 */
 	public function get_res_by_name($name) {
-		$q = "SELECT res.name FROM restaurants res 
-			WHERE res.name LIKE '%" . $name . "%'";
-		$r = $this->db->query($q);
+		$this->db->select('name');
+		$this->db->like('name', $name);
+		$r = $this->db->get('restaurants');
+		
 		if ($r->num_rows() > 0){
 			return $r->result_array();
 		}
