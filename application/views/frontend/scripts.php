@@ -1,6 +1,12 @@
 <script>
 	function NGOCTRAN() {
 		var SELF = this;
+		SELF.makeMapBeautiful = function () {
+			window_height = $(window).width();
+			height = window_height * 0.8;
+			console.log(height);
+			//$('#map_canvas').css('height', height);
+		}
 		SELF.setupFoundation = function (){
 			$(document).foundation();		
 		},
@@ -17,11 +23,21 @@
 		},
 		SELF.setupAutocomplete = function(){
 			$('#s_keyword').autocomplete({
-				serviceUrl: '<?php echo base_url("index.php/user/search/search_suggestion") ?>'
+				serviceUrl: '<?php echo base_url("index.php/user/search/search_suggestion") ?>',
+				params: {
+					s_postcode: $('#s_postcode').val(),
+					s_country: $('#s_country').val()
+				}
 			});
 		},
 		SELF.setupMap = function() {
-			$("#map_canvas").gmap3();
+			$('#map_canvas').gmap3({
+				map: {
+					options: {
+						zoom: 5
+					}
+				}
+			});
 		},
 		SELF.setupSearch = function(){
 			$('#s_keyword').keypress(function(e){
@@ -31,6 +47,40 @@
 				}
 			});
 			$('#search_map_btn').click(SELF.doAjaxSearch);
+		},
+		SELF.mapCenter = function () {
+		    // define where the center of the map lies...
+		    this.center_lng = 0.00;
+		    this.center_lat = 0.00;
+		     
+		    // these are just used to calc the center of the map...
+		    this.max_lng = 0.00;
+		    this.min_lng = 0.00;
+		    this.max_lat = 0.00;
+		    this.min_lat = 0.00;		     
+
+		    this.adjustCenterCoords = function(lat, lng) {
+		        if (lat == undefined || lng == undefined)
+		            return false;
+	            
+		        // first time through, set them all to the first lat/lng pair
+		        if (this.max_lng == 0.00 && this.max_lat == 0.00) {
+		            this.max_lng = lng;
+		            this.min_lng = lng;
+		            this.max_lat = lat;
+		            this.min_lat = lat;
+		            this.center_lng = lng;
+		            this.center_lat = lat;
+		            
+		        } else {
+		            this.max_lng = Math.max(lng, this.max_lng);
+		            this.min_lng = Math.min(lng, this.min_lng);
+		            this.max_lat = Math.max(lat, this.max_lat);
+		            this.min_lat = Math.min(lat, this.min_lat);
+		            this.center_lng = (this.min_lng + this.max_lng) / 2.;
+		            this.center_lat = (this.min_lat + this.max_lat) / 2.;
+		        }
+		    }
 		},
 		SELF.doAjaxSearch = function(){
 			$.ajax({
@@ -43,32 +93,60 @@
 					s_keyword: $('#s_keyword').val()
 				},
 				success: function(data, xhr){
-					if (data.length > 0) {
+					if (data !== null && data !== undefined) {
 						var jsonArr = [];
+						var mapCenterData = new SELF.mapCenter();
+						//console.log(mapCenterData.adjustCenterCoords(1,2));
 						for(i = 0; i < data.length; i++) {
-							console.log(data[i]);
+							//find center of markers
+							mapCenterData.adjustCenterCoords(data[i]['latitude'], data[i]['longitude']);
+
+							//construct info
+							var str = '<div class="infobox-wrapper">'
+									+ '<img align="right" src="http://themes.fruitfulcode.com/zoner/wp-content/themes/zoner/includes/theme/assets/img/close-btn.png">'
+									+ '<div>'
+									+ '<div class="infobox-inner">'
+									+ '<a href="http://themes.fruitfulcode.com/zoner/property/themestarz-property/">'
+									+ '<div class="infobox-image">'
+									+ '<img src="http://themes.fruitfulcode.com/zoner/wp-content/uploads/2014/10/property-02.jpg">'
+									+ '<div>'
+									+ '<span class="infobox-price">$4,580</span>'
+									+ '</div>'
+									+ '</div>'
+									+ '</a>'
+									+ '<div class="infobox-description">'
+									+ '<div class="infobox-title">'
+									+ '<a href="http://themes.fruitfulcode.com/zoner/property/themestarz-property/">ThemeStarz Property</a>'
+									+ '</div>'
+									+ '<div class="infobox-location">Viena, Main Street 3, 123</div>'
+									+ '</div>'
+									+ '</div>'
+									+ '</div>'
+									+ '</div>';
+							
+							//push into array
 							jsonArr.push({
 								latLng: [data[i]['latitude'], data[i]['longitude']],
-								data:  data[i]['name']
+								data:  str
 							});
 						}
-						$("#map_canvas").gmap3({
-							map: {
+
+						$('#map_canvas').gmap3({
+							map:{
 								options:{
-									zoom:12
-								}
-							},
-							marker: {
+					              center:[mapCenterData.center_lat, mapCenterData.center_lng],
+					              zoom: 12
+					            }
+					        },
+							marker:{
 								values: jsonArr,
-								options:{
-									draggable: true,
-		                            animation: google.maps.Animation.DROP
-								}
-							},
-							events:{
-								mouseover: function(marker, event, context){
-									var map = $(this).gmap3("get"),
-										infowindow = $(this).gmap3({get:{name:"infowindow"}});
+					            options:{
+					              draggable: false
+					            },
+					            events:{
+					              mouseover: function(marker, event, context){
+					                var map = $(this).gmap3("get"),
+					                  infowindow = $(this).gmap3({get:{name:"infowindow"}});
 					                if (infowindow){
 					                  infowindow.open(map, marker);
 					                  infowindow.setContent(context.data);
@@ -80,19 +158,18 @@
 					                    }
 					                  });
 					                }
-								},
-								mouseout: function(){
+					              },
+					              mouseout: function(){
 					                var infowindow = $(this).gmap3({get:{name:"infowindow"}});
 					                if (infowindow){
 					                  infowindow.close();
 					                }
-								}
-							}
-							
-						});
-						var markers=$("#map_canvas").gmap3({action:'get',name:'marker',all:true})
-						
-						
+					              }
+					            }
+					          }
+					        });
+					} else {
+						///do something
 					}
 				}
 			});
@@ -200,10 +277,12 @@
 	}
 	$(document).ready(function(){
 		var ngoctran = new NGOCTRAN();
+		ngoctran.makeMapBeautiful();
 		ngoctran.setupFoundation();
 		ngoctran.setupDatepicker();
 		ngoctran.setupWow();
 		ngoctran.setupDropzone();
+		
 		//ngoctran.setupScaleSlider();
 		ngoctran.setupAutocomplete();
 		ngoctran.setupMap();

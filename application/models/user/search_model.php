@@ -53,9 +53,12 @@ class Search_Model extends CI_Model{
 	 * Get restaurants by wildcard
 	 *
 	 */
-	public function get_res_by_name($name) {
+	public function get_res_by_name($data) {
 		$this->db->select('name');
-		$this->db->like('name', $name);
+		if (isset($data['s_postcode'])) {
+			$this->db->where('postcode', $data['s_postcode']);
+		}
+		$this->db->like('name', $data['query']);
 		$r = $this->db->get('restaurants');
 		
 		if ($r->num_rows() > 0){

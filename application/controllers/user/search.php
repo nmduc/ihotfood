@@ -46,9 +46,8 @@ class Search extends CI_Controller {
 	
 	public function search_suggestion() {
 		$this->load->model('user/search_model');
-		
-		$keyword = $this->input->get('query');
-		$r = $this->search_model->get_res_by_name($keyword);
+
+		$r = $this->search_model->get_res_by_name($this->input->get());
 		
 		$jsonArr = array();
 		$jsonArr['query'] = 'Unit';

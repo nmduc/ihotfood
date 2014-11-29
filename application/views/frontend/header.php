@@ -1,5 +1,4 @@
-<div id="bigmap">
-	<div id="map_canvas"></div>
+<div id="map_canvas">
 </div>
 <div class="row search-box-wrapper">
 	<div class="large-12 columns search-box">

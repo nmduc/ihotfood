@@ -3,7 +3,7 @@
 	<?php require 'nav.php'?>
 	<?php require 'header.php'?>
 
-	<div class="row">
+	<div class="row" id="main">
 		<div class="large-9 medium-8 small-12 columns">
 			<!-- FEATURE POSTS -->
 			<div class="row feature-post" data-equalizer>

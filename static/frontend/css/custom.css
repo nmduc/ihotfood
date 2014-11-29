@@ -11,6 +11,7 @@
     font-style: normal;
 
 }
+html,body,article {height:100%;}
 body {
 /* 	background: url("../img/body-2.jpg") repeat scroll 0 0 #deceb9; */
 	background: none repeat scroll 0 0 #e6e6e6;
@@ -136,20 +137,21 @@ h2.bright {
 
 @media only screen and (max-width: 64.063em) {
 }
-/* MAP */
+/************************ MAP ************************/
 #map_canvas {
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	overflow: auto;
-	!
-	important
 }
 
 #bigmap {
 	margin-top: 2px;
 	margin-bottom: 20px;
 }
-/* FEATURE POST OF THE DAY */
+/************************ FEATURE POST OF THE DAY ************************/
+#main {
+	margin-top: 40px;
+}
 .feature-post {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 1);
@@ -224,6 +226,34 @@ h2.bright {
 .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
 .autocomplete-group { padding: 2px 5px; }
 .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+.infobox-wrapper {
+	width: 250px;
+}
+.infobox-wrapper .infobox-inner:after {
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    bottom: -6px;
+    content: "";
+    height: 0;
+    left: 95px;
+    position: absolute;
+    width: 0;
+}
+.infobox-wrapper .infobox-inner {
+    font-size: 12px;
+}
+.infobox-wrapper .infobox-inner .infobox-description {
+    padding: 8px;
+}
+.infobox-wrapper .infobox-inner .infobox-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.infobox-wrapper .infobox-inner .infobox-location {
+    font-size: 12px;
+    opacity: 0.5;
+}
 /************************ SIDE BAR AND WIDGET ************************/
 .side-container {
 	padding: 0;
