@@ -44,6 +44,7 @@ class Manage extends MY_Controller {
 				"message" => "Restaurant not found",
 			);	
 			$this->load->view("../errors/error_403", $data);
+			return;
 		}
 		if( ! $this->session->userdata('id')) {
 			// raise 403
@@ -52,6 +53,7 @@ class Manage extends MY_Controller {
 				"message" => "You need to login first to edit location",
 			);	
 			$this->load->view("../errors/error_403", $data);
+			return;
 		}
 		else if ( $restaurant->owner_id != $this->session->userdata('id')){
 			$data = array(
@@ -59,6 +61,7 @@ class Manage extends MY_Controller {
 				"message" => "You need to be the owner of this restaurant",
 			);	
 			$this->load->view("../errors/error_403", $data);
+			return;
 		}
 		$data = array( 
 			'countries' => $this->country_restaurant_model->get_country_list(),

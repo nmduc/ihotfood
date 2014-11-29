@@ -1,13 +1,15 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
+	public function __construct() {
+		parent::__construct();
+		$this->load->model('restaurant/restaurant_model');
+		$this->load->library("../controllers/user/facebook_login");
+	}
 	public function index() {
 		if(! $this->session->userdata('facebookLoginURL')) {
-			$this->load->library("../controllers/user/facebook_login");
 			$this->session->set_userdata('facebookLoginURL', $this->facebook_login->get_facebook_login_url());
 		}
-
-		$this->load->model('restaurant/restaurant_model');
 		if( $this->session->userdata ( 'username' )) {
 			$restaurantList = $this->restaurant_model->get_restaurant_by_user((int)$this->session->userdata ( 'id' ));
 			// add items to session
