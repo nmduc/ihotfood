@@ -126,7 +126,7 @@
 	    					<legend>Restaurant review</legend>
 							<div class="row">
 						        <div class="small-6 columns">
-						          	<input type="text" name="title" placeholder="Review Title" />
+						          	<input id="input-review-title" type="text" name="title" placeholder="Review Title" />
 						        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
 						        </div>
 						        <div class="small-3 columns">
@@ -145,7 +145,7 @@
 						    </div>
 						    <div class="row">
 						        <div class="small-9 columns">
-						          	<input type="text" name="content" placeholder="Review Content" />
+						          	<textarea name="content" placeholder="Review Content" /></textarea>
 						        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
 						        </div>
 						    </div>
@@ -289,6 +289,16 @@
 	</script>
 	<script type="text/javascript">
 		$('radio .star').rating(); 
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#input-review-title").keydown(function(event){
+				if(event.keyCode == 13) {
+		      		event.preventDefault();
+		      		return false;
+		    	}
+		  	});
+		});
 	</script>
 </body>
 </html>
