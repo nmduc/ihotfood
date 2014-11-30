@@ -1,4 +1,6 @@
 <?php include 'metadata.php'?>
+<script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
 <body>
 	<?php require 'nav.php'?>
 	<!-- Begin Restaurant Navigation bar -->
@@ -96,11 +98,17 @@
 						<?php echo "" . $restaurant->lowest_price . " - " . $restaurant->highest_price ?>
 					</p>
 				</div>
-				<?php if($this->session->userdata('id') == $restaurant->owner_id) { ?> 
-					<div class="row">
-						<a href="<?php echo base_url()?>index.php/user/manage/show_edit_location/<?php echo $restaurant->id ?>" > 
-							<input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
-					</div>
+				<?php if($this->session->userdata('id')) { ?> 
+					<?php if($this->session->userdata('id')  == $restaurant->owner_id) { ?> 
+						<div class="row">
+							<a href="<?php echo base_url()?>index.php/user/manage/show_edit_location/<?php echo $restaurant->id ?>" > 
+								<input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
+						</div>
+					<?php } else { ?>
+						<div class="row">
+							<a href="" > <input class="button tiny" type="button" value="Write a review" style="position:absolute;"> </a>
+						</div>
+					<?php } ?>
 				<?php } ?>
 			</div>
 		</div>
@@ -112,7 +120,42 @@
 		<div class="large-9 columns">
 			<div class="row comment-container">
 				<div class="large-12 comments">
-					<span>All Comments (5)</span>
+					<!-- Write review form -->
+					<?php echo form_open('restaurant/user_write_review/' . $restaurant->id); ?>
+						<fieldset>
+	    					<legend>Restaurant review</legend>
+							<div class="row">
+						        <div class="small-6 columns">
+						          	<input type="text" name="title" placeholder="Review Title" />
+						        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
+						        </div>
+						        <div class="small-3 columns">
+						        	<div class="row">
+							        	<input class="star" type="radio" name="score" value="1"/>
+							        	<input class="star" type="radio" name="score" value="2"/>
+							        	<input class="star" type="radio" name="score" value="3"/>
+							        	<input class="star" type="radio" name="score" value="4"/>
+							        	<input class="star" type="radio" name="score" value="5"/>
+						        	</div>
+						        	<div class="row"> 
+					        			<?php echo form_error('score', '<small class="error">', '</small>'); ?>
+				        			</div>
+						        </div>
+						        <div class="small-3 columns"></div>
+						    </div>
+						    <div class="row">
+						        <div class="small-9 columns">
+						          	<input type="text" name="content" placeholder="Review Content" />
+						        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
+						        </div>
+						    </div>
+						    <div class="large-3 large-centered">
+								<input class="button tiny" type="submit" value="Post review");/>
+							</div>
+						</fieldset>	
+					</form>
+					<hr>
+					<span>All Reviews (???)</span>
 					<!-- Begin Comment Input -->
 					<div class="row">
 						
@@ -243,6 +286,9 @@
 			}
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<script type="text/javascript">
+		$('radio .star').rating(); 
 	</script>
 </body>
 </html>

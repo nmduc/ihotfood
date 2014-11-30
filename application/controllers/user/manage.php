@@ -43,7 +43,7 @@ class Manage extends MY_Controller {
 				"heading" => "Error 404",
 				"message" => "Restaurant not found",
 			);	
-			$this->load->view("../errors/error_403", $data);
+			$this->load->view("../errors/error_404", $data);
 			return;
 		}
 		if( ! $this->session->userdata('id')) {
