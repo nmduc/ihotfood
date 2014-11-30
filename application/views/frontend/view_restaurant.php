@@ -5,11 +5,10 @@
 	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; ">
 		<div class="large-12 large-centered" >
 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Detail</font> </div></a>
 			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
 			<a href=""><div class="large-2 columns">  <font color="white">Map</font> </div></a>
-			<div class="large-2 columns"></div>
+			<div class="large-4 columns"></div>
 		</div>
 	</div>
 	<!-- Begin Restaurant -->
@@ -69,7 +68,7 @@
 					<h3 class="restaurant-name"><?php echo $restaurant->name ?></h3>
 					<p class="restaurant-description">
 						<?php echo ( ((strlen($restaurant->description)) > 200) ? 
-								substr($restaurant->description, 0, 200) . "..." . "(<a href=''> read more</a>)" 
+								substr($restaurant->description, 0, 200) . "..." . "(<a href='#description'> read more</a>)" 
 							: 	$restaurant->description) ?> </p>
 				</div>
 				<div class="row">
@@ -168,19 +167,82 @@
 					</div>
 				</div>
 			</div>
+
+			
 		</div>
 
 		<!-- End comment -->
 		<!-- Begin Sidebar -->
 		<div class="large-3 columns">
 			<div class="row">
-				
 			</div>
 		</div>
 		<!-- End Sidebar -->
 	</div>
 	<!-- End Restaurant Additions -->
+	
+	<!-- Restaurant details -->
+	<div class="row restaurant-detail">
+		<div class="large-9 columns">
+			<div class="row map-container">
+				<div class="large-12 comments">
+					<h5>Restaurant Location </h5>
+					<div class="row description-map">
+			          	<div id="map-canvas" style="width: 100%; height: 400px; margin: 0; "></div>
+					</div>
+				</div>
+			</div>
+			&nbsp
+			<div class="row map-container">
+				<a name="description">
+					<div class="large-12 comments">
+						<h5>Restaurant Description </h5>
+						<p><?php echo($restaurant->description) ?></p>
+					</div>
+				</a>
+			</div>
+			&nbsp
+
+		</div>
+		<div class="large-3 columns">
+			<div class="row">
+			</div>
+		</div>
+	</div>
+	<!-- End Restaurant details -->
 	<?php require 'scripts.php'?>
 	<?php require 'footer.php'?>
+
+	<script type="text/javascript">
+		function initialize() {
+		  	var map = new google.maps.Map(document.getElementById('map-canvas'), {
+		    	mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  	});
+			var bounds = new google.maps.LatLngBounds();
+			var initialLocation = new google.maps.LatLng(<?php echo($restaurant->latlong); ?>);
+	  		bounds.extend(initialLocation);
+	  		map.fitBounds(bounds);
+	  		setMarker(initialLocation);
+			var listener = google.maps.event.addListener(map, "idle", function() { 
+				if (map.getZoom() > 16) map.setZoom(16); 
+				google.maps.event.removeListener(listener); 
+			});
+
+			google.maps.event.addListener(map, 'click', function(event) {
+		        mapZoom = map.getZoom();
+		        startLocation = event.latLng;
+		        setMarker(startLocation );
+		    });
+
+			function setMarker(location) {
+			  	var myMarker = new google.maps.Marker({
+			    	position: location,
+			    	map: map
+			  	});
+			  	myMarker.setMap(map);
+			}
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 </body>
 </html>
