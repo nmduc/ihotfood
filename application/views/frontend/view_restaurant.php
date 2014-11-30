@@ -7,7 +7,7 @@
 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
 			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Map</font> </div></a>
+			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a>
 			<div class="large-4 columns"></div>
 		</div>
 	</div>
@@ -186,7 +186,7 @@
 		<div class="large-9 columns">
 			<div class="row map-container">
 				<div class="large-12 comments">
-					<h5>Restaurant Location </h5>
+					<a name="map"><h5>Restaurant Location </h5></a>
 					<div class="row description-map">
 			          	<div id="map-canvas" style="width: 100%; height: 400px; margin: 0; "></div>
 					</div>
@@ -194,15 +194,12 @@
 			</div>
 			&nbsp
 			<div class="row map-container">
-				<a name="description">
 					<div class="large-12 comments">
-						<h5>Restaurant Description </h5>
+						<a name="description"><h5>Restaurant Description </h5></a>
 						<p><?php echo($restaurant->description) ?></p>
 					</div>
-				</a>
 			</div>
 			&nbsp
-
 		</div>
 		<div class="large-3 columns">
 			<div class="row">
