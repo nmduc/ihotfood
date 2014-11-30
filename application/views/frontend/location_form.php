@@ -115,9 +115,18 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-
 </script>
 
+<script type="text/javascript">
+$(document).ready(function() {
+	$(window).keydown(function(event){
+		if(event.keyCode == 13) {
+      		event.preventDefault();
+      		return false;
+    	}
+  	});
+});
+</script>
 <body>
 	<?php require 'nav.php'?>
 	<?php require 'static_header.php'?>
