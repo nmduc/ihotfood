@@ -96,9 +96,12 @@
 						<?php echo "" . $restaurant->lowest_price . " - " . $restaurant->highest_price ?>
 					</p>
 				</div>
-				<div class="row">
-					<a href="<?php echo base_url()?>index.php/user/manage/show_edit_location/<?php echo $restaurant->id ?>" > <input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
-				</div>
+				<?php if($this->session->userdata('id') == $restaurant->owner_id) { ?> 
+					<div class="row">
+						<a href="<?php echo base_url()?>index.php/user/manage/show_edit_location/<?php echo $restaurant->id ?>" > 
+							<input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
+					</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>

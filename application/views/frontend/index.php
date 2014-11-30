@@ -253,7 +253,10 @@
 								</p>
 								<div class="actions">
 									<div>
-										<a class="button tiny radius" href="#">View details</a>
+										<a class="button tiny radius" 
+											href="<?php echo base_url()?>index.php/restaurant/show_restaurant/<?php echo $res->id ?>">
+											View details
+										</a>
 									</div>
 								</div>
 							</div>
