@@ -174,9 +174,8 @@ class Manage extends MY_Controller {
 	 // --------------------------------------------------------------------
 	 /**
 	 */
-	public function add_location() {
-		// set rulse for basic information fields
-		$this->form_validation->set_rules ( 'name', 'Restaurant Name', 'required|trim|max_length[200]|xss_clean' );
+	 public function set_location_form_rules() {
+	 	$this->form_validation->set_rules ( 'name', 'Restaurant Name', 'required|trim|max_length[200]|xss_clean' );
 		$this->form_validation->set_rules ( 'description', 'Restaurant Description', 'required|trim|xss_clean' );
 		$this->form_validation->set_rules ( 'address_number', 'Address Number', 'required|trim|max_length[4]|numeric|xss_clean' );
 		$this->form_validation->set_rules ( 'address_street', 'Address Street', 'required|trim|max_length[200]|xss_clean' );
@@ -199,6 +198,11 @@ class Manage extends MY_Controller {
 		$this->form_validation->set_rules ( 'countries', 'Country', 'required|xss_clean|callback_validate_country' );
 		$this->form_validation->set_rules ( 'categories', 'Type', 'required|xss_clean|callback_validate_category' );
 		$this->form_validation->set_rules ( 'languages', 'Language', 'xss_clean|callback_validate_language' );
+	}
+
+	public function add_location() {
+		// set rulse for basic information fields
+		$this->set_location_form_rules();
 
 		if ($this->form_validation->run () == TRUE && $this->session->userdata('username')) {
 			$this->load->model ( 'user/basic_user_model' );
@@ -225,7 +229,6 @@ class Manage extends MY_Controller {
 			foreach(explode(',', $this->input->post('languages')) as $abbrev) {
 				$this->language_restaurant_model->create_language_restaurant_link($restaurant_id, $abbrev);
 			}
-
 			//redirect ( 'welcome' );
 			//$this->show_user_restaurant();
 			redirect( '/restaurant/show_restaurant/' .  $restaurant_id);
@@ -296,5 +299,73 @@ class Manage extends MY_Controller {
 	public function manage_restaurant($restaurantId) {
 		$this->load->library("../controllers/restaurant");
 		$this->restaurant->show_restaurant($restaurantId);
+	}
+
+	public function edit_location($resId) {
+		// check ownership
+		if(! $this->session->userdata('username') ) {
+			// raise 403
+			$data = array (
+				'heading' => "Permission denied",
+				'message' => "You need to login to edit restaurant",
+			);
+			$this->load->view("../errors/error_403", $data);
+			return;
+		}
+		$this->load->model ( 'user/basic_user_model' );
+		$this->load->model ( 'restaurant/restaurant_model' );
+
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+		$userID = (int)$this->basic_user_model->get_user_info($this->session->userdata('username'))['id'];
+		if($restaurant->owner_id != $userID) {
+			// raise 403
+			$data = array (
+				'heading' => "Permission denied",
+				'message' => "You need to be restaurant owner to edit restaurant",
+			);
+			$this->load->view("../errors/error_403", $data);
+			return;
+		}
+
+		// set rulse for basic information fields
+		$this->set_location_form_rules();
+
+		if ($this->form_validation->run () == TRUE) {
+			$this->load->model ( 'restaurant/country_restaurant_model' );
+			$this->load->model ( 'restaurant/category_restaurant_model' );
+			$this->load->model ( 'restaurant/language_restaurant_model' );
+			
+			// update restaurant 
+			if( ! $this->restaurant_model->update_restaurant($restaurant->id)) {
+				$data = array (
+					'heading' => "Database error",
+					'message' => "Something went wrong when updating restaurant",
+				);
+				$this->load->view("../errors/error_db", $data);
+				return;
+			}
+			// delete old links between restaurant and country
+			$this->country_restaurant_model->delete_all_country_link_to_restaurant($restaurant->id);
+			// create link between restaurant and its corresponding country tags
+			foreach(explode(',', $this->input->post('countries')) as $abbrev) {
+				$this->country_restaurant_model->create_country_restaurant_link($restaurant->id, $abbrev);
+			}
+
+			// delete old links between restaurant and category
+			$this->category_restaurant_model->delete_all_category_link_to_restaurant($restaurant->id);
+			// create link between restaurant and its corresponding category tags
+			foreach(explode(',', $this->input->post('categories')) as $abbrev) {
+				$this->category_restaurant_model->create_category_restaurant_link($restaurant->id, $abbrev);
+			}
+
+			// delete old links between restaurant and country
+			$this->language_restaurant_model->delete_all_language_link_to_restaurant($restaurant->id);
+			// create link between restaurant and its spoken languages
+			foreach(explode(',', $this->input->post('languages')) as $abbrev) {
+				$this->language_restaurant_model->create_language_restaurant_link($restaurant->id, $abbrev);
+			}
+			redirect( '/restaurant/show_restaurant/' .  $restaurant->id);
+		}
+		$this->show_add_location($restaurant);
 	}
 }

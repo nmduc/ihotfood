@@ -98,7 +98,7 @@
 					</p>
 				</div>
 				<div class="row">
-					<a href="../show_edit_location/<?php echo $restaurant->id ?>" > <input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
+					<a href="<?php echo base_url()?>index.php/user/manage/show_edit_location/<?php echo $restaurant->id ?>" > <input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
 				</div>
 			</div>
 		</div>

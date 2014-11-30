@@ -33,10 +33,6 @@ function initialize() {
       		return;
     	}
     	var myPlace = places[0];
-    	/*
-    	for (var i = 0, marker; marker = markers[i]; i++) {
-      		marker.setMap(null);
-    	}*/
     	if(myMarker) {
     		clear_marker(myMarker);
     	}
@@ -104,9 +100,22 @@ function initialize() {
     	var bounds = map.getBounds();
     	searchBox.setBounds(bounds);
   	});
+
+  	  	// set map to restaurant location if restaurant exists (edit restaurant)
+	<?php if(isset($restaurant)) { 
+		echo("
+			var bounds = new google.maps.LatLngBounds();
+			var initialLocation = new google.maps.LatLng($restaurant->latlong);
+	  		bounds.extend(initialLocation);
+	  		map.fitBounds(bounds);
+	  		setMarker(initialLocation );
+	  		");
+		}
+	?>
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
 </script>
 
 <body>
@@ -124,7 +133,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			?>
 
 			<p>Your favorite restaurants is not in iHootFood? Let's share it!</p>
-			<?php echo form_open('user/manage/add_location'); ?>
+			<?php 
+				if(isset($restaurant)) {
+					echo form_open('user/manage/edit_location/' . $restaurant->id); 
+				}
+				else {
+					echo form_open('user/manage/add_location'); 
+				}
+			?>
 
 				<!-------- BASIC INFORMATION -------->
 				<fieldset>
@@ -201,8 +217,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Zipcode <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-							<input type="text" id="zipcode" name="zipcode" placeholder="Zipcode""
-			          			<?php if(isset($restaurant)) echo ("value='" . $restaurant->zipcode . "'") ?>
+							<input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" 
+			          			<?php if(isset($restaurant)) echo ("value='" . $restaurant->zipcode . "'" ) ?>
 				          	/>
 				        </div>
 				    </div>
@@ -246,7 +262,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				        <div class="small-9 columns">
 				        	<input id="pac-input" style="width: 30%; margin: 10px;" class="controls" type="text" placeholder="Search Box">
 				          	<div id="map-canvas" style="width: 100%; height: 400px; margin: 0; "></div>
-				          	<input type="hidden" name="latlong" id="latlong"></input>
+				          	<input type="hidden" name="latlong" id="latlong"
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->latlong . "'") ?>
+				          	></input>
 				        	<?php echo form_error('latlong', '<small class="error">', '</small>'); ?> 
 				        </div>
 				    </div>
@@ -331,7 +349,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     				<legend>Category</legend>
 				    <div class="row">
 						<div class="small-3 columns">
-							<label>Types</label>
+							<label>Types <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
 				          	<select id="type-select">
@@ -348,7 +366,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				    </div>
 				    <div class="row">
 						<div class="small-3 columns">
-							<label>Country</label>
+							<label>Country <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
 				          	<select id="country-select">
@@ -362,6 +380,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			                <?php echo form_error('countries', '<small class="error">', '</small>'); ?>
 				        </div>
 				        <input type="hidden" name="countries" id="selected-countries">
+				        <?php 
+				        	if(isset($restaurant)) {
+				        		echo("<input type='hidden' name='restaurant_id' value='$restaurant->id'");
+				        	}
+				        ?>
 				    </div>
 				</fieldset>
 				<div class="large-12">

@@ -32,5 +32,10 @@ class Category_Restaurant_Model extends CI_Model{
 			return true;
 		}
 	}
+
+	public function delete_all_category_link_to_restaurant($resId) {
+		$this->db->where('restaurant_id', $resId);
+		$this->db->delete('restaurant_category_links');
+	}
 }
 
