@@ -1,5 +1,9 @@
 <?php include 'metadata.php'?>
 <body>
+	<div id="preloader">
+  		<div id="status">&nbsp;</div>
+	</div>
+	<div id="progressbar"></div>
 	<?php require 'nav.php'?>
 	<?php require 'header.php'?>
 

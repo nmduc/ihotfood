@@ -1,6 +1,6 @@
 <div id="map_canvas">
 </div>
-<div class="row search-box-wrapper">
+<div class="row search-box-wrapper shadow">
 	<div class="large-12 columns search-box">
 		<select name="s_postcode" id="s_postcode">
 			<option value="3121">3121</option>
@@ -17,6 +17,8 @@
 		<input type="text" placeholder="Search for location"
 			name="s_keyword" id="s_keyword">
 			
-		<a href="#" class="button expand search-btn tiny" id="search_map_btn">SEARCH</a>
+		<a href="#" class="button expand search-btn tiny" id="search_map_btn">
+			SEARCH
+		</a>
 	</div>
 </div>

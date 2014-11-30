@@ -1,12 +1,31 @@
 <script>
 	function NGOCTRAN() {
-		var SELF = this;
-		SELF.makeMapBeautiful = function () {
-			window_height = $(window).width();
-			height = window_height * 0.8;
-			console.log(height);
-			//$('#map_canvas').css('height', height);
-		}
+		var SELF = this,
+			$progressbar = $( "#progressbar" );
+		SELF.uuid = '<?php echo $this->session->userdata('uuid'); ?>';
+		SELF.pusher = new Pusher('54120ecb88a7a7dc598b');
+		
+		SELF.channel = SELF.pusher.subscribe(SELF.uuid);
+		
+		SELF.setupProgressingBar = function(){
+			$progressbar.progressbar();
+			$progressbar.css('display', 'none');
+		},
+		SELF.indicateProgressing = function(percentComplete) {
+			console.log(percentComplete);
+			if (percentComplete > 0 && percentComplete < 100) {
+				$progressbar.css('display', 'block');
+				$progressbar.progressbar( "option", "value", percentComplete );
+			} else {
+				$progressbar.css('display', 'none');
+			}
+			
+		},
+		SELF.preloader = function () {
+			jQuery("#status").fadeOut();
+			
+			jQuery("#preloader").delay(1000).fadeOut("slow");
+		},
 		SELF.setupFoundation = function (){
 			$(document).foundation();		
 		},
@@ -32,8 +51,9 @@
 		},
 		SELF.setupMap = function() {
 			$('#map_canvas').gmap3({
-				map: {
+				map:{
 					options: {
+						scrollwheel: false,
 						zoom: 5
 					}
 				}
@@ -85,9 +105,10 @@
 		SELF.doAjaxSearch = function(){
 			$.ajax({
 				type: 'POST',
-				url: '<?php base_url()?>index.php/user/search/search_res/',
+				url: '<?php base_url()?>index.php/user/search/search_res',
 				dataType: 'json',
 				data: {
+					ihf_event: 'search_res_in_map',
 					s_postcode: $('#s_postcode').val(),
 					s_country: $('#s_country').val(),
 					s_keyword: $('#s_keyword').val()
@@ -103,22 +124,21 @@
 
 							//construct info
 							var str = '<div class="infobox-wrapper">'
-									+ '<img align="right" src="http://themes.fruitfulcode.com/zoner/wp-content/themes/zoner/includes/theme/assets/img/close-btn.png">'
 									+ '<div>'
 									+ '<div class="infobox-inner">'
-									+ '<a href="http://themes.fruitfulcode.com/zoner/property/themestarz-property/">'
+									+ '<a href="<?php base_url()?>index.php/restaurant/display">'
 									+ '<div class="infobox-image">'
 									+ '<img src="http://themes.fruitfulcode.com/zoner/wp-content/uploads/2014/10/property-02.jpg">'
 									+ '<div>'
-									+ '<span class="infobox-price">$4,580</span>'
+									+ '<span class="infobox-price">' + data[i]['tel'] + '</span>'
 									+ '</div>'
 									+ '</div>'
 									+ '</a>'
 									+ '<div class="infobox-description">'
 									+ '<div class="infobox-title">'
-									+ '<a href="http://themes.fruitfulcode.com/zoner/property/themestarz-property/">ThemeStarz Property</a>'
+									+ '<a href="<?php base_url()?>index.php/restaurant/display">' + data[i]['name'] +'</a>'
 									+ '</div>'
-									+ '<div class="infobox-location">Viena, Main Street 3, 123</div>'
+									+ '<div class="infobox-location">' + data[i]['address'] + '</div>'
 									+ '</div>'
 									+ '</div>'
 									+ '</div>'
@@ -135,39 +155,45 @@
 							map:{
 								options:{
 					              center:[mapCenterData.center_lat, mapCenterData.center_lng],
-					              zoom: 12
+					              zoom: 12,
+					              scrollwheel: false
 					            }
-					        },
-							marker:{
-								values: jsonArr,
-					            options:{
-					              draggable: false
-					            },
-					            events:{
-					              mouseover: function(marker, event, context){
-					                var map = $(this).gmap3("get"),
-					                  infowindow = $(this).gmap3({get:{name:"infowindow"}});
-					                if (infowindow){
-					                  infowindow.open(map, marker);
-					                  infowindow.setContent(context.data);
-					                } else {
-					                  $(this).gmap3({
-					                    infowindow:{
-					                      anchor:marker, 
-					                      options:{content: context.data}
-					                    }
-					                  });
-					                }
-					              },
-					              mouseout: function(){
-					                var infowindow = $(this).gmap3({get:{name:"infowindow"}});
-					                if (infowindow){
-					                  infowindow.close();
-					                }
-					              }
-					            }
-					          }
-					        });
+					        }
+				        });
+						$.each(jsonArr, function(key, val) {
+							//console.log(val);
+							$('#map_canvas').gmap3({
+								marker: {
+									options: {
+										icon: '<?php base_url()?>static/frontend/img/restaurant.png',
+									},
+									latLng: val.latLng,
+									events: {
+										click: function(marker, event, context){
+											$(this).gmap3({
+												overlay: {
+													latLng: val.latLng,
+													options:{
+														content: val.data,
+														offset:{
+													        y:-300,
+													        x:-100
+													    }
+													}
+												}
+											});
+										},
+										mouseout: function(){
+							                //$(this).gmap3({action:'clear', name:'overlay'});
+							                var infowindow = $(this).gmap3({get:{name:"overlay"}});
+							                if (infowindow){
+							                	infowindow.hide();
+							                }
+							            }
+									}
+								}
+							});
+						});
 					} else {
 						///do something
 					}
@@ -275,17 +301,20 @@
 	        //responsive code end
 		}
 	}
+	var ngoctran = new NGOCTRAN();
 	$(document).ready(function(){
-		var ngoctran = new NGOCTRAN();
-		ngoctran.makeMapBeautiful();
+		//var ngoctran = new NGOCTRAN();
 		ngoctran.setupFoundation();
 		ngoctran.setupDatepicker();
 		ngoctran.setupWow();
 		ngoctran.setupDropzone();
-		
 		//ngoctran.setupScaleSlider();
 		ngoctran.setupAutocomplete();
 		ngoctran.setupMap();
-		ngoctran.setupSearch();	
+		ngoctran.setupSearch();
+		ngoctran.setupProgressingBar();	
+	});
+	$(window).load(function(){
+		ngoctran.preloader();
 	});
 </script>
