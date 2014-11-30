@@ -1,5 +1,5 @@
 <script>
-	function NGOCTRAN() {
+	function NGOCTRAN_XAUTRAIVAIDAI() {
 		var SELF = this;
 		SELF.setupFoundation = function (){
 			$(document).foundation();		
@@ -136,7 +136,7 @@
 		}
 	}
 	$(document).ready(function(){
-		var ngoctran = new NGOCTRAN();
+		var ngoctran = new NGOCTRAN_XAUTRAIVAIDAI();
 		ngoctran.setupFoundation();
 		ngoctran.setupDatepicker();
 		ngoctran.setupWow();
