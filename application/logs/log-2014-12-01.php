@@ -4405,3 +4405,12142 @@ DEBUG - 2014-12-01 18:48:54 --> Model Class Initialized
 DEBUG - 2014-12-01 18:48:54 --> Model Class Initialized
 DEBUG - 2014-12-01 18:48:55 --> Final output sent to browser
 DEBUG - 2014-12-01 18:48:55 --> Total execution time: 0.6970
+DEBUG - 2014-12-01 18:54:14 --> Config Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:54:14 --> URI Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Router Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 18:54:14 --> Output Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Security Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Input Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:54:14 --> Language Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:54:14 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:54:14 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:54:14 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:54:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:54:14 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Session Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:54:14 --> Session routines successfully run
+DEBUG - 2014-12-01 18:54:14 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Model Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> Model Class Initialized
+DEBUG - 2014-12-01 18:54:14 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 18:54:14 --> Final output sent to browser
+DEBUG - 2014-12-01 18:54:14 --> Total execution time: 0.0453
+DEBUG - 2014-12-01 18:55:10 --> Config Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:55:10 --> URI Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Router Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 18:55:10 --> Output Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Security Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Input Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:55:10 --> Language Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:55:10 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:55:10 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:55:10 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:55:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:55:10 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Session Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:55:10 --> Session routines successfully run
+DEBUG - 2014-12-01 18:55:10 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Model Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> Model Class Initialized
+DEBUG - 2014-12-01 18:55:10 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 18:55:10 --> Final output sent to browser
+DEBUG - 2014-12-01 18:55:10 --> Total execution time: 0.0402
+DEBUG - 2014-12-01 18:55:24 --> Config Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:55:24 --> URI Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Router Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 18:55:24 --> Output Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Security Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Input Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:55:24 --> Language Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:55:24 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:55:24 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:55:24 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:55:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:55:24 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Session Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:55:24 --> Session routines successfully run
+DEBUG - 2014-12-01 18:55:24 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Model Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> Model Class Initialized
+DEBUG - 2014-12-01 18:55:24 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 18:55:24 --> Final output sent to browser
+DEBUG - 2014-12-01 18:55:24 --> Total execution time: 0.0389
+DEBUG - 2014-12-01 18:57:41 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:41 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:41 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:41 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 18:57:41 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:41 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:41 --> Total execution time: 0.2677
+DEBUG - 2014-12-01 18:57:42 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:42 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:42 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:42 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:42 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:43 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:43 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:43 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:43 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:43 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:43 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:43 --> Total execution time: 0.4586
+DEBUG - 2014-12-01 18:57:43 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:43 --> Total execution time: 0.2095
+DEBUG - 2014-12-01 18:57:43 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:43 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:43 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:43 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:43 --> Total execution time: 0.2053
+DEBUG - 2014-12-01 18:57:43 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:43 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:43 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:43 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:43 --> Total execution time: 0.2096
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:43 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:43 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:43 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:43 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:43 --> Total execution time: 0.1997
+DEBUG - 2014-12-01 18:57:43 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:43 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:43 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:43 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:43 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:44 --> Total execution time: 0.2107
+DEBUG - 2014-12-01 18:57:44 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:44 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:44 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:44 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:44 --> Total execution time: 0.2076
+DEBUG - 2014-12-01 18:57:44 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:44 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:44 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:44 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:44 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:44 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:44 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:44 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:44 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:44 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:44 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:44 --> Total execution time: 0.2083
+DEBUG - 2014-12-01 18:57:44 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:44 --> Total execution time: 0.5536
+DEBUG - 2014-12-01 18:57:45 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:45 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:45 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:45 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:45 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:45 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:45 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:45 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:45 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:45 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:45 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:45 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:45 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:45 --> Total execution time: 0.2198
+DEBUG - 2014-12-01 18:57:45 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:45 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:45 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:45 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:45 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:45 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:45 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:45 --> Total execution time: 0.2163
+DEBUG - 2014-12-01 18:57:45 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:45 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:45 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:45 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:45 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:45 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:45 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:45 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:46 --> Total execution time: 0.2058
+DEBUG - 2014-12-01 18:57:46 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:46 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:46 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:46 --> Total execution time: 0.2050
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:46 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:46 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:46 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:46 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:46 --> Total execution time: 0.2152
+DEBUG - 2014-12-01 18:57:46 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:46 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:46 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:46 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:46 --> Total execution time: 0.2134
+DEBUG - 2014-12-01 18:57:46 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:46 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:46 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:46 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:46 --> Total execution time: 0.2297
+DEBUG - 2014-12-01 18:57:46 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:46 --> Total execution time: 0.2087
+DEBUG - 2014-12-01 18:57:46 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:46 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:46 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:46 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:46 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:47 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:47 --> Total execution time: 0.2127
+DEBUG - 2014-12-01 18:57:52 --> Config Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:57:52 --> URI Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Router Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Output Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Security Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Input Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:57:52 --> Language Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:57:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:57:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:57:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:57:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:57:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Session Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:57:52 --> Session routines successfully run
+DEBUG - 2014-12-01 18:57:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 18:57:52 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:52 --> Model Class Initialized
+DEBUG - 2014-12-01 18:57:53 --> Final output sent to browser
+DEBUG - 2014-12-01 18:57:53 --> Total execution time: 0.7093
+DEBUG - 2014-12-01 18:58:49 --> Config Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 18:58:49 --> URI Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Router Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Output Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Security Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Input Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 18:58:49 --> Language Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 18:58:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 18:58:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 18:58:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 18:58:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 18:58:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Session Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 18:58:49 --> Session routines successfully run
+DEBUG - 2014-12-01 18:58:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Model Class Initialized
+DEBUG - 2014-12-01 18:58:49 --> Model Class Initialized
+DEBUG - 2014-12-01 18:58:50 --> Final output sent to browser
+DEBUG - 2014-12-01 18:58:50 --> Total execution time: 0.6459
+DEBUG - 2014-12-01 19:00:38 --> Config Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:00:38 --> URI Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Router Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Output Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Security Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Input Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:00:38 --> Language Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:00:38 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:00:38 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:00:38 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:00:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:00:38 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Session Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:00:38 --> Session routines successfully run
+DEBUG - 2014-12-01 19:00:38 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:00:38 --> Model Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Model Class Initialized
+DEBUG - 2014-12-01 19:00:38 --> Model Class Initialized
+ERROR - 2014-12-01 19:00:40 --> Severity: Notice  --> Array to string conversion /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 100
+DEBUG - 2014-12-01 19:00:40 --> Final output sent to browser
+DEBUG - 2014-12-01 19:00:40 --> Total execution time: 1.6577
+DEBUG - 2014-12-01 19:00:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:00:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:00:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:00:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:00:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:00:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:00:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:00:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:00:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:00:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:00:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:00:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:01:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:01:00 --> Total execution time: 0.7997
+DEBUG - 2014-12-01 19:04:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:04:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:04:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:04:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:04:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:04:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:04:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:04:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:04:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:04:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:04:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:04:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:04:16 --> Final output sent to browser
+DEBUG - 2014-12-01 19:04:16 --> Total execution time: 0.8198
+DEBUG - 2014-12-01 19:05:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:05:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Output Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Security Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Input Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:05:53 --> Language Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:05:53 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:05:53 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:05:53 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:05:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:05:53 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Session Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:05:53 --> Session routines successfully run
+DEBUG - 2014-12-01 19:05:53 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:05:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:05:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:05:54 --> Final output sent to browser
+DEBUG - 2014-12-01 19:05:54 --> Total execution time: 1.1328
+DEBUG - 2014-12-01 19:06:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:06:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:06:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:06:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:06:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:06:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:06:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:06:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:06:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:06:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:06:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:06:31 --> Model Class Initialized
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:06:31 --> Severity: Notice  --> Undefined index: photo_reference /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+DEBUG - 2014-12-01 19:06:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:06:31 --> Total execution time: 0.7150
+DEBUG - 2014-12-01 19:06:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:06:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:06:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:06:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:06:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:06:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:06:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:06:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:06:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:06:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:06:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:06:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:00 --> Total execution time: 1.1167
+DEBUG - 2014-12-01 19:07:33 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:33 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:33 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:33 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:33 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:33 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:33 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:33 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:33 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:07:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:44 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:07:44 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:44 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:44 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:44 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:44 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:44 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:44 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:44 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:44 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:07:44 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:44 --> Total execution time: 0.0361
+DEBUG - 2014-12-01 19:07:50 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:50 --> Total execution time: 17.2055
+DEBUG - 2014-12-01 19:07:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:53 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:53 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:53 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:53 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:53 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:53 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:53 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:53 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:53 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:53 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:54 --> Total execution time: 0.6486
+DEBUG - 2014-12-01 19:07:54 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:54 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:54 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:54 --> Total execution time: 0.4129
+DEBUG - 2014-12-01 19:07:54 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:54 --> Total execution time: 0.6737
+DEBUG - 2014-12-01 19:07:54 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:54 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:54 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:54 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:55 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:55 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:55 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:57 --> Total execution time: 2.4148
+DEBUG - 2014-12-01 19:07:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:57 --> Total execution time: 2.8197
+DEBUG - 2014-12-01 19:07:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:57 --> Total execution time: 2.0415
+DEBUG - 2014-12-01 19:07:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:59 --> Total execution time: 4.9066
+DEBUG - 2014-12-01 19:07:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:07:59 --> Total execution time: 4.6177
+DEBUG - 2014-12-01 19:07:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:07:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:07:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:07:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:07:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:07:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:07:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:07:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:07:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:00 --> Total execution time: 0.3876
+DEBUG - 2014-12-01 19:08:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:00 --> Total execution time: 0.4750
+DEBUG - 2014-12-01 19:08:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:00 --> Total execution time: 0.2411
+DEBUG - 2014-12-01 19:08:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:00 --> Total execution time: 0.6575
+DEBUG - 2014-12-01 19:08:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:01 --> Total execution time: 6.3500
+DEBUG - 2014-12-01 19:08:04 --> Config Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:08:04 --> URI Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Router Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Output Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Security Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Input Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:08:04 --> Language Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:08:04 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:08:04 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:08:04 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:08:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:08:04 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Session Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:08:04 --> Session routines successfully run
+DEBUG - 2014-12-01 19:08:04 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:08:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:16 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:16 --> Total execution time: 11.7109
+DEBUG - 2014-12-01 19:08:34 --> Config Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:08:34 --> URI Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Router Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Output Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Security Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Input Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:08:34 --> Language Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:08:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:08:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:08:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:08:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:08:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Session Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:08:34 --> Session routines successfully run
+DEBUG - 2014-12-01 19:08:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:08:34 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:34 --> Model Class Initialized
+DEBUG - 2014-12-01 19:08:44 --> Final output sent to browser
+DEBUG - 2014-12-01 19:08:44 --> Total execution time: 10.0021
+DEBUG - 2014-12-01 19:09:33 --> Config Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:09:33 --> URI Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Router Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Output Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Security Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Input Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:09:33 --> Language Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:09:33 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:09:33 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:09:33 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:09:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:09:33 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Session Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:09:33 --> Session routines successfully run
+DEBUG - 2014-12-01 19:09:33 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:09:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:09:33 --> Model Class Initialized
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+ERROR - 2014-12-01 19:09:34 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 94
+DEBUG - 2014-12-01 19:09:34 --> Final output sent to browser
+DEBUG - 2014-12-01 19:09:34 --> Total execution time: 1.1016
+DEBUG - 2014-12-01 19:10:18 --> Config Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:10:18 --> URI Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Router Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Output Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Security Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Input Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:10:18 --> Language Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:10:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:10:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:10:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:10:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:10:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Session Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:10:18 --> Session routines successfully run
+DEBUG - 2014-12-01 19:10:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:10:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:10:18 --> Final output sent to browser
+DEBUG - 2014-12-01 19:10:18 --> Total execution time: 0.7181
+DEBUG - 2014-12-01 19:15:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:15:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:36 --> Total execution time: 1.2372
+DEBUG - 2014-12-01 19:15:39 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:39 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:15:39 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:39 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:39 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:39 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:39 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:39 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:39 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:39 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:39 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:15:39 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:39 --> Total execution time: 0.0343
+DEBUG - 2014-12-01 19:15:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:49 --> Total execution time: 0.2079
+DEBUG - 2014-12-01 19:15:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:49 --> Total execution time: 0.2123
+DEBUG - 2014-12-01 19:15:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:49 --> Total execution time: 0.2083
+DEBUG - 2014-12-01 19:15:50 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:50 --> Total execution time: 0.2056
+DEBUG - 2014-12-01 19:15:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:50 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:50 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:50 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:50 --> Total execution time: 0.2105
+DEBUG - 2014-12-01 19:15:50 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:50 --> Total execution time: 0.4867
+DEBUG - 2014-12-01 19:15:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:51 --> Total execution time: 0.2066
+DEBUG - 2014-12-01 19:15:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:51 --> Total execution time: 0.5009
+DEBUG - 2014-12-01 19:15:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:51 --> Total execution time: 0.2081
+DEBUG - 2014-12-01 19:15:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:52 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:53 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:53 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:53 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:53 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:53 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:53 --> Total execution time: 0.2072
+DEBUG - 2014-12-01 19:15:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:53 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:53 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:53 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:53 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:53 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:53 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:53 --> Total execution time: 0.2087
+DEBUG - 2014-12-01 19:15:53 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:53 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:53 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:53 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:53 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:53 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:53 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:53 --> Total execution time: 0.2018
+DEBUG - 2014-12-01 19:15:53 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:53 --> Total execution time: 0.2079
+DEBUG - 2014-12-01 19:15:56 --> Config Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:15:56 --> URI Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Router Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Output Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Security Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Input Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:15:56 --> Language Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:15:56 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:15:56 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:15:56 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:15:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:15:56 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Session Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:15:56 --> Session routines successfully run
+DEBUG - 2014-12-01 19:15:56 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:15:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:15:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:15:57 --> Total execution time: 0.6909
+DEBUG - 2014-12-01 19:16:20 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:20 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:20 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:20 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:20 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:20 --> Total execution time: 0.2737
+DEBUG - 2014-12-01 19:16:23 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:23 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:16:23 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:23 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:23 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:23 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:23 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:23 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:23 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:23 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:23 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:16:23 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:23 --> Total execution time: 0.0351
+DEBUG - 2014-12-01 19:16:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:48 --> Total execution time: 1.6576
+DEBUG - 2014-12-01 19:16:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:48 --> Total execution time: 1.3793
+DEBUG - 2014-12-01 19:16:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:48 --> Total execution time: 0.6549
+DEBUG - 2014-12-01 19:16:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:49 --> Total execution time: 0.9643
+DEBUG - 2014-12-01 19:16:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:49 --> Total execution time: 0.2168
+DEBUG - 2014-12-01 19:16:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:16:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:16:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:16:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:16:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:16:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:16:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:16:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:16:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:16:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:16:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:16:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:16:52 --> Total execution time: 0.6841
+DEBUG - 2014-12-01 19:17:30 --> Config Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:17:30 --> URI Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Router Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:17:30 --> Output Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Security Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Input Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:17:30 --> Language Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:17:30 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:17:30 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:17:30 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:17:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:17:30 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Session Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:17:30 --> Session routines successfully run
+DEBUG - 2014-12-01 19:17:30 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:30 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:17:30 --> Final output sent to browser
+DEBUG - 2014-12-01 19:17:30 --> Total execution time: 0.0364
+DEBUG - 2014-12-01 19:17:38 --> Config Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:17:38 --> URI Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Router Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Output Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Security Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Input Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:17:38 --> Language Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:17:38 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:17:38 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:17:38 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:17:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:17:38 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Session Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:17:38 --> Session routines successfully run
+DEBUG - 2014-12-01 19:17:38 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:38 --> Final output sent to browser
+DEBUG - 2014-12-01 19:17:38 --> Total execution time: 0.2487
+DEBUG - 2014-12-01 19:17:40 --> Config Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:17:40 --> URI Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Router Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Output Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Security Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Input Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:17:40 --> Language Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:17:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:17:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:17:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:17:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:17:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Session Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:17:40 --> Session routines successfully run
+DEBUG - 2014-12-01 19:17:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:17:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:17:40 --> Final output sent to browser
+DEBUG - 2014-12-01 19:17:40 --> Total execution time: 0.7158
+DEBUG - 2014-12-01 19:18:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:18:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:18:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:18:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:18:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:18:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:18:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:18:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:18:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:18:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:18:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:18:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:18:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:18:49 --> Total execution time: 1.1126
+DEBUG - 2014-12-01 19:19:20 --> Config Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:19:20 --> URI Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Router Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Output Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Security Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Input Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:19:20 --> Language Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:19:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:19:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:19:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:19:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:19:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Session Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:19:20 --> Session routines successfully run
+DEBUG - 2014-12-01 19:19:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:20 --> Final output sent to browser
+DEBUG - 2014-12-01 19:19:20 --> Total execution time: 0.2822
+DEBUG - 2014-12-01 19:19:24 --> Config Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:19:24 --> URI Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Router Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:19:24 --> Output Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Security Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Input Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:19:24 --> Language Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:19:24 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:19:24 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:19:24 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:19:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:19:24 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Session Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:19:24 --> Session routines successfully run
+DEBUG - 2014-12-01 19:19:24 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:24 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:19:24 --> Final output sent to browser
+DEBUG - 2014-12-01 19:19:24 --> Total execution time: 0.0422
+DEBUG - 2014-12-01 19:19:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:19:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:19:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:19:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:19:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:19:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:19:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:19:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:19:31 --> Total execution time: 0.2141
+DEBUG - 2014-12-01 19:19:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:19:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:19:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:19:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:19:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:19:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:19:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:19:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:19:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:32 --> Final output sent to browser
+DEBUG - 2014-12-01 19:19:32 --> Total execution time: 0.3483
+DEBUG - 2014-12-01 19:19:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:19:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:19:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:19:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:19:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:19:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:19:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:19:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:19:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:19:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:19:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:19:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:19:48 --> Total execution time: 0.3163
+DEBUG - 2014-12-01 19:20:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:20:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:20:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:20:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:20:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:20:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:20:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:20:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:20:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:20:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:20:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:20:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:20:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:20:16 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:16 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:16 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:20:16 --> Final output sent to browser
+DEBUG - 2014-12-01 19:20:16 --> Total execution time: 0.0385
+DEBUG - 2014-12-01 19:20:22 --> Config Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:20:22 --> URI Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Router Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Output Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Security Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Input Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:20:22 --> Language Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:20:22 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:20:22 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:20:22 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:20:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:20:22 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Session Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:20:22 --> Session routines successfully run
+DEBUG - 2014-12-01 19:20:22 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:22 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Config Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:20:23 --> URI Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Router Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Output Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Security Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Input Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:20:23 --> Language Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:20:23 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:20:23 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:20:23 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:20:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:20:23 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Session Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:20:23 --> Session routines successfully run
+DEBUG - 2014-12-01 19:20:23 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:20:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:23 --> Final output sent to browser
+DEBUG - 2014-12-01 19:20:23 --> Total execution time: 0.6441
+DEBUG - 2014-12-01 19:20:23 --> Final output sent to browser
+DEBUG - 2014-12-01 19:20:23 --> Total execution time: 0.3704
+DEBUG - 2014-12-01 19:20:32 --> Config Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:20:32 --> URI Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Router Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Output Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Security Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Input Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:20:32 --> Language Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:20:32 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:20:32 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:20:32 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:20:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:20:32 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Session Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:20:32 --> Session routines successfully run
+DEBUG - 2014-12-01 19:20:32 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:32 --> Final output sent to browser
+DEBUG - 2014-12-01 19:20:32 --> Total execution time: 0.2186
+DEBUG - 2014-12-01 19:20:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:20:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:20:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:20:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:20:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:20:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:20:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:20:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:20:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:20:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:20:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:20:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:20:36 --> Total execution time: 0.6911
+DEBUG - 2014-12-01 19:21:12 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:12 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:21:12 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:12 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:12 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:12 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:12 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:12 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:12 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:12 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:12 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:21:12 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:12 --> Total execution time: 0.0401
+DEBUG - 2014-12-01 19:21:19 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:19 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:19 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:19 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:19 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:19 --> Total execution time: 0.2592
+DEBUG - 2014-12-01 19:21:20 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:20 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:20 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:20 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:21:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:21 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:21 --> Total execution time: 1.4030
+DEBUG - 2014-12-01 19:21:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:48 --> Total execution time: 0.6318
+DEBUG - 2014-12-01 19:21:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:21:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:50 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:50 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:21:50 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:50 --> Total execution time: 0.0424
+DEBUG - 2014-12-01 19:21:56 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:56 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:56 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:56 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:56 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:56 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:56 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:56 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:56 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:57 --> Total execution time: 0.2148
+DEBUG - 2014-12-01 19:21:57 --> Config Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:21:57 --> URI Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Router Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Output Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Security Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Input Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:21:57 --> Language Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:21:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:21:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:21:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:21:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:21:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Session Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:21:57 --> Session routines successfully run
+DEBUG - 2014-12-01 19:21:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:21:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:21:58 --> Final output sent to browser
+DEBUG - 2014-12-01 19:21:58 --> Total execution time: 0.8088
+DEBUG - 2014-12-01 19:22:28 --> Config Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:22:28 --> URI Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Router Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:22:28 --> Output Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Security Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Input Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:22:28 --> Language Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:22:28 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:22:28 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:22:28 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:22:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:22:28 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Session Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:22:28 --> Session routines successfully run
+DEBUG - 2014-12-01 19:22:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:28 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:22:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:22:28 --> Total execution time: 0.0387
+DEBUG - 2014-12-01 19:22:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:22:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:22:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:22:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:22:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:22:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:22:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:22:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Final output sent to browser
+DEBUG - 2014-12-01 19:22:35 --> Total execution time: 0.2420
+DEBUG - 2014-12-01 19:22:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:22:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:22:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:22:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:22:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:22:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:22:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:22:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:22:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:22:36 --> Total execution time: 0.7799
+DEBUG - 2014-12-01 19:22:45 --> Config Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:22:45 --> URI Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Router Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Output Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Security Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Input Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:22:45 --> Language Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:22:45 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:22:45 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:22:45 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:22:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:22:45 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Session Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:22:45 --> Session routines successfully run
+DEBUG - 2014-12-01 19:22:45 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:22:45 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Model Class Initialized
+DEBUG - 2014-12-01 19:22:45 --> Final output sent to browser
+DEBUG - 2014-12-01 19:22:45 --> Total execution time: 0.6816
+DEBUG - 2014-12-01 19:23:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:23:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:23:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:23:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:23:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:23:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:23:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:23:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:23:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:23:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:23:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:01 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:23:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:23:01 --> Total execution time: 0.0335
+DEBUG - 2014-12-01 19:23:08 --> Config Class Initialized
+DEBUG - 2014-12-01 19:23:08 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:23:08 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:23:08 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:23:09 --> URI Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Router Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Output Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Security Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Input Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:23:09 --> Language Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:23:09 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:23:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:23:09 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Session Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:23:09 --> Session routines successfully run
+DEBUG - 2014-12-01 19:23:09 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Config Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:23:09 --> URI Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Router Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Output Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Security Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Input Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:23:09 --> Language Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:23:09 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:23:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:23:09 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Session Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:23:09 --> Session routines successfully run
+DEBUG - 2014-12-01 19:23:09 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:23:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:23:09 --> Final output sent to browser
+DEBUG - 2014-12-01 19:23:09 --> Total execution time: 0.5970
+DEBUG - 2014-12-01 19:23:10 --> Final output sent to browser
+DEBUG - 2014-12-01 19:23:10 --> Total execution time: 0.6842
+DEBUG - 2014-12-01 19:24:17 --> Config Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:24:17 --> URI Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Router Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Output Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Security Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Input Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:24:17 --> Language Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:24:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:24:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:24:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:24:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:24:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Session Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:24:17 --> Session routines successfully run
+DEBUG - 2014-12-01 19:24:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:24:17 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:17 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:18 --> Final output sent to browser
+DEBUG - 2014-12-01 19:24:18 --> Total execution time: 1.2551
+DEBUG - 2014-12-01 19:24:20 --> Config Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:24:20 --> URI Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Router Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:24:20 --> Output Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Security Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Input Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:24:20 --> Language Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:24:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:24:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:24:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:24:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:24:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Session Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:24:20 --> Session routines successfully run
+DEBUG - 2014-12-01 19:24:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:20 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:24:20 --> Final output sent to browser
+DEBUG - 2014-12-01 19:24:20 --> Total execution time: 0.0337
+DEBUG - 2014-12-01 19:24:28 --> Config Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:24:28 --> URI Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Router Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:24:28 --> Output Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Security Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Input Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:24:28 --> Language Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:24:28 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:24:28 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:24:28 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:24:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:24:28 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Session Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:24:28 --> Session routines successfully run
+DEBUG - 2014-12-01 19:24:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:28 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:24:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:24:28 --> Total execution time: 0.0427
+DEBUG - 2014-12-01 19:24:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:24:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:24:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:24:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:24:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:24:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:24:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:24:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:24:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:24:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:35 --> Final output sent to browser
+DEBUG - 2014-12-01 19:24:35 --> Total execution time: 0.2095
+DEBUG - 2014-12-01 19:24:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:24:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:24:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:24:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:24:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:24:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:24:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:24:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:24:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:24:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:24:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:38 --> Final output sent to browser
+DEBUG - 2014-12-01 19:24:38 --> Total execution time: 2.3231
+DEBUG - 2014-12-01 19:24:54 --> Config Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:24:54 --> URI Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Router Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:24:54 --> Output Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Security Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Input Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:24:54 --> Language Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:24:54 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:24:54 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:24:54 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:24:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:24:54 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Session Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:24:54 --> Session routines successfully run
+DEBUG - 2014-12-01 19:24:54 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> Model Class Initialized
+DEBUG - 2014-12-01 19:24:54 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:24:54 --> Final output sent to browser
+DEBUG - 2014-12-01 19:24:54 --> Total execution time: 0.0389
+DEBUG - 2014-12-01 19:25:04 --> Config Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:25:04 --> URI Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Router Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Output Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Security Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Input Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:25:04 --> Language Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:25:04 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:25:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:25:04 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Session Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:25:04 --> Session routines successfully run
+DEBUG - 2014-12-01 19:25:04 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Final output sent to browser
+DEBUG - 2014-12-01 19:25:04 --> Total execution time: 0.2365
+DEBUG - 2014-12-01 19:25:04 --> Config Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:25:04 --> URI Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Router Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Output Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Security Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Input Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:25:04 --> Language Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:25:04 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:25:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:25:04 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Session Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:25:04 --> Session routines successfully run
+DEBUG - 2014-12-01 19:25:04 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:25:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:10 --> Final output sent to browser
+DEBUG - 2014-12-01 19:25:10 --> Total execution time: 5.2933
+DEBUG - 2014-12-01 19:25:30 --> Config Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:25:30 --> URI Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Router Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:25:30 --> Output Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Security Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Input Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:25:30 --> Language Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:25:30 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:25:30 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:25:30 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:25:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:25:30 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Session Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:25:30 --> Session routines successfully run
+DEBUG - 2014-12-01 19:25:30 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:25:30 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:25:30 --> Final output sent to browser
+DEBUG - 2014-12-01 19:25:30 --> Total execution time: 0.0400
+DEBUG - 2014-12-01 19:26:13 --> Config Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:26:13 --> URI Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Router Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Output Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Security Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Input Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:26:13 --> Language Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:26:13 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:26:13 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:26:13 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:26:13 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:26:13 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Session Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:26:13 --> Session routines successfully run
+DEBUG - 2014-12-01 19:26:13 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Model Class Initialized
+DEBUG - 2014-12-01 19:26:13 --> Model Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:26:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:26:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:26:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:26:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:26:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:26:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:26:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:26:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:26:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:26:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:26:15 --> Model Class Initialized
+ERROR - 2014-12-01 19:26:31 --> Severity: Warning  --> file_get_contents(): Failed to enable crypto /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 35
+ERROR - 2014-12-01 19:26:31 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/textsearch/json?query=pizza+in+Brisbane%2C+CA%2C+United+States&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA): failed to open stream: operation failed /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 35
+ERROR - 2014-12-01 19:26:31 --> Severity: Warning  --> Invalid argument supplied for foreach() /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 39
+DEBUG - 2014-12-01 19:26:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:26:31 --> Total execution time: 16.1934
+DEBUG - 2014-12-01 19:26:33 --> Final output sent to browser
+DEBUG - 2014-12-01 19:26:33 --> Total execution time: 19.7593
+DEBUG - 2014-12-01 19:27:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:27:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:27:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:27:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:27:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:27:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:27:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:27:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:27:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:27:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:27:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:27:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:27:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:27:48 --> Total execution time: 1.1676
+DEBUG - 2014-12-01 19:28:09 --> Config Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:28:09 --> URI Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Router Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:28:09 --> Output Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Security Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Input Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:28:09 --> Language Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:28:09 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:28:09 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:28:09 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:28:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:28:09 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Session Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:28:09 --> Session routines successfully run
+DEBUG - 2014-12-01 19:28:09 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:09 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:28:09 --> Final output sent to browser
+DEBUG - 2014-12-01 19:28:09 --> Total execution time: 0.0391
+DEBUG - 2014-12-01 19:28:17 --> Config Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:28:17 --> URI Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Router Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Output Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Security Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Input Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:28:17 --> Language Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:28:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:28:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:28:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:28:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:28:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Session Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:28:17 --> Session routines successfully run
+DEBUG - 2014-12-01 19:28:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:17 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Final output sent to browser
+DEBUG - 2014-12-01 19:28:18 --> Total execution time: 0.2597
+DEBUG - 2014-12-01 19:28:18 --> Config Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:28:18 --> URI Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Router Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Output Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Security Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Input Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:28:18 --> Language Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:28:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:28:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:28:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:28:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:28:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Session Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:28:18 --> Session routines successfully run
+DEBUG - 2014-12-01 19:28:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:28:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:18 --> Final output sent to browser
+DEBUG - 2014-12-01 19:28:18 --> Total execution time: 0.7088
+DEBUG - 2014-12-01 19:28:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:28:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:28:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:28:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:28:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:28:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:28:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:28:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:28:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:28:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:28:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:28:31 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:28:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:28:31 --> Total execution time: 0.0414
+DEBUG - 2014-12-01 19:29:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:29:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:29:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:29:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:29:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:29:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:29:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:29:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:29:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:29:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:29:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:29:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:29:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:29:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:29:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:29:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:29:01 --> Total execution time: 0.6555
+DEBUG - 2014-12-01 19:29:02 --> Final output sent to browser
+DEBUG - 2014-12-01 19:29:02 --> Total execution time: 0.9463
+DEBUG - 2014-12-01 19:29:12 --> Config Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:29:12 --> URI Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Router Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Output Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Security Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Input Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:29:12 --> Language Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:29:12 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:29:12 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:29:12 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:29:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:29:12 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Session Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:29:12 --> Session routines successfully run
+DEBUG - 2014-12-01 19:29:12 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:29:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:12 --> Final output sent to browser
+DEBUG - 2014-12-01 19:29:12 --> Total execution time: 0.6390
+DEBUG - 2014-12-01 19:29:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:29:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:29:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:29:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:29:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:29:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:29:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:29:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:29:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:29:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:29:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:15 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:29:15 --> Final output sent to browser
+DEBUG - 2014-12-01 19:29:15 --> Total execution time: 0.0373
+DEBUG - 2014-12-01 19:29:30 --> Config Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:29:30 --> URI Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Router Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Output Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Security Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Input Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:29:30 --> Language Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:29:30 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:29:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:29:30 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Session Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:29:30 --> Session routines successfully run
+DEBUG - 2014-12-01 19:29:30 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Final output sent to browser
+DEBUG - 2014-12-01 19:29:30 --> Total execution time: 0.2211
+DEBUG - 2014-12-01 19:29:30 --> Config Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:29:30 --> URI Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Router Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Output Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Security Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Input Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:29:30 --> Language Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:29:30 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:29:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:29:30 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Session Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:29:30 --> Session routines successfully run
+DEBUG - 2014-12-01 19:29:30 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:29:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:29:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:29:31 --> Total execution time: 0.7213
+DEBUG - 2014-12-01 19:30:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:30:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:30:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:30:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:30:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:30:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:30:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:30:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:30:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:30:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:30:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:49 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:30:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:30:49 --> Total execution time: 0.0515
+DEBUG - 2014-12-01 19:30:57 --> Config Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:30:57 --> URI Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Router Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Output Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Security Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Input Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:30:57 --> Language Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:30:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:30:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:30:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Session Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:30:57 --> Session routines successfully run
+DEBUG - 2014-12-01 19:30:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Config Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:30:57 --> URI Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Router Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Output Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Security Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Input Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:30:57 --> Language Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:30:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:30:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:30:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Session Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:30:57 --> Session routines successfully run
+DEBUG - 2014-12-01 19:30:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:30:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:30:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:30:57 --> Total execution time: 0.6273
+DEBUG - 2014-12-01 19:30:58 --> Final output sent to browser
+DEBUG - 2014-12-01 19:30:58 --> Total execution time: 0.7392
+DEBUG - 2014-12-01 19:31:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:31:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:31:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:31:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:31:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:31:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:31:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:31:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:31:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:31:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:31:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:15 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:31:15 --> Final output sent to browser
+DEBUG - 2014-12-01 19:31:15 --> Total execution time: 0.0417
+DEBUG - 2014-12-01 19:31:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:31:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:31:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:31:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:31:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:31:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:31:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:31:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:31:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:31:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:31:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:31:36 --> Total execution time: 0.2438
+DEBUG - 2014-12-01 19:31:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:31:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:31:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:31:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:31:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:31:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:31:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:31:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:31:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:31:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:31:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:31:37 --> Total execution time: 0.9222
+DEBUG - 2014-12-01 19:31:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:31:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:31:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:31:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:31:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:31:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:31:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:31:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:31:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:31:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:31:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:47 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:31:47 --> Final output sent to browser
+DEBUG - 2014-12-01 19:31:47 --> Total execution time: 0.0364
+DEBUG - 2014-12-01 19:31:55 --> Config Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:31:55 --> URI Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Router Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Output Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Security Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Input Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:31:55 --> Language Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:31:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:31:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:31:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Session Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:31:55 --> Session routines successfully run
+DEBUG - 2014-12-01 19:31:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Final output sent to browser
+DEBUG - 2014-12-01 19:31:55 --> Total execution time: 0.2317
+DEBUG - 2014-12-01 19:31:55 --> Config Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:31:55 --> URI Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Router Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Output Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Security Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Input Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:31:55 --> Language Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:31:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:31:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:31:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Session Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:31:55 --> Session routines successfully run
+DEBUG - 2014-12-01 19:31:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:31:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:31:56 --> Final output sent to browser
+DEBUG - 2014-12-01 19:31:56 --> Total execution time: 0.6922
+DEBUG - 2014-12-01 19:32:57 --> Config Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:32:57 --> URI Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Router Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:32:57 --> Output Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Security Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Input Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:32:57 --> Language Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:32:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:32:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:32:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:32:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:32:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Session Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:32:57 --> Session routines successfully run
+DEBUG - 2014-12-01 19:32:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:32:57 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:32:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:32:57 --> Total execution time: 0.0386
+DEBUG - 2014-12-01 19:33:08 --> Config Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:33:08 --> URI Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Router Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Output Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Security Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Input Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:33:08 --> Language Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:33:08 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:33:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:33:08 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Session Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:33:08 --> Session routines successfully run
+DEBUG - 2014-12-01 19:33:08 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Final output sent to browser
+DEBUG - 2014-12-01 19:33:08 --> Total execution time: 0.2843
+DEBUG - 2014-12-01 19:33:08 --> Config Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:33:08 --> URI Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Router Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Output Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Security Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Input Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:33:08 --> Language Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:33:08 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:33:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:33:08 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Session Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:33:08 --> Session routines successfully run
+DEBUG - 2014-12-01 19:33:08 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:33:08 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:08 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:09 --> Final output sent to browser
+DEBUG - 2014-12-01 19:33:09 --> Total execution time: 0.8926
+DEBUG - 2014-12-01 19:33:55 --> Config Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:33:55 --> URI Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Router Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:33:55 --> Output Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Security Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Input Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:33:55 --> Language Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:33:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:33:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:33:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:33:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:33:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Session Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:33:55 --> Session routines successfully run
+DEBUG - 2014-12-01 19:33:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:33:55 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:33:55 --> Final output sent to browser
+DEBUG - 2014-12-01 19:33:55 --> Total execution time: 0.0332
+DEBUG - 2014-12-01 19:34:04 --> Config Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:34:04 --> URI Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Router Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Output Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Security Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Input Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:34:04 --> Language Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:34:04 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:34:04 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:34:04 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:34:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:34:04 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Session Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:34:04 --> Session routines successfully run
+DEBUG - 2014-12-01 19:34:04 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:04 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Final output sent to browser
+DEBUG - 2014-12-01 19:34:05 --> Total execution time: 0.6002
+DEBUG - 2014-12-01 19:34:05 --> Config Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:34:05 --> URI Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Router Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Output Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Security Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Input Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:34:05 --> Language Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:34:05 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:34:05 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:34:05 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:34:05 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:34:05 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Session Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:34:05 --> Session routines successfully run
+DEBUG - 2014-12-01 19:34:05 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:34:05 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:05 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:06 --> Final output sent to browser
+DEBUG - 2014-12-01 19:34:06 --> Total execution time: 0.7312
+DEBUG - 2014-12-01 19:34:57 --> Config Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:34:57 --> URI Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Router Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:34:57 --> Output Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Security Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Input Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:34:57 --> Language Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:34:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:34:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:34:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:34:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:34:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Session Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:34:57 --> Session routines successfully run
+DEBUG - 2014-12-01 19:34:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> Model Class Initialized
+DEBUG - 2014-12-01 19:34:57 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:34:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:34:57 --> Total execution time: 0.0508
+DEBUG - 2014-12-01 19:36:55 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:55 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:55 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:56 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:56 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:56 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:56 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:56 --> Total execution time: 0.6568
+DEBUG - 2014-12-01 19:36:58 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:58 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:58 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:58 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:58 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:58 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:58 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:58 --> Total execution time: 0.2123
+DEBUG - 2014-12-01 19:36:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:58 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:58 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:58 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:58 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:58 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:59 --> Total execution time: 0.2178
+DEBUG - 2014-12-01 19:36:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:59 --> Total execution time: 0.2168
+DEBUG - 2014-12-01 19:36:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:59 --> Total execution time: 0.2048
+DEBUG - 2014-12-01 19:36:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:59 --> Total execution time: 0.2095
+DEBUG - 2014-12-01 19:36:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:59 --> Total execution time: 0.2120
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Config Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:36:59 --> URI Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Router Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Output Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Security Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Input Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:36:59 --> Language Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:36:59 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:36:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:36:59 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Session Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:36:59 --> Session routines successfully run
+DEBUG - 2014-12-01 19:36:59 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Model Class Initialized
+DEBUG - 2014-12-01 19:36:59 --> Final output sent to browser
+DEBUG - 2014-12-01 19:36:59 --> Total execution time: 0.2120
+DEBUG - 2014-12-01 19:37:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:00 --> Total execution time: 0.2275
+DEBUG - 2014-12-01 19:37:00 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:00 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:00 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:00 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:00 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:00 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:00 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:00 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:00 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:00 --> Total execution time: 1.2877
+DEBUG - 2014-12-01 19:37:00 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:00 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:00 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:00 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:00 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:00 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:00 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:00 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:00 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:00 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:00 --> Total execution time: 0.2253
+DEBUG - 2014-12-01 19:37:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:00 --> Total execution time: 0.2240
+DEBUG - 2014-12-01 19:37:00 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:00 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:00 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:00 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:00 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:00 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:00 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:01 --> Total execution time: 0.2071
+DEBUG - 2014-12-01 19:37:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:01 --> Total execution time: 0.2104
+DEBUG - 2014-12-01 19:37:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:01 --> Total execution time: 0.2195
+DEBUG - 2014-12-01 19:37:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:01 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:01 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:01 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:01 --> Total execution time: 0.2475
+DEBUG - 2014-12-01 19:37:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:01 --> Total execution time: 0.2196
+DEBUG - 2014-12-01 19:37:01 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:01 --> Total execution time: 0.2031
+DEBUG - 2014-12-01 19:37:02 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:02 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:02 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:02 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:02 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:02 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:02 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:02 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:02 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:02 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:37:02 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:02 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:03 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:03 --> Total execution time: 0.8287
+DEBUG - 2014-12-01 19:37:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:37:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:26 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:37:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:26 --> Total execution time: 0.0449
+DEBUG - 2014-12-01 19:37:34 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:34 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:34 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:34 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:34 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:34 --> Total execution time: 0.2109
+DEBUG - 2014-12-01 19:37:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:37:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:37:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:37:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:37:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:37:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:37:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:37:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:37:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:37:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:37:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:37:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:37:37 --> Total execution time: 0.6729
+DEBUG - 2014-12-01 19:38:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:38:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:38:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:38:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:38:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:38:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:38:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:38:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:38:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:38:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:38:42 --> Total execution time: 0.6133
+DEBUG - 2014-12-01 19:38:44 --> Config Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:38:44 --> URI Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Router Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:38:44 --> Output Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Security Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Input Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:38:44 --> Language Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:38:44 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:38:44 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:38:44 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:38:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:38:44 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Session Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:38:44 --> Session routines successfully run
+DEBUG - 2014-12-01 19:38:44 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:44 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:38:44 --> Final output sent to browser
+DEBUG - 2014-12-01 19:38:44 --> Total execution time: 0.0429
+DEBUG - 2014-12-01 19:38:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:38:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:38:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:38:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:38:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:38:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:38:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:38:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:38:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:38:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:38:51 --> Total execution time: 0.2096
+DEBUG - 2014-12-01 19:38:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:38:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:38:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:38:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:38:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:38:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:38:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:38:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:38:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:38:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:38:52 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:38:52 --> Total execution time: 0.6995
+DEBUG - 2014-12-01 19:38:56 --> Config Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:38:56 --> URI Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Router Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Output Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Security Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Input Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:38:56 --> Language Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:38:56 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:38:56 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:38:56 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:38:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:38:56 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Session Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:38:56 --> Session routines successfully run
+DEBUG - 2014-12-01 19:38:56 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:38:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:56 --> Model Class Initialized
+DEBUG - 2014-12-01 19:38:57 --> Final output sent to browser
+DEBUG - 2014-12-01 19:38:57 --> Total execution time: 1.0711
+DEBUG - 2014-12-01 19:40:02 --> Config Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:40:02 --> URI Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Router Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Output Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Security Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Input Class Initialized
+DEBUG - 2014-12-01 19:40:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:40:02 --> Language Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:40:03 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:40:03 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:40:03 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:40:03 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:40:03 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Session Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:40:03 --> Session routines successfully run
+DEBUG - 2014-12-01 19:40:03 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:40:03 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:03 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:04 --> Final output sent to browser
+DEBUG - 2014-12-01 19:40:04 --> Total execution time: 1.1852
+DEBUG - 2014-12-01 19:40:19 --> Config Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:40:19 --> URI Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Router Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:40:19 --> Output Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Security Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Input Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:40:19 --> Language Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:40:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:40:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:40:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:40:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:40:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Session Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:40:19 --> Session routines successfully run
+DEBUG - 2014-12-01 19:40:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:19 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:40:19 --> Final output sent to browser
+DEBUG - 2014-12-01 19:40:19 --> Total execution time: 0.0537
+DEBUG - 2014-12-01 19:40:32 --> Config Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:40:32 --> URI Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Router Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Output Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Security Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Input Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:40:32 --> Language Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:40:32 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:40:32 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:40:32 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:40:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:40:32 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Session Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:40:32 --> Session routines successfully run
+DEBUG - 2014-12-01 19:40:32 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:32 --> Final output sent to browser
+DEBUG - 2014-12-01 19:40:32 --> Total execution time: 0.2353
+DEBUG - 2014-12-01 19:40:33 --> Config Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:40:33 --> URI Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Router Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Output Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Security Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Input Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:40:33 --> Language Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:40:33 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:40:33 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:40:33 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:40:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:40:33 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Session Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:40:33 --> Session routines successfully run
+DEBUG - 2014-12-01 19:40:33 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:40:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:40:33 --> Final output sent to browser
+DEBUG - 2014-12-01 19:40:33 --> Total execution time: 0.7141
+DEBUG - 2014-12-01 19:41:10 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:10 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:10 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:10 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:10 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:10 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:10 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:10 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:10 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:41:10 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:10 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:12 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:12 --> Total execution time: 1.5883
+DEBUG - 2014-12-01 19:41:24 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:24 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:41:24 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:24 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:24 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:24 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:24 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:24 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:24 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:24 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:24 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:41:24 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:24 --> Total execution time: 0.0391
+DEBUG - 2014-12-01 19:41:40 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:40 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:40 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:40 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:40 --> Total execution time: 0.2517
+DEBUG - 2014-12-01 19:41:40 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:40 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:40 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:40 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:40 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:40 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:40 --> Total execution time: 0.2164
+DEBUG - 2014-12-01 19:41:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:40 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:40 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:41 --> Total execution time: 0.2126
+DEBUG - 2014-12-01 19:41:41 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:41 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:41 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:41 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:41 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:41 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:41 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:41 --> Total execution time: 0.5145
+DEBUG - 2014-12-01 19:41:41 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:41 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:41 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:41 --> Total execution time: 0.2141
+DEBUG - 2014-12-01 19:41:41 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:41 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:42 --> Total execution time: 0.2123
+DEBUG - 2014-12-01 19:41:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:42 --> Total execution time: 0.2543
+DEBUG - 2014-12-01 19:41:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:42 --> Total execution time: 0.2172
+DEBUG - 2014-12-01 19:41:46 --> Config Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:41:46 --> URI Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Router Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Output Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Security Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Input Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:41:46 --> Language Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:41:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:41:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:41:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:41:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:41:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Session Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:41:46 --> Session routines successfully run
+DEBUG - 2014-12-01 19:41:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:41:46 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:46 --> Model Class Initialized
+DEBUG - 2014-12-01 19:41:47 --> Final output sent to browser
+DEBUG - 2014-12-01 19:41:47 --> Total execution time: 0.8462
+DEBUG - 2014-12-01 19:42:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:42:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:42:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:42:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:42:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:42:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:42:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:42:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:42:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:42:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:42:31 --> Total execution time: 0.5796
+DEBUG - 2014-12-01 19:42:33 --> Config Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:42:33 --> URI Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Router Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:42:33 --> Output Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Security Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Input Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:42:33 --> Language Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:42:33 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:42:33 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:42:33 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:42:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:42:33 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Session Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:42:33 --> Session routines successfully run
+DEBUG - 2014-12-01 19:42:33 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:33 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:42:33 --> Final output sent to browser
+DEBUG - 2014-12-01 19:42:33 --> Total execution time: 0.0376
+DEBUG - 2014-12-01 19:42:46 --> Config Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:42:46 --> URI Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Router Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Output Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Security Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Input Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:42:46 --> Language Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:42:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:42:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:42:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:42:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:42:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Session Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:42:46 --> Session routines successfully run
+DEBUG - 2014-12-01 19:42:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:46 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Final output sent to browser
+DEBUG - 2014-12-01 19:42:47 --> Total execution time: 0.2181
+DEBUG - 2014-12-01 19:42:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:42:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:42:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:42:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:42:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:42:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:42:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:42:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:42:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:42:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:42:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:42:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:42:48 --> Total execution time: 0.7498
+DEBUG - 2014-12-01 19:43:00 --> Config Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:43:00 --> URI Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Router Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:43:00 --> Output Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Security Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Input Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:43:00 --> Language Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:43:00 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:43:00 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:43:00 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:43:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:43:00 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Session Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:43:00 --> Session routines successfully run
+DEBUG - 2014-12-01 19:43:00 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:00 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:43:00 --> Final output sent to browser
+DEBUG - 2014-12-01 19:43:00 --> Total execution time: 0.0394
+DEBUG - 2014-12-01 19:43:18 --> Config Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:43:18 --> URI Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Router Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Output Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Security Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Input Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:43:18 --> Language Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:43:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:43:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:43:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Session Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:43:18 --> Session routines successfully run
+DEBUG - 2014-12-01 19:43:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Final output sent to browser
+DEBUG - 2014-12-01 19:43:18 --> Total execution time: 0.2359
+DEBUG - 2014-12-01 19:43:18 --> Config Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:43:18 --> URI Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Router Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Output Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Security Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Input Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:43:18 --> Language Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:43:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:43:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:43:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Session Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:43:18 --> Session routines successfully run
+DEBUG - 2014-12-01 19:43:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:43:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:18 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:19 --> Final output sent to browser
+DEBUG - 2014-12-01 19:43:19 --> Total execution time: 0.6923
+DEBUG - 2014-12-01 19:43:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:43:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:43:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:43:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:43:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:43:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:43:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:43:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:43:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:43:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:43:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:31 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:32 --> Final output sent to browser
+DEBUG - 2014-12-01 19:43:32 --> Total execution time: 0.9949
+DEBUG - 2014-12-01 19:43:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:43:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:43:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:43:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:43:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:43:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:43:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:43:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:43:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:43:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:43:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:42 --> Model Class Initialized
+DEBUG - 2014-12-01 19:43:43 --> Final output sent to browser
+DEBUG - 2014-12-01 19:43:43 --> Total execution time: 0.7226
+DEBUG - 2014-12-01 19:44:02 --> Config Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:44:02 --> URI Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Router Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:44:02 --> Output Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Security Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Input Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:44:02 --> Language Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:44:02 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:44:02 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:44:02 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:44:02 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:44:02 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Session Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:44:02 --> Session routines successfully run
+DEBUG - 2014-12-01 19:44:02 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:02 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:44:02 --> Final output sent to browser
+DEBUG - 2014-12-01 19:44:02 --> Total execution time: 0.0410
+DEBUG - 2014-12-01 19:44:12 --> Config Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:44:12 --> URI Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Router Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Output Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Security Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Input Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:44:12 --> Language Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:44:12 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:44:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:44:12 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Session Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:44:12 --> Session routines successfully run
+DEBUG - 2014-12-01 19:44:12 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Final output sent to browser
+DEBUG - 2014-12-01 19:44:12 --> Total execution time: 0.2130
+DEBUG - 2014-12-01 19:44:12 --> Config Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:44:12 --> URI Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Router Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Output Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Security Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Input Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:44:12 --> Language Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:44:12 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:44:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:44:12 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Session Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:44:12 --> Session routines successfully run
+DEBUG - 2014-12-01 19:44:12 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:44:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:12 --> Model Class Initialized
+DEBUG - 2014-12-01 19:44:13 --> Final output sent to browser
+DEBUG - 2014-12-01 19:44:13 --> Total execution time: 0.8259
+DEBUG - 2014-12-01 19:48:06 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:06 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:06 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:06 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:06 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:06 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:06 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:06 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:06 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:48:06 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:06 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:07 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:07 --> Total execution time: 0.8872
+DEBUG - 2014-12-01 19:48:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:48:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:15 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:48:15 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:15 --> Total execution time: 0.0446
+DEBUG - 2014-12-01 19:48:23 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:23 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:23 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:23 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:23 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:23 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:23 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:23 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:23 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:23 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:24 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:24 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:24 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:24 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:24 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:24 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:24 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:24 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:48:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:24 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:24 --> Total execution time: 0.8762
+DEBUG - 2014-12-01 19:48:24 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:24 --> Total execution time: 0.6816
+DEBUG - 2014-12-01 19:48:39 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:39 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:48:39 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:39 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:39 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:39 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:39 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:39 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:39 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:39 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:39 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:48:39 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:39 --> Total execution time: 0.0413
+DEBUG - 2014-12-01 19:48:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:47 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:47 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:47 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:48:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Model Class Initialized
+DEBUG - 2014-12-01 19:48:47 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:47 --> Total execution time: 0.5462
+DEBUG - 2014-12-01 19:48:48 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:48 --> Total execution time: 1.0599
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+ERROR - 2014-12-01 19:48:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:48 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:48 --> Controller Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2048
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2043
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2022
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2245
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2308
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2278
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2307
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2054
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2162
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.3357
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2214
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2307
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:48:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2551
+DEBUG - 2014-12-01 19:48:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:48:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:48:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:48:49 --> Controller Class Initialized
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.1986
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.2045
+ERROR - 2014-12-01 19:48:49 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:48:49 --> Final output sent to browser
+DEBUG - 2014-12-01 19:48:49 --> Total execution time: 0.4463
+DEBUG - 2014-12-01 19:49:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:49:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:27 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:49:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:27 --> Total execution time: 0.0417
+DEBUG - 2014-12-01 19:49:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:35 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:35 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:35 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:35 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.6457
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.2571
+DEBUG - 2014-12-01 19:49:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.2167
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.2094
+DEBUG - 2014-12-01 19:49:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.2082
+DEBUG - 2014-12-01 19:49:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.2082
+DEBUG - 2014-12-01 19:49:36 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:36 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:36 --> Total execution time: 0.2070
+DEBUG - 2014-12-01 19:49:36 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:36 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:36 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:36 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:37 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:37 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:37 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:37 --> Total execution time: 0.2116
+DEBUG - 2014-12-01 19:49:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:37 --> Total execution time: 0.2166
+DEBUG - 2014-12-01 19:49:37 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:37 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:37 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:37 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:37 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:37 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:37 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:37 --> Total execution time: 0.2082
+DEBUG - 2014-12-01 19:49:37 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:37 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:37 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:37 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:37 --> Total execution time: 0.2176
+DEBUG - 2014-12-01 19:49:37 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:37 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:37 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:37 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:37 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:37 --> Total execution time: 0.1966
+DEBUG - 2014-12-01 19:49:38 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:38 --> Total execution time: 0.7171
+DEBUG - 2014-12-01 19:49:41 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:41 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:41 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:41 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:49:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:41 --> Model Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.8223
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRnAAAApnrQ43BLLjIBBdxdcT7kFZ7b8mSPOjgt-U90gtqLhfbO2E4ywfFhaS5kdKxkNYNZYnyMb_ea_BLt7D3Vq6nxbo0hp7fYV5fFH-iQd1UT1i7gtNBV3bL2Fa_HYCObNCLIMZf0llth-3HKEE9_eQq9xBIQ4XCv5oK_FbeGLXE3ciF8sxoUL-sacV_hbrJU2oUhbPk7AMZxcbk): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.2035
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.6344
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.6166
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.6359
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.6344
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:42 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:42 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:42 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:42 --> Total execution time: 0.6378
+DEBUG - 2014-12-01 19:49:42 --> Config Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:49:42 --> URI Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Router Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Output Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Security Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Input Class Initialized
+DEBUG - 2014-12-01 19:49:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:49:43 --> Language Class Initialized
+DEBUG - 2014-12-01 19:49:43 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:49:43 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:49:43 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:49:43 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:49:43 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:49:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:49:43 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:49:43 --> Session Class Initialized
+DEBUG - 2014-12-01 19:49:43 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:49:43 --> Session routines successfully run
+DEBUG - 2014-12-01 19:49:43 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:49:43 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:49:43 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:43 --> Total execution time: 0.9481
+ERROR - 2014-12-01 19:49:43 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRqAAAA_YsBcSj0-Uh55V8pEO_5dUmg32NFuDuCIFLOHl8mQPOurN0uc5ok4VbIHl3pJv4m5Cp0rUx0ntdhcaA5QiFxhJfXCaPAIXeuceDDwXt6NvBfYurU_ICoLLVAWkBo5COya0EjWjnfo3qMt04SlI3n-BIQWwwhdpc9_vxGTBU0Ss_O7xoUlbGq2ZYx8ZcPhxCzRNP6abhhRqQ): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:49:43 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:43 --> Total execution time: 0.1925
+DEBUG - 2014-12-01 19:49:43 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:43 --> Total execution time: 0.5445
+DEBUG - 2014-12-01 19:49:43 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:43 --> Total execution time: 0.9258
+DEBUG - 2014-12-01 19:49:43 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:43 --> Total execution time: 1.1157
+DEBUG - 2014-12-01 19:49:44 --> Final output sent to browser
+DEBUG - 2014-12-01 19:49:44 --> Total execution time: 1.3804
+DEBUG - 2014-12-01 19:51:49 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:49 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:49 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:49 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:51:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:51:49 --> Model Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:50 --> Total execution time: 1.1593
+DEBUG - 2014-12-01 19:51:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Router Class Initialized
+ERROR - 2014-12-01 19:51:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:50 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Form Validation Class Initialized
+ERROR - 2014-12-01 19:51:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:50 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Session Class Initialized
+ERROR - 2014-12-01 19:51:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:50 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:50 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Controller Class Initialized
+ERROR - 2014-12-01 19:51:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:51 --> Total execution time: 0.9154
+DEBUG - 2014-12-01 19:51:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 1.0835
+DEBUG - 2014-12-01 19:51:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 1.1243
+DEBUG - 2014-12-01 19:51:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Utf8 Class Initialized
+ERROR - 2014-12-01 19:51:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 1.1321
+DEBUG - 2014-12-01 19:51:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 0.4151
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 0.6176
+DEBUG - 2014-12-01 19:51:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Config Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:51:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> URI Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Router Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Output Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:52 --> Security Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Input Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:51:52 --> Language Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:52 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:51:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:52 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:51:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:51:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:52 --> Session Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:51:52 --> Session routines successfully run
+DEBUG - 2014-12-01 19:51:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 1.6013
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 1.6594
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 0.5817
+DEBUG - 2014-12-01 19:51:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:52 --> Total execution time: 0.8536
+DEBUG - 2014-12-01 19:51:53 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:53 --> Total execution time: 0.6037
+DEBUG - 2014-12-01 19:51:53 --> Final output sent to browser
+DEBUG - 2014-12-01 19:51:53 --> Total execution time: 0.6420
+DEBUG - 2014-12-01 19:52:14 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:14 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:14 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:14 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:14 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:14 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:14 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:14 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:14 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:52:14 --> Model Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Model Class Initialized
+DEBUG - 2014-12-01 19:52:14 --> Model Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Final output sent to browser
+DEBUG - 2014-12-01 19:52:15 --> Total execution time: 0.7288
+DEBUG - 2014-12-01 19:52:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Language Class Initialized
+ERROR - 2014-12-01 19:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:15 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:15 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Router Class Initialized
+ERROR - 2014-12-01 19:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:15 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:15 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:15 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:15 --> Language Class Initialized
+ERROR - 2014-12-01 19:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:15 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:16 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:16 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:16 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:16 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> URI Class Initialized
+ERROR - 2014-12-01 19:52:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:52:16 --> URI Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:52:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:52:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:52:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:52:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:52:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:52:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:52:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:16 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:55:16 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:16 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:16 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:16 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:55:16 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:16 --> Total execution time: 0.0625
+DEBUG - 2014-12-01 19:55:25 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:25 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:25 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:25 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:25 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:25 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:25 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:25 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:25 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:25 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:25 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:25 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:25 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:25 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:25 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:25 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:25 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:25 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:25 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:25 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.4996
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.6947
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.2068
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.2189
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.2085
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.2063
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:26 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:26 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:26 --> Total execution time: 0.2179
+DEBUG - 2014-12-01 19:55:26 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:26 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.2071
+DEBUG - 2014-12-01 19:55:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.7925
+DEBUG - 2014-12-01 19:55:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.2347
+DEBUG - 2014-12-01 19:55:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.2255
+DEBUG - 2014-12-01 19:55:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.2119
+DEBUG - 2014-12-01 19:55:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.2498
+DEBUG - 2014-12-01 19:55:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:27 --> Total execution time: 0.2359
+DEBUG - 2014-12-01 19:55:28 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:28 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:28 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:28 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:28 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:28 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:28 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:28 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:28 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:28 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:28 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:28 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:28 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:28 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:28 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:28 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:28 --> Total execution time: 0.2944
+DEBUG - 2014-12-01 19:55:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:28 --> Total execution time: 1.3135
+DEBUG - 2014-12-01 19:55:28 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:28 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:28 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:28 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Total execution time: 0.2164
+ERROR - 2014-12-01 19:55:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:28 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:28 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:28 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:28 --> Total execution time: 0.2382
+DEBUG - 2014-12-01 19:55:28 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:28 --> Total execution time: 0.2111
+DEBUG - 2014-12-01 19:55:30 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:30 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:30 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:30 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:30 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:30 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:30 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:30 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:30 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:55:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:30 --> Model Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Final output sent to browser
+DEBUG - 2014-12-01 19:55:31 --> Total execution time: 1.0765
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRnAAAA02C0Nvc_RV9Dihk7OTQ2Fy5Zdv9V2mRiMv3muYcnNbRKC9NVDC78_TsxmjQBkYX0L1TEk5SHRbNNlFYQDQBbdEWSxZHUHjAVGTXjjAtCeF_ol924HLz94pXgLA6ho_Xa5-2jRZC-8n3AzlVVreeWPRIQahyycQ9IJWpHWs76FYIWhBoU2gIZW2T0MEZj8xsN8ocm-vpVsDY): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRnAAAAGuX4gNtQ4KTo65qRCSAPV73bdFWZBKTglH5mcLGlvXRXx1JG9e5J_7HjwamlqsTC1pxGT3vs0gb5IsMpzCxW5hUyUCuki3Nr6VOdFn0lMLYn-_iWKSDqQNHFR5Z1OpwJCaVy1177WcvcYXHF_PRgpBIQv_zpVQ55bi8-jcMq-qrdBRoUKZaokiHlHU7czuiXzZxiDwlKPlo): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRnAAAAl6R1Z2SbMCb5-jOIBT-glfaPm-51R6oqS2XpIYnAiCSt_6pdd6u6hUjK4C-tI1z0CSs_1HJqMuf43uF3zKzQAOwFY45mS6YXrGBSijYswJbSmscTEfa6FMvo-Z7b9YrvLhBpEAi9Kij1amtQmszrdRIQNdpp94dqEF_qljdlAymvQRoUiEayH8OfvEJs9XS9qCg1Kg_vkQA): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRnAAAA2UCqRP7yDaMUbNv_LWHvMS3cRPF5L9DrFOfFBRV1pQw0xOPUTbIV4ESLqgfEE-USYBRi9MyGnsHXziJNmpxl827kfiI5P6hGkwoABeCtDt_K9cpHoQXv0ezel0piM8oWlVIXXVnuXqGsubZvdlz3YBIQMLEkZzVmNRuxm8in80RHsRoUDLGiHBXGfrea9m3MVmmNOTd0ZJE): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:55:31 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:31 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:31 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:31 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:31 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:31 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:31 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:31 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:32 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:32 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:32 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:32 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:32 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:32 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:32 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRlAAAAUnrmoe-HXktPjikAc2Ok6PESPBcf7g9RW0lw_UeXf5XlpCsHcEOiALvkoeS6hR5Hz7yyfWGeNxc-uP_SHKlb-CwABURS6VfanZj-aHbKOC2UvBBTE1sfkrQxwdGv6g9pjk0TONyNJswHgAEWmsj5fRIQzNVJXb7Tt5I3qWgI7oF9KxoU14lcDTqpkhK9pvVU4ZB40NmVgUA): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:55:32 --> Config Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:55:32 --> URI Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Router Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Output Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Security Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Input Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:55:32 --> Language Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:55:32 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:55:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:55:32 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Session Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:55:32 --> Session routines successfully run
+DEBUG - 2014-12-01 19:55:32 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:55:32 --> Controller Class Initialized
+ERROR - 2014-12-01 19:55:32 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRtAAAA-TahQXLnhBEXhk3Xd8m8yAZ1RSw6or9kD6dIQgtUTVorhq8R8vKHrUk7qIylxMh5ykm7BQUiZeQrwSN-HWYx5aKwT4w16c29tzoy6yIx_fYjtGQXjlEbyOtlYWpZYosLam8kesKAuYdKEbyOFLWScRIQR0PGGtUs_br-K8cmT_EokBoUuAgefyZg35agxe_6fFEqQWiOrfc): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+ERROR - 2014-12-01 19:55:32 --> Severity: Warning  --> file_get_contents(https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&amp;key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&amp;photoreference=CnRqAAAAnjdAwkCoAGerti1rHr3n12QbLEdPtw2qAex0Vcla_yBRG31XQTdGUa5RHIQvu9Zx6tIOmf0hsaQ4QHeJWz7kWoK6sstmF9uwJgzFl2NQe8-dOw2T4uhw5ibngPJrbqUKY_doeud2cu5WTVezxqcUuxIQ8wgRZTEhh9MDLvu0enKW5xoUC_OLE7qn2lbLza4sS9nG2rb_S38): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ /Applications/MAMP/htdocs/ihotfood/application/controllers/user/search.php 134
+DEBUG - 2014-12-01 19:57:27 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:27 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 19:57:27 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:27 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:27 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:27 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 19:57:27 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:27 --> Total execution time: 0.0485
+DEBUG - 2014-12-01 19:57:50 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:50 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:50 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:50 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:50 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:50 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:50 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:50 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:50 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:50 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:51 --> Total execution time: 0.4086
+DEBUG - 2014-12-01 19:57:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:51 --> Total execution time: 0.2652
+DEBUG - 2014-12-01 19:57:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:51 --> Total execution time: 0.4946
+DEBUG - 2014-12-01 19:57:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:51 --> Total execution time: 0.7138
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:51 --> Total execution time: 0.2123
+DEBUG - 2014-12-01 19:57:51 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:51 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:51 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:51 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:51 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:51 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:51 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:51 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:52 --> Total execution time: 0.5934
+DEBUG - 2014-12-01 19:57:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:52 --> Total execution time: 0.2196
+DEBUG - 2014-12-01 19:57:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:52 --> Total execution time: 0.4852
+DEBUG - 2014-12-01 19:57:52 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:52 --> Total execution time: 0.2040
+DEBUG - 2014-12-01 19:57:55 --> Config Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 19:57:55 --> URI Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Router Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Output Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Security Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Input Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 19:57:55 --> Language Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 19:57:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 19:57:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 19:57:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 19:57:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 19:57:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Session Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 19:57:55 --> Session routines successfully run
+DEBUG - 2014-12-01 19:57:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 19:57:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:55 --> Model Class Initialized
+DEBUG - 2014-12-01 19:57:56 --> Final output sent to browser
+DEBUG - 2014-12-01 19:57:56 --> Total execution time: 0.6934
+DEBUG - 2014-12-01 20:01:26 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:26 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:01:26 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:26 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:26 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:26 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:01:26 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:26 --> Total execution time: 0.0597
+DEBUG - 2014-12-01 20:01:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.3896
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.2364
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.7108
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.5185
+DEBUG - 2014-12-01 20:01:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.2245
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.2061
+DEBUG - 2014-12-01 20:01:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:35 --> Total execution time: 0.2143
+DEBUG - 2014-12-01 20:01:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:36 --> Total execution time: 0.2070
+DEBUG - 2014-12-01 20:01:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:36 --> Total execution time: 0.2180
+DEBUG - 2014-12-01 20:01:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:36 --> Total execution time: 0.2156
+DEBUG - 2014-12-01 20:01:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:36 --> Total execution time: 0.2266
+DEBUG - 2014-12-01 20:01:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:36 --> Total execution time: 0.2153
+DEBUG - 2014-12-01 20:01:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:36 --> Total execution time: 0.2092
+DEBUG - 2014-12-01 20:01:39 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:39 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:39 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:39 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:39 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:39 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:39 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:39 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:39 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:01:39 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:39 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:39 --> Total execution time: 0.2194
+DEBUG - 2014-12-01 20:01:47 --> Config Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:01:47 --> URI Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Router Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Output Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Security Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Input Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:01:47 --> Language Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:01:47 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:01:47 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:01:47 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:01:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:01:47 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Session Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:01:47 --> Session routines successfully run
+DEBUG - 2014-12-01 20:01:47 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:01:47 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Model Class Initialized
+DEBUG - 2014-12-01 20:01:47 --> Final output sent to browser
+DEBUG - 2014-12-01 20:01:47 --> Total execution time: 0.6988
+DEBUG - 2014-12-01 20:02:06 --> Config Class Initialized
+DEBUG - 2014-12-01 20:02:06 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:02:06 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:02:06 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:02:06 --> URI Class Initialized
+DEBUG - 2014-12-01 20:02:06 --> Router Class Initialized
+ERROR - 2014-12-01 20:02:06 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:02:14 --> Config Class Initialized
+DEBUG - 2014-12-01 20:02:14 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:02:14 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:02:14 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:02:14 --> URI Class Initialized
+DEBUG - 2014-12-01 20:02:14 --> Router Class Initialized
+ERROR - 2014-12-01 20:02:14 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:02:29 --> Config Class Initialized
+DEBUG - 2014-12-01 20:02:29 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:02:29 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:02:29 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:02:29 --> URI Class Initialized
+DEBUG - 2014-12-01 20:02:29 --> Router Class Initialized
+ERROR - 2014-12-01 20:02:29 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:04:09 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:09 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:04:09 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:09 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:09 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:09 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:09 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:09 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:09 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:09 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:09 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:04:09 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:09 --> Total execution time: 0.0464
+DEBUG - 2014-12-01 20:04:17 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:17 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:17 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:17 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:17 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:17 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:17 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:17 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:17 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:17 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.4770
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.2358
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.3975
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.7171
+DEBUG - 2014-12-01 20:04:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.2039
+DEBUG - 2014-12-01 20:04:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.2095
+DEBUG - 2014-12-01 20:04:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:18 --> Total execution time: 0.2041
+DEBUG - 2014-12-01 20:04:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:19 --> Total execution time: 0.2197
+DEBUG - 2014-12-01 20:04:19 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:19 --> Total execution time: 0.2104
+DEBUG - 2014-12-01 20:04:19 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:19 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:19 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:19 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:19 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:19 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:19 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:19 --> Total execution time: 0.2076
+DEBUG - 2014-12-01 20:04:19 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:19 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:19 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:19 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:19 --> Total execution time: 0.2219
+DEBUG - 2014-12-01 20:04:19 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:19 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:19 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:19 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:19 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:19 --> Total execution time: 0.2105
+DEBUG - 2014-12-01 20:04:20 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:20 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:20 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:20 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:20 --> Total execution time: 0.4317
+DEBUG - 2014-12-01 20:04:20 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:20 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:20 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:20 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:20 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:20 --> Total execution time: 0.2070
+DEBUG - 2014-12-01 20:04:20 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:20 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:20 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:20 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:20 --> Total execution time: 0.2106
+DEBUG - 2014-12-01 20:04:20 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:20 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:20 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:20 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:20 --> Total execution time: 0.2063
+DEBUG - 2014-12-01 20:04:20 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:20 --> Total execution time: 0.2068
+DEBUG - 2014-12-01 20:04:23 --> Config Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:04:23 --> URI Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Router Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Output Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Security Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Input Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:04:23 --> Language Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:04:23 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:04:23 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:04:23 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:04:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:04:23 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Session Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:04:23 --> Session routines successfully run
+DEBUG - 2014-12-01 20:04:23 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:04:23 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:23 --> Model Class Initialized
+DEBUG - 2014-12-01 20:04:24 --> Final output sent to browser
+DEBUG - 2014-12-01 20:04:24 --> Total execution time: 0.8454
+DEBUG - 2014-12-01 20:05:02 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:02 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:05:02 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:02 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:02 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:02 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:02 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:02 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:02 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:02 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:02 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:02 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:05:02 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:02 --> Total execution time: 0.0525
+DEBUG - 2014-12-01 20:05:14 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:14 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:14 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:14 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:14 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:14 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:14 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:14 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:14 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:14 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:14 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:14 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:14 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:14 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:14 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:14 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:14 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:14 --> Total execution time: 0.3047
+DEBUG - 2014-12-01 20:05:14 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:14 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:14 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:14 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:14 --> Total execution time: 0.2187
+DEBUG - 2014-12-01 20:05:14 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:14 --> Total execution time: 0.2070
+DEBUG - 2014-12-01 20:05:15 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:15 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:15 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:15 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:15 --> Total execution time: 0.2036
+DEBUG - 2014-12-01 20:05:15 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:15 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:15 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:15 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:15 --> Total execution time: 0.2070
+DEBUG - 2014-12-01 20:05:15 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:15 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:15 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:15 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:15 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:15 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:15 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:15 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:16 --> Total execution time: 0.2532
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:16 --> Total execution time: 0.4268
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:16 --> Total execution time: 0.2115
+DEBUG - 2014-12-01 20:05:16 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:16 --> Total execution time: 0.2109
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:16 --> Total execution time: 0.2023
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:16 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:16 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:16 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:16 --> Total execution time: 0.2066
+DEBUG - 2014-12-01 20:05:16 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:16 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:16 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:16 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:16 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:16 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:17 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:17 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:17 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:17 --> Total execution time: 0.2096
+DEBUG - 2014-12-01 20:05:17 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:17 --> Total execution time: 0.2117
+DEBUG - 2014-12-01 20:05:17 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:17 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:17 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:17 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:17 --> Total execution time: 0.2187
+DEBUG - 2014-12-01 20:05:17 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:17 --> Total execution time: 0.2029
+DEBUG - 2014-12-01 20:05:17 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:17 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Router Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Output Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Security Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Input Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:05:17 --> Language Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:05:17 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:05:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:05:17 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Session Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:05:17 --> Session routines successfully run
+DEBUG - 2014-12-01 20:05:17 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:17 --> Model Class Initialized
+DEBUG - 2014-12-01 20:05:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:05:18 --> Total execution time: 0.7398
+DEBUG - 2014-12-01 20:05:19 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:19 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:19 --> Router Class Initialized
+ERROR - 2014-12-01 20:05:19 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:05:38 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:38 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:38 --> Router Class Initialized
+ERROR - 2014-12-01 20:05:38 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:05:55 --> Config Class Initialized
+DEBUG - 2014-12-01 20:05:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:05:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:05:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:05:55 --> URI Class Initialized
+DEBUG - 2014-12-01 20:05:55 --> Router Class Initialized
+ERROR - 2014-12-01 20:05:55 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:06:04 --> Config Class Initialized
+DEBUG - 2014-12-01 20:06:04 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:06:04 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:06:04 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:06:04 --> URI Class Initialized
+DEBUG - 2014-12-01 20:06:04 --> Router Class Initialized
+ERROR - 2014-12-01 20:06:04 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:07:26 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:26 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:07:26 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:26 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:26 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:26 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:26 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:26 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:26 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:26 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:26 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:07:26 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:26 --> Total execution time: 0.0486
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:34 --> Total execution time: 0.6914
+DEBUG - 2014-12-01 20:07:34 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:34 --> Total execution time: 0.4039
+DEBUG - 2014-12-01 20:07:34 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:34 --> Total execution time: 0.2459
+DEBUG - 2014-12-01 20:07:34 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:34 --> Total execution time: 0.4863
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:34 --> Total execution time: 0.2017
+DEBUG - 2014-12-01 20:07:34 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:34 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:34 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:34 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:34 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:34 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:34 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:34 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:35 --> Total execution time: 0.2010
+DEBUG - 2014-12-01 20:07:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Total execution time: 0.2115
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:35 --> Total execution time: 0.2106
+DEBUG - 2014-12-01 20:07:35 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:35 --> Total execution time: 0.2315
+DEBUG - 2014-12-01 20:07:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:35 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:35 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:35 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:35 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:35 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:35 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:35 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:36 --> Total execution time: 0.2062
+DEBUG - 2014-12-01 20:07:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:36 --> Total execution time: 0.2235
+DEBUG - 2014-12-01 20:07:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:36 --> Total execution time: 0.2071
+DEBUG - 2014-12-01 20:07:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:36 --> Total execution time: 0.2239
+DEBUG - 2014-12-01 20:07:36 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:36 --> Total execution time: 0.6727
+DEBUG - 2014-12-01 20:07:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:37 --> Total execution time: 1.2536
+DEBUG - 2014-12-01 20:07:38 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:38 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:38 --> Router Class Initialized
+ERROR - 2014-12-01 20:07:38 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:40 --> Total execution time: 0.2166
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:40 --> Total execution time: 0.2048
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:40 --> Total execution time: 0.2853
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:40 --> Total execution time: 0.2123
+DEBUG - 2014-12-01 20:07:40 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:40 --> Total execution time: 0.1984
+DEBUG - 2014-12-01 20:07:40 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:40 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:40 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:40 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:40 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:40 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:40 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:40 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:41 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:41 --> Total execution time: 0.4449
+DEBUG - 2014-12-01 20:07:41 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:41 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:41 --> Total execution time: 0.2178
+DEBUG - 2014-12-01 20:07:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:41 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:41 --> Total execution time: 0.1950
+DEBUG - 2014-12-01 20:07:41 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:41 --> Total execution time: 0.2084
+DEBUG - 2014-12-01 20:07:41 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:41 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:41 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:41 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:41 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:41 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:41 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:07:41 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:41 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:41 --> Total execution time: 0.2032
+DEBUG - 2014-12-01 20:07:46 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:46 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:46 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:46 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:46 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:46 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:46 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:46 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:46 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:46 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:47 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:47 --> Total execution time: 0.2128
+DEBUG - 2014-12-01 20:07:48 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:48 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:48 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:48 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:48 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:48 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:48 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:48 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:48 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:48 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:48 --> Total execution time: 0.2084
+DEBUG - 2014-12-01 20:07:55 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:55 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:55 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:55 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:55 --> Total execution time: 0.2130
+DEBUG - 2014-12-01 20:07:55 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:55 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:55 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:55 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:55 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:55 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:55 --> Database Driver Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:55 --> Total execution time: 0.2071
+ERROR - 2014-12-01 20:07:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:55 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:55 --> Total execution time: 0.2029
+DEBUG - 2014-12-01 20:07:55 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:55 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:55 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:55 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:55 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:55 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:55 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:55 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:56 --> Total execution time: 0.2048
+DEBUG - 2014-12-01 20:07:56 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:56 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:56 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:56 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:56 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:56 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:56 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:56 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:56 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:56 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:57 --> Total execution time: 0.2032
+DEBUG - 2014-12-01 20:07:57 --> Config Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:07:57 --> URI Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Router Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Output Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Security Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Input Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:07:57 --> Language Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:07:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:07:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:07:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:07:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:07:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Session Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:07:57 --> Session routines successfully run
+DEBUG - 2014-12-01 20:07:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:07:57 --> Final output sent to browser
+DEBUG - 2014-12-01 20:07:57 --> Total execution time: 0.1947
+DEBUG - 2014-12-01 20:08:01 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:01 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:01 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:01 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:01 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:01 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:01 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:01 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:01 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:08:01 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:01 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:02 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:02 --> Total execution time: 0.8139
+DEBUG - 2014-12-01 20:08:19 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:19 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:08:19 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:19 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:19 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:19 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:19 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:19 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:19 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:19 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:19 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:08:19 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:19 --> Total execution time: 0.0341
+DEBUG - 2014-12-01 20:08:27 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:27 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:08:27 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:27 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:27 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:27 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:27 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:27 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:27 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:27 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:27 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:08:27 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:27 --> Total execution time: 0.0579
+DEBUG - 2014-12-01 20:08:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:36 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:36 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:36 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:36 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:36 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:36 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:36 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.4789
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.6740
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.4155
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.2680
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.2145
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.2098
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.2000
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.2068
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.2018
+DEBUG - 2014-12-01 20:08:37 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:37 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:37 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:37 --> Total execution time: 0.6036
+DEBUG - 2014-12-01 20:08:37 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:37 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:37 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:37 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:37 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:37 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:38 --> Total execution time: 0.2146
+DEBUG - 2014-12-01 20:08:38 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:38 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:38 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:38 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:38 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:38 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:38 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:38 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:38 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:38 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:38 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:38 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:38 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:38 --> Total execution time: 0.2253
+DEBUG - 2014-12-01 20:08:38 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:38 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:38 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:38 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:38 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:38 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:38 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:38 --> Total execution time: 0.2144
+DEBUG - 2014-12-01 20:08:38 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:38 --> Total execution time: 0.5264
+DEBUG - 2014-12-01 20:08:38 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:38 --> Total execution time: 0.2029
+DEBUG - 2014-12-01 20:08:38 --> Config Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:08:38 --> URI Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Router Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Output Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Security Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Input Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:08:38 --> Language Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:08:38 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:08:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:08:38 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Session Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:08:38 --> Session routines successfully run
+DEBUG - 2014-12-01 20:08:38 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:38 --> Model Class Initialized
+DEBUG - 2014-12-01 20:08:39 --> Final output sent to browser
+DEBUG - 2014-12-01 20:08:39 --> Total execution time: 0.7939
+DEBUG - 2014-12-01 20:09:00 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:00 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:00 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:00 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:00 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:00 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:00 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:00 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:00 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:09:00 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:00 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:01 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:01 --> Total execution time: 1.3836
+DEBUG - 2014-12-01 20:09:05 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:05 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:05 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:05 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:05 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:05 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:05 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:05 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:05 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:05 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:05 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:06 --> Total execution time: 0.9266
+DEBUG - 2014-12-01 20:09:06 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:06 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:06 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:06 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:06 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:06 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:06 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:06 --> Total execution time: 0.2111
+DEBUG - 2014-12-01 20:09:06 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:06 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:06 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:06 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:06 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:06 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:06 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:06 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:06 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:06 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:06 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:06 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:06 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:06 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:06 --> Total execution time: 0.2217
+DEBUG - 2014-12-01 20:09:07 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:07 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:07 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:07 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:07 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:07 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:07 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:07 --> Total execution time: 0.2210
+DEBUG - 2014-12-01 20:09:07 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:07 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:07 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:07 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:07 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:07 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:07 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:07 --> Total execution time: 0.2176
+DEBUG - 2014-12-01 20:09:07 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:07 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:07 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:07 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:07 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:07 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:07 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:07 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:07 --> Total execution time: 0.2219
+DEBUG - 2014-12-01 20:09:07 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:07 --> Total execution time: 0.2101
+DEBUG - 2014-12-01 20:09:08 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:08 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:08 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:08 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:08 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:08 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:08 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:08 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:08 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:08 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:08 --> Total execution time: 0.1944
+DEBUG - 2014-12-01 20:09:10 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:10 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:10 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:10 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:10 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:10 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:10 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:10 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:10 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:09:10 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:10 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:11 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:11 --> Total execution time: 0.7530
+DEBUG - 2014-12-01 20:09:18 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:18 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:18 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:18 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:18 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:18 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:18 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:18 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:18 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:18 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:18 --> Total execution time: 0.2045
+DEBUG - 2014-12-01 20:09:20 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:20 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:20 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:20 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:20 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:20 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:20 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:20 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:20 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:09:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:20 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:21 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:21 --> Total execution time: 0.8631
+DEBUG - 2014-12-01 20:09:45 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:45 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:09:45 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:45 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:45 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:45 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:45 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:45 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:45 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:45 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:45 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:09:45 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:45 --> Total execution time: 0.0335
+DEBUG - 2014-12-01 20:09:49 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:49 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> No URI present. Default controller set.
+DEBUG - 2014-12-01 20:09:49 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:49 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:49 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:49 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:49 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:49 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:49 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:49 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:49 --> File loaded: application/views/frontend/index.php
+DEBUG - 2014-12-01 20:09:49 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:49 --> Total execution time: 0.0345
+DEBUG - 2014-12-01 20:09:57 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:57 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:57 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:57 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:57 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:57 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:57 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:57 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:57 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:57 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:57 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:57 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:57 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:57 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:57 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:57 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:57 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:58 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:58 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.2355
+DEBUG - 2014-12-01 20:09:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.3989
+DEBUG - 2014-12-01 20:09:58 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:58 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.6716
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.4843
+DEBUG - 2014-12-01 20:09:58 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:58 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:58 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:58 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.2371
+DEBUG - 2014-12-01 20:09:58 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:58 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:58 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:58 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.2227
+DEBUG - 2014-12-01 20:09:58 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:58 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:58 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:58 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.2349
+DEBUG - 2014-12-01 20:09:58 --> Config Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:09:58 --> URI Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Router Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Output Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Security Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Input Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:09:58 --> Language Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:09:58 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:09:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:09:58 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Session Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:09:58 --> Session routines successfully run
+DEBUG - 2014-12-01 20:09:58 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Model Class Initialized
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.2228
+DEBUG - 2014-12-01 20:09:58 --> Final output sent to browser
+DEBUG - 2014-12-01 20:09:58 --> Total execution time: 0.2191
+DEBUG - 2014-12-01 20:10:02 --> Config Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:10:02 --> URI Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Router Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Output Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Security Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Input Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-12-01 20:10:02 --> Language Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Loader Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Helper loaded: url_helper
+DEBUG - 2014-12-01 20:10:02 --> Helper loaded: form_helper
+DEBUG - 2014-12-01 20:10:02 --> Helper loaded: captcha_helper
+DEBUG - 2014-12-01 20:10:02 --> Database Driver Class Initialized
+ERROR - 2014-12-01 20:10:02 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/ihotfood/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-12-01 20:10:02 --> Form Validation Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Session Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Helper loaded: string_helper
+DEBUG - 2014-12-01 20:10:02 --> Session routines successfully run
+DEBUG - 2014-12-01 20:10:02 --> Encrypt Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Controller Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Config file loaded: application/config/pusher.php
+DEBUG - 2014-12-01 20:10:02 --> Model Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Model Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Model Class Initialized
+DEBUG - 2014-12-01 20:10:02 --> Final output sent to browser
+DEBUG - 2014-12-01 20:10:02 --> Total execution time: 0.6395
+DEBUG - 2014-12-01 20:10:25 --> Config Class Initialized
+DEBUG - 2014-12-01 20:10:25 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:10:25 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:10:25 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:10:25 --> URI Class Initialized
+DEBUG - 2014-12-01 20:10:25 --> Router Class Initialized
+ERROR - 2014-12-01 20:10:25 --> 404 Page Not Found --> static

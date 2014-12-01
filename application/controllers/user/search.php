@@ -53,10 +53,7 @@ class Search extends CI_Controller {
 				if(isset($i['rating'])) {
 					$data['rating'] = $i['rating'];
 				}
-				
-				//push to jsonArr for displaying
-				array_push($jsonArr, $data);
-				
+
 				//if restaurant name exits
 				if(isset($i['name'])) {
 					$restaurant_id = null;
@@ -91,6 +88,13 @@ class Search extends CI_Controller {
 						}
 					}
 				}
+
+				//adds additional detail
+				if(isset($i['photos'])) {
+					$data['photoRef'] = $i['photos'][0]['photo_reference'];
+				}
+				//push to jsonArr for displaying
+				array_push($jsonArr, $data);
 			}
 		} catch(Exception $e) {
 			echo $e;
@@ -122,6 +126,16 @@ class Search extends CI_Controller {
 			}
 		}
 		echo(json_encode($jsonArr));
+	}
+	
+	public function get_place_photo() {
+		$photoRef = $this->input->post('photoRef');
+		$url = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference=' . $photoRef;
+		$json = file_get_contents($url);
+		var_dump($json);
+		break;
+		$res = json_decode($json, true	);
+		echo($res);
 	}
 	public function search_postcode_suggestion() {
 		$this->load->model('user/search_model');

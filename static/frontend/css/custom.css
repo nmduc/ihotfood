@@ -271,11 +271,14 @@ h2.bright {
 }
 .infobox-wrapper .infobox-inner .infobox-description {
   padding: 8px;
+  word-wrap: break-word;
+  width: 234px;
 }
 .infobox-wrapper .infobox-inner .infobox-location {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   font-size: 12px;
+  
 }
 .infobox-wrapper .infobox-inner .fa {
   color: #1396e2;

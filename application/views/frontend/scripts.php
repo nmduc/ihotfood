@@ -117,14 +117,18 @@
 						for(i = 0; i < data.length; i++) {
 							//find center of markers
 							mapCenterData.adjustCenterCoords(data[i]['latitude'], data[i]['longitude']);
-
+							if (typeof(data[i]['photoRef']) !== 'undefined') {
+								photo_ref = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference='+data[i]['photoRef'];	
+							} else {
+								photo_ref = '<?php base_url()?>index.php/static/frontend/img/WB07T46L6.png';
+							}
 							//construct info
 							var str = '<div class="infobox-wrapper">'
 									+ '<div>'
 									+ '<div class="infobox-inner">'
 									+ '<a href="<?php base_url()?>index.php/restaurant/display">'
 									+ '<div class="infobox-image">'
-									+ '<img src="http://themes.fruitfulcode.com/zoner/wp-content/uploads/2014/10/property-02.jpg">'
+									+ '<img src="'+photo_ref+'">'
 									+ '<div>'
 									+ '<span class="infobox-price">' + data[i]['tel'] + '</span>'
 									+ '</div>'
