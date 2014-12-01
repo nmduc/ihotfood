@@ -25,16 +25,16 @@
 	<script src="//js.pusher.com/2.2/pusher.min.js"></script>
 	<script type="text/javascript">
 	    // Enable pusher logging - don't include this in production
-	    Pusher.log = function(message) {
-	      if (window.console && window.console.log) {
-	        window.console.log(message);
-	      }
-	    };
+// 	    Pusher.log = function(message) {
+// 	      if (window.console && window.console.log) {
+// 	        window.console.log(message);
+// 	      }
+// 	    };
 	
-	    var pusher = new Pusher('54120ecb88a7a7dc598b');
-	    var channel = pusher.subscribe('test_channel');
-	    channel.bind('search_res_in_map', function(data) {
-	      alert(data.message);
-	    });
+// 	    var pusher = new Pusher('54120ecb88a7a7dc598b');
+// 	    var channel = pusher.subscribe('test_channel');
+// 	    channel.bind('search_res_in_map', function(data) {
+// 	      alert(data.message);
+// 	    });
   </script>
 </head>

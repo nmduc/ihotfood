@@ -43,10 +43,6 @@
 		SELF.setupAutocomplete = function(){
 			$('#s_keyword').autocomplete({
 				serviceUrl: '<?php echo base_url("index.php/user/search/search_suggestion") ?>',
-				params: {
-					s_postcode: $('#s_postcode').val(),
-					s_country: $('#s_country').val()
-				}
 			});
 		},
 		SELF.setupMap = function() {
@@ -155,7 +151,7 @@
 							map:{
 								options:{
 					              center:[mapCenterData.center_lat, mapCenterData.center_lng],
-					              zoom: 12,
+					              //zoom: 12,
 					              scrollwheel: false
 					            }
 					        }

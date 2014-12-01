@@ -8,6 +8,7 @@ class Search extends CI_Controller {
 		$this->load->library('factual/Factual');
 		$this->load->library('Pusher/Pusher');
 		$this->load->model('user/search_model');
+		$this->load->model('utils/utils_model');
 		
 		$s_keyword 	= $this->input->post('s_keyword');
 		$s_country 	= $this->input->post('s_country');
@@ -23,55 +24,118 @@ class Search extends CI_Controller {
 // 		$data['message'] = 'hello world';
 // 		$this->pusher->trigger('test_channel', 'my_event', 
 // 				array('message' => 'Hello World'));
-
-		$factual = new Factual();
-		$query = new FactualQuery;
 		
-		//$query->field("postcode")->equal($s_postcode);
-		$query->field("country")->equal($s_country);
-		$query->search($s_keyword);
-		//$query->limit(3);
-		$res = $factual->fetch("places", $query);
-		$res = $res->getData();
+		//add supporting tags retrieved from user queries
+		$keywordClean = $this->utils_model->removeCommonWords($s_keyword);
+		$keywordArr = explode(" ", $keywordClean);
 		
-		foreach ($res as $i) {
-			$data = array();
-			$data['name'] = $i['name'];
-			$data['latitude'] = $i['latitude'];
-			$data['longitude'] = $i['longitude'];
-			$data['address'] = $i['address'];
-			$data['country'] = $i['country'];
-			$data['postcode'] = $i['postcode'];
-			$data['tel'] = $i['tel'];
-			$data['tags'] = implode(',', $i['category_labels'][0]);
+		$jsonArr = array ();
+		try {
+			$url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=' . urlencode($s_keyword) . '&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA';
+			$json = file_get_contents($url);
+			$res = json_decode($json, true	);
+			$res = $res['results'];
 			
-			if (!$this->search_model->is_res_stored($data['name'])) {
-				$this->search_model->insert_res($data);
+			foreach ($res as $i) {
+				$data = array();
+				if(isset($i['name'])) {
+					$data['name'] = $i['name'];
+				}
+				if(isset($i['geometry']['location']['lat'])) {
+					$data['latitude'] = $i['geometry']['location']['lat'];
+				}
+				if(isset($i['geometry']['location']['lng'])) {
+					$data['longitude'] = $i['geometry']['location']['lng'];
+				}
+				if(isset($i['formatted_address'])) {
+					$data['address'] = $i['formatted_address'];
+				}
+				if(isset($i['rating'])) {
+					$data['rating'] = $i['rating'];
+				}
+				
+				//push to jsonArr for displaying
+				array_push($jsonArr, $data);
+				
+				//if restaurant name exits
+				if(isset($i['name'])) {
+					$restaurant_id = null;
+					//if it does not exist, insert, otherwise, get id by exact name
+					if (!$this->search_model->is_res_stored($data['name'])) {
+						$restaurant_id = $this->search_model->insert_res($data);
+					} else {
+						$restaurant_id = $this->search_model->get_res_id_by_name($data['name']);
+					}
+					//if tags from Places API exists, insert it
+					if (isset($i['types'])) {
+						//merge 2 tags array
+						if (!empty($keywordArr)) {
+							$tagArr = array_merge($i['types'], $keywordArr);
+						}
+						//insert tag 1-by-1
+						foreach($tagArr as $tag) {
+							if (strlen($tag) > 0){
+								$tag_id = $this->search_model->is_tag_stored($tag);
+								// store if tag is new, and create a link between tag and restaurant
+								// if tag exists, verify if tag and restaurant is linked, if not, link them
+								if ($tag_id == null) {
+									$tag_id = $this->search_model->insert_tag($tag);
+									$this->search_model->insert_tag_and_restaurant_link($tag_id, $restaurant_id);
+								} else {
+									$is_tag_and_res_linked = $this->search_model->is_tag_res_linked($tag_id, $restaurant_id);
+									if ($is_tag_and_res_linked == false) {
+										$this->search_model->insert_tag_and_restaurant_link($tag_id, $restaurant_id);
+									}
+								}
+							}
+						}
+					}
+				}
 			}
-		}
-		
-		$r = $this->search_model->search($_POST);
-		
-		$r = json_encode($r);
-		
-		header("Content-Length: ".strlen($r));
-		echo($r);
-		
+		} catch(Exception $e) {
+			echo $e;
+		} finally {
+			//$r = $this->search_model->search($this->input->post());
+			$result = json_encode($jsonArr);
+			echo($result);
+		}	
 	}
 	
 	public function search_suggestion() {
 		$this->load->model('user/search_model');
-
-		$r = $this->search_model->get_res_by_name($this->input->get());
+		$query = $this->input->get('query');
+		$url = 'https://maps.googleapis.com/maps/api/place/queryautocomplete/json?key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&input=' . urlencode($query);
+		$json = file_get_contents($url);
+		$res = json_decode($json, true	);
+		$res = $res['predictions'];
 		
 		$jsonArr = array();
 		$jsonArr['query'] = 'Unit';
 		$jsonArr['suggestions'] = array();
+		if (isset($res)) {
+			foreach($res as $i) {
+				$temp = array(
+					'value' => $i['description'],
+					'data' => $i['description']
+				);
+				array_push($jsonArr['suggestions'], $temp);
+			}
+		}
+		echo(json_encode($jsonArr));
+	}
+	public function search_postcode_suggestion() {
+		$this->load->model('user/search_model');
+		$r = $this->search_model->get_postcode_for_suggestion($this->input->get());
+	
+		$jsonArr = array();
+		$jsonArr['query'] = 'Unit';
+		$jsonArr['suggestions'] = array();
+		
 		if (isset($r)) {
 			foreach($r as $i) {
 				$temp = array(
-					'value' => $i['name'],
-					'data' => $i['name']
+						'value' => $i['postcode'],
+						'data' => $i['postcode']
 				);
 				array_push($jsonArr['suggestions'], $temp);
 			}
