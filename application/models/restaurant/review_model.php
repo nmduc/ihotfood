@@ -17,4 +17,14 @@ class Review_Model extends CI_Model{
 		$q = $this->db->insert('reviews', $data);
 		return $q;
 	} 
+
+	public function get_restaurant_reviews($resId) {
+		$reviews = array();
+		$this->db->where('restaurant_id', $resId);
+		$query = $this->db->get('reviews');
+		foreach ($query->result() as $row) {
+			array_push($reviews, $row);
+		}
+		return $reviews;
+	}
 }

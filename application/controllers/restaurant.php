@@ -5,6 +5,7 @@ class Restaurant extends CI_Controller {
 	// http://ihotfood.com/index.php/restaurant/show_restaurant/restaurantID
 	public function show_restaurant($id) {
 		$this->load->model( 'restaurant/restaurant_model' );
+		$this->load->model( 'restaurant/review_model' );
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($id);
 		if(! $restaurant ) {
 			$data = array (
@@ -14,8 +15,16 @@ class Restaurant extends CI_Controller {
 			$this->load->view('../errors/error_404', $data);
 		}
 		else {
+			$review_list = $this->review_model->get_restaurant_reviews($id);
+			$this->load->model("user/basic_user_model");
+			$reviews = array();
+			foreach ($review_list as $review) {
+				$review->user_info = $this->basic_user_model->get_user_info_by_id($review->user_id);
+				array_push($reviews, $review);
+			}
 			$data = array (
 				'restaurant' => $restaurant,
+				'reviews' => $reviews,
 			);
 			$this->load->view ( 'frontend/view_restaurant', $data );
 		}
@@ -59,7 +68,14 @@ class Restaurant extends CI_Controller {
 
 		if ($this->form_validation->run () == TRUE) {
 			$this->load->model("restaurant/review_model");
-			$this->review_model->create_review($resId);
+			if(! $this->review_model->create_review($resId) ) {
+				$data = array(
+					"heading" => "Unexpected error",
+					"message" => "Something went wrong, please try again later",
+				);	
+				$this->load->view("../errors/error_db", $data);
+				return;
+			}
 	 	}
  		$this->show_restaurant($resId);
 	}
