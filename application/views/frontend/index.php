@@ -1,9 +1,13 @@
 <?php include 'metadata.php'?>
 <body>
+	<div id="preloader">
+  		<div id="status">&nbsp;</div>
+	</div>
+	<div id="progressbar"></div>
 	<?php require 'nav.php'?>
 	<?php require 'header.php'?>
 
-	<div class="row">
+	<div class="row" id="main">
 		<div class="large-9 medium-8 small-12 columns">
 			<!-- FEATURE POSTS -->
 			<div class="row feature-post" data-equalizer>
@@ -14,7 +18,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/Delicious-Food-HD-Wallpaper-Desktop-600x800.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Honey Cake</a>
 							</h2>
@@ -36,7 +40,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/DSCF8068.JPG">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Kebab</a>
 							</h2>
@@ -70,20 +74,20 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/img2.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Chicken Source</a>
 							</h2>
 							<div class="actions">
 								<div>
-									<div class="difficulty">
+									<div class="difficulty-count">
 										<i class="ico i-medium"></i> <a href="#">medium</a>
 									</div>
-									<div class="likes">
-										<i class="ico i-likes"></i> <a href="#">10</a>
+									<div class="likes-count">
+										<i class="fa fa-heart"></i>&nbsp;<a href="#">10</a>
 									</div>
-									<div class="comments">
-										<i class="ico i-comments"></i> <a href="recipe.html#comments">27</a>
+									<div class="comments-count">
+										<i class="fa fa-comment"></i>&nbsp;<a href="recipe.html#comments">27</a>
 									</div>
 								</div>
 							</div>
@@ -96,7 +100,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/lynton-crabb-wolfblass-5.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Honey Cake</a>
 							</h2>
@@ -122,7 +126,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/canstockphoto9830395.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Honey Cake</a>
 							</h2>
@@ -148,7 +152,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/Picodegallo2.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Honey Cake</a>
 							</h2>
@@ -174,7 +178,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/insalata caprese.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Honey Cake</a>
 							</h2>
@@ -200,7 +204,7 @@
 							<img alt=""
 								src="<?php echo base_url()?>static/user_upload/should-you-be-eating-organic-foods_a.jpg">
 						</figure>
-						<div class="writing-content">
+						<div class="writing-content shadow">
 							<h2>
 								<a href="recipe.html">Honey Cake</a>
 							</h2>

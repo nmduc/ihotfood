@@ -1,6 +1,31 @@
 <script>
-	function NGOCTRAN_XAUTRAIVAIDAI() {
-		var SELF = this;
+	function NGOCTRAN() {
+		var SELF = this,
+			$progressbar = $( "#progressbar" );
+		SELF.uuid = '<?php echo $this->session->userdata('uuid'); ?>';
+		SELF.pusher = new Pusher('54120ecb88a7a7dc598b');
+		
+		SELF.channel = SELF.pusher.subscribe(SELF.uuid);
+		
+		SELF.setupProgressingBar = function(){
+			$progressbar.progressbar();
+			$progressbar.css('display', 'none');
+		},
+		SELF.indicateProgressing = function(percentComplete) {
+			console.log(percentComplete);
+			if (percentComplete > 0 && percentComplete < 100) {
+				$progressbar.css('display', 'block');
+				$progressbar.progressbar( "option", "value", percentComplete );
+			} else {
+				$progressbar.css('display', 'none');
+			}
+			
+		},
+		SELF.preloader = function () {
+			jQuery("#status").fadeOut();
+			
+			jQuery("#preloader").delay(1000).fadeOut("slow");
+		},
 		SELF.setupFoundation = function (){
 			$(document).foundation();		
 		},
@@ -15,23 +40,166 @@
 		SELF.setupDropzone = function() {
 			$(".user-photos").dropzone({ url: "/file/post" });			
 		},
-		SELF.setupSearch = function(){
-			$('#search_map_btn').click(function(){
-				$.ajax({
-					method: 'POST',
-					url: '<?php base_url()?>index.php/user/search/',
-					dataType: 'json',
-					data: {
-						s_postcode: $('#s_postcode').val(),
-						s_country: $('#s_country').val(),
-						s_keyword: $('#s_keyword').val()
-					},
-					success: function(data, xhr){
-						console.log(data);
-					}
-				});
+		SELF.setupAutocomplete = function(){
+			$('#s_keyword').autocomplete({
+				serviceUrl: '<?php echo base_url("index.php/user/search/search_suggestion") ?>',
 			});
-		}
+		},
+		SELF.setupMap = function() {
+			$('#map_canvas').gmap3({
+				map:{
+					options: {
+						scrollwheel: false,
+						zoom: 5
+					}
+				}
+			});
+		},
+		SELF.setupSearch = function(){
+			$('#s_keyword').keypress(function(e){
+				if (e.keyCode == 13 && !e.shiftKey) {
+					e.preventDefault();
+					SELF.doAjaxSearch();
+				}
+			});
+			$('#search_map_btn').click(SELF.doAjaxSearch);
+		},
+		SELF.mapCenter = function () {
+		    // define where the center of the map lies...
+		    this.center_lng = 0.00;
+		    this.center_lat = 0.00;
+		     
+		    // these are just used to calc the center of the map...
+		    this.max_lng = 0.00;
+		    this.min_lng = 0.00;
+		    this.max_lat = 0.00;
+		    this.min_lat = 0.00;		     
+
+		    this.adjustCenterCoords = function(lat, lng) {
+		        if (lat == undefined || lng == undefined)
+		            return false;
+	            
+		        // first time through, set them all to the first lat/lng pair
+		        if (this.max_lng == 0.00 && this.max_lat == 0.00) {
+		            this.max_lng = lng;
+		            this.min_lng = lng;
+		            this.max_lat = lat;
+		            this.min_lat = lat;
+		            this.center_lng = lng;
+		            this.center_lat = lat;
+		            
+		        } else {
+		            this.max_lng = Math.max(lng, this.max_lng);
+		            this.min_lng = Math.min(lng, this.min_lng);
+		            this.max_lat = Math.max(lat, this.max_lat);
+		            this.min_lat = Math.min(lat, this.min_lat);
+		            this.center_lng = (this.min_lng + this.max_lng) / 2.;
+		            this.center_lat = (this.min_lat + this.max_lat) / 2.;
+		        }
+		    }
+		},
+		SELF.doAjaxSearch = function(){
+			$.ajax({
+				type: 'POST',
+				url: '<?php base_url()?>index.php/user/search/search_res',
+				dataType: 'json',
+				data: {
+					ihf_event: 'search_res_in_map',
+					s_postcode: $('#s_postcode').val(),
+					s_country: $('#s_country').val(),
+					s_keyword: $('#s_keyword').val()
+				},
+				success: function(data, xhr){
+					if (data !== null && data !== undefined) {
+						var jsonArr = [];
+						var mapCenterData = new SELF.mapCenter();
+						//console.log(mapCenterData.adjustCenterCoords(1,2));
+						for(i = 0; i < data.length; i++) {
+							//find center of markers
+							mapCenterData.adjustCenterCoords(data[i]['latitude'], data[i]['longitude']);
+							if (typeof(data[i]['photoRef']) !== 'undefined') {
+								photo_ref = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference='+data[i]['photoRef'];	
+							} else {
+								photo_ref = '<?php base_url()?>index.php/static/frontend/img/WB07T46L6.png';
+							}
+							//construct info
+							var str = '<div class="infobox-wrapper">'
+									+ '<div>'
+									+ '<div class="infobox-inner">'
+									+ '<a href="<?php base_url()?>index.php/restaurant/display">'
+									+ '<div class="infobox-image">'
+									+ '<img src="'+photo_ref+'">'
+									+ '<div>'
+									+ '<span class="infobox-price">' + data[i]['tel'] + '</span>'
+									+ '</div>'
+									+ '</div>'
+									+ '</a>'
+									+ '<div class="infobox-description">'
+									+ '<div class="infobox-title">'
+									+ '<a href="<?php base_url()?>index.php/restaurant/display">' + data[i]['name'] +'</a>'
+									+ '</div>'
+									+ '<div class="infobox-location">' + data[i]['address'] + '</div>'
+									+ '</div>'
+									+ '</div>'
+									+ '</div>'
+									+ '</div>';
+							
+							//push into array
+							jsonArr.push({
+								latLng: [data[i]['latitude'], data[i]['longitude']],
+								data:  str
+							});
+						}
+
+						$('#map_canvas').gmap3({
+							map:{
+								options:{
+					              center:[mapCenterData.center_lat, mapCenterData.center_lng],
+					              //zoom: 12,
+					              scrollwheel: false
+					            }
+					        }
+				        });
+						$.each(jsonArr, function(key, val) {
+							//console.log(val);
+							$('#map_canvas').gmap3({
+								marker: {
+									options: {
+										icon: '<?php base_url()?>static/frontend/img/restaurant.png',
+									},
+									latLng: val.latLng,
+									events: {
+										click: function(marker, event, context){
+											$(this).gmap3({
+												overlay: {
+													latLng: val.latLng,
+													options:{
+														content: val.data,
+														offset:{
+													        y:-300,
+													        x:-100
+													    }
+													}
+												}
+											});
+										},
+										mouseout: function(){
+							                //$(this).gmap3({action:'clear', name:'overlay'});
+							                var infowindow = $(this).gmap3({get:{name:"overlay"}});
+							                if (infowindow){
+							                	infowindow.hide();
+							                }
+							            }
+									}
+								}
+							});
+						});
+					} else {
+						///do something
+					}
+				}
+			});
+		},
 		SELF.setupScaleSlider = function() {
 	        var _SlideshowTransitions = [
 	        //Fade in L
@@ -118,8 +286,6 @@
 	        };
 
 	        var jssor_slider1 = new $JssorSlider$("slider_container", options);
-	        //responsive code begin
-	        //you can remove responsive code if you don't want the slider scales while window resizes
 	        function ScaleSlider() {
 	            var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
 	            if (parentWidth)
@@ -135,13 +301,20 @@
 	        //responsive code end
 		}
 	}
+	var ngoctran = new NGOCTRAN();
 	$(document).ready(function(){
-		var ngoctran = new NGOCTRAN_XAUTRAIVAIDAI();
+		//var ngoctran = new NGOCTRAN();
 		ngoctran.setupFoundation();
 		ngoctran.setupDatepicker();
 		ngoctran.setupWow();
 		ngoctran.setupDropzone();
 		//ngoctran.setupScaleSlider();
-		ngoctran.setupSearch();	
+		ngoctran.setupAutocomplete();
+		ngoctran.setupMap();
+		ngoctran.setupSearch();
+		ngoctran.setupProgressingBar();	
+	});
+	$(window).load(function(){
+		ngoctran.preloader();
 	});
 </script>

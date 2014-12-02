@@ -7,6 +7,8 @@ class Welcome extends CI_Controller {
 		$this->load->library("../controllers/user/facebook_login");
 	}
 	public function index() {
+		$this->session->set_userdata('uuid', uniqid());
+		
 		if(! $this->session->userdata('facebookLoginURL')) {
 			$this->session->set_userdata('facebookLoginURL', $this->facebook_login->get_facebook_login_url());
 		}
