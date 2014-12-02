@@ -16544,3 +16544,31 @@ DEBUG - 2014-12-01 20:10:25 --> UTF-8 Support Enabled
 DEBUG - 2014-12-01 20:10:25 --> URI Class Initialized
 DEBUG - 2014-12-01 20:10:25 --> Router Class Initialized
 ERROR - 2014-12-01 20:10:25 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:12:41 --> Config Class Initialized
+DEBUG - 2014-12-01 20:12:41 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:12:41 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:12:41 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:12:41 --> URI Class Initialized
+DEBUG - 2014-12-01 20:12:41 --> Router Class Initialized
+ERROR - 2014-12-01 20:12:41 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:12:53 --> Config Class Initialized
+DEBUG - 2014-12-01 20:12:53 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:12:53 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:12:53 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:12:53 --> URI Class Initialized
+DEBUG - 2014-12-01 20:12:53 --> Router Class Initialized
+ERROR - 2014-12-01 20:12:53 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 20:12:58 --> Config Class Initialized
+DEBUG - 2014-12-01 20:12:58 --> Hooks Class Initialized
+DEBUG - 2014-12-01 20:12:58 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 20:12:58 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 20:12:58 --> URI Class Initialized
+DEBUG - 2014-12-01 20:12:58 --> Router Class Initialized
+ERROR - 2014-12-01 20:12:58 --> 404 Page Not Found --> static
+DEBUG - 2014-12-01 21:21:44 --> Config Class Initialized
+DEBUG - 2014-12-01 21:21:44 --> Hooks Class Initialized
+DEBUG - 2014-12-01 21:21:44 --> Utf8 Class Initialized
+DEBUG - 2014-12-01 21:21:44 --> UTF-8 Support Enabled
+DEBUG - 2014-12-01 21:21:44 --> URI Class Initialized
+DEBUG - 2014-12-01 21:21:44 --> Router Class Initialized
+ERROR - 2014-12-01 21:21:44 --> 404 Page Not Found --> static
