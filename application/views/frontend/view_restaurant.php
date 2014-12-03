@@ -4,15 +4,19 @@
 <body>
 	<?php require 'nav.php'?>
 	<!-- Begin Restaurant Navigation bar -->
-	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; ">
-		<div class="large-12 large-centered" >
-			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
-			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a>
-			<div class="large-4 columns"></div>
-		</div>
-	</div>
+	
+	
+<!--	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; "> -->
+<!-- 		<div class="large-12 large-centered" > -->
+<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a> -->
+<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a> -->
+<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a> -->
+<!-- 			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> -->
+<!-- 			<div class="large-4 columns"></div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+	
+	
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
@@ -119,11 +123,17 @@
 		<!-- Begin Comment Container-->
 		<div class="large-9 columns">
 			<div class="row comment-container">
-				<div class="large-12 comments">
+				<div class="large-12 comments" id="comments-listing">
 					<!-- Write review form -->
 					<?php include_once 'review_form.php';?>
 					<!-- End review form -->
-					<span>All Reviews (???)</span>
+					
+					<span>All Reviews (<?php if (sizeof($reviews) < 1) {
+							echo '0';
+						}  else {
+							echo sizeof($reviews);
+						}
+					?>)</span>
 					<!-- User reviews -->
 					<?php include_once 'review_listing.php';?>
 				</div>
@@ -199,9 +209,6 @@
 			}
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
-	<script type="text/javascript">
-		$('radio .star').rating(); 
 	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {

@@ -295,11 +295,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `profile_picture` varchar(255) DEFAULT NULL COMMENT 'name of the photo stored in the database',
   `facebookID` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `username` (`username`,`email`),
-  UNIQUE KEY `facebookID_2` (`facebookID`),
-  KEY `account_type` (`account_type`),
-  KEY `facebookID` (`facebookID`),
-  KEY `facebookID_3` (`facebookID`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 

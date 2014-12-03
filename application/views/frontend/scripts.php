@@ -11,7 +11,38 @@
 			$progressbar.progressbar();
 			$progressbar.css('display', 'none');
 		},
-		SELF.reviewSent = function() {
+		SELF.setupRating = function(){
+			$('#review_score .star').rating();
+		},
+		SELF.reviewSubmit = function() {
+			$('form[name="review_form"]').submit(function(event){
+				var postData = $(this).serializeArray();
+				var formUrl = $(this).attr("action");
+				$.ajax({
+					type: 'POST',
+					url: formUrl,
+					dataType: 'json',
+					data: postData,
+					success: function(data, xhr){
+						if (data['status'] != 'true') {
+							$.each(data['error'], function(index){
+								$('#review_'+index + ' .error').remove();
+								$('#review_'+index)
+									.append('<small class="error">'+data['error'][index]+'</small>');
+							});
+						} else {
+							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/308"); ?>', function(html){
+									new_html = $(html).find('.comments').html();
+									//$('.comments').html('');
+									$('#comments-listing').html(new_html);
+									$('#comments-listing .star').rating(); 
+									ngoctran.reviewSubmit();
+							});
+						}
+					}
+				});
+				return false; //disable refresh
+			});
 		}
 		SELF.indicateProgressing = function(percentComplete) {
 			console.log(percentComplete);
@@ -314,7 +345,15 @@
 		ngoctran.setupAutocomplete();
 		ngoctran.setupMap();
 		ngoctran.setupSearch();
-		ngoctran.setupProgressingBar();	
+		ngoctran.setupProgressingBar();
+		
+		//dynamically load js for restaurant pages
+		<?php 
+			if($this->router->fetch_class() == 'restaurant') {
+				echo('ngoctran.reviewSubmit();');
+				echo('ngoctran.setupRating();');
+			}
+		?>
 	});
 	$(window).load(function(){
 		ngoctran.preloader();
