@@ -33,4 +33,19 @@ class Review_Model extends CI_Model{
 		}
 		return $reviews;
 	}
+
+	public function get_review($reviewId) {
+		$this->db->where('id', $reviewId);
+		$query = $this->db->get('reviews');
+		if($query->num_rows == 1){
+			return $query->row();
+		} 
+		return null;
+	}
+
+	public function delete_review($reviewId) {
+		$this->db->where('id', $reviewId);
+		$q = $this->db->delete('reviews');
+		return $q;
+	}
 }
