@@ -166,7 +166,7 @@
 							<hr>
 						<?php } ?>
 					</div>
-					<span>All Reviews (???)</span>
+					<span>All Reviews (<?php echo $num_reviews ?>)</span>
 					<!-- Begin Comment Input -->
 					<!-- 
 					<div class="row">
@@ -191,6 +191,8 @@
 					-->
 					<!-- End Comment Input -->
 					<!-- User reviews -->
+					<div id="review-container">
+					<!-- 
 					<?php foreach ($reviews as $review) { ?>
 						<div class="row single-comment">
 							<div class="large-1 columns user-avatar">
@@ -245,6 +247,8 @@
 						</div>
 						<hr>
 					<?php } ?>
+					-->
+					</div>
 					<!-- Comment 1 -->
 					<!-- <div class="row single-comment">
 						<div class="large-1 columns user-avatar">
@@ -263,7 +267,6 @@
 							</div>
 						</div>
 					</div> -->
-					
 				</div>
 			</div>
 		</div>
@@ -339,9 +342,6 @@
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
 	<script type="text/javascript">
-		$('radio .star').rating(); 
-	</script>
-	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#input-review-title").keydown(function(event){
 				if(event.keyCode == 13) {
@@ -349,11 +349,28 @@
 		      		return false;
 		    	}
 		  	});
+	  		load_review(0);
 		});
 	</script>
 	<script type="text/javascript">
 		function toogle_review_form() {
 			$("#review-form").toggle();
+		}
+
+		function load_review(page) {
+			$("#review-container a#next-reviews").remove();
+			$.ajax({
+	  			type : "POST",
+	  			url : "<?php echo base_url()?>index.php/restaurant/show_reviews/<?php echo $restaurant->id; ?>",
+	  			data: "page=" + page,
+	  			success: function(result) {
+	  				$("#review-container").append(result);
+	  				$('input.star').rating(); 
+	  				$("a#next-reviews").on("click", function() {
+			  			load_review(page+1);
+			  		});
+	  			}
+	  		});
 		}
 	</script>
 </body>
