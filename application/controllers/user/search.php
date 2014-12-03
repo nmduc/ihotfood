@@ -41,12 +41,12 @@ class Search extends CI_Controller {
 				if(isset($i['name'])) {
 					$data['name'] = $i['name'];
 				}
-				if(isset($i['geometry']['location']['lat'])) {
-					$data['latitude'] = $i['geometry']['location']['lat'];
+				if(isset($i['geometry']['location']['lat']) && isset($i['geometry']['location']['lng'])) {
+					$latlong = array($i['geometry']['location']['lat'],
+							$i['geometry']['location']['lng']);
+					$data['latlong'] = implode(",", $latlong);
 				}
-				if(isset($i['geometry']['location']['lng'])) {
-					$data['longitude'] = $i['geometry']['location']['lng'];
-				}
+				
 				if(isset($i['formatted_address'])) {
 					$data['address'] = $i['formatted_address'];
 				}

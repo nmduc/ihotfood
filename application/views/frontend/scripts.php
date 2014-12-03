@@ -11,6 +11,8 @@
 			$progressbar.progressbar();
 			$progressbar.css('display', 'none');
 		},
+		SELF.reviewSent = function() {
+		}
 		SELF.indicateProgressing = function(percentComplete) {
 			console.log(percentComplete);
 			if (percentComplete > 0 && percentComplete < 100) {
@@ -116,7 +118,7 @@
 						//console.log(mapCenterData.adjustCenterCoords(1,2));
 						for(i = 0; i < data.length; i++) {
 							//find center of markers
-							mapCenterData.adjustCenterCoords(data[i]['latitude'], data[i]['longitude']);
+							mapCenterData.adjustCenterCoords(data[i]['latlong']);
 							if (typeof(data[i]['photoRef']) !== 'undefined') {
 								photo_ref = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference='+data[i]['photoRef'];	
 							} else {
@@ -146,7 +148,7 @@
 							
 							//push into array
 							jsonArr.push({
-								latLng: [data[i]['latitude'], data[i]['longitude']],
+								latLng: data[i]['latlong'],
 								data:  str
 							});
 						}

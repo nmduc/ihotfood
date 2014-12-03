@@ -47,7 +47,7 @@ class Restaurant extends CI_Controller {
 			$data = array(
 				"heading" => "Permission denied",
 				"message" => "You must login first to write review",
-			);	
+			);
 			$this->load->view("../errors/error_403", $data);	
 			return;
 		}

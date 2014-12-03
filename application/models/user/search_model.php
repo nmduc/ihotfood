@@ -99,7 +99,7 @@ class Search_Model extends CI_Model{
 	 * 
 	 */
 	public function search($data){
-		$q = "SELECT res.id, res.name, res.address, res.latitude, res.longitude,
+		$q = "SELECT res.id, res.name, res.address, res.latlong
 				res.country, res.postcode, res.tel
 				FROM restaurants res
 				WHERE res.name LIKE '%" . $data['s_keyword'] . "%'";
