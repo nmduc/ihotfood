@@ -42,7 +42,8 @@ class Restaurant extends CI_Controller {
 	public function user_write_review($resId) {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model("user/basic_user_model");
-
+		$this->load->model("notification/notification_model");
+		
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
 		if(! $restaurant) {
 			$data = array(
@@ -80,14 +81,18 @@ class Restaurant extends CI_Controller {
 	 	$jsonArr['status'] = 'false';
 		if ($this->form_validation->run () == TRUE) {
 			$this->load->model("restaurant/review_model");
-			if(! $this->review_model->create_review($resId) ) {
+			$new_review_id = $this->review_model->create_review($resId);
+			if(! $new_review_id ) {
 				$data = array(
 					"heading" => "Unexpected error",
 					"message" => "Something went wrong, please try again later",
 				);	
-				//$this->load->view("../errors/error_db", $data);
+				$this->load->view("../errors/error_db", $data);
 				return;
 			}
+			//store notification
+			$this->notification_model->save_notification($resId, $new_review_id, $this->session->userdata('id'), 1);
+			
 			$jsonArr['status'] = 'true';
 	 	} else {
 	 		$jsonArr['error'] = $this->form_validation->error_array();;

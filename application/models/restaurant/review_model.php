@@ -15,7 +15,7 @@ class Review_Model extends CI_Model{
 		);
 
 		$q = $this->db->insert('reviews', $data);
-		return $q;
+		return $this->db->insert_id();
 	} 
 
 	public function get_restaurant_reviews($resId) {

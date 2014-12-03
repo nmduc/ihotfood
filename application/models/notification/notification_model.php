@@ -1,12 +1,14 @@
 <?php
 class Notification_Model extends CI_Model {
 	const COMMENT_ON_RESTAURANT = 1;
-	public function saveNotification($object_id, $subject_id, $actor_id, $type_id) {
+	
+	public function save_notification($object_id, $subject_id, $actor_id, $type_id) {
 		$created_date = date ( "Y-m-d H:i:s" );
-		$this->db->query ( "INSERT INTO notifications 
+		$this->db->query( "INSERT INTO notifications 
 		(actor_id, subject_id, object_id, type_id, status, count, created_date, updated_date)
 		VALUES ($actor_id, $subject_id, $object_id, $type_id, 'unseen', 1, '$created_date', '')" );
 	}
+	
 	public function getNotifications($subjectId, $page = 1) {
 		$result = $this->db->query ( "SELECT nf.*, actor.name AS actor_name, subject.name AS subject_name
 				FROM notifications nf
@@ -23,13 +25,13 @@ class Notification_Model extends CI_Model {
 	protected function getObjectRow($typeId, $objectId) {
 		switch ($typeId) {
 			case self::COMMENT_ON_RESTAURANT :
-				return $this->db->query ( "SELECT * FROM reviews WHERE id = $objectId" )->fetch_assoc ();
+				return $this->db->query ( "SELECT name FROM restaurants WHERE id = $objectId" )->fetch_assoc ();
 		}
 	}
 	protected function getNotificationMessage($row) {
 		switch ($row ['type_id']) {
 			case self::COMMENT_ON_RESTAURANT :
-				return "{$row['actor_name']} commented on {$row['subject_name']} status {$row['object']['status']}";
+				return "{$row['actor_name']} commented on {$row['subject_name']} review {$row['object']['status']}";
 		}
 	}
 	public function markSubjectNotificationsSeen($subjectId){
