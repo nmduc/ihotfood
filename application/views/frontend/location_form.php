@@ -33,10 +33,6 @@ function initialize() {
       		return;
     	}
     	var myPlace = places[0];
-    	/*
-    	for (var i = 0, marker; marker = markers[i]; i++) {
-      		marker.setMap(null);
-    	}*/
     	if(myMarker) {
     		clear_marker(myMarker);
     	}
@@ -104,19 +100,60 @@ function initialize() {
     	var bounds = map.getBounds();
     	searchBox.setBounds(bounds);
   	});
+
+  	  	// set map to restaurant location if restaurant exists (edit restaurant)
+	<?php if(isset($restaurant)) { 
+		echo("
+			var bounds = new google.maps.LatLngBounds();
+			var initialLocation = new google.maps.LatLng($restaurant->latlong);
+	  		bounds.extend(initialLocation);
+	  		map.fitBounds(bounds);
+	  		setMarker(initialLocation );
+	  		var listener = google.maps.event.addListener(map, 'idle', function() { 
+				if (map.getZoom() > 16) map.setZoom(16); 
+				google.maps.event.removeListener(listener); 
+			});
+	  		");
+		}
+	?>
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
+<script type="text/javascript">
+$(document).ready(function() {
+	$(window).keydown(function(event){
+		if(event.keyCode == 13) {
+      		event.preventDefault();
+      		return false;
+    	}
+  	});
+});
+</script>
 <body>
 	<?php require 'nav.php'?>
 	<?php require 'static_header.php'?>
 	<div class="row">
 		<div class="large-8 large-centered columns container">
-			<h3>Add new restaurant</h3>
+			<?php 
+				if(isset($restaurant))  {
+					echo("<h3>Edit your restaurant</h3>");
+				}
+				else {
+					echo("<h3>Add new restaurant</h3>");
+				}
+			?>
+
 			<p>Your favorite restaurants is not in iHootFood? Let's share it!</p>
-			<?php echo form_open('user/manage/add_location'); ?>
+			<?php 
+				if(isset($restaurant)) {
+					echo form_open('user/manage/edit_location/' . $restaurant->id); 
+				}
+				else {
+					echo form_open('user/manage/add_location'); 
+				}
+			?>
 
 				<!-------- BASIC INFORMATION -------->
 				<fieldset>
@@ -126,8 +163,21 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Name <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="name" placeholder="Restaurant name" />
+				          	<input type="text" name="name" placeholder="Restaurant name" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->name . "'")?> 
+			          		/>
 				        	<?php echo form_error('name', '<small class="error">', '</small>'); ?>
+				        </div>
+				    </div>
+				    <div class="row">
+						<div class="small-3 columns">
+							<label>Description <small>required</small></label>
+				        </div>
+				        <div class="small-9 columns">
+				          	<input type="text" name="description" placeholder="Restaurant description" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->description . "'") ?>
+				          	/>
+				        	<?php echo form_error('description', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
 					<div class="row">
@@ -135,7 +185,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Address number <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" id="address-number" name="address_number" placeholder="Address number" onkeyup="changeMapSearchBox()"/>
+				          	<input type="text" id="address-number" name="address_number" placeholder="Address number" onkeyup="changeMapSearchBox()"
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->address_number . "'") ?>
+				          	/>
 				        	<?php echo form_error('address_number', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -144,7 +196,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Address ward <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" id="address-ward" name="address_ward" placeholder="Address ward" onkeyup="changeMapSearchBox()"/>
+				          	<input type="text" id="address-ward" name="address_ward" placeholder="Address ward" onkeyup="changeMapSearchBox()"
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->address_ward . "'") ?>
+				          	/>
 				        	<?php echo form_error('address_ward', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -153,7 +207,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Address street <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" id="address-street" name="address_street" placeholder="Address street" onkeyup="changeMapSearchBox()"/>
+				          	<input type="text" id="address-street" name="address_street" placeholder="Address street" onkeyup="changeMapSearchBox()"
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->address_street . "'") ?>
+				          	/>
 				        	<?php echo form_error('address_street', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -162,7 +218,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Address city <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" id="address-city" name="address_city" placeholder="Address city" onkeyup="changeMapSearchBox()"/>
+				          	<input type="text" id="address-city" name="address_city" placeholder="Address city" onkeyup="changeMapSearchBox()"
+			          			<?php if(isset($restaurant)) echo ("value='" . $restaurant->address_city . "'") ?>
+				          	/> 
 				        	<?php echo form_error('address_city', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -172,12 +230,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Zipcode <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<select name="zipcode">
-								<option value="1050">Ixelles</option>
-								<option value="1000">Etterbeek</option>
-								<option value="1040">Hot Ixelles</option>
-								<option value="1060">Scharbeek</option>
-							</select>
+							<input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" 
+			          			<?php if(isset($restaurant)) echo ("value='" . $restaurant->zipcode . "'" ) ?>
+				          	/>
 				        </div>
 				    </div>
 				    <div class="row">
@@ -185,7 +240,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Phone number</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="phone_number" placeholder="Restaurant phone number" />
+				          	<input type="text" name="phone_number" placeholder="Restaurant phone number" 
+			          			<?php if(isset($restaurant)) echo ("value='" . $restaurant->phone_number . "'") ?>
+				          	/>
 				        	<?php echo form_error('phone_number', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -194,7 +251,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Email</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="email" placeholder="Restaurant email" />
+				          	<input type="text" name="email" placeholder="Restaurant email" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->email . "'") ?>
+				          	/>
 				        	<?php echo form_error('email', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -203,7 +262,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Website</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="website" placeholder="Restaurant website" />
+				          	<input type="text" name="website" placeholder="Restaurant website" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->website . "'") ?>
+				          	/>
 				        	<?php echo form_error('website', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -214,7 +275,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				        <div class="small-9 columns">
 				        	<input id="pac-input" style="width: 30%; margin: 10px;" class="controls" type="text" placeholder="Search Box">
 				          	<div id="map-canvas" style="width: 100%; height: 400px; margin: 0; "></div>
-				          	<input type="hidden" name="latlong" id="latlong"></input>
+				          	<input type="hidden" name="latlong" id="latlong"
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->latlong . "'") ?>
+				          	></input>
 				        	<?php echo form_error('latlong', '<small class="error">', '</small>'); ?> 
 				        </div>
 				    </div>
@@ -227,7 +290,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Capacity <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="capacity" placeholder="Restaurant capacity" />
+				          	<input type="text" name="capacity" placeholder="Restaurant capacity" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->capacity . "'") ?>
+				          	/>
 				        	<?php echo form_error('capacity', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -236,7 +301,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Opening hour <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="opening_hour" placeholder="Opening hour" />
+				          	<input type="text" name="opening_hour" placeholder="Opening hour" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->opening_hour . "'") ?>
+				          	/>
 				        	<?php echo form_error('opening_hour', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -245,7 +312,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Closing hour <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="closing_hour" placeholder="Closing hour" />
+				          	<input type="text" name="closing_hour" placeholder="Closing hour" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->closing_hour . "'") ?>
+				          	/>
 				        	<?php echo form_error('closing_hour', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -254,7 +323,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Lowest price</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="loweset_price" placeholder="Lowest price" />
+				          	<input type="text" name="loweset_price" placeholder="Lowest price" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->lowest_price . "'") ?>
+				          	/>
 				        	<?php echo form_error('lowest_price', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -263,7 +334,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<label>Highest price</label>
 				        </div>
 				        <div class="small-9 columns">
-				          	<input type="text" name="highest_price" placeholder="Highest price" />
+				          	<input type="text" name="highest_price" placeholder="Highest price" 
+				          		<?php if(isset($restaurant)) echo ("value='" . $restaurant->highest_price . "'") ?>
+				          	/>
 				        	<?php echo form_error('highest_price', '<small class="error">', '</small>'); ?>
 				        </div>
 				    </div>
@@ -289,7 +362,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     				<legend>Category</legend>
 				    <div class="row">
 						<div class="small-3 columns">
-							<label>Types</label>
+							<label>Types <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
 				          	<select id="type-select">
@@ -306,7 +379,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				    </div>
 				    <div class="row">
 						<div class="small-3 columns">
-							<label>Country</label>
+							<label>Country <small>required</small></label>
 				        </div>
 				        <div class="small-9 columns">
 				          	<select id="country-select">
@@ -320,10 +393,24 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			                <?php echo form_error('countries', '<small class="error">', '</small>'); ?>
 				        </div>
 				        <input type="hidden" name="countries" id="selected-countries">
+				        <?php 
+				        	if(isset($restaurant)) {
+				        		echo("<input type='hidden' name='restaurant_id' value='$restaurant->id'");
+				        	}
+				        ?>
 				    </div>
 				</fieldset>
 				<div class="large-12">
-					<input class="button expand" type="submit" value="Post new restaurant"/>
+					<input class="button expand" type="submit" 
+						<?php 
+							if(isset($restaurant)) {
+								echo("value='Update restaurant'");
+							}
+							else {
+								echo("value='Post new restaurant'");
+							}
+						?>
+					/>
 				</div>
 			</form>
 		</div>

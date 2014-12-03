@@ -32,5 +32,10 @@ class Country_Restaurant_Model extends CI_Model{
 			return true;
 		}
 	}
+
+	public function delete_all_country_link_to_restaurant($resId) {
+		$this->db->where('restaurant_id', $resId);
+		$this->db->delete('restaurant_country_links');
+	}
 }
 

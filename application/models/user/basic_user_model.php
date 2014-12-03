@@ -90,6 +90,16 @@ class Basic_user_model extends CI_Model{
 		} 
 		return false;
 	}
+
+	function get_user_info_by_id($id) {
+		$this->db->where('id', $id);
+		$query = $this->db->get('users');
+		if ($query -> num_rows() == 1) {
+			return $query->row_array();
+		} 
+		return false;
+	}
+
 	// --------------------------------------------------------------------
 	/**
 	 * Update user info by username and neccessary data

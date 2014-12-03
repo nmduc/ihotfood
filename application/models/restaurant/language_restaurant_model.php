@@ -32,5 +32,10 @@ class Language_Restaurant_Model extends CI_Model{
 			return true;
 		}
 	}
+
+	public function delete_all_language_link_to_restaurant($resId) {
+		$this->db->where('restaurant_id', $resId);
+		$this->db->delete('restaurant_language_links');
+	}
 }
 

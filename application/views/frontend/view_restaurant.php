@@ -1,6 +1,18 @@
 <?php include 'metadata.php'?>
+<script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
 <body>
 	<?php require 'nav.php'?>
+	<!-- Begin Restaurant Navigation bar -->
+	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; ">
+		<div class="large-12 large-centered" >
+			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
+			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
+			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
+			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a>
+			<div class="large-4 columns"></div>
+		</div>
+	</div>
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
@@ -48,38 +60,56 @@
 									style=" width: 100%; height: 100%; border: none;position:absolute; top: 0; left: 0;"></thumbnailtemplate>
 							</div>
 							<div class=c></div>
-						</div>
+						</div>	
 					</div>
 				</div>
 				<!-- Thumbnail Item Skin End -->
 			</div>
 			<div class="large-5 columns">
 				<div class="row">
-					<h3 class="restaurant-name">Elite Galeto Coffee 2</h3>
-					<p class="restaurant-description">Cafe/kem- Y, Nhatban - Cap doi,
-						Gia dinh, Nhom hoi</p>
+					<h3 class="restaurant-name"><?php echo $restaurant->name ?></h3>
+					<p class="restaurant-description">
+						<?php echo ( ((strlen($restaurant->description)) > 200) ? 
+								substr($restaurant->description, 0, 200) . "..." . "(<a href='#description'> read more</a>)" 
+							: 	$restaurant->description) ?> </p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-location-arrow"></i>&nbsp; 11 Trần Quốc Toản, P.
-						8, Quận 3, TP. HCM
+						<i class="fa fa-location-arrow"></i>&nbsp; 
+						<?php echo "". $restaurant->address_number . " , " . $restaurant->address_street .
+								   " , " . $restaurant->address_ward . " , " . $restaurant->address_city;
+						?>
 					</p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-phone"></i>&nbsp; 0909752955
+						<i class="fa fa-phone"></i>&nbsp; <?php echo $restaurant->phone_number ?>
 					</p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-clock-o"></i>&nbsp; 6.00AM - 10.00PM
+						<i class="fa fa-clock-o"></i>&nbsp; 
+						<?php echo "" . $restaurant->opening_hour . ".00 - " . $restaurant->closing_hour . ".00" ?>
 					</p>
 				</div>
 				<div class="row">
 					<p class="restaurant-info">
-						<i class="fa fa-money"></i>&nbsp; 20.000 - 40.0000
+						<i class="fa fa-money"></i>&nbsp; 
+						<?php echo "" . $restaurant->lowest_price . " - " . $restaurant->highest_price ?>
 					</p>
 				</div>
+				<?php if($this->session->userdata('id')) { ?> 
+					<?php if($this->session->userdata('id')  == $restaurant->owner_id) { ?> 
+						<div class="row">
+							<a href="<?php echo base_url()?>index.php/user/manage/show_edit_location/<?php echo $restaurant->id ?>" > 
+								<input class="button tiny" type="button" value="Edit location" style="position:absolute;"> </a>
+						</div>
+					<?php } else { ?>
+						<div class="row">
+							<input class="button tiny" type="button" value="Write a review" style="position:absolute;" onclick="toogle_review_form()"> 
+						</div>
+					<?php } ?>
+				<?php } ?>
 			</div>
 		</div>
 	</div>
@@ -90,8 +120,55 @@
 		<div class="large-9 columns">
 			<div class="row comment-container">
 				<div class="large-12 comments">
-					<span>All Comments (5)</span>
+					<div id="review-form">
+						<!-- Write review form -->
+						<?php if($this->session->userdata('username') && $this->session->userdata('id') != $restaurant->owner_id) { ?>
+							<?php echo form_open('restaurant/user_write_review/' . $restaurant->id); ?>
+								<fieldset>
+			    					<legend>Restaurant review</legend>
+									<div class="row">
+								        <div class="small-6 columns">
+								          	<input id="input-review-title" type="text" name="title" placeholder="Review Title" />
+								        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
+								        </div>
+								        <div class="small-3 columns">
+								        	<div class="row" style="position:absolute; right:0px">
+									        	<input class="star" type="radio" name="score" value="1"/>
+									        	<input class="star" type="radio" name="score" value="2"/>
+									        	<input class="star" type="radio" name="score" value="3"/>
+									        	<input class="star" type="radio" name="score" value="4"/>
+									        	<input class="star" type="radio" name="score" value="5"/>
+								        	</div>
+								        	<div class="row"> 
+							        			<?php echo form_error('score', '<small class="error">', '</small>'); ?>
+						        			</div>
+								        </div>
+								        <div class="small-3 columns">
+								        	<img src="<?php echo base_url()?>static/frontend/img/close.png"
+								        		style="height:1rem; position:absolute; right:0px" onclick="toogle_review_form()">
+								        	</img>
+								        </div>
+								    </div>
+								    <div class="row">
+								        <div class="small-9 columns">
+								          	<textarea name="content" placeholder="Review Content" /></textarea>
+								        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
+								        </div>
+								    </div>
+								    <div class="large-3 large-centered">
+										<input class="button tiny" type="submit" value="Post review");/>
+									</div>
+									<!-- <div class="large-3 large-centered">
+										<input class="button tiny" value="Cancel" onclick="preventDefault(); toogle_review_form()");/>
+									</div> -->
+								</fieldset>	
+							</form>
+							<hr>
+						<?php } ?>
+					</div>
+					<span>All Reviews (???)</span>
 					<!-- Begin Comment Input -->
+					<!-- 
 					<div class="row">
 						
 						<div class="large-1 columns user-avatar">
@@ -110,10 +187,66 @@
 								</div>
 							</div>
 						</div>
-						<!-- End Comment Input -->
 					</div>
+					-->
+					<!-- End Comment Input -->
+					<!-- User reviews -->
+					<?php foreach ($reviews as $review) { ?>
+						<div class="row single-comment">
+							<div class="large-1 columns user-avatar">
+								<img src="<?php echo base_url()?>static/frontend/img/unnamed.png"
+									alt="slide 1" /> 
+							</div>
+							<div class="large-11 columns user-comments">
+								<div class="row">
+									<div class="large-12">
+										<a href=""><?php echo($review->user_info['username']); ?></a>
+										<span style="font-size:12px"><i>Posted on: (<?php echo($review->publish_time); ?>)</i></span>
+									</div>
+									<div class="row">
+										<div class="large-8 columns">
+											<h5><?php echo($review->title); ?></h5>
+										</div>
+										<div class="large-2 columns">
+								        	<div class="row" style="position:relative; right:0px">
+								        		<?php if($review->rating == 1) { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
+								        		<?php } else { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
+								        		<?php } ?>
+									        	<?php if($review->rating == 2) { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
+								        		<?php } else { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
+								        		<?php } ?>
+								        		<?php if($review->rating == 3) { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
+								        		<?php } else { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
+								        		<?php } ?>
+								        		<?php if($review->rating == 4) { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
+								        		<?php } else { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
+								        		<?php } ?>
+								        		<?php if($review->rating == 5) { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
+								        		<?php } else { ?>
+									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
+								        		<?php } ?>
+								        	</div>
+										</div>
+									</div>
+									<div class="large-12">
+										<span><?php echo(strip_tags($review->content));?></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+					<?php } ?>
 					<!-- Comment 1 -->
-					<div class="row single-comment">
+					<!-- <div class="row single-comment">
 						<div class="large-1 columns user-avatar">
 							<img src="<?php echo base_url()?>static/user_upload/avatar_1.jpg"
 								alt="slide 1" /> 
@@ -123,29 +256,14 @@
 								<div class="large-12">
 									<a href="">Minh Duc Nguyen</a>
 								</div>
+
 								<div class="large-12">
 									<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</span>
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- Comment 1 -->
-					<div class="row single-comment">
-						<div class="large-1 columns user-avatar">
-							<img src="<?php echo base_url()?>static/user_upload/avatar_2.jpg"
-								alt="slide 1" /> 
-						</div>
-						<div class="large-11 columns user-comments">
-							<div class="row">
-								<div class="large-12">
-									<a href="">Khanh Kys</a>
-								</div>
-								<div class="large-12">
-									<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</span>
-								</div>
-							</div>
-						</div>
-					</div>
+					</div> -->
+					
 				</div>
 			</div>
 		</div>
@@ -154,13 +272,89 @@
 		<!-- Begin Sidebar -->
 		<div class="large-3 columns">
 			<div class="row">
-				
 			</div>
 		</div>
 		<!-- End Sidebar -->
 	</div>
 	<!-- End Restaurant Additions -->
+	
+	<!-- Restaurant details -->
+	<div class="row restaurant-detail">
+		<div class="large-9 columns">
+			<div class="row map-container">
+				<div class="large-12 comments">
+					<a name="map"><h5>Restaurant Location </h5></a>
+					<div class="row description-map">
+			          	<div id="map-canvas" style="width: 100%; height: 400px; margin: 0; "></div>
+					</div>
+				</div>
+			</div>
+			&nbsp
+			<div class="row map-container">
+					<div class="large-12 comments">
+						<a name="description"><h5>Restaurant Description </h5></a>
+						<p><?php echo($restaurant->description) ?></p>
+					</div>
+			</div>
+			&nbsp
+		</div>
+		<div class="large-3 columns">
+			<div class="row">
+			</div>
+		</div>
+	</div>
+	<!-- End Restaurant details -->
 	<?php require 'scripts.php'?>
 	<?php require 'footer.php'?>
+
+	<script type="text/javascript">
+		function initialize() {
+		  	var map = new google.maps.Map(document.getElementById('map-canvas'), {
+		    	mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  	});
+			var bounds = new google.maps.LatLngBounds();
+			var initialLocation = new google.maps.LatLng(<?php echo($restaurant->latlong); ?>);
+	  		bounds.extend(initialLocation);
+	  		map.fitBounds(bounds);
+	  		setMarker(initialLocation);
+			var listener = google.maps.event.addListener(map, "idle", function() { 
+				if (map.getZoom() > 16) map.setZoom(16); 
+				google.maps.event.removeListener(listener); 
+			});
+
+			google.maps.event.addListener(map, 'click', function(event) {
+		        mapZoom = map.getZoom();
+		        startLocation = event.latLng;
+		        setMarker(startLocation );
+		    });
+
+			function setMarker(location) {
+			  	var myMarker = new google.maps.Marker({
+			    	position: location,
+			    	map: map
+			  	});
+			  	myMarker.setMap(map);
+			}
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<script type="text/javascript">
+		$('radio .star').rating(); 
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#input-review-title").keydown(function(event){
+				if(event.keyCode == 13) {
+		      		event.preventDefault();
+		      		return false;
+		    	}
+		  	});
+		});
+	</script>
+	<script type="text/javascript">
+		function toogle_review_form() {
+			$("#review-form").toggle();
+		}
+	</script>
 </body>
 </html>

@@ -38,6 +38,17 @@
 				</a>
 				<ul class="dropdown">
 					<li><a href="<?php echo base_url()?>index.php/user/manage/show_add_location">Add location</a></li>
+					<?php if( $this->session->userdata("user-restaurants")) { ?>
+						<li class="has-dropdown">
+							<a href="#">Manage locations </a>
+							<ul class="dropdown">
+								<?php foreach ( $this->session->userdata("user-restaurants") as $res) { 
+									echo( "<li><a href=" . base_url() . "index.php/user/manage/manage_restaurant/" . $res[0] . ">" . $res[1] . "</a></li>");
+								} ?>
+							</ul>
+						</li>
+					<?php } ?>
+
 					<li><a href="<?php echo base_url()?>index.php/user/manage">Edit profile</a></li>
 					<li><a href="<?php echo base_url()?>index.php/user/login/do_logout">Logout</a></li>
 		        </ul>

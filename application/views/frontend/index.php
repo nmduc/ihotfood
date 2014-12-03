@@ -225,6 +225,50 @@
 					</article>
 				</div>
 			</div>
+
+			<!-- RESTAURANT EXPLORE RESTAURANTS -->
+			<div class="row latest-restaurant-header">
+				<div class="large-10 columns">
+					<h2 class="ribbon bright">Explore restaurants</h2>
+				</div>
+				<div class="large-2 columns">
+					<a href="#">Back</a>
+					<a href="#">Forward</a>
+				</div>
+			</div>
+			<div class="row latest-post" data-equalizer>
+				<div class="large-0 post columns wow fadeItRight" data-equalizer-watch>
+				</div>
+				<?php foreach($restaurants as $res) { ?>
+					<div class="large-4 post columns wow fadeInLeft" data-equalizer-watch>
+						<article>
+							<figure>
+								<img alt=""
+									src="<?php echo base_url()?>static/user_upload/Delicious-Food-HD-Wallpaper-Desktop-600x800.jpg">
+							</figure>
+							<div class="writing-content">
+								<h2>
+									<a href=""><?php echo $res->name ?></a>
+								</h2>
+								<p>
+									<?php echo ( ((strlen($res->description)) > 150) ? 
+										substr($res->description, 0, 150) . "..."  
+									: 	$res->description) ?> </p>
+								</p>
+								<div class="actions">
+									<div>
+										<a class="button tiny radius" 
+											href="<?php echo base_url()?>index.php/restaurant/show_restaurant/<?php echo $res->id ?>">
+											View details
+										</a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				<?php } ?>	
+			</div>
+
 		</div>
 		<!-- SIDE BAR -->
 		<div class="large-3 medium-4 small-12 columns hide-for-small wow fadeInRight">

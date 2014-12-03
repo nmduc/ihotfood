@@ -506,6 +506,42 @@ footer {
 	float: left;
 	padding: 0 0 10px 15px;
 }
+
+/*************************** RESTAURANT DETAILS ****************************/
+  #map-canvas img { max-width:none; } /* this is to fix broken google map zoom */
+
+  .microheader {
+    position: relative;
+    clear: both;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 20px 0 0 0;
+  }
+
+  .microheader .main-image {
+    float: left;
+    width: 30%;
+    position: relative;
+  }
+
+  .microheader .main-information {
+    float: right;
+    width: 70%;
+    position: relative;
+  }
+
+  .microheader .main-information .res-common {
+    width: 100%;
+    float: left;
+    margin-top: 0;
+  }
+  
+  .microheader .main-information .res-common .res-common-info {
+    float: left;
+    width: 70%;
+  }
+
 /************************ RESTAURANT ************************/
 .restaurant {
 	margin-top: 40px;
@@ -619,4 +655,8 @@ footer {
 	width: 70px;
 	height: 70px;
 	border: #fff 1px solid;
+}
+
+.restaurant-detail {
+	margin-top: 20px;
 }
