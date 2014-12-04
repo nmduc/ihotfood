@@ -1,4 +1,3 @@
-
 <?php foreach ($reviews as $review) { ?>
 <div id="review-<?php echo $review->id ?>">
 	<div class="row single-comment" >
@@ -14,18 +13,23 @@
 						<span style="font-size:12px"><i>Posted on: (<?php echo($review->publish_time); ?>)</i></span>
 					</div>
 					<div class="large-6 columns">
-						<span style="font-size:12px;float:right;margin-right:0px">
-							<a>Edit</a> 
-							| 
-							<a onclick="delete_review(<?php echo $review->id; ?>)">Delete</a>
-						</span>
+						<?php if($this->session->userdata('id') == $review->user_id) { ?>
+							<span style="font-size:12px;float:right;margin-right:0px">
+								<a href="#review-form-link" onclick="open_edit_form(this, <?php echo $review->id ?>,'<?php echo $review->rating; ?>' )" >
+									Edit</a> 
+								|
+								<a onclick="delete_review(<?php echo $review->id; ?>)">Delete</a>
+							</span>
+						<?php } else { ?>
+							&nbsp
+						<?php } ?>
 					</div>
 					<!-- <img src="<?php echo(base_url()); ?>static/frontend/img/down-arrow-circle-md.png" 
 						style="float:right;margin-right:20px;height:15px;cursor: pointer"></img> -->
 				</div>
 				<div class="row">
 					<div class="large-8 columns">
-						<h5><?php echo($review->title); ?></h5>
+						<h5 class="review-title"><?php echo($review->title); ?></h5>
 					</div>
 					<div class="large-2 columns">
 			        	<div class="row" style="position:relative; right:0px">
@@ -58,7 +62,7 @@
 					</div>
 				</div>
 				<div class="large-12">
-					<span><?php echo(strip_tags($review->content));?></span>
+					<span class="review-content"><?php echo(strip_tags($review->content));?></span>
 				</div>
 			</div>
 		</div>
@@ -91,4 +95,15 @@
 	  		});
 		}
 	}	
+
+	function open_edit_form(element, id, rating) {
+		$("#add-review-form").hide();
+		$("#edit-review-form input#edit-form-review-id").val(id);
+		var title = $(element).closest(".row.single-comment").find("h5.review-title").html();
+		$("#edit-review-form input#input-review-title").val(title);
+		var content = $(element).closest(".row.single-comment").find("span.review-content").html();
+		$("#edit-review-form textarea#input-review-content").text(content);
+		$("#edit-review-form input.star.edit-review:nth-child(" + (parseInt(rating)+1).toString() + ")" ).click();
+		$("#edit-review-form").show();
+	}
 </script>

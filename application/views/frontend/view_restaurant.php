@@ -1,6 +1,5 @@
 <?php include 'metadata.php'?>
-<script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
-<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
+
 <body>
 	<?php require 'nav.php'?>
 	<!-- Begin Restaurant Navigation bar -->
@@ -120,7 +119,8 @@
 		<div class="large-9 columns">
 			<div class="row comment-container">
 				<div class="large-12 comments">
-					<div id="review-form">
+					<a name="review-form-link"></a>
+					<div id="add-review-form">
 						<!-- Write review form -->
 						<?php if($this->session->userdata('username') && $this->session->userdata('id') != $restaurant->owner_id) { ?>
 							<?php echo form_open('restaurant/user_write_review/' . $restaurant->id); ?>
@@ -132,20 +132,20 @@
 								        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
 								        </div>
 								        <div class="small-3 columns">
-								        	<div class="row" style="position:absolute; right:0px">
-									        	<input class="star" type="radio" name="score" value="1"/>
-									        	<input class="star" type="radio" name="score" value="2"/>
-									        	<input class="star" type="radio" name="score" value="3"/>
-									        	<input class="star" type="radio" name="score" value="4"/>
-									        	<input class="star" type="radio" name="score" value="5"/>
+								        	<div class="row" id="star-add-review" style="position:absolute; right:0px">
+									        	<input class="star add-review" type="radio" name="score-add" value="1"/>
+									        	<input class="star add-review" type="radio" name="score-add" value="2"/>
+									        	<input class="star add-review" type="radio" name="score-add" value="3"/>
+									        	<input class="star add-review" type="radio" name="score-add" value="4"/>
+									        	<input class="star add-review" type="radio" name="score-add" value="5"/>
 								        	</div>
 								        	<div class="row"> 
-							        			<?php echo form_error('score', '<small class="error">', '</small>'); ?>
+							        			<?php echo form_error('score-add', '<small class="error">', '</small>'); ?>
 						        			</div>
 								        </div>
 								        <div class="small-3 columns">
 								        	<img src="<?php echo base_url()?>static/frontend/img/close.png"
-								        		style="height:1rem; position:absolute; right:0px; cursor:pointer" onclick="toogle_review_form()">
+								        		style="height:1rem; position:absolute; right:0px; cursor:pointer" onclick="close_review_form()">
 								        	</img>
 								        </div>
 								    </div>
@@ -166,6 +166,52 @@
 							<hr>
 						<?php } ?>
 					</div>
+				 	<div id="edit-review-form" style="display:none">
+						<?php echo form_open('restaurant/user_edit_review/' . $restaurant->id); ?>
+							<fieldset>
+		    					<legend>Restaurant review</legend>
+								<div class="row">
+									<input name="review_id" type="hidden" id="edit-form-review-id"/>
+							        <div class="small-6 columns">
+							          	<input id="input-review-title" type="text" name="title" placeholder="Review Title" />
+							        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
+							        </div>
+							        <div class="small-3 columns">
+							        	<div class="row" id="star-edit-review" style="position:absolute; right:0px">
+								        	<input class="star edit-review" type="radio" name="score-edit" value="1"/>
+								        	<input class="star edit-review" type="radio" name="score-edit" value="2"/>
+								        	<input class="star edit-review" type="radio" name="score-edit" value="3"/>
+								        	<input class="star edit-review" type="radio" name="score-edit" value="4"/>
+								        	<input class="star edit-review" type="radio" name="score-edit" value="5"/>
+							        	</div>
+							        	<div class="row"> 
+						        			<?php echo form_error('score-edit', '<small class="error">', '</small>'); ?>
+					        			</div>
+							        </div>
+							        <div class="small-3 columns">
+							        	&nbsp
+							        </div>
+							    </div>
+							    <div class="row">
+							        <div class="small-9 columns">
+							          	<textarea name="content" placeholder="Review Content" id="input-review-content"/></textarea>
+							        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
+							        </div>
+							    </div>
+							    <div class="row">
+								    <div class="small-2 columns">
+										<input class="button tiny" type="submit" value="Save change";/>
+									</div>
+									<div class="small-2 columns">
+										<input class="button tiny" type="button" value="Cancel" onclick="close_review_form()";/>
+									</div>
+									<div class="small-8 columns"></div>
+								</div>
+							</fieldset>	
+						</form>
+						<hr>
+					</div>
+
 					<span>All Reviews (</span><span id="number-of-reviews"><?php echo $num_reviews ?></span><span>)</span>
 					<!-- Begin Comment Input -->
 					<!-- 
@@ -297,8 +343,19 @@
 		});
 	</script>
 	<script type="text/javascript">
+		function close_review_form() {
+			$("#add-review-form").hide();
+			$("#edit-review-form").hide();
+		}
+
 		function toogle_review_form() {
-			$("#review-form").toggle();
+			$("#edit-review-form").hide();
+			$("#add-review-form").show();
+		}
+
+		function toogle_edit_review_form() {
+			$("#edit-review-form").show();
+			$("#add-review-form").hide();
 		}
 
 		function load_review(page) {
@@ -316,6 +373,10 @@
 	  			}
 	  		});
 		}
+
 	</script>
+
+	<script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
+	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
 </body>
 </html>

@@ -10,7 +10,7 @@ class Review_Model extends CI_Model{
 			'restaurant_id' => $resId,
 			'title' => $this->input->post('title'),
 			'content' => $this->input->post('content'),
-			'rating' => $this->input->post('score'),
+			'rating' => $this->input->post('score-add'),
 			'publish_time' => $datetime,
 		);
 
@@ -46,6 +46,17 @@ class Review_Model extends CI_Model{
 	public function delete_review($reviewId) {
 		$this->db->where('id', $reviewId);
 		$q = $this->db->delete('reviews');
+		return $q;
+	}
+
+	public function update_review($reviewId) {
+		$this->db->where('id', $reviewId);
+		$data=array(
+			'title' => $this->input->post('title'),
+			'content' => $this->input->post('content'),
+			'rating' => $this->input->post('score-edit'),
+		);
+		$q = $this->db->update("reviews", $data);
 		return $q;
 	}
 }
