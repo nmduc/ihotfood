@@ -1,4 +1,5 @@
-<nav class="top-bar" data-topbar role="navigation">
+<div data-magellan-expedition="fixed">
+<nav class="top-bar" data-topbar role="navigation" >
 	<ul class="title-area">
 		<li class="name">
 			<h1 class="logo">
@@ -69,3 +70,4 @@
 		</ul>
 	</section>
 </nav>
+</div>

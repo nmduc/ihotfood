@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/jquery-ui-1.11.2.custom/jquery-ui.css" />
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/modernizr.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jquery.js"></script>
+	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/mustache.min.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/wow.min.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.slider.min.js"></script>
