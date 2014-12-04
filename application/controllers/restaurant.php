@@ -19,20 +19,21 @@ class Restaurant extends CI_Controller {
 			$data = array (
 				'restaurant' => $restaurant,
 				'num_reviews' => sizeof($review_list),
+				'review_per_load' => 3,
 			);
 			$this->load->view ( 'frontend/view_restaurant', $data );
 		}
 	}
 
-	public function show_reviews($resId ) {
-		$REVIEW_PER_LOAD = 3;
-		$offset = $this->input->post('page');
+	public function show_reviews($resId) {
+		$offset = $this->input->post('offset');
+		$nReviews = $this->input->post('review_per_load');
 		$this->load->model( 'restaurant/review_model' );
-		$review_list = $this->review_model->get_restaurant_reviews($resId, $offset*$REVIEW_PER_LOAD, $REVIEW_PER_LOAD+1);
+		$review_list = $this->review_model->get_restaurant_reviews($resId, $offset, $nReviews+1);
 		$this->load->model("user/basic_user_model");
 		$reviews = array();
 		for ($i = 0; $i < sizeof($review_list); $i++) {
-			if($i == $REVIEW_PER_LOAD) break;
+			if($i == $nReviews) break;
 			$review = $review_list[$i];
 			$review->user_info = $this->basic_user_model->get_user_info_by_id($review->user_id);
 			array_push($reviews, $review);
@@ -41,8 +42,9 @@ class Restaurant extends CI_Controller {
 			'reviews' => $reviews,
 		);
 
-		if(sizeof($review_list) > $REVIEW_PER_LOAD) {
-			$data['page'] = $offset + 1;
+		if(sizeof($review_list) > $nReviews) {
+			$data['offset'] = $offset + $nReviews;
+			$data['review_per_load'] = $nReviews;
 		}
 		$this->load->view( 'frontend/user_reviews', $data);
 	}
@@ -93,6 +95,7 @@ class Restaurant extends CI_Controller {
 				$this->load->view("../errors/error_db", $data);
 				return;
 			}
+			redirect( base_url() . 'index.php/restaurant/show_restaurant/' . $resId);
 	 	}
  		$this->show_restaurant($resId);
 	}
@@ -156,7 +159,7 @@ class Restaurant extends CI_Controller {
 				$this->load->view("../errors/error_db", $data);
 				return;
 			}
-			
+			redirect( base_url() . 'index.php/restaurant/show_restaurant/' . $resId);
  		}
  		$this->show_restaurant($resId);
 	}

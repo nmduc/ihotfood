@@ -18,12 +18,12 @@ class Review_Model extends CI_Model{
 		return $q;
 	} 
 
-	public function get_restaurant_reviews($resId, $offset=0, $perPage=0) {
+	public function get_restaurant_reviews($resId, $offset=0, $nRows=0) {
 		$reviews = array();
 		$this->db->where('restaurant_id', $resId);
 		$this->db->order_by("publish_time", "desc");
-		if($perPage > 0 ) {
-			$query = $this->db->get('reviews', $perPage, $offset);
+		if($nRows > 0 ) {
+			$query = $this->db->get('reviews', $nRows, $offset);
 		}
 		else {
 			$query = $this->db->get('reviews');	

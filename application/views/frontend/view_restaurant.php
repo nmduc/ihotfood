@@ -339,7 +339,7 @@
 		      		return false;
 		    	}
 		  	});
-	  		load_review(0);
+	  		load_review(0, <?php echo $review_per_load ?>);
 		});
 	</script>
 	<script type="text/javascript">
@@ -358,18 +358,20 @@
 			$("#add-review-form").hide();
 		}
 
-		function load_review(page) {
+		function load_review(offset, review_per_load) {
 			$("#review-container a#next-reviews").remove();
 			$.ajax({
 	  			type : "POST",
 	  			url : "<?php echo base_url(); ?>index.php/restaurant/show_reviews/<?php echo $restaurant->id; ?>",
-	  			data: "page=" + page,
+	  			data: "offset=" + offset + "&review_per_load=" + review_per_load,
 	  			success: function(result) {
 	  				$("#review-container").append(result);
 	  				$('input.star').rating(); 
-	  				$("a#next-reviews").on("click", function() {
-			  			load_review(page+1);
-			  		});
+	  				if($("a#next-reviews").length > 0 ) {
+		  				$("a#next-reviews").on("click", function() {
+				  			load_review(offset+review_per_load, review_per_load);
+				  		});
+	  				}
 	  			}
 	  		});
 		}

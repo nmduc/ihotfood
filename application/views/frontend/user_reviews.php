@@ -71,8 +71,9 @@
 </div>
 
 <?php } ?>
-<?php if(isset($page)) { ?> 
+<?php if(isset($offset)) { ?> 
 	<a id="next-reviews">Read more...</a>
+	<p id="next-offset" style="display:none"><?php echo( $offset ); ?></p>
 <?php } ?>
 
 <script type="text/javascript">
@@ -87,6 +88,16 @@
 	  				if(result == "success") {
   						$("#review-" + id).remove();
   						$("span#number-of-reviews").html(parseInt($("span#number-of-reviews").html())-1); 
+  						
+  						<?php if( isset($offset) && isset($review_per_load) ) { ?>
+							var newOffset = parseInt($("p#next-offset").html()) - 1;
+				  			$("p#next-offset").html(newOffset);
+				  			console.log(newOffset);
+				  			$('a#next-reviews').attr('onclick','').unbind('click');
+	  						$("a#next-reviews").on("click", function() {
+					  			load_review( newOffset, <?php echo $review_per_load ?>);
+					  		});
+						<?php } ?>
 	  				}	
 	  				else {
 	  					alert("Something went wrong! Cannot delete review");
