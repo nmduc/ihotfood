@@ -25,6 +25,24 @@ class Restaurant extends CI_Controller {
 		}
 	}
 
+	/**
+	* Show photo gallery of a specific restaurant
+	*
+	*/
+	public function photo_gallery($resId) {
+		$this->load->model( 'restaurant/restaurant_model' );
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+		$data = array(
+			'restaurant' => $restaurant,
+		);
+		$this->load->view ( 'frontend/restaurant_photo_gallery', $data);
+	}
+
+	/**
+	* Get a limited number of reviews for a specific restaurant
+	* Used to serve ajax load function from view
+	*
+	*/
 	public function show_reviews($resId) {
 		$offset = $this->input->post('offset');
 		$nReviews = $this->input->post('review_per_load');
@@ -49,6 +67,11 @@ class Restaurant extends CI_Controller {
 		$this->load->view( 'frontend/user_reviews', $data);
 	}
 
+
+	/**
+	* 
+	*
+	*/
 	public function user_write_review($resId) {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model("user/basic_user_model");
@@ -100,6 +123,11 @@ class Restaurant extends CI_Controller {
  		$this->show_restaurant($resId);
 	}
 
+
+	/**
+	*
+	*
+	*/
 	public function user_delete_review() {
 		$reviewId = $this->input->post('review_id');
 		$this->load->model('restaurant/review_model');
@@ -121,6 +149,11 @@ class Restaurant extends CI_Controller {
 		echo $message;
 	}
 
+
+	/**
+	*
+	*
+	*/
 	public function user_edit_review($resId) {
 		$reviewId = $this->input->post('review_id');
 		$this->load->model('restaurant/review_model');

@@ -4,7 +4,10 @@ class Review_Model extends CI_Model{
 	public function create_review($resId) {
 		$this->load->helper('date');
 		$datetime = date('Y-m-d H:i:s'); 
-
+		
+		$this->load->model("restaurant/album_model");
+		$album_id = $this->album_model->create_album();
+		
 		$data=array(
 			'user_id' => $this->session->userdata('id'),
 			'restaurant_id' => $resId,
@@ -12,6 +15,7 @@ class Review_Model extends CI_Model{
 			'content' => $this->input->post('content'),
 			'rating' => $this->input->post('score-add'),
 			'publish_time' => $datetime,
+			'album_id' => $album_id,
 		);
 
 		$q = $this->db->insert('reviews', $data);

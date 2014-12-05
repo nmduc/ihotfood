@@ -6,7 +6,7 @@
 	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; ">
 		<div class="large-12 large-centered" >
 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
+			<a href="<?php echo site_url('restaurant/photo_gallery')?>/<?php echo $restaurant->id ?>"><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
 			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a>
 			<div class="large-4 columns"></div>
