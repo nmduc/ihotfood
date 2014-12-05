@@ -1,12 +1,28 @@
+
 <script>
 	function NGOCTRAN() {
 		var SELF = this,
 			$progressbar = $( "#progressbar" );
 		SELF.uuid = '<?php echo $this->session->userdata('uuid'); ?>';
-		SELF.pusher = new Pusher('54120ecb88a7a7dc598b');
-		
-		SELF.channel = SELF.pusher.subscribe(SELF.uuid);
-		
+		//channel initalize
+	<?php if ($this->session->userdata('id')) { ?>
+		SELF.pusher = new Pusher('54120ecb88a7a7dc598b', { authEndpoint: '<?php echo base_url("/index.php/user/login/pusher_authentication"); ?>' });
+		SELF.channel_ids = '<?php echo json_encode($this->session->userdata('channels')); ?>';
+
+	<?php 	if (! $this->session->userdata('is_notification_channel_subscribed')) { ?>
+			console.log('channel inialize');
+			for(var i = 0; i++; i < channel_ids.length) {
+				var channel_name = '<?php echo NEW_REVIEW_NOTIFCATION_CHANNEL?>' + channel_ids[i];
+				var channel = SELF.pusher.subscribe(channel_name);
+				var event_name = "<?php echo NEW_REVIEW_NOTIFCATION_EVENT ?>";
+				channel.bind(event_name, function(data) {
+					  console.log('An event was triggered with message: ' + data.message);
+				});	
+			}
+	<?php $this->session->set_userdata('is_notification_channel_subscribed', true); ?>
+	<?php 	} ?>
+	<?php } ?>
+	
 		SELF.setupProgressingBar = function(){
 			$progressbar.progressbar();
 			$progressbar.css('display', 'none');
@@ -14,6 +30,7 @@
 		SELF.setupRating = function(){
 			$('#review_score .star').rating();
 		},
+		<?php if($this->router->fetch_class() == 'restaurant') {?>
 		SELF.reviewSubmit = function() {
 			$('form[name="review_form"]').submit(function(event){
 				var postData = $(this).serializeArray();
@@ -31,19 +48,20 @@
 									.append('<small class="error">'+data['error'][index]+'</small>');
 							});
 						} else {
-							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/308"); ?>', function(html){
+							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 									new_html = $(html).find('.comments').html();
 									//$('.comments').html('');
 									$('#comments-listing').html(new_html);
 									$('#comments-listing .star').rating(); 
 									ngoctran.reviewSubmit();
 							});
-						}
+						}						
 					}
 				});
 				return false; //disable refresh
 			});
 		}
+		<?php };?>
 		SELF.indicateProgressing = function(percentComplete) {
 			console.log(percentComplete);
 			if (percentComplete > 0 && percentComplete < 100) {
@@ -146,7 +164,6 @@
 					if (data !== null && data !== undefined) {
 						var jsonArr = [];
 						var mapCenterData = new SELF.mapCenter();
-						//console.log(mapCenterData.adjustCenterCoords(1,2));
 						for(i = 0; i < data.length; i++) {
 							//find center of markers
 							mapCenterData.adjustCenterCoords(data[i]['latlong']);

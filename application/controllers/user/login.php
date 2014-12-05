@@ -8,6 +8,22 @@ class Login extends CI_Controller {
 			$this->show_login ();
 		}
 	}
+	public function pusher_authentication() {
+		if ($this->session->userdata('username') && $this->session->userdata('id')) {
+			$this->load->library('Pusher/Pusher');
+			$app_id 	= '98512';
+			$app_key 	= 'cf584ed819ea7556d59f';
+			$app_secret = '3678c474706b21612a64';
+			
+			$pusher = new Pusher($app_key, $app_secret, $app_id);
+			$presencedata = array(
+				'id' => $this->session->userdata('id')
+			);
+			echo $pusher->presence_auth($_POST['channel_name'], 
+					$this->session->userdata('uuid'), 
+					$presencedata);
+		}
+	}
 	// --------------------------------------------------------------------
 	public function show_login() {
 		if (! $this->session->userdata ( 'username' )) {
@@ -27,6 +43,8 @@ class Login extends CI_Controller {
 	}
 	// --------------------------------------------------------------------
 	public function do_login() {
+		$this->load->model("notification/notification_model");
+		
 		$this->form_validation->set_rules ( 'username', 'User Name', 'required|trim|max_length[50]|xss_clean|callback_validateUsernameEx' );
 		$this->form_validation->set_rules ( 'password', 'Password', 'required|trim|max_length[200]|xss_clean|callback_validatePwd' );
 		
@@ -37,9 +55,20 @@ class Login extends CI_Controller {
 			$password = $this->input->post ( 'password' );
 			$is_login_remembered = $this->input->post ( 'is_login_remembered' );
 			
-			// get everything about users and store in session
+			// get everything about users 
 			$userdata = $this->basic_user_model->get_user_info ( $username );
+			
+			// get subscribing channels
+			$userid = $this->session->userdata('id');
+			$channelArr = $this->notification_model->get_subscriber_by_channel($userdata['id']);
+			$userdata['channels'] = $channelArr;
+			$userdata['is_notification_channel_subscribed'] = false;
+			
+			//and store in session
 			$this->session->set_userdata ( $userdata );
+			
+			
+
 			redirect ( 'welcome' );
 		}
 		$this->show_login ();

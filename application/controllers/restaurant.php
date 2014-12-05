@@ -43,6 +43,9 @@ class Restaurant extends CI_Controller {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model("user/basic_user_model");
 		$this->load->model("notification/notification_model");
+		$this->load->library('Pusher/Pusher');
+		$pusher = new Pusher(PUSHER_APP_ID, PUSHER_APP_KEY, PUSHER_APP_SECRET);
+		$userid = $this->session->userdata('id');
 		
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
 		if(! $restaurant) {
@@ -93,6 +96,19 @@ class Restaurant extends CI_Controller {
 			//store notification
 			$this->notification_model->save_notification($resId, $new_review_id, $this->session->userdata('id'), 1);
 			
+			//subscribe for notification
+			if (!$this->notification_model->is_user_subscribed($userid, $resId)) {
+				$this->notification_model->subsribe_channel($userid, $resId);
+			}
+			//notify user
+			$subscriberArr = $this->notification_model->get_subscriber_by_channel($resId);
+			if (!$subscriberArr) {
+				foreach($subscriberArr as $i) {
+					
+				}
+			}
+			$pusher->trigger(NEW_REVIEW_NOTIFCATION_CHANNEL .$resId, NEW_REVIEW_NOTIFCATION_EVENT, array('message' => 'hello world') );
+				
 			$jsonArr['status'] = 'true';
 	 	} else {
 	 		$jsonArr['error'] = $this->form_validation->error_array();;

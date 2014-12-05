@@ -8,7 +8,38 @@ class Notification_Model extends CI_Model {
 		(actor_id, subject_id, object_id, type_id, status, count, created_date, updated_date)
 		VALUES ($actor_id, $subject_id, $object_id, $type_id, 'unseen', 1, '$created_date', '')" );
 	}
-	
+	public function get_subscriber_by_channel($channel_id) {
+		$this->db->select('user_id');
+		$this->db->where('channel_id', $channel_id);
+		$query = $this->db->get('notification_subscribe');
+		if($query->num_rows() > 0){
+		  	return $query->result_array();
+		}
+	}
+	public function get_subscriber_by_user_id($user_id) {
+		$this->db->select('channel_id');
+		$this->db->where('user_id', $user_id);
+		$query = $this->db->get('notification_subscribe');
+		if($query->num_rows() > 0){
+			return $query->result_array();
+		}
+	}
+	public function subsribe_channel($user_id, $channel_id) {
+		 $q = $this->db->insert('notification_subscribe', array(
+		  		'user_id' => $user_id,
+		 		'channel_id' => $channel_id
+		  ));
+		  return $this->db->insert_id();
+	}
+	public function is_user_subscribed($user_id, $channel_id) {
+		$this->db->where('user_id', $user_id);
+		$this->db->where('channel_id', $channel_id);
+		$query = $this->db->get('notification_subscribe');
+		if($query->num_rows == 1){
+			return true;
+		}
+		return false;
+	}
 	public function getNotifications($subjectId, $page = 1) {
 		$result = $this->db->query ( "SELECT nf.*, actor.name AS actor_name, subject.name AS subject_name
 				FROM notifications nf

@@ -6,7 +6,6 @@ class Search extends CI_Controller {
 	public function search_res() {
 		//include_once 'Var_Dump.php';
 		$this->load->library('factual/Factual');
-		$this->load->library('Pusher/Pusher');
 		$this->load->model('user/search_model');
 		$this->load->model('utils/utils_model');
 		
