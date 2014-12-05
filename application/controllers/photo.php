@@ -6,15 +6,16 @@ class Photo extends CI_Controller {
 		$this->load->helper(array('form', 'url'));
 	}
 
-	public function upload_photo() {
-		if( ! $this->session->userdata('username')) {
+	public function upload_restaurant_photo() {
+		$this->load->model("restaurant/restaurant_model");
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($this->input->post('restaurant-id'));
+
+		if( ! $this->session->userdata('id') || $this->session->userdata('id') != $restaurant->owner_id ) {
 			http_response_code(403);
 			echo "Permission denied";
 		}
 		else {
 			if (!empty($_FILES)) {
-				$this->load->model("restaurant/restaurant_model");
-				$restaurant = $this->restaurant_model->get_restaurant_by_id($this->input->post('restaurant-id'));
 				$album_id = $restaurant->album_id;
 
 				$tempFile = $_FILES['file']['tmp_name'][0];
@@ -36,7 +37,16 @@ class Photo extends CI_Controller {
 		}
     }
 
-    public function remove_uploaded_photo() {
+    // remove just uploaded photo 
+    public function remove_uploaded_restaurant_photo() {
+    	$this->load->model("restaurant/restaurant_model");
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($this->input->post('restaurant-id'));
+		
+		if( ! $this->session->userdata('id') || $this->session->userdata('id') != $restaurant->owner_id ) {
+			http_response_code(403);
+			echo "Permission denied";
+		}
+
 		$targetPath = 'static/user_upload/';
     	$file_dir = $targetPath . $this->input->post('filename');
     	// delete file

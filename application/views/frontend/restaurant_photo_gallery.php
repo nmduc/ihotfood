@@ -19,7 +19,7 @@
 
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
-			<form action="<?php echo site_url('/photo/upload_photo'); ?>" class="dropzone" id="dropzone-photo-upload"> 
+			<form action="<?php echo site_url('/photo/upload_restaurant_photo'); ?>" class="dropzone" id="dropzone-photo-upload"> 
 				<input type="hidden" name="restaurant-id" value="<?php echo $restaurant->id ?>" />
 			</form>
 		</div>
@@ -48,7 +48,7 @@
 					this.on("removedfile", function(file) {
 						$.ajax({
 				  			type : "POST",
-				  			url : "<?php echo site_url('/photo/remove_uploaded_photo') ?>",
+				  			url : "<?php echo site_url('/photo/remove_uploaded_restaurant_photo') ?>",
 				  			data: "filename=" + file.serverFileName,
 				  			success: function(result) {
 				  			}
