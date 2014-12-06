@@ -192,6 +192,14 @@
 		        }
 		    }
 		},
+		SELF.enrichRestaurant = function(restaurant_id, place_id) {
+			var url = '<?php base_url()?>index.php/user/search/enrich_detail_res/restaurantid/' + restaurant_id + '/placeid/'+  place_id;
+			$.ajax({
+				url: url,
+				type: "POST",
+				async: false
+			});
+		},
 		SELF.doAjaxSearch = function(){
 			$.ajax({
 				type: 'POST',
@@ -212,7 +220,7 @@
 							var latLngStr = data[i]['latlong'];
 							var latLng = latLngStr.split(",");
 							mapCenterData.adjustCenterCoords(latLng[0], latLng[1]);
-							console.log(mapCenterData);
+
 							if (typeof(data[i]['photoRef']) !== 'undefined') {
 								photo_ref = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference='+data[i]['photoRef'];	
 							} else {
@@ -221,12 +229,12 @@
 							if (typeof data[i]['rating'] == 'undefined') {
 								data[i]['rating'] = 'No rating available';
 							}
-							var url = '<?php base_url()?>index.php/restaurant/show_restaurant/' +  data[i]['restaurant_id'];
+							var url = '<?php base_url()?>index.php/restaurant/show_restaurant/' + data[i]['restaurant_id'];
 							//construct info
 							var str = '<div class="infobox-wrapper">'
 									+ '<div>'
 									+ '<div class="infobox-inner">'
-									+ '<a href="' + url + '">'
+									+ '<a class="restaurant_enrich" target="_blank" href="' + url + '">'
 									+ '<div class="infobox-image">'
 									+ '<img src="'+photo_ref+'">'
 									+ '<div>'
@@ -236,7 +244,7 @@
 									+ '</a>'
 									+ '<div class="infobox-description">'
 									+ '<div class="infobox-title">'
-									+ '<a href="<?php base_url()?>index.php/restaurant/display">' + data[i]['name'] +'</a>'
+									+ '<a target="_blank" href="'+url +'">' + data[i]['name'] +'</a>'
 									+ '</div>'
 									+ '<div class="infobox-location">' + data[i]['address'] + '</div>'
 									+ '</div>'
@@ -249,7 +257,11 @@
 								latLng: data[i]['latlong'],
 								data:  str
 							});
+							SELF.enrichRestaurant(data[i]['restaurant_id'], data[i]['place_id']);
 						}
+						//enrich
+						
+						
 						$("#map_canvas").gmap3({
 							clear: {
 							      name:["marker"]

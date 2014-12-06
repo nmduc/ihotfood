@@ -51,14 +51,17 @@ class Search_Model extends CI_Model{
 	  *
 	  */
 	  public function get_res_id_by_name($name) {
-	  	  $this->db->select('id');
-		  $this->db->where('name', $name);
-		  $query = $this->db->get('restaurants');
-		  
-		  if($query->num_rows == 1){
-		  	return $query->row()->id;
-		  }
-		  return false;
+	  	//stripe comma
+	  	if(preg_match("/^[0-9,]+$/", $name)) {
+	  		$name = str_replace(',', '', $name);
+	  	}
+	  	$this->db->select('id');
+	  	$this->db->where('name', $name);
+	  	$query = $this->db->get('restaurants');
+	  	if($query->num_rows == 1){
+	  		return $query->row()->id;
+	  	}
+	  	return false;
 	  }
 	 // --------------------------------------------------------------------
 	 /**

@@ -30,16 +30,7 @@ class Restaurant extends CI_Controller {
 			$this->load->view ( 'frontend/view_restaurant', $data );
 		}
 	}
-	public function get_comment_form() {
-		$str = '<fieldset><legend>Restaurant review</legend><div class="row"><div class="small-6 columns" id="review_title"> <input id="input-review-title"
-				type="text" name="title" placeholder="Review Title" /> </div> <div class="small-3 columns"> <div class="row" id="review_score"
-				style="position:absolute; right:0px"> <input class="star" type="radio" name="score" value="1"/> <input class="star" type="radio" name="score"
-				value="2"/> <input class="star" type="radio" name="score" value="3"/> <input class="star" type="radio" name="score" value="4"/> <input class="star"
-				type="radio" name="score" value="5"/> </div> <div class="row"> </div> </div> <div class="small-3 columns">
-				</div> </div> <div class="row"> <div class="small-9 columns" id="review_content"><textarea name="content" placeholder="Review Content" /></textarea>
-				</div> </div> <div class="large-3 large-centered"> <input class="button tiny" type="submit" value="Post review"/> </div></fieldset>';
-		echo($str);
-	}
+
 	public function user_write_review($resId) {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model("user/basic_user_model");
