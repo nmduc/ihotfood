@@ -43,18 +43,19 @@
 				createImageThumbnails: true,
 				acceptedFiles: 'image/*',
 				addRemoveLinks: true,
+				//autoProcessQueue: false,	// not uploading each time file added
+				// maxFiles: 50,
 
 				init:function() {
 					this.on("removedfile", function(file) {
 						$.ajax({
 				  			type : "POST",
 				  			url : "<?php echo site_url('/photo/remove_uploaded_restaurant_photo') ?>",
-				  			data: "filename=" + file.serverFileName,
+				  			data: "filename=" + file.serverFileName + "&restaurant-id=" + <?php echo $restaurant->id ?>,
 				  			success: function(result) {
 				  			}
 				  		});
     				});
-
     				this.on("success", function(file, response) {
     					var nameOnServer = response;
     					file.serverFileName = nameOnServer;

@@ -6,7 +6,7 @@ class Review_Model extends CI_Model{
 		$datetime = date('Y-m-d H:i:s'); 
 		
 		$this->load->model("restaurant/album_model");
-		$album_id = $this->album_model->create_album();
+		$album_id = $this->album_model->create_album($this->session->userdata('username') . '_' . $resId);
 		
 		$data=array(
 			'user_id' => $this->session->userdata('id'),
@@ -18,8 +18,9 @@ class Review_Model extends CI_Model{
 			'album_id' => $album_id,
 		);
 
-		$q = $this->db->insert('reviews', $data);
-		return $q;
+		$this->db->insert('reviews', $data);
+		$id = $this->db->insert_id();
+		return $id;
 	} 
 
 	public function get_restaurant_reviews($resId, $offset=0, $nRows=0) {

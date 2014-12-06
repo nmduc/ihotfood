@@ -123,16 +123,16 @@
 					<div id="add-review-form">
 						<!-- Write review form -->
 						<?php if($this->session->userdata('username') && $this->session->userdata('id') != $restaurant->owner_id) { ?>
-							<?php echo form_open('restaurant/user_write_review/' . $restaurant->id); ?>
+							<?php echo form_open('restaurant/user_write_review/' . $restaurant->id, array('id' => "write-review")); ?>
 								<fieldset>
 			    					<legend>Restaurant review</legend>
 									<div class="row">
 								        <div class="small-6 columns">
-								          	<input id="input-review-title" type="text" name="title" placeholder="Review Title" />
+								          	<input id="input-review-title-add" type="text" name="title" placeholder="Review Title" />
 								        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
 								        </div>
 								        <div class="small-3 columns">
-								        	<div class="row" id="star-add-review" style="position:absolute; right:0px">
+								        	<div class="row" id="star-review-add" style="position:absolute; right:0px">
 									        	<input class="star add-review" type="radio" name="score-add" value="1"/>
 									        	<input class="star add-review" type="radio" name="score-add" value="2"/>
 									        	<input class="star add-review" type="radio" name="score-add" value="3"/>
@@ -151,18 +151,32 @@
 								    </div>
 								    <div class="row">
 								        <div class="small-9 columns">
-								          	<textarea name="content" placeholder="Review Content" /></textarea>
+								          	<textarea name="content" placeholder="Review Content" id="input-review-content-add"/></textarea>
 								        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
 								        </div>
 								    </div>
+
 								    <div class="large-3 large-centered">
-										<input class="button tiny" type="submit" value="Post review");/>
+										<input class="button tiny" value="Post review" onclick="submit_review()");/>
+									</div>
+									<div class="large-3 large-centered">
+										<input class="button tiny" value="Upload photo" data-reveal-id="review-photo-modal");/>
 									</div>
 									<!-- <div class="large-3 large-centered">
 										<input class="button tiny" value="Cancel" onclick="preventDefault(); toogle_review_form()");/>
 									</div> -->
-								</fieldset>	
+								</fieldset>
 							</form>
+							<!--
+							<form action="<?php echo site_url('/photo/upload_restaurant_photo'); ?>" class="dropzone" id="dropzone-photo-upload"> 
+								<input type="hidden" name="restaurant-id" value="<?php echo $restaurant->id ?>" />
+							</form>
+							-->
+							<div id="review-photo-modal" class="reveal-modal" data-reveal>
+								<form action="<?php echo site_url('/photo/upload_review_photo'); ?>" id="review-photo-upload" class="dropzone">
+									<input type="hidden" name="review-id" value="" />
+								</form>
+							</div>
 							<hr>
 						<?php } ?>
 					</div>
@@ -173,7 +187,7 @@
 								<div class="row">
 									<input name="review_id" type="hidden" id="edit-form-review-id"/>
 							        <div class="small-6 columns">
-							          	<input id="input-review-title" type="text" name="title" placeholder="Review Title" />
+							          	<input id="input-review-title-edit" type="text" name="title" placeholder="Review Title" />
 							        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
 							        </div>
 							        <div class="small-3 columns">
@@ -194,7 +208,7 @@
 							    </div>
 							    <div class="row">
 							        <div class="small-9 columns">
-							          	<textarea name="content" placeholder="Review Content" id="input-review-content"/></textarea>
+							          	<textarea name="content" placeholder="Review Content" id="input-review-content-edit"/></textarea>
 							        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
 							        </div>
 							    </div>
@@ -284,10 +298,10 @@
 			</div>
 			&nbsp
 			<div class="row map-container">
-					<div class="large-12 comments">
-						<a name="description"><h5>Restaurant Description </h5></a>
-						<p><?php echo($restaurant->description) ?></p>
-					</div>
+				<div class="large-12 comments">
+					<a name="description"><h5>Restaurant Description </h5></a>
+					<p><?php echo($restaurant->description) ?></p>
+				</div>
 			</div>
 			&nbsp
 		</div>
@@ -333,16 +347,64 @@
 	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$("#input-review-title").keydown(function(event){
+			$("#input-review-title-add").keydown(function(event){
+				if(event.keyCode == 13) {
+		      		event.preventDefault();
+		      		return false;
+		    	}
+		  	});
+		  	$("#input-review-title-edit").keydown(function(event){
 				if(event.keyCode == 13) {
 		      		event.preventDefault();
 		      		return false;
 		    	}
 		  	});
 	  		load_review(0, <?php echo $review_per_load ?>);
+
+	  		// initialize photo uploader
+			Dropzone.options.reviewPhotoUpload = {
+				paramName: "file", // The name that will be used to transfer the file
+				maxFilesize: 2, // MB
+				uploadMultiple: true,
+				createImageThumbnails: true,
+				acceptedFiles: 'image/*',
+				addRemoveLinks: true,
+				autoProcessQueue: false,	
+				// maxFiles: 100,
+				parallelUploads: 100,
+	  		};
 		});
 	</script>
 	<script type="text/javascript">
+		function submit_review() {
+			var title = $("form#write-review input[name='title']").val();
+			var content = $("form#write-review textarea[name='content']").val();
+			var rating = "";
+
+			if($("form#write-review input[name='score-add']:checked").length > 0 ) {
+				rating = $("form#write-review input[name='score-add']:checked").val();
+			}
+			
+			$.ajax({
+				type : "POST",
+				url : "<?php echo site_url('restaurant/user_write_review_ajax') . '/' . $restaurant->id; ?>",
+				data : "title=" + title + "&content=" + content + "&score-add=" + rating,
+				success : function(response) {
+					var reviewId = response;
+					$("form#review-photo-upload input[name=review-id]").val(reviewId);
+					var addReviewPhotoUploader = Dropzone.instances[0];
+					addReviewPhotoUploader.processQueue();
+					location.reload();
+				},
+				error : function(response) {
+					var errors = $.parseJSON(response.responseText);
+					$(errors.titleError).insertAfter("#input-review-title-add");
+					$(errors.contentError).insertAfter("#input-review-content-add");
+					$(errors.scoreError).insertAfter("#star-review-add");
+				}
+			});		
+		}
+
 		function close_review_form() {
 			$("#add-review-form").hide();
 			$("#edit-review-form").hide();

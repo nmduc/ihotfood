@@ -124,6 +124,50 @@ class Restaurant extends CI_Controller {
 	}
 
 
+	function user_write_review_ajax($resId) {
+		$this->load->model( 'restaurant/restaurant_model' );
+		$this->load->model("user/basic_user_model");
+
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+		if(! $restaurant) {
+			http_response_code(404);
+			echo "Invalid restaurant";
+		}
+		if($this->session->userdata('id') == $restaurant->owner_id) {
+			http_response_code(403);
+			echo "Permission denied";
+		}	
+		// set review form rules
+	 	$this->form_validation->set_rules ( 'title', 'Review title', 'required|trim|max_length[100]|xss_clean' );
+	 	$this->form_validation->set_rules ( 'content', 'Review content', 'required|trim|xss_clean' );
+	 	$this->form_validation->set_rules ( 'score-add', 'Review score', 'required|trim|max_length[1]|is_natural|less_than[6]|greater_than[0]|xss_clean' );
+
+		if ($this->form_validation->run () == TRUE) {
+			$this->load->model("restaurant/review_model");
+			$id = $this->review_model->create_review($resId);
+	 		if(! $id ) {
+				http_response_code(500);
+				echo "Database error";
+			}
+			else {
+				http_response_code(200);
+				echo $id;
+			}
+	 	}
+
+	 	else {
+			http_response_code(406);
+			// echo "Form fields errors";
+			$errors = array (
+				'titleError' => form_error('title', '<small class="error">', '</small>'),
+				'contentError' => form_error('content', '<small class="error">', '</small>'),
+				'scoreError' => form_error('score-add', '<small class="error">', '</small>'),
+			);
+			
+			echo json_encode($errors);
+	 	}
+	}
+
 	/**
 	*
 	*

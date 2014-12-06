@@ -111,9 +111,9 @@
 		$("#add-review-form").hide();
 		$("#edit-review-form input#edit-form-review-id").val(id);
 		var title = $(element).closest(".row.single-comment").find("h5.review-title").html();
-		$("#edit-review-form input#input-review-title").val(title);
+		$("#edit-review-form input#input-review-title-edit").val(title);
 		var content = $(element).closest(".row.single-comment").find("span.review-content").html();
-		$("#edit-review-form textarea#input-review-content").text(content);
+		$("#edit-review-form textarea#input-review-content-edit").text(content);
 		$("#edit-review-form input.star.edit-review:nth-child(" + (parseInt(rating)+1).toString() + ")" ).click();
 		$("#edit-review-form").show();
 	}
