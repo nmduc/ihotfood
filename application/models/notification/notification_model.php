@@ -16,10 +16,11 @@ class Notification_Model extends CI_Model {
 		  	return $query->result_array();
 		}
 	}
-	public function get_subscriber_by_user_id($user_id) {
+	public function get_channel_by_user_id($user_id) {
 		$this->db->select('channel_id');
 		$this->db->where('user_id', $user_id);
 		$query = $this->db->get('notification_subscribe');
+		
 		if($query->num_rows() > 0){
 			return $query->result_array();
 		}

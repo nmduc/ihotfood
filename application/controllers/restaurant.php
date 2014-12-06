@@ -26,6 +26,7 @@ class Restaurant extends CI_Controller {
 				'restaurant' => $restaurant,
 				'reviews' => $reviews,
 			);
+			
 			$this->load->view ( 'frontend/view_restaurant', $data );
 		}
 	}
@@ -99,15 +100,15 @@ class Restaurant extends CI_Controller {
 			//subscribe for notification
 			if (!$this->notification_model->is_user_subscribed($userid, $resId)) {
 				$this->notification_model->subsribe_channel($userid, $resId);
+				//update channels in session
+				$channelArr = $this->notification_model->get_channel_by_user_id($userid);
+				$this->session->set_userdata('channels', $channelArr);
 			}
-			//notify user
-			$subscriberArr = $this->notification_model->get_subscriber_by_channel($resId);
-			if (!$subscriberArr) {
-				foreach($subscriberArr as $i) {
-					
-				}
-			}
-			$pusher->trigger(NEW_REVIEW_NOTIFCATION_CHANNEL .$resId, NEW_REVIEW_NOTIFCATION_EVENT, array('message' => 'hello world') );
+			
+			$pusher->trigger(NEW_REVIEW_NOTIFCATION_CHANNEL .$resId, 
+					NEW_REVIEW_NOTIFCATION_EVENT, 
+					array('message' => 'hello world'),
+					$this->input->post('socket_id'));
 				
 			$jsonArr['status'] = 'true';
 	 	} else {

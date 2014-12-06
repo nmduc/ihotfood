@@ -4,22 +4,29 @@
 		var SELF = this,
 			$progressbar = $( "#progressbar" );
 		SELF.uuid = '<?php echo $this->session->userdata('uuid'); ?>';
+		SELF.user_id = '<?php echo $this->session->userdata('id'); ?>';
+		SELF.pusher_connection_state = null;
 		//channel initalize
 	<?php if ($this->session->userdata('id')) { ?>
 		SELF.pusher = new Pusher('54120ecb88a7a7dc598b', { authEndpoint: '<?php echo base_url("/index.php/user/login/pusher_authentication"); ?>' });
-		SELF.channel_ids = '<?php echo json_encode($this->session->userdata('channels')); ?>';
 
-	<?php 	if (! $this->session->userdata('is_notification_channel_subscribed')) { ?>
-			console.log('channel inialize');
-			for(var i = 0; i++; i < channel_ids.length) {
-				var channel_name = '<?php echo NEW_REVIEW_NOTIFCATION_CHANNEL?>' + channel_ids[i];
-				var channel = SELF.pusher.subscribe(channel_name);
-				var event_name = "<?php echo NEW_REVIEW_NOTIFCATION_EVENT ?>";
-				channel.bind(event_name, function(data) {
-					  console.log('An event was triggered with message: ' + data.message);
-				});	
+		SELF.channel_ids = [];
+		 
+		<?php if ($this->session->userdata('channels')) { 
+			foreach ($this->session->userdata('channels') as $c) {
+				echo('SELF.channel_ids.push("' . $c['channel_id'] . '");');
 			}
-	<?php $this->session->set_userdata('is_notification_channel_subscribed', true); ?>
+		?>
+		console.log(SELF.channel_ids);
+	<?php foreach ($this->session->userdata('channels') as $c) {
+			echo('var channel_name_' . $c["channel_id"] .' = "' . NEW_REVIEW_NOTIFCATION_CHANNEL . $c["channel_id"]. '";');
+			echo('var channel_'. $c["channel_id"] . '= SELF.pusher.subscribe(channel_name_' . $c["channel_id"] . ');');
+			echo('var event_name = "' . NEW_REVIEW_NOTIFCATION_EVENT . '";');
+			echo('channel_'. $c["channel_id"] . '.bind(event_name, function(data) {
+					  console.log("An event was triggered with message: " + data.message);
+				});');
+	} ?>
+	
 	<?php 	} ?>
 	<?php } ?>
 	
@@ -32,8 +39,15 @@
 		},
 		<?php if($this->router->fetch_class() == 'restaurant') {?>
 		SELF.reviewSubmit = function() {
+			var review_socket_id = null;
+			SELF.pusher.connection.bind('connected', function() {
+				SELF.pusher_connection_state = SELF.pusher.connection.socket_id;
+			});
 			$('form[name="review_form"]').submit(function(event){
 				var postData = $(this).serializeArray();
+				var socketObj = {name: 'socket_id', value: SELF.pusher_connection_state};
+				postData.push(socketObj);
+				console.log(postData);
 				var formUrl = $(this).attr("action");
 				$.ajax({
 					type: 'POST',
@@ -51,9 +65,22 @@
 							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 									new_html = $(html).find('.comments').html();
 									//$('.comments').html('');
+									alertify.success("Success notification");
 									$('#comments-listing').html(new_html);
 									$('#comments-listing .star').rating(); 
-									ngoctran.reviewSubmit();
+									SELF.reviewSubmit();
+									SELF.pusher.connection.bind('connected', function() {
+										socketId = SELF.pusher.connection.socket_id;
+										$.ajax({
+											    url: '<?php base_url("index.php/user/notify/notify_new_review");?>',
+											    type: "POST",
+											    data: {
+											      user_id: SELF.user_id,
+											      restaurant_id: '<?php echo $restaurant->id; ?>',
+											      socket_id: socketId
+											    }
+										});
+									});
 							});
 						}						
 					}

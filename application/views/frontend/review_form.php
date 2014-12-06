@@ -32,12 +32,10 @@
 			        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
 			        </div>
 			    </div>
+			    <input name="socket_id" type="hidden" value="null" id="review_socket_id">
 			    <div class="large-3 large-centered">
 					<input class="button tiny" type="submit" value="Post review"/>
 				</div>
-				<!-- <div class="large-3 large-centered">
-					<input class="button tiny" value="Cancel" onclick="preventDefault(); toogle_review_form()");/>
-				</div> -->
 			</fieldset>	
 		</form>
 		<hr>

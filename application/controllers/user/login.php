@@ -58,17 +58,18 @@ class Login extends CI_Controller {
 			// get everything about users 
 			$userdata = $this->basic_user_model->get_user_info ( $username );
 			
-			// get subscribing channels
-			$userid = $this->session->userdata('id');
-			$channelArr = $this->notification_model->get_subscriber_by_channel($userdata['id']);
-			$userdata['channels'] = $channelArr;
-			$userdata['is_notification_channel_subscribed'] = false;
-			
 			//and store in session
 			$this->session->set_userdata ( $userdata );
 			
+			// get subscribing channels
+			$userid = $this->session->userdata('id');
+			$channelArr = $this->notification_model->get_channel_by_user_id($userid);
+			$is_notification_channel_subscribed = false;
 			
-
+			
+			//and update session
+			$this->session->set_userdata('is_notification_channel_subscribed', $is_notification_channel_subscribed);
+			$this->session->set_userdata('channels', $channelArr);
 			redirect ( 'welcome' );
 		}
 		$this->show_login ();
