@@ -5,11 +5,26 @@
 			$progressbar = $( "#progressbar" );
 		SELF.uuid = '<?php echo $this->session->userdata('uuid'); ?>';
 		SELF.user_id = '<?php echo $this->session->userdata('id'); ?>';
-		SELF.pusher_connection_state = null;
+		SELF.pusher_connection_socket_id = null;
+		SELF.pusher = null;
+		SELF.invokeNotificationPanel = function() {
+			notification_panel = new NotificationFx({
+				wrapper : document.body,
+				message : '<p>Your preferences have been saved successfully. See all your settings in your <a href="#">profile overview</a>.</p>',
+				layout : 'growl',
+				effect : 'genie',
+				type : 'notice', // notice, warning or error
+				onClose : function() {
+				}
+			});
+			notification_panel.show();
+		}
 		//channel initalize
 	<?php if ($this->session->userdata('id')) { ?>
 		SELF.pusher = new Pusher('54120ecb88a7a7dc598b', { authEndpoint: '<?php echo base_url("/index.php/user/login/pusher_authentication"); ?>' });
-
+		SELF.pusher.connection.bind('connected', function() {
+			SELF.pusher_connection_socket_id = SELF.pusher.connection.socket_id;
+		});
 		SELF.channel_ids = [];
 		 
 		<?php if ($this->session->userdata('channels')) { 
@@ -17,13 +32,14 @@
 				echo('SELF.channel_ids.push("' . $c['channel_id'] . '");');
 			}
 		?>
-		console.log(SELF.channel_ids);
+
 	<?php foreach ($this->session->userdata('channels') as $c) {
 			echo('var channel_name_' . $c["channel_id"] .' = "' . NEW_REVIEW_NOTIFCATION_CHANNEL . $c["channel_id"]. '";');
 			echo('var channel_'. $c["channel_id"] . '= SELF.pusher.subscribe(channel_name_' . $c["channel_id"] . ');');
 			echo('var event_name = "' . NEW_REVIEW_NOTIFCATION_EVENT . '";');
 			echo('channel_'. $c["channel_id"] . '.bind(event_name, function(data) {
 					  console.log("An event was triggered with message: " + data.message);
+					  SELF.invokeNotificationPanel();
 				});');
 	} ?>
 	
@@ -39,13 +55,9 @@
 		},
 		<?php if($this->router->fetch_class() == 'restaurant') {?>
 		SELF.reviewSubmit = function() {
-			var review_socket_id = null;
-			SELF.pusher.connection.bind('connected', function() {
-				SELF.pusher_connection_state = SELF.pusher.connection.socket_id;
-			});
 			$('form[name="review_form"]').submit(function(event){
 				var postData = $(this).serializeArray();
-				var socketObj = {name: 'socket_id', value: SELF.pusher_connection_state};
+				var socketObj = {name: 'socket_id', value: SELF.pusher_connection_socket_id};
 				postData.push(socketObj);
 				console.log(postData);
 				var formUrl = $(this).attr("action");
@@ -551,7 +563,6 @@
 		ngoctran.setupMap();
 		ngoctran.setupSearch();
 		ngoctran.setupProgressingBar();
-
 		//dynamically load js for restaurant pages
 		<?php 
 			if($this->router->fetch_class() == 'restaurant') {

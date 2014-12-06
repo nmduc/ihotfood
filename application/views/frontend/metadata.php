@@ -16,6 +16,8 @@
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/modernizr.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jquery.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/mustache.min.js"></script>
+	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/classie.js"></script>
+	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/notificationFx.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/wow.min.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/alertify.js"></script>

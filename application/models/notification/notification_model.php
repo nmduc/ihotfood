@@ -2,6 +2,20 @@
 class Notification_Model extends CI_Model {
 	const COMMENT_ON_RESTAURANT = 1;
 	
+	public function notify_new_restaurant_review($restaurant_id, $user_id, $review_id, $socket_id){
+		$this->load->library('Pusher/Pusher');
+		$pusher = new Pusher(PUSHER_APP_ID, PUSHER_APP_KEY, PUSHER_APP_SECRET);
+		$data = array(
+			'restaurant_id' => $restaurant_id,
+			'user_id' => $user_id,
+			'$review_id' => $review_id
+		);
+		$pusher->trigger(NEW_REVIEW_NOTIFCATION_CHANNEL .$restaurant_id,
+				NEW_REVIEW_NOTIFCATION_EVENT,
+				$data,
+				$socket_id);
+	}
+	
 	public function save_notification($object_id, $subject_id, $actor_id, $type_id) {
 		$created_date = date ( "Y-m-d H:i:s" );
 		$this->db->query( "INSERT INTO notifications 

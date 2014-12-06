@@ -44,11 +44,11 @@ class Restaurant extends CI_Controller {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model("user/basic_user_model");
 		$this->load->model("notification/notification_model");
-		$this->load->library('Pusher/Pusher');
-		$pusher = new Pusher(PUSHER_APP_ID, PUSHER_APP_KEY, PUSHER_APP_SECRET);
+
 		$userid = $this->session->userdata('id');
-		
+		$socket_id =$this->input->post('socket_id');
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+		
 		if(! $restaurant) {
 			$data = array(
 				"heading" => "Error 404",
@@ -105,10 +105,8 @@ class Restaurant extends CI_Controller {
 				$this->session->set_userdata('channels', $channelArr);
 			}
 			
-			$pusher->trigger(NEW_REVIEW_NOTIFCATION_CHANNEL .$resId, 
-					NEW_REVIEW_NOTIFCATION_EVENT, 
-					array('message' => 'hello world'),
-					$this->input->post('socket_id'));
+			//notify
+			$this->notification_model->notify_new_restaurant_review($resId, $userid, $new_review_id, $socket_id);
 				
 			$jsonArr['status'] = 'true';
 	 	} else {
