@@ -19,16 +19,30 @@
 
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
-			<form action="<?php echo site_url('/photo/upload_restaurant_photo'); ?>" class="dropzone" id="dropzone-photo-upload"> 
-				<input type="hidden" name="restaurant-id" value="<?php echo $restaurant->id ?>" />
-			</form>
+			<ul class="clearing-thumbs" data-clearing>
+				<?php foreach($photos as $photo) { ?>
+					<li>
+						<a href="<?php echo base_url() . 'static/user_upload/' . $photo->filename; ?>">
+							<img src="<?php echo base_url() . 'static/user_upload/' . $photo->thumbnailFilename; ?>">
+						</a>
+						<!-- <a href="">
+						<img class="delete-photo-button" src="<?php echo base_url() . 'static/frontend/img/close.png' ?>" style="width:15px;height:15px">
+					</a> -->
+					</li>
+				<?php } ?>
+			</ul>
 		</div>
 	</div>
 
-	<div class="row restaurant">
-		<div class="large-12 large-centered">
+	<?php if($this->session->userdata('id') && ($this->session->userdata('id') == $restaurant->owner_id ) ) { ?> }
+		<div class="row restaurant" id="photo-upload">
+			<div class="large-12 large-centered">
+				<form action="<?php echo site_url('/photo/upload_restaurant_photo'); ?>" class="dropzone" id="dropzone-photo-upload"> 
+					<input type="hidden" name="restaurant-id" value="<?php echo $restaurant->id ?>" />
+				</form>
+			</div>
 		</div>
-	</div>
+	<?php } ?>
 
 	<?php require 'scripts.php'?>
 	<?php require 'footer.php'?>
@@ -43,6 +57,9 @@
 				createImageThumbnails: true,
 				acceptedFiles: 'image/*',
 				addRemoveLinks: true,
+				createImageThumbnails: true,
+				parallelUploads: 100,
+
 				//autoProcessQueue: false,	// not uploading each time file added
 				// maxFiles: 50,
 
@@ -63,6 +80,20 @@
 				}
 			};
 		});
+		
+		$(document.body).on("open.fndtn.clearing", function(event) {
+		  	$("#photo-upload").hide();
+		});
+
+		$(document.body).on("closed.fndtn.clearing", function(event) {
+		  	$("#photo-upload").show();
+		});
+
+		$(".delete-photo-button").on("click", function() {
+			alert("shit");
+
+		});
+		
 	</script>
 
 </body>	

@@ -26,11 +26,22 @@ class Photo extends CI_Controller {
 				$targetFile = $targetPath . $serverFileName;
 
 				// save file to server
-				move_uploaded_file($tempFile, $serverFileName);
+				move_uploaded_file($tempFile, $targetFile);
 				
 				// save to database
 				$this->load->model("restaurant/media_model");
 				$this->media_model->create_media($album_id, $serverFileName);
+
+				// create and save image thumbnail
+				// configs for image library to create thumbnails
+				$config['image_library'] = 'gd2';
+				$config['create_thumb'] = TRUE;
+				$config['maintain_ratio'] = TRUE;
+				$config['width']	= 100;
+				$config['height']	= 100;
+				$config['source_image']	= $targetFile;
+				$this->load->library('image_lib', $config); 
+				$thumbnail = $this->image_lib->resize();
 
 				// return the name as which the file is store in server (for removing if necessary)
 				echo($serverFileName);
@@ -60,8 +71,9 @@ class Photo extends CI_Controller {
     public function generate_unique_file_name($album_id, $fileName) {
     	$filename = tempnam('static/user_upload/', '');
     	unlink($filename);
-    	// filename = "<unique>.tmp"
-    	return explode('.', $filename)[0] . $_SERVER['REQUEST_TIME'] . $fileName;
+    	// filename = "directory/<unique>.tmp"
+    	$temp = explode('\\', $filename);
+    	return explode('.', $temp[count($temp)-1])[0] . $_SERVER['REQUEST_TIME'] . $fileName;
     }
 
 
@@ -74,7 +86,6 @@ class Photo extends CI_Controller {
 			echo "Permission denied";
 		}
 		else {
-			var_dump($_FILES);
 			if (!empty($_FILES)) {
 				$album_id = $review->album_id;
 				$len = count($_FILES['file']['tmp_name']);
@@ -86,14 +97,23 @@ class Photo extends CI_Controller {
 					$targetFile = $targetPath . $serverFileName;
 
 					// save file to server
-					move_uploaded_file($tempFile, $serverFileName);
+					move_uploaded_file($tempFile, $targetFile);
 					
+					$config['image_library'] = 'gd2';
+					$config['create_thumb'] = TRUE;
+					$config['maintain_ratio'] = TRUE;
+					$config['width']	= 100;
+					$config['height']	= 100;
+					$config['source_image']	= $targetFile;
+					$this->load->library('image_lib', $config); 
+					$thumbnail = $this->image_lib->resize();
+				
 					// save to database
 					$this->load->model("restaurant/media_model");
 					$this->media_model->create_media($album_id, $serverFileName);
 
 					// return the name as which the file is store in server (for removing if necessary)
-					// echo($serverFileName);
+					echo($serverFileName);
 				}
 			}
 		}

@@ -32,8 +32,20 @@ class Restaurant extends CI_Controller {
 	public function photo_gallery($resId) {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+
+		// load photos
+		$this->load->model( 'restaurant/media_model' );
+		$allPhotos = $this->media_model->get_all_album_medias($restaurant->album_id);
+		$photos = array();
+		foreach ($allPhotos as $photo) {
+			$temp = explode('.',$photo->filename);
+			$photo->thumbnailFilename = $temp[0] . '_thumb.' . $temp[1];
+			array_push($photos, $photo);
+		}
+
 		$data = array(
 			'restaurant' => $restaurant,
+			'photos' => $photos,
 		);
 		$this->load->view ( 'frontend/restaurant_photo_gallery', $data);
 	}
@@ -189,7 +201,7 @@ class Restaurant extends CI_Controller {
 				$albumId = $review->album_id;
 				$this->load->model('restaurant/album_model');
 				$this->album_model->delete_album($albumId);
-				
+
 				$this->review_model->delete_review($reviewId);
 				$message = "success";
 			}
