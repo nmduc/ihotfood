@@ -372,6 +372,11 @@
 				autoProcessQueue: false,	
 				// maxFiles: 100,
 				parallelUploads: 100,
+
+				complete: function() {
+					// location.reload();
+					window.location = window.location.href;
+				},
 	  		};
 		});
 	</script>
@@ -393,8 +398,7 @@
 					var reviewId = response;
 					$("form#review-photo-upload input[name=review-id]").val(reviewId);
 					var addReviewPhotoUploader = Dropzone.instances[0];
-					addReviewPhotoUploader.processQueue();
-					location.reload();
+					addReviewPhotoUploader.processQueue();	// dont reload here to let dropzone upload photo
 				},
 				error : function(response) {
 					var errors = $.parseJSON(response.responseText);

@@ -186,6 +186,10 @@ class Restaurant extends CI_Controller {
 				$message = "failed";
 			}
 			else {
+				$albumId = $review->album_id;
+				$this->load->model('restaurant/album_model');
+				$this->album_model->delete_album($albumId);
+				
 				$this->review_model->delete_review($reviewId);
 				$message = "success";
 			}

@@ -9,4 +9,12 @@ class Album_Model extends CI_Model{
 		$id= $this->db->insert_id();
 		return $id;
 	}
+
+	public function delete_album($albumId) {
+		$this->load->model('restaurant/media_model');
+		$this->media_model->delete_all_album_medias($albumId);
+
+		$this->db->where('id', $albumId);
+		$this->db->delete('albums');
+	}
 }

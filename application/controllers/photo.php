@@ -51,7 +51,7 @@ class Photo extends CI_Controller {
 		$targetPath = 'static/user_upload/';
     	$file_dir = $targetPath . $this->input->post('filename');
     	// delete file
-    	unlink($file_dir);
+    	// unlink($file_dir);
     	// remove corresponding database record
 		$this->load->model("restaurant/media_model");
     	$this->media_model->delete_media($this->input->post('filename'));
@@ -61,7 +61,7 @@ class Photo extends CI_Controller {
     	$filename = tempnam('static/user_upload/', '');
     	unlink($filename);
     	// filename = "<unique>.tmp"
-    	return explode('.', $filename)[0] . $fileName;
+    	return explode('.', $filename)[0] . $_SERVER['REQUEST_TIME'] . $fileName;
     }
 
 
