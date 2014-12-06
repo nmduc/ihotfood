@@ -7,10 +7,10 @@
 		SELF.user_id = '<?php echo $this->session->userdata('id'); ?>';
 		SELF.pusher_connection_socket_id = null;
 		SELF.pusher = null;
-		SELF.invokeNotificationPanel = function() {
+		SELF.invokeNotificationPanel = function(message) {
 			notification_panel = new NotificationFx({
 				wrapper : document.body,
-				message : '<p>Your preferences have been saved successfully. See all your settings in your <a href="#">profile overview</a>.</p>',
+				message : message,
 				layout : 'growl',
 				effect : 'genie',
 				type : 'notice', // notice, warning or error
@@ -38,8 +38,8 @@
 			echo('var channel_'. $c["channel_id"] . '= SELF.pusher.subscribe(channel_name_' . $c["channel_id"] . ');');
 			echo('var event_name = "' . NEW_REVIEW_NOTIFCATION_EVENT . '";');
 			echo('channel_'. $c["channel_id"] . '.bind(event_name, function(data) {
-					  console.log("An event was triggered with message: " + data.message);
-					  SELF.invokeNotificationPanel();
+					SELF.invokeNotificationPanel(data.message);
+					SELF.refreshComments(data.dest);
 				});');
 	} ?>
 	
@@ -50,6 +50,16 @@
 			$progressbar.progressbar();
 			$progressbar.css('display', 'none');
 		},
+		SELF.refreshComments = function(dest) {
+			$('.comment-container').slideUp(1500);
+			jQuery.get(dest, function(html){
+				jQuery(".comment-container").slideDown(1500);
+				new_html = $(html).find(".comments").html();
+				jQuery("#comments-listing").html(new_html);
+				jQuery("#comments-listing .star").rating(); 
+				SELF.reviewSubmit();
+			});
+		}
 		SELF.setupRating = function(){
 			$('#review_score .star').rating();
 		},
@@ -59,8 +69,8 @@
 				var postData = $(this).serializeArray();
 				var socketObj = {name: 'socket_id', value: SELF.pusher_connection_socket_id};
 				postData.push(socketObj);
-				console.log(postData);
 				var formUrl = $(this).attr("action");
+				$('.comment-container').slideUp(1000);
 				$.ajax({
 					type: 'POST',
 					url: formUrl,
@@ -73,26 +83,20 @@
 								$('#review_'+index)
 									.append('<small class="error">'+data['error'][index]+'</small>');
 							});
+							$('.comment-container').slideDown(1000);
 						} else {
 							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
-									new_html = $(html).find('.comments').html();
-									//$('.comments').html('');
-									alertify.success("Success notification");
-									$('#comments-listing').html(new_html);
-									$('#comments-listing .star').rating(); 
-									SELF.reviewSubmit();
-									SELF.pusher.connection.bind('connected', function() {
-										socketId = SELF.pusher.connection.socket_id;
-										$.ajax({
-											    url: '<?php base_url("index.php/user/notify/notify_new_review");?>',
-											    type: "POST",
-											    data: {
-											      user_id: SELF.user_id,
-											      restaurant_id: '<?php echo $restaurant->id; ?>',
-											      socket_id: socketId
-											    }
-										});
-									});
+								$('.comment-container').slideDown(1500);
+								new_html = $(html).find('.comments').html();
+								$('#comments-listing').html(new_html);
+								$('#comments-listing .star').rating(); 
+								SELF.reviewSubmit();
+								var channel_name = "channel_name_" + "<?php echo $restaurant->id?>";
+								var event_name = "<?php echo NEW_REVIEW_NOTIFCATION_EVENT ?>";
+								var channel = SELF.pusher.subscribe(channel_name);
+								channel.bind(event_name, function(data){
+									SELF.refreshComments(data.dest);
+								});
 							});
 						}						
 					}
@@ -205,21 +209,28 @@
 						var mapCenterData = new SELF.mapCenter();
 						for(i = 0; i < data.length; i++) {
 							//find center of markers
-							mapCenterData.adjustCenterCoords(data[i]['latlong']);
+							var latLngStr = data[i]['latlong'];
+							var latLng = latLngStr.split(",");
+							mapCenterData.adjustCenterCoords(latLng[0], latLng[1]);
+							console.log(mapCenterData);
 							if (typeof(data[i]['photoRef']) !== 'undefined') {
 								photo_ref = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference='+data[i]['photoRef'];	
 							} else {
 								photo_ref = '<?php base_url()?>index.php/static/frontend/img/WB07T46L6.png';
 							}
+							if (typeof data[i]['rating'] == 'undefined') {
+								data[i]['rating'] = 'No rating available';
+							}
+							var url = '<?php base_url()?>index.php/restaurant/show_restaurant/' +  data[i]['restaurant_id'];
 							//construct info
 							var str = '<div class="infobox-wrapper">'
 									+ '<div>'
 									+ '<div class="infobox-inner">'
-									+ '<a href="<?php base_url()?>index.php/restaurant/display">'
+									+ '<a href="' + url + '">'
 									+ '<div class="infobox-image">'
 									+ '<img src="'+photo_ref+'">'
 									+ '<div>'
-									+ '<span class="infobox-price">' + data[i]['tel'] + '</span>'
+									+ '<span class="infobox-price">' + data[i]['rating'] + '</span>'
 									+ '</div>'
 									+ '</div>'
 									+ '</a>'
@@ -239,29 +250,34 @@
 								data:  str
 							});
 						}
-
-						$('#map_canvas').gmap3({
+						$("#map_canvas").gmap3({
+							clear: {
+							      name:["marker"]
+							}
+						});
+						$('#map_canvas').gmap3({	
 							map:{
 								options:{
 					              center:[mapCenterData.center_lat, mapCenterData.center_lng],
-					              //zoom: 12,
+					              zoom: 12,
 					              scrollwheel: false
 					            }
 					        }
 				        });
+				        
 						$.each(jsonArr, function(key, val) {
-							//console.log(val);
+							var latLng = val.latLng
 							$('#map_canvas').gmap3({
 								marker: {
 									options: {
 										icon: '<?php base_url()?>static/frontend/img/restaurant.png',
 									},
-									latLng: val.latLng,
+									latLng: latLng.split(","),
 									events: {
 										click: function(marker, event, context){
 											$(this).gmap3({
 												overlay: {
-													latLng: val.latLng,
+													latLng: latLng.split(","),
 													options:{
 														content: val.data,
 														offset:{

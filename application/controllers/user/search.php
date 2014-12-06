@@ -92,6 +92,7 @@ class Search extends CI_Controller {
 				if(isset($i['photos'])) {
 					$data['photoRef'] = $i['photos'][0]['photo_reference'];
 				}
+				$data['restaurant_id'] = $restaurant_id;
 				//push to jsonArr for displaying
 				array_push($jsonArr, $data);
 			}
