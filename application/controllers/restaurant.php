@@ -85,9 +85,9 @@ class Restaurant extends CI_Controller {
 				$this->load->view("../errors/error_db", $data);
 				return;
 			}
-			//store notification
-			$this->notification_model->save_notification($resId, $new_review_id, $this->session->userdata('id'), 1);
 			
+			
+			/****************** NOTIFICATION SHIT BEGINS ******************/
 			//subscribe for notification
 			if (!$this->notification_model->is_user_subscribed($userid, $resId)) {
 				$this->notification_model->subsribe_channel($userid, $resId);
@@ -97,7 +97,8 @@ class Restaurant extends CI_Controller {
 			}
 			
 			//notify
-			$this->notification_model->notify_new_restaurant_review($resId, $userid, $new_review_id, $socket_id);
+			$this->notification->notify_new_restaurant_review($resId, $userid, $new_review_id, $socket_id);
+			/****************** NOTIFICATION SHIT ENDS ******************/
 				
 			$jsonArr['status'] = 'true';
 	 	} else {
