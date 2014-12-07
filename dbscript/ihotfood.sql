@@ -21,13 +21,9 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `albums` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL
+`id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
---
--- Dumping data for table `albums`
---
 -- --------------------------------------------------------
 
 --
@@ -67,25 +63,6 @@ INSERT INTO `categories` (`abbrev`, `description`) VALUES
 ('lx', 'Luxury'),
 ('pub', 'Pub');
 
--- --------------------------------------------------------
-
---
--- Table structure for table `ci_sessions`
---
-
-CREATE TABLE IF NOT EXISTS `ci_sessions` (
-  `session_id` varchar(40) NOT NULL DEFAULT '0',
-  `ip_address` varchar(45) NOT NULL DEFAULT '0',
-  `user_agent` varchar(120) NOT NULL,
-  `last_activity` int(10) unsigned NOT NULL DEFAULT '0',
-  `user_data` text NOT NULL,
-  PRIMARY KEY (`session_id`),
-  KEY `last_activity_idx` (`last_activity`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `ci_sessions`
---
 -- --------------------------------------------------------
 
 --
@@ -154,8 +131,7 @@ INSERT INTO `languages` (`abbrev`, `name`) VALUES
 CREATE TABLE `medias` (
 `id` int(11) NOT NULL,
   `album_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `filename` varchar(255) NOT NULL COMMENT 'name of the file ',
+  `name` varchar(255) NOT NULL COMMENT 'name of the file ',
   `caption` text
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
@@ -484,6 +460,10 @@ CREATE TABLE `restaurant_category_links` (
 -- Dumping data for table `restaurant_category_links`
 --
 
+INSERT INTO `restaurant_category_links` (`restaurant_id`, `category_abbrev`) VALUES
+(308, 'cf'),
+(308, 'ff');
+
 -- --------------------------------------------------------
 
 --
@@ -499,6 +479,8 @@ CREATE TABLE `restaurant_country_links` (
 -- Dumping data for table `restaurant_country_links`
 --
 
+INSERT INTO `restaurant_country_links` (`restaurant_id`, `country_abbrev`) VALUES
+(308, 'en');
 
 -- --------------------------------------------------------
 
@@ -510,6 +492,14 @@ CREATE TABLE `restaurant_language_links` (
   `restaurant_id` int(11) NOT NULL,
   `language_abbrev` varchar(3) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `restaurant_language_links`
+--
+
+INSERT INTO `restaurant_language_links` (`restaurant_id`, `language_abbrev`) VALUES
+(308, 'de'),
+(308, 'en');
 
 -- --------------------------------------------------------
 
@@ -658,7 +648,7 @@ ALTER TABLE `languages`
 -- Indexes for table `medias`
 --
 ALTER TABLE `medias`
- ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `filename` (`filename`), ADD KEY `album_id` (`album_id`);
+ ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `name` (`name`), ADD KEY `album_id` (`album_id`);
 
 --
 -- Indexes for table `notifications`

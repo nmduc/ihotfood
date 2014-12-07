@@ -1,4 +1,10 @@
 <div data-magellan-expedition="fixed">
+<div class="notifications js-notifications">
+	<h3>Notifications</h3>
+	<ul class="notifications-list">
+	</ul>
+	<a href="#" class="show-all">Show all notifications</a>
+</div>
 <nav class="top-bar" data-topbar role="navigation" >
 	<ul class="title-area">
 		<li class="name">

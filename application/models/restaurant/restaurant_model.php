@@ -37,9 +37,6 @@ class Restaurant_Model extends CI_Model{
 	  *
 	  */
 	public function create_restaurant($ownerID) {
-		$this->load->model("restaurant/album_model");
-		$album_id = $this->album_model->create_album($this->input->post('name'));
-
 		$data=array(
 			'owner_id' => $ownerID,
 			// basic restaurant information
@@ -61,7 +58,6 @@ class Restaurant_Model extends CI_Model{
 			'closing_hour' => $this->input->post('closing_hour'),
 			'lowest_price' => $this->input->post('lowest_price'),
 			'highest_price' => $this->input->post('highest_price'),
-			'album_id' => $album_id,
 		);
 		$this->db->insert('restaurants', $data);
 		$id= $this->db->insert_id();

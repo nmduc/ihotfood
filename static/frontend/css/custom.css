@@ -1013,13 +1013,14 @@ h2.bright {
 }
 .notifications h3 {
   cursor: default;
-  font-size: 1.05em;
+  font-size: 14px;
   font-weight: normal;
 }
 .notifications .show-all {
   display: block;
   text-align: center;
   text-decoration: none;
+  font-size: 12px;
 }
 .notifications .show-all:hover,
 .notifications .show-all:focus {
@@ -1067,6 +1068,7 @@ h2.bright {
   margin-left: 10px;
   white-space: normal;
   width: 280px;
+  font-size: 13px;
 }
 .notifications .notifications-list .item .details .title,
 .notifications .notifications-list .item .details .date {
