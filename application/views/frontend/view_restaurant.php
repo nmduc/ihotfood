@@ -12,6 +12,7 @@
 			<div class="large-4 columns"></div>
 		</div>
 	</div>
+
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
@@ -118,6 +119,7 @@
 		<!-- Begin Comment Container-->
 		<div class="large-9 columns">
 			<div class="row comment-container">
+<<<<<<< HEAD
 				<div class="large-12 comments">
 					<a name="review-form-link"></a>
 					<div id="add-review-form">
@@ -271,6 +273,21 @@
 							</div>
 						</div>
 					</div> -->
+
+				<!-- <div class="large-12 comments" id="comments-listing"> -->
+					<!-- Write review form -->
+					<!-- <?php include_once 'review_form.php';?> -->
+					<!-- End review form -->
+<!-- 					
+					<span>All Reviews (<?php if (sizeof($reviews) < 1) {
+							echo '0';
+						}  else {
+							echo sizeof($reviews);
+						}
+					?>)</span>
+ -->					<!-- User reviews -->
+					<!-- <?php include_once 'review_listing.php';?> -->
+
 				</div>
 			</div>
 		</div>

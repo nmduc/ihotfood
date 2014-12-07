@@ -18,9 +18,8 @@ class Review_Model extends CI_Model{
 			'album_id' => $album_id,
 		);
 
-		$this->db->insert('reviews', $data);
-		$id = $this->db->insert_id();
-		return $id;
+		$q = $this->db->insert('reviews', $data);
+		return $this->db->insert_id();
 	} 
 
 	public function get_restaurant_reviews($resId, $offset=0, $nRows=0) {
@@ -63,5 +62,27 @@ class Review_Model extends CI_Model{
 		);
 		$q = $this->db->update("reviews", $data);
 		return $q;
+	}
+
+	public function create_review_for_search($resId, $title = 'A review', $content, $rating) {
+		$this->load->helper('date');
+		$datetime = date('Y-m-d H:i:s');
+	
+		$data=array(
+				'restaurant_id' => $resId,
+				'title' => $title,
+				'content' => $content,
+				'rating' => $rating,
+				'publish_time' => $datetime,
+		);
+		
+		$q = $this->db->insert('reviews', $data);
+		
+		//update restaurant updated time
+		$data = array(
+			'updated_time' => $datetime	
+		);
+		$this->db->insert('restaurants', $data);
+		return $this->db->insert_id();
 	}
 }

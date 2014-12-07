@@ -21,6 +21,7 @@ class Restaurant extends CI_Controller {
 				'num_reviews' => sizeof($review_list),
 				'review_per_load' => 3,
 			);
+			
 			$this->load->view ( 'frontend/view_restaurant', $data );
 		}
 	}
@@ -87,8 +88,12 @@ class Restaurant extends CI_Controller {
 	public function user_write_review($resId) {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model("user/basic_user_model");
+		$this->load->model("notification/notification_model");
 
+		$userid = $this->session->userdata('id');
+		$socket_id =$this->input->post('socket_id');
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+		
 		if(! $restaurant) {
 			$data = array(
 				"heading" => "Error 404",
@@ -101,7 +106,7 @@ class Restaurant extends CI_Controller {
 			$data = array(
 				"heading" => "Permission denied",
 				"message" => "You must login first to write review",
-			);	
+			);
 			$this->load->view("../errors/error_403", $data);	
 			return;
 		}
@@ -120,9 +125,13 @@ class Restaurant extends CI_Controller {
 	 	$this->form_validation->set_rules ( 'content', 'Review content', 'required|trim|xss_clean' );
 	 	$this->form_validation->set_rules ( 'score-add', 'Review score', 'required|trim|max_length[1]|is_natural|less_than[6]|greater_than[0]|xss_clean' );
 
+	 	$jsonArr = array();
+	 	$jsonArr['status'] = 'false';
+
 		if ($this->form_validation->run () == TRUE) {
 			$this->load->model("restaurant/review_model");
-			if(! $this->review_model->create_review($resId) ) {
+			$new_review_id = $this->review_model->create_review($resId);
+			if(! $new_review_id ) {
 				$data = array(
 					"heading" => "Unexpected error",
 					"message" => "Something went wrong, please try again later",
@@ -130,11 +139,27 @@ class Restaurant extends CI_Controller {
 				$this->load->view("../errors/error_db", $data);
 				return;
 			}
-			redirect( base_url() . 'index.php/restaurant/show_restaurant/' . $resId);
+			//store notification
+			$this->notification_model->save_notification($resId, $new_review_id, $this->session->userdata('id'), 1);
+			
+			//subscribe for notification
+			if (!$this->notification_model->is_user_subscribed($userid, $resId)) {
+				$this->notification_model->subsribe_channel($userid, $resId);
+				//update channels in session
+				$channelArr = $this->notification_model->get_channel_by_user_id($userid);
+				$this->session->set_userdata('channels', $channelArr);
+			}
+			
+			//notify
+			$this->notification_model->notify_new_restaurant_review($resId, $userid, $new_review_id, $socket_id);
+				
+			$jsonArr['status'] = 'true';
+	 	} else {
+	 		$jsonArr['error'] = $this->form_validation->error_array();;
 	 	}
- 		$this->show_restaurant($resId);
+	 	echo(json_encode($jsonArr));
+ 		//$this->show_restaurant($resId);
 	}
-
 
 	function user_write_review_ajax($resId) {
 		$this->load->model( 'restaurant/restaurant_model' );
@@ -255,5 +280,5 @@ class Restaurant extends CI_Controller {
 			redirect( base_url() . 'index.php/restaurant/show_restaurant/' . $resId);
  		}
  		$this->show_restaurant($resId);
-	}
+ 	}
 }

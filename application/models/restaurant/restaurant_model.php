@@ -93,5 +93,19 @@ class Restaurant_Model extends CI_Model{
 		$this->db->where('id', $resId);
 		return $this->db->update('restaurants', $data); 
 	}
+	
+	public function get_updated_time_for_restaurant($restaurant_id) {
+		$this->db->select('updated_time');
+		$this->db->where('id', $restaurant_id);
+		$query = $this->db->get('restaurants');
+		if($query->num_rows == 1){
+			return $query->row()->updated_time;
+		}
+		return null;
+	}
+	public function update_restaurant_for_search($resId, $data) {
+		$this->db->where('id', $resId);
+		return $this->db->update('restaurants', $data);
+	}
 }
 
