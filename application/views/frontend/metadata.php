@@ -4,7 +4,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>iHootFood</title>
-	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/ihotfoot_customize/stylesheets/app.css" />
+	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/ihotfoot_customize/stylesheets/app.css" /> -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/foundation.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/animate.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/alertify.core.css" />

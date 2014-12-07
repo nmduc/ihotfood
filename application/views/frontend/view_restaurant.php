@@ -119,7 +119,6 @@
 		<!-- Begin Comment Container-->
 		<div class="large-9 columns">
 			<div class="row comment-container">
-<<<<<<< HEAD
 				<div class="large-12 comments">
 					<a name="review-form-link"></a>
 					<div id="add-review-form">
@@ -390,7 +389,7 @@
 				// maxFiles: 100,
 				parallelUploads: 100,
 
-				complete: function() {
+				queuecomplete: function() {
 					// location.reload();
 					window.location = window.location.href;
 				},
@@ -415,7 +414,12 @@
 					var reviewId = response;
 					$("form#review-photo-upload input[name=review-id]").val(reviewId);
 					var addReviewPhotoUploader = Dropzone.instances[0];
-					addReviewPhotoUploader.processQueue();	// dont reload here to let dropzone upload photo
+					if(addReviewPhotoUploader.files.length > 0 ) {
+						addReviewPhotoUploader.processQueue();	
+					}
+					else {
+						window.location = window.location.href;
+					}
 				},
 				error : function(response) {
 					var errors = $.parseJSON(response.responseText);
@@ -458,7 +462,6 @@
 	  			}
 	  		});
 		}
-
 	</script>
 
 	<script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
