@@ -155,7 +155,7 @@ class Restaurant extends CI_Controller {
 				
 			$jsonArr['status'] = 'true';
 	 	} else {
-	 		$jsonArr['error'] = $this->form_validation->error_array();;
+	 		$jsonArr['error'] = $this->form_validation->error_array();
 	 	}
 	 	echo(json_encode($jsonArr));
  		//$this->show_restaurant($resId);
