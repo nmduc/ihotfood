@@ -4,15 +4,19 @@
 <body>
 	<?php require 'nav.php'?>
 	<!-- Begin Restaurant Navigation bar -->
-	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; ">
-		<div class="large-12 large-centered" >
-			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
-			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a>
-			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a>
-			<div class="large-4 columns"></div>
-		</div>
-	</div>
+	
+	
+<!--	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; "> -->
+<!-- 		<div class="large-12 large-centered" > -->
+<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a> -->
+<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a> -->
+<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a> -->
+<!-- 			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> -->
+<!-- 			<div class="large-4 columns"></div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+	
+	
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
@@ -119,151 +123,19 @@
 		<!-- Begin Comment Container-->
 		<div class="large-9 columns">
 			<div class="row comment-container">
-				<div class="large-12 comments">
-					<div id="review-form">
-						<!-- Write review form -->
-						<?php if($this->session->userdata('username') && $this->session->userdata('id') != $restaurant->owner_id) { ?>
-							<?php echo form_open('restaurant/user_write_review/' . $restaurant->id); ?>
-								<fieldset>
-			    					<legend>Restaurant review</legend>
-									<div class="row">
-								        <div class="small-6 columns">
-								          	<input id="input-review-title" type="text" name="title" placeholder="Review Title" />
-								        	<?php echo form_error('title', '<small class="error">', '</small>'); ?>
-								        </div>
-								        <div class="small-3 columns">
-								        	<div class="row" style="position:absolute; right:0px">
-									        	<input class="star" type="radio" name="score" value="1"/>
-									        	<input class="star" type="radio" name="score" value="2"/>
-									        	<input class="star" type="radio" name="score" value="3"/>
-									        	<input class="star" type="radio" name="score" value="4"/>
-									        	<input class="star" type="radio" name="score" value="5"/>
-								        	</div>
-								        	<div class="row"> 
-							        			<?php echo form_error('score', '<small class="error">', '</small>'); ?>
-						        			</div>
-								        </div>
-								        <div class="small-3 columns">
-								        	<img src="<?php echo base_url()?>static/frontend/img/close.png"
-								        		style="height:1rem; position:absolute; right:0px" onclick="toogle_review_form()">
-								        	</img>
-								        </div>
-								    </div>
-								    <div class="row">
-								        <div class="small-9 columns">
-								          	<textarea name="content" placeholder="Review Content" /></textarea>
-								        	<?php echo form_error('content', '<small class="error">', '</small>'); ?>
-								        </div>
-								    </div>
-								    <div class="large-3 large-centered">
-										<input class="button tiny" type="submit" value="Post review");/>
-									</div>
-									<!-- <div class="large-3 large-centered">
-										<input class="button tiny" value="Cancel" onclick="preventDefault(); toogle_review_form()");/>
-									</div> -->
-								</fieldset>	
-							</form>
-							<hr>
-						<?php } ?>
-					</div>
-					<span>All Reviews (???)</span>
-					<!-- Begin Comment Input -->
-					<!-- 
-					<div class="row">
-						
-						<div class="large-1 columns user-avatar">
-							<img src="<?php echo base_url()?>static/frontend/img/unnamed.png"
-							alt="slide 1" /> 
-						</div>
-						<div class="large-11 columns user-comment">
-							<div class="row">
-								<div class="large-12 columns">
-									<input type="text" placeholder="Share your thoughts"/>
-								</div>
-							</div>
-							<div class="row">
-								<div class="large-12 columns">
-									<input class="button tiny" type="submit" value="Post"/>
-								</div>
-							</div>
-						</div>
-					</div>
-					-->
-					<!-- End Comment Input -->
-					<!-- User reviews -->
-					<?php foreach ($reviews as $review) { ?>
-						<div class="row single-comment">
-							<div class="large-1 columns user-avatar">
-								<img src="<?php echo base_url()?>static/frontend/img/unnamed.png"
-									alt="slide 1" /> 
-							</div>
-							<div class="large-11 columns user-comments">
-								<div class="row">
-									<div class="large-12">
-										<a href=""><?php echo($review->user_info['username']); ?></a>
-										<span style="font-size:12px"><i>Posted on: (<?php echo($review->publish_time); ?>)</i></span>
-									</div>
-									<div class="row">
-										<div class="large-8 columns">
-											<h5><?php echo($review->title); ?></h5>
-										</div>
-										<div class="large-2 columns">
-								        	<div class="row" style="position:relative; right:0px">
-								        		<?php if($review->rating == 1) { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
-								        		<?php } else { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
-								        		<?php } ?>
-									        	<?php if($review->rating == 2) { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
-								        		<?php } else { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
-								        		<?php } ?>
-								        		<?php if($review->rating == 3) { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
-								        		<?php } else { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
-								        		<?php } ?>
-								        		<?php if($review->rating == 4) { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
-								        		<?php } else { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
-								        		<?php } ?>
-								        		<?php if($review->rating == 5) { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" checked="checked"/>
-								        		<?php } else { ?>
-									        		<input class="star" type="radio" name="rating-<?php echo($review->id)?>" disabled="disabled" />
-								        		<?php } ?>
-								        	</div>
-										</div>
-									</div>
-									<div class="large-12">
-										<span><?php echo(strip_tags($review->content));?></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr>
-					<?php } ?>
-					<!-- Comment 1 -->
-					<!-- <div class="row single-comment">
-						<div class="large-1 columns user-avatar">
-							<img src="<?php echo base_url()?>static/user_upload/avatar_1.jpg"
-								alt="slide 1" /> 
-						</div>
-						<div class="large-11 columns user-comments">
-							<div class="row">
-								<div class="large-12">
-									<a href="">Minh Duc Nguyen</a>
-								</div>
-
-								<div class="large-12">
-									<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</span>
-								</div>
-							</div>
-						</div>
-					</div> -->
+				<div class="large-12 comments" id="comments-listing">
+					<!-- Write review form -->
+					<?php include_once 'review_form.php';?>
+					<!-- End review form -->
 					
+					<span>All Reviews (<?php if (sizeof($reviews) < 1) {
+							echo '0';
+						}  else {
+							echo sizeof($reviews);
+						}
+					?>)</span>
+					<!-- User reviews -->
+					<?php include_once 'review_listing.php';?>
 				</div>
 			</div>
 		</div>
@@ -337,9 +209,6 @@
 			}
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
-	<script type="text/javascript">
-		$('radio .star').rating(); 
 	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {

@@ -36,6 +36,10 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-
+define('PUSHER_APP_ID',							'98512');
+define('PUSHER_APP_KEY',						'cf584ed819ea7556d59f');
+define('PUSHER_APP_SECRET',						'3678c474706b21612a64');
+define('NEW_REVIEW_NOTIFCATION_CHANNEL',		'new_review_notification_channel_');
+define('NEW_REVIEW_NOTIFCATION_EVENT',			'new_review_notification_event');
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
