@@ -51,17 +51,14 @@ class Search_Model extends CI_Model{
 	  *
 	  */
 	  public function get_res_id_by_name($name) {
-	  	//stripe comma
-	  	if(preg_match("/^[0-9,]+$/", $name)) {
-	  		$name = str_replace(',', '', $name);
-	  	}
-	  	$this->db->select('id');
-	  	$this->db->where('name', $name);
-	  	$query = $this->db->get('restaurants');
-	  	if($query->num_rows == 1){
-	  		return $query->row()->id;
-	  	}
-	  	return false;
+	  	  $this->db->select('id');
+		  $this->db->where('name', $name);
+		  $query = $this->db->get('restaurants');
+		  
+		  if($query->num_rows == 1){
+		  	return $query->row()->id;
+		  }
+		  return false;
 	  }
 	 // --------------------------------------------------------------------
 	 /**
@@ -102,7 +99,7 @@ class Search_Model extends CI_Model{
 	 * 
 	 */
 	public function search($data){
-		$q = "SELECT res.id, res.name, res.address, res.latlong
+		$q = "SELECT res.id, res.name, res.address, res.latitude, res.longitude,
 				res.country, res.postcode, res.tel
 				FROM restaurants res
 				WHERE res.name LIKE '%" . $data['s_keyword'] . "%'";

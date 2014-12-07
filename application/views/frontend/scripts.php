@@ -1,110 +1,16 @@
-
 <script>
 	function NGOCTRAN() {
 		var SELF = this,
 			$progressbar = $( "#progressbar" );
 		SELF.uuid = '<?php echo $this->session->userdata('uuid'); ?>';
-		SELF.user_id = '<?php echo $this->session->userdata('id'); ?>';
-		SELF.pusher_connection_socket_id = null;
-		SELF.pusher = null;
-		SELF.invokeNotificationPanel = function(message) {
-			notification_panel = new NotificationFx({
-				wrapper : document.body,
-				message : message,
-				layout : 'growl',
-				effect : 'genie',
-				type : 'notice', // notice, warning or error
-				onClose : function() {
-				}
-			});
-			notification_panel.show();
-		}
-		//channel initalize
-	<?php if ($this->session->userdata('id')) { ?>
-		SELF.pusher = new Pusher('54120ecb88a7a7dc598b', { authEndpoint: '<?php echo base_url("/index.php/user/login/pusher_authentication"); ?>' });
-		SELF.pusher.connection.bind('connected', function() {
-			SELF.pusher_connection_socket_id = SELF.pusher.connection.socket_id;
-		});
-		SELF.channel_ids = [];
-		 
-		<?php if ($this->session->userdata('channels')) { 
-			foreach ($this->session->userdata('channels') as $c) {
-				echo('SELF.channel_ids.push("' . $c['channel_id'] . '");');
-			}
-		?>
-
-	<?php foreach ($this->session->userdata('channels') as $c) {
-			echo('var channel_name_' . $c["channel_id"] .' = "' . NEW_REVIEW_NOTIFCATION_CHANNEL . $c["channel_id"]. '";');
-			echo('var channel_'. $c["channel_id"] . '= SELF.pusher.subscribe(channel_name_' . $c["channel_id"] . ');');
-			echo('var event_name = "' . NEW_REVIEW_NOTIFCATION_EVENT . '";');
-			echo('channel_'. $c["channel_id"] . '.bind(event_name, function(data) {
-					SELF.invokeNotificationPanel(data.message);
-					SELF.refreshComments(data.dest);
-				});');
-	} ?>
-	
-	<?php 	} ?>
-	<?php } ?>
-	
+		SELF.pusher = new Pusher('54120ecb88a7a7dc598b');
+		
+		SELF.channel = SELF.pusher.subscribe(SELF.uuid);
+		
 		SELF.setupProgressingBar = function(){
 			$progressbar.progressbar();
 			$progressbar.css('display', 'none');
 		},
-		SELF.refreshComments = function(dest) {
-			$('.comment-container').slideUp(1500);
-			jQuery.get(dest, function(html){
-				jQuery(".comment-container").slideDown(1500);
-				new_html = $(html).find(".comments").html();
-				jQuery("#comments-listing").html(new_html);
-				jQuery("#comments-listing .star").rating(); 
-				SELF.reviewSubmit();
-			});
-		}
-		SELF.setupRating = function(){
-			$('#review_score .star').rating();
-		},
-		<?php if($this->router->fetch_class() == 'restaurant') {?>
-		SELF.reviewSubmit = function() {
-			$('form[name="review_form"]').submit(function(event){
-				var postData = $(this).serializeArray();
-				var socketObj = {name: 'socket_id', value: SELF.pusher_connection_socket_id};
-				postData.push(socketObj);
-				var formUrl = $(this).attr("action");
-				$('.comment-container').slideUp(1000);
-				$.ajax({
-					type: 'POST',
-					url: formUrl,
-					dataType: 'json',
-					data: postData,
-					success: function(data, xhr){
-						if (data['status'] != 'true') {
-							$.each(data['error'], function(index){
-								$('#review_'+index + ' .error').remove();
-								$('#review_'+index)
-									.append('<small class="error">'+data['error'][index]+'</small>');
-							});
-							$('.comment-container').slideDown(1000);
-						} else {
-							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
-								$('.comment-container').slideDown(1500);
-								new_html = $(html).find('.comments').html();
-								$('#comments-listing').html(new_html);
-								$('#comments-listing .star').rating(); 
-								SELF.reviewSubmit();
-								var channel_name = "channel_name_" + "<?php echo $restaurant->id?>";
-								var event_name = "<?php echo NEW_REVIEW_NOTIFCATION_EVENT ?>";
-								var channel = SELF.pusher.subscribe(channel_name);
-								channel.bind(event_name, function(data){
-									SELF.refreshComments(data.dest);
-								});
-							});
-						}						
-					}
-				});
-				return false; //disable refresh
-			});
-		}
-		<?php };?>
 		SELF.indicateProgressing = function(percentComplete) {
 			console.log(percentComplete);
 			if (percentComplete > 0 && percentComplete < 100) {
@@ -192,14 +98,6 @@
 		        }
 		    }
 		},
-		SELF.enrichRestaurant = function(restaurant_id, place_id) {
-			var url = '<?php base_url()?>index.php/user/search/enrich_detail_res/restaurantid/' + restaurant_id + '/placeid/'+  place_id;
-			$.ajax({
-				url: url,
-				type: "POST",
-				async: false
-			});
-		},
 		SELF.doAjaxSearch = function(){
 			$.ajax({
 				type: 'POST',
@@ -215,36 +113,30 @@
 					if (data !== null && data !== undefined) {
 						var jsonArr = [];
 						var mapCenterData = new SELF.mapCenter();
+						//console.log(mapCenterData.adjustCenterCoords(1,2));
 						for(i = 0; i < data.length; i++) {
 							//find center of markers
-							var latLngStr = data[i]['latlong'];
-							var latLng = latLngStr.split(",");
-							mapCenterData.adjustCenterCoords(latLng[0], latLng[1]);
-
+							mapCenterData.adjustCenterCoords(data[i]['latitude'], data[i]['longitude']);
 							if (typeof(data[i]['photoRef']) !== 'undefined') {
 								photo_ref = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyDnFgyjhnO9aeD29mvPtgL8tGnt5z90SZA&photoreference='+data[i]['photoRef'];	
 							} else {
 								photo_ref = '<?php base_url()?>index.php/static/frontend/img/WB07T46L6.png';
 							}
-							if (typeof data[i]['rating'] == 'undefined') {
-								data[i]['rating'] = 'No rating available';
-							}
-							var url = '<?php base_url()?>index.php/restaurant/show_restaurant/' + data[i]['restaurant_id'];
 							//construct info
 							var str = '<div class="infobox-wrapper">'
 									+ '<div>'
 									+ '<div class="infobox-inner">'
-									+ '<a class="restaurant_enrich" target="_blank" href="' + url + '">'
+									+ '<a href="<?php base_url()?>index.php/restaurant/display">'
 									+ '<div class="infobox-image">'
 									+ '<img src="'+photo_ref+'">'
 									+ '<div>'
-									+ '<span class="infobox-price">' + data[i]['rating'] + '</span>'
+									+ '<span class="infobox-price">' + data[i]['tel'] + '</span>'
 									+ '</div>'
 									+ '</div>'
 									+ '</a>'
 									+ '<div class="infobox-description">'
 									+ '<div class="infobox-title">'
-									+ '<a target="_blank" href="'+url +'">' + data[i]['name'] +'</a>'
+									+ '<a href="<?php base_url()?>index.php/restaurant/display">' + data[i]['name'] +'</a>'
 									+ '</div>'
 									+ '<div class="infobox-location">' + data[i]['address'] + '</div>'
 									+ '</div>'
@@ -254,42 +146,33 @@
 							
 							//push into array
 							jsonArr.push({
-								latLng: data[i]['latlong'],
+								latLng: [data[i]['latitude'], data[i]['longitude']],
 								data:  str
 							});
-							SELF.enrichRestaurant(data[i]['restaurant_id'], data[i]['place_id']);
 						}
-						//enrich
-						
-						
-						$("#map_canvas").gmap3({
-							clear: {
-							      name:["marker"]
-							}
-						});
-						$('#map_canvas').gmap3({	
+
+						$('#map_canvas').gmap3({
 							map:{
 								options:{
 					              center:[mapCenterData.center_lat, mapCenterData.center_lng],
-					              zoom: 12,
+					              //zoom: 12,
 					              scrollwheel: false
 					            }
 					        }
 				        });
-				        
 						$.each(jsonArr, function(key, val) {
-							var latLng = val.latLng
+							//console.log(val);
 							$('#map_canvas').gmap3({
 								marker: {
 									options: {
 										icon: '<?php base_url()?>static/frontend/img/restaurant.png',
 									},
-									latLng: latLng.split(","),
+									latLng: val.latLng,
 									events: {
 										click: function(marker, event, context){
 											$(this).gmap3({
 												overlay: {
-													latLng: latLng.split(","),
+													latLng: val.latLng,
 													options:{
 														content: val.data,
 														offset:{
@@ -316,164 +199,6 @@
 					}
 				}
 			});
-		},
-		SELF.setupNotification = function() {
-			var today = new Date();
-			var items = generateItems(today);
-			refreshNotifications(items, today);
-			function refreshNotifications(items, today) {
-				  items = items || [];
-				  today = today || newDate();
-				  
-				  var cssTransitionEnd = getTransitionEnd();
-				  var container = $('body');
-				  
-				  items.forEach(function(item) {
-				    item.isExpired = item.date < today;
-				    
-				    item.isToday = (item.date.getFullYear() === today.getFullYear()) &&
-				      (item.date.getMonth() === today.getMonth()) &&
-				      (item.date.getDate() === today.getDate());    
-				    
-				    item.formattedDate = function() {
-				      if (this.isToday) {
-				        return timeToString(this.date);
-				      } else {
-				        return this.date.getFullYear() + '-' +
-				          strpad(this.date.getMonth() + 1) + '-' +
-				          strpad(this.date.getDate());
-				      }
-				    };
-				  });
-				  
-				  items.sort(function(a, b) {
-				    if (a.isExpired === b.isExpired) {
-				      return a.date - b.date;
-				    } else {
-				      return (b.isExpired ? 0 : 1) - (a.isExpired ? 0 : 1);
-				    }
-				  });
-				    
-				  var template = 
-				      '<div class="notifications js-notifications">' +
-				        '<h3>Notifications</h3>' +
-				        '<ul class="notifications-list">' +
-				          '<li class="item no-data">You don\'t have notifications</li>' +
-				          '{{#items}}' +
-				            '<li class="item js-item {{#isExpired}}expired{{/isExpired}}" data-id="{{id}}">' +
-				              '<div class="details">' +
-				                '<span class="title">{{title}}</span>' +
-				                '<span class="date">{{formattedDate}}</span>' +
-				              '</div>' +
-				              '<button type="button" class="button-default button-dismiss js-dismiss">×</button>' +
-				            '</li>' +
-				          '{{/items}}' +
-				        '</ul>' +
-				        '<a href="#" class="show-all">Show all notifications</a>' +
-				      '</div>';
-				  container
-				    .append(Mustache.render(template, { items: items }))
-				    .find('.js-count').attr('data-count', items.length).html(items.length).end()
-				    .on('click', '.js-show-notifications', function(event) {
-				      $(event.currentTarget).closest('.js-show-notifications').toggleClass('active').blur();
-				      if ($('.show-notifications').hasClass('active')) {
-					      $('.notifications').addClass('notifications-active');
-				      } else {
-				    	  $('.notifications').removeClass('notifications-active');
-				      }
-				      return true;
-				    })
-				    .on('click', '.js-dismiss', function(event) {
-				      var item = $(event.currentTarget).parents('.js-item');
-				      
-				      var removeItem = function() {
-				        item[0].removeEventListener(cssTransitionEnd, removeItem, false);
-				        item.remove();
-				        
-				        /* update notifications' counter */
-				        var countElement = container.find('.js-count');
-				        var prevCount = +countElement.attr('data-count');
-				        var newCount = prevCount - 1;
-				        countElement
-				          .attr('data-count', newCount)
-				          .html(newCount);
-				        
-				        if(newCount === 0) {
-				          countElement.remove();
-				          container.find('.js-notifications').addClass('empty');
-				        }
-				      };
-				      
-				      item[0].addEventListener(cssTransitionEnd, removeItem, false);
-				      item.addClass('dismissed');
-				      return true;
-				    });
-				}
-
-				function generateItems(today) {
-				  today = today || newDate();
-				  return [
-				    { id: 1, title: 'Meeting with Ben\'s agent.', date: randomDate() },
-				    { id: 2, title: 'Papers review with Tonny.', date: randomDate(addMinutes(today, -60), addMinutes(today, 60)) },
-				    { id: 3, title: 'Annual party at Eric\'s house.', date: randomDate() },
-				    { id: 4, title: 'Last day to pay off auto credit.', date: randomDate() },
-				    { id: 5, title: 'Call and schedule another meeting with Amanda.', date: randomDate(addMinutes(today, -360), addMinutes(today, 360)) },
-				    { id: 6, title: 'Don\'t forget to send in financial reports.', date: randomDate() }
-				  ];
-				}
-
-				function randomDate(start, end) {
-				  start = start || (new Date(2014, 0, 1));
-				  end = end || (new Date(2015, 0, 1));
-				  return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-				}
-
-				function addMinutes(date, minutes) {
-				  return new Date(date.getTime() + minutes * 60000);
-				}
-
-				function timeToString(date) {
-				  if (date) {
-				    var hh = date.getHours();
-				    var mm = date.getMinutes();
-				    var ap = hh >= 12 ? 'PM' : 'AM';
-
-				    hh = (hh >= 12) ? (hh - 12) : hh;
-				    hh = (hh === 0) ? 12 : hh;
-
-				    return (hh < 10 ? '0' : '') + hh.toString() + ':' +
-				      (mm < 10 ? '0' : '') + mm.toString() + ' ' + ap;
-				  }
-				  return null;
-				}
-
-				function strpad(num) {
-				  if (parseInt(num) < 10) {
-				    return '0' + parseInt(num);
-				  } else {
-				    return parseInt(num);
-				  }
-				}
-
-				function getTransitionEnd() {
-				  var supportedStyles = window.document.createElement('fake').style;
-				  var properties = {
-				    'webkitTransition': { 'end': 'webkitTransitionEnd' },
-				    'oTransition': { 'end': 'oTransitionEnd' },
-				    'msTransition': { 'end': 'msTransitionEnd' },
-				    'transition': { 'end': 'transitionend' }
-				  };
-				  
-				  var match = null;
-				  Object.getOwnPropertyNames(properties).forEach(function(name) {
-				    if (!match && name in supportedStyles) {
-				      match = name;
-				      return;
-				    }
-				  });
-				  
-				  return (properties[match] || {}).end;
-				}
 		},
 		SELF.setupScaleSlider = function() {
 	        var _SlideshowTransitions = [
@@ -577,9 +302,6 @@
 		}
 	}
 	var ngoctran = new NGOCTRAN();
-	$(function () {
-		ngoctran.setupNotification();
-	});
 	$(document).ready(function(){
 		//var ngoctran = new NGOCTRAN();
 		ngoctran.setupFoundation();
@@ -590,14 +312,7 @@
 		ngoctran.setupAutocomplete();
 		ngoctran.setupMap();
 		ngoctran.setupSearch();
-		ngoctran.setupProgressingBar();
-		//dynamically load js for restaurant pages
-		<?php 
-			if($this->router->fetch_class() == 'restaurant') {
-				echo('ngoctran.reviewSubmit();');
-				echo('ngoctran.setupRating();');
-			}
-		?>
+		ngoctran.setupProgressingBar();	
 	});
 	$(window).load(function(){
 		ngoctran.preloader();

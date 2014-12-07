@@ -37,9 +37,6 @@ class Restaurant_Model extends CI_Model{
 	  *
 	  */
 	public function create_restaurant($ownerID) {
-		$this->load->model("restaurant/album_model");
-		$album_id = $this->album_model->create_album($this->input->post('name'));
-
 		$data=array(
 			'owner_id' => $ownerID,
 			// basic restaurant information
@@ -61,7 +58,6 @@ class Restaurant_Model extends CI_Model{
 			'closing_hour' => $this->input->post('closing_hour'),
 			'lowest_price' => $this->input->post('lowest_price'),
 			'highest_price' => $this->input->post('highest_price'),
-			'album_id' => $album_id,
 		);
 		$this->db->insert('restaurants', $data);
 		$id= $this->db->insert_id();
@@ -92,20 +88,6 @@ class Restaurant_Model extends CI_Model{
 		);
 		$this->db->where('id', $resId);
 		return $this->db->update('restaurants', $data); 
-	}
-	
-	public function get_updated_time_for_restaurant($restaurant_id) {
-		$this->db->select('updated_time');
-		$this->db->where('id', $restaurant_id);
-		$query = $this->db->get('restaurants');
-		if($query->num_rows == 1){
-			return $query->row()->updated_time;
-		}
-		return null;
-	}
-	public function update_restaurant_for_search($resId, $data) {
-		$this->db->where('id', $resId);
-		return $this->db->update('restaurants', $data);
 	}
 }
 
