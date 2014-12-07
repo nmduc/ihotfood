@@ -15,7 +15,7 @@ class Review_Model extends CI_Model{
 		);
 
 		$q = $this->db->insert('reviews', $data);
-		return $this->db->insert_id();
+		return $q;
 	} 
 
 	public function get_restaurant_reviews($resId) {
@@ -27,26 +27,4 @@ class Review_Model extends CI_Model{
 		}
 		return $reviews;
 	}
-	public function create_review_for_search($resId, $title = 'A review', $content, $rating) {
-		$this->load->helper('date');
-		$datetime = date('Y-m-d H:i:s');
-	
-		$data=array(
-				'restaurant_id' => $resId,
-				'title' => $title,
-				'content' => $content,
-				'rating' => $rating,
-				'publish_time' => $datetime,
-		);
-		
-		$q = $this->db->insert('reviews', $data);
-		
-		//update restaurant updated time
-		$data = array(
-			'updated_time' => $datetime	
-		);
-		$this->db->insert('restaurants', $data);
-		return $this->db->insert_id();
-	}
-	
 }

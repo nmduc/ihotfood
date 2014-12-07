@@ -4,21 +4,18 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>iHootFood</title>
-	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/ihotfoot_customize/stylesheets/app.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&subset=latin,latin-ext,vietnamese' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+	<!-- 	Css -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/app.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/animate.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/alertify.core.css" />
-	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/alertify.default.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/css/custom.css" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/jquery-ui-1.11.2.custom/jquery-ui.css" />
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/modernizr.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jquery.js"></script>
-	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/mustache.min.js"></script>
-	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/classie.js"></script>
-	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/notificationFx.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/wow.min.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.js"></script>
-	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/alertify.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jssor.slider.min.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/jquery.autocomplete.js"></script>
 	<script src="<?php echo base_url(); ?>static/frontend/js/vendor/dropzone.js"></script>
