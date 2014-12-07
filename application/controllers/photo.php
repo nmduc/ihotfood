@@ -19,8 +19,8 @@ class Photo extends CI_Controller {
 			if (!empty($_FILES)) {
 				$album_id = $restaurant->album_id;
 
-				$tempFile = $_FILES['file']['tmp_name'][0];
-				$fileName = $_FILES['file']['name'][0];
+				$tempFile = $_FILES['file']['tmp_name'];
+				$fileName = $_FILES['file']['name'];
 				$targetPath = 'static/user_upload/';
 				$serverFileName = $this->generate_unique_file_name($album_id, $fileName);
 				$targetFile = $targetPath . $serverFileName;
