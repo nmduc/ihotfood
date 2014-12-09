@@ -132,7 +132,8 @@ INSERT INTO `languages` (`abbrev`, `name`) VALUES
 CREATE TABLE `medias` (
 `id` int(11) NOT NULL,
   `album_id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL COMMENT 'name of the file ',
+  `user_id` int(11) NOT NULL,
+  `filename` varchar(255) NOT NULL COMMENT 'name of the file ',
   `caption` text
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
@@ -1316,7 +1317,7 @@ ALTER TABLE `languages`
 -- Indexes for table `medias`
 --
 ALTER TABLE `medias`
- ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `name` (`name`), ADD KEY `album_id` (`album_id`);
+ ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `filename` (`filename`), ADD KEY `album_id` (`album_id`);
 
 --
 -- Indexes for table `notifications`

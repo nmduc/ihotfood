@@ -65,7 +65,6 @@ class Restaurant extends CI_Controller {
 			$this->load->view("../errors/error_403", $data);	
 			return;
 		}
-
 		// set review form rules
 	 	$this->form_validation->set_rules ( 'title', 'Review title', 'required|trim|max_length[100]|xss_clean' );
 	 	$this->form_validation->set_rules ( 'content', 'Review content', 'required|trim|xss_clean' );
@@ -76,35 +75,100 @@ class Restaurant extends CI_Controller {
 	 	$jsonArr['status'] = 'false';
 		if ($this->form_validation->run () == TRUE) {
 			$this->load->model("restaurant/review_model");
-			$new_review_id = $this->review_model->create_review($resId);
-			if(! $new_review_id ) {
-				$data = array(
-					"heading" => "Unexpected error",
-					"message" => "Something went wrong, please try again later",
-				);	
-				$this->load->view("../errors/error_db", $data);
-				return;
-			}
 			
-			
-			/****************** NOTIFICATION SHIT BEGINS ******************/
-			//subscribe for notification
-			if (!$this->notification_model->is_user_subscribed($userid, $resId)) {
-				$this->notification_model->subsribe_channel($userid, $resId);
-				//update channels in session
-				$channelArr = $this->notification_model->get_channel_by_user_id($userid);
-				$this->session->set_userdata('channels', $channelArr);
-			}
-			
-			//notify
-			$this->notification->notify_new_restaurant_review($resId, $userid, $new_review_id, $socket_id);
-			/****************** NOTIFICATION SHIT ENDS ******************/
+			if(! $this->input->post('review-id')) {
+				$new_review_id = $this->review_model->create_review($resId);
+				if(! $new_review_id ) {
+					$data = array(
+						"heading" => "Unexpected error",
+						"message" => "Something went wrong, please try again later",
+					);	
+					$this->load->view("../errors/error_db", $data);
+					return;
+				}
 				
-			$jsonArr['status'] = 'true';
+				
+				/****************** NOTIFICATION SHIT BEGINS ******************/
+				//subscribe for notification
+				if (!$this->notification_model->is_user_subscribed($userid, $resId)) {
+					$this->notification_model->subsribe_channel($userid, $resId);
+					//update channels in session
+					$channelArr = $this->notification_model->get_channel_by_user_id($userid);
+					$this->session->set_userdata('channels', $channelArr);
+				}
+				
+				//notify
+				$this->notification->notify_new_restaurant_review($resId, $userid, $new_review_id, $socket_id);
+				/****************** NOTIFICATION SHIT ENDS ******************/
+					
+				$jsonArr['status'] = 'true';
+				$jsonArr['new-review-id'] = $new_review_id;
+			}
+			else {
+				$this->review_model->update_review($this->input->post('review-id'));
+				$jsonArr['status'] = 'true';
+				$jsonArr['new-review-id'] = $this->input->post('review-id');
+			}
 	 	} else {
 	 		$jsonArr['error'] = $this->form_validation->error_array();;
 	 	}
 	 	echo(json_encode($jsonArr));
  		//$this->show_restaurant($resId);
+	}
+
+	/**
+	*
+	*
+	*/
+	public function user_delete_review() {
+		$reviewId = $this->input->post('review_id');
+		$this->load->model('restaurant/review_model');
+
+		$review = $this->review_model->get_review($reviewId);
+
+		$jsonArr = array();
+	 	$jsonArr['status'] = 'false';
+		
+		if($review) {
+			// check ownership
+			if(!$this->session->userdata('id') || 
+				$this->session->userdata('id') != $review->user_id ) {
+	 			$jsonArr['status'] = 'false';	// permission denied
+			}
+			else {
+				$albumId = $review->album_id;
+				$this->load->model('restaurant/album_model');
+				$this->album_model->delete_album($albumId);
+
+				$this->review_model->delete_review($reviewId);
+				$jsonArr['status'] = 'true';
+			}
+		}
+	 	echo(json_encode($jsonArr));
+	}
+
+	/**
+	* Show photo gallery of a specific restaurant
+	*
+	*/
+	public function photo_gallery($resId) {
+		$this->load->model( 'restaurant/restaurant_model' );
+		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
+
+		// load photos
+		$this->load->model( 'restaurant/media_model' );
+		$allPhotos = $this->media_model->get_all_album_medias($restaurant->album_id);
+		$photos = array();
+		foreach ($allPhotos as $photo) {
+			$temp = explode('.',$photo->filename);
+			$photo->thumbnailFilename = $temp[0] . '_thumb.' . $temp[1];
+			array_push($photos, $photo);
+		}
+
+		$data = array(
+			'restaurant' => $restaurant,
+			'photos' => $photos,
+		);
+		$this->load->view ( 'frontend/restaurant_photo_gallery', $data);
 	}
 }

@@ -4,17 +4,15 @@
 <body>
 	<?php require 'nav.php'?>
 	<!-- Begin Restaurant Navigation bar -->
-	
-	
-<!--	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; "> -->
-<!-- 		<div class="large-12 large-centered" > -->
-<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a> -->
-<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a> -->
-<!-- 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a> -->
-<!-- 			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> -->
-<!-- 			<div class="large-4 columns"></div> -->
-<!-- 		</div> -->
-<!-- 	</div> -->
+	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; "> 
+ 		<div class="large-12 large-centered" > 
+ 			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a> 
+ 			<a href="<?php echo site_url('restaurant/photo_gallery')?>/<?php echo $restaurant->id ?>"><div class="large-2 columns">  <font color="white">Photos</font> </div></a> 
+ 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a> 
+ 			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> 
+ 			<div class="large-4 columns"></div> -->
+ 		</div> 
+ 	</div> 
 	
 	
 	<!-- Begin Restaurant -->
@@ -110,7 +108,7 @@
 						</div>
 					<?php } else { ?>
 						<div class="row">
-							<input class="button tiny" type="button" value="Write a review" style="position:absolute;" onclick="toogle_review_form()"> 
+							<input class="button tiny" type="button" value="Write a review" style="position:absolute;" onclick="open_review_form()"> 
 						</div>
 					<?php } ?>
 				<?php } ?>
@@ -163,10 +161,10 @@
 			</div>
 			&nbsp
 			<div class="row map-container">
-					<div class="large-12 comments">
-						<a name="description"><h5>Restaurant Description </h5></a>
-						<p><?php echo($restaurant->description) ?></p>
-					</div>
+				<div class="large-12 comments">
+					<a name="description"><h5>Restaurant Description </h5></a>
+					<p><?php echo($restaurant->description) ?></p>
+				</div>
 			</div>
 			&nbsp
 		</div>
@@ -178,38 +176,41 @@
 	<!-- End Restaurant details -->
 	<?php require 'scripts.php'?>
 	<?php require 'footer.php'?>
-
-	<script type="text/javascript">
-		function initialize() {
-		  	var map = new google.maps.Map(document.getElementById('map-canvas'), {
-		    	mapTypeId: google.maps.MapTypeId.ROADMAP,
-		  	});
-			var bounds = new google.maps.LatLngBounds();
-			var initialLocation = new google.maps.LatLng(<?php echo($restaurant->latlong); ?>);
-	  		bounds.extend(initialLocation);
-	  		map.fitBounds(bounds);
-	  		setMarker(initialLocation);
-			var listener = google.maps.event.addListener(map, "idle", function() { 
-				if (map.getZoom() > 16) map.setZoom(16); 
-				google.maps.event.removeListener(listener); 
-			});
-
-			google.maps.event.addListener(map, 'click', function(event) {
-		        mapZoom = map.getZoom();
-		        startLocation = event.latLng;
-		        setMarker(startLocation );
-		    });
-
-			function setMarker(location) {
-			  	var myMarker = new google.maps.Marker({
-			    	position: location,
-			    	map: map
+	
+	<?php if (isset($restaurant->latlong)) { ?>
+		<script type="text/javascript">
+			function initialize() {
+			  	var map = new google.maps.Map(document.getElementById('map-canvas'), {
+			    	mapTypeId: google.maps.MapTypeId.ROADMAP,
 			  	});
-			  	myMarker.setMap(map);
+					var bounds = new google.maps.LatLngBounds();
+					var initialLocation = new google.maps.LatLng(<?php echo($restaurant->latlong); ?>);
+			  		bounds.extend(initialLocation);
+			  		map.fitBounds(bounds);
+			  		setMarker(initialLocation);
+					var listener = google.maps.event.addListener(map, "idle", function() { 
+						if (map.getZoom() > 16) map.setZoom(16); 
+						google.maps.event.removeListener(listener); 
+					});
+
+					google.maps.event.addListener(map, 'click', function(event) {
+				        mapZoom = map.getZoom();
+				        startLocation = event.latLng;
+				        setMarker(startLocation );
+				    });
+
+					function setMarker(location) {
+					  	var myMarker = new google.maps.Marker({
+					    	position: location,
+					    	map: map
+					  	});
+					  	myMarker.setMap(map);
+					}
 			}
-		}
-		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	<?php } ?>
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#input-review-title").keydown(function(event){
@@ -221,8 +222,10 @@
 		});
 	</script>
 	<script type="text/javascript">
-		function toogle_review_form() {
-			$("#review-form").toggle();
+
+		function open_review_form() {
+			clear_edit_form();
+			$("#review-form").show();
 		}
 	</script>
 </body>

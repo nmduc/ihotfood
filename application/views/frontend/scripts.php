@@ -155,6 +155,9 @@
 				jQuery("#comments-listing").html(new_html);
 				jQuery("#comments-listing .star").rating(); 
 				SELF.reviewSubmit();
+				/******** BEGIN Duc **********/
+				SELF.reviewDelete();
+				/******** END Duc ***********/
 			});
 		}
 		SELF.setupRating = function(){
@@ -182,6 +185,14 @@
 							});
 							$('.comment-container').slideDown(1000);
 						} else {
+							/**************** BEGIN Duc ******************/
+							// start upload photos
+							$("form#review-photo-upload input[name=review-id]").val(data['new-review-id']);
+							var addReviewPhotoUploader = Dropzone.instances[0];
+							if(addReviewPhotoUploader.files.length > 0 ) {
+								addReviewPhotoUploader.processQueue();	
+							}
+							/**************** END Duc ******************/
 							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 								$('.comment-container').slideDown(1500);
 								new_html = $(html).find('.comments').html();
@@ -194,6 +205,11 @@
 								channel.bind(event_name, function(data){
 									SELF.refreshComments(data.dest);
 								});
+								/******** BEGIN Duc **********/
+								SELF.reviewDelete();
+								Dropzone.instances.pop();
+								Dropzone.discover();
+								/******** END Duc ******/
 							});
 						}						
 					}
@@ -201,6 +217,44 @@
 				return false; //disable refresh
 			});
 		}
+		/********** BEGIN Duc ***********/
+		SELF.reviewDelete = function() {
+			$('a.delete-review-link').on("click", function() {
+				var confirmed = confirm("Delete this review?");
+				if(confirmed) {
+					var temp = this.id.split("-");
+					var id = temp[temp.length-1];
+					$.ajax({
+						type: 'POST',
+						url: "<?php echo base_url()?>index.php/restaurant/user_delete_review/",
+						dataType: 'json',
+		  				data: "review_id=" + id,
+						success: function( data, xhr ) {
+							if( data['status'] != 'true') {
+								alert('cannot delete review');
+							}
+							else {
+							$('.comment-container').slideUp(1500);
+								var dest = '<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>';
+								jQuery.get(dest, function(html){
+									jQuery(".comment-container").slideDown(1500);
+									new_html = $(html).find(".comments").html();
+									jQuery("#comments-listing").html(new_html);
+									jQuery("#comments-listing .star").rating(); 
+									SELF.reviewSubmit();
+									SELF.reviewDelete();
+									// reinitialize dropzone photo uploader
+									Dropzone.instances.pop();
+									Dropzone.discover();
+								});
+							}
+						}
+					});
+				}
+				return false;
+			});
+		}
+		/********** END Duc ************/
 		<?php };?>
 		SELF.indicateProgressing = function(percentComplete) {
 			console.log(percentComplete);
@@ -694,6 +748,9 @@
 			if($this->router->fetch_class() == 'restaurant') {
 				echo('ngoctran.reviewSubmit();');
 				echo('ngoctran.setupRating();');
+				/******** BEGIN Duc ************/
+				echo('ngoctran.reviewDelete();');
+				/******** END Duc ************/
 			}
 		?>
 	});
