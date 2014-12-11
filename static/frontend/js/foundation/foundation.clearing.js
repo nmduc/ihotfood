@@ -19,7 +19,7 @@
       close_selectors : '.clearing-close, div.clearing-blackout', 
 
       // Default to the entire li element.
-      open_selectors : '',
+      open_selectors : '.clearing-img',
 
       // Image will be skipped in carousel.
       skip_selector : '',

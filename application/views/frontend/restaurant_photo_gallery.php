@@ -20,19 +20,15 @@
 	<a name="gallery"> </a>
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
-			<ul class="clearing-thumbs" data-clearing>
-				
+			<ul class="clearing-thumbs" data-clearing data-options={open_selectors:'.clearing-img'}>
 				<?php foreach($photos as $photo) { ?>
 					<li>
 						<div class="gallery-thumbnails"> 
-							<a href="<?php echo base_url() . 'static/user_upload/' . $photo->filename; ?>">
+							<a class="clearing-img" href="<?php echo base_url() . 'static/user_upload/' . $photo->filename; ?>">
 								<img src="<?php echo base_url() . 'static/user_upload/' . $photo->thumbnailFilename; ?>">
-								<input class="delete-photo" type="button" value="Delete" />
 							</a>
+							<input class="delete-photo-button" type="button" value="Delete" onclick="deletePhoto('<?php echo $photo->filename; ?>')" />
 						</div>
-						<!-- <a href="">
-						<img class="delete-photo-button" src="<?php echo base_url() . 'static/frontend/img/close.png' ?>" style="width:15px;height:15px">
-						</a> -->
 					</li>
 				<?php } ?>
 			</ul>
@@ -64,16 +60,7 @@
 
 				init:function() {
     				this.on("successmultiple", function(file, response) {
-    					// user ajax to reload gallery
-						$('.clearing-thumbs').slideUp(1500);
-						$.get('<?php echo site_url("/restaurant/photo_gallery/" . $restaurant->id); ?>', function(html){
-							new_html = $(html).find('.clearing-thumbs').html();
-							$('.clearing-thumbs').html(new_html);
-							$('.clearing-thumbs').slideDown(1500);
-						});
-						// clear file from uploader
-						Dropzone.instances[0].removeAllFiles();
-						$("#dropzone-photo-upload").dropzone();
+    					refreshGallery();
     				});
 				},
 			};
@@ -87,10 +74,6 @@
 		  	$("#photo-upload").show();
 		});
 
-		$(".delete-photo-button").on("click", function() {
-			alert("shit");
-		});
-
 		function uploadPhotos() {
 			var photoUploader = Dropzone.instances[0];
 			if(photoUploader.files.length > 0 ) {
@@ -99,8 +82,36 @@
 			else {
 				alert("Sorry ! You have to choose photo to upload");
 			}
-		};
+		}
+
+		function deletePhoto(filename) {
+			$.ajax({
+				type : 'POST',
+				url : "<?php echo site_url('photo/remove_photo/'); ?>",
+				data : 'filename=' + filename,
+				success : function(response) {
+					if (response['status'] != 'trt ue') {
+						refreshGallery();
+					}
+					else {
+						alert("Something went wrong. Please try again later")
+					}
+				},
+			});
+		}		
 		
+		// user ajax to reload gallery
+		function refreshGallery() {
+			$('.clearing-thumbs').slideUp(500);
+			$.get('<?php echo site_url("/restaurant/photo_gallery/" . $restaurant->id); ?>', function(html){
+				new_html = $(html).find('.clearing-thumbs').html();
+				$('.clearing-thumbs').html(new_html);
+				$('.clearing-thumbs').slideDown(500);
+			});
+			// clear file from uploader
+			Dropzone.instances[0].removeAllFiles();
+		}
+
 	</script>
 
 	<?php require 'scripts.php'?> 

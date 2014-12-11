@@ -113,6 +113,12 @@ class Photo extends CI_Controller {
 		}
     }
 
+    public function remove_photo($filename) {
+		$this->load->model("restaurant/media_model");
+	 	$this->media_model->delete_media($this->input->post('filename'));
+	 	$jsonArr['status'] = 'true';
+	 	echo(json_encode($jsonArr));
+    }
 
     public function generate_unique_file_name($album_id, $fileName) {
     	$filename = tempnam('static/user_upload/', '');
