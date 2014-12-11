@@ -19,33 +19,35 @@ class Photo extends CI_Controller {
 		else {
 			if (!empty($_FILES)) {
 				$album_id = $restaurant->album_id;
+				$len = count($_FILES['file']['tmp_name']);
+				for($i=0; $i < $len; $i ++) {
+					$tempFile = $_FILES['file']['tmp_name'][$i];
+					$fileName = $_FILES['file']['name'][$i];
+					$targetPath = 'static/user_upload/';
+					$serverFileName = $this->generate_unique_file_name($album_id, $fileName);
+					$targetFile = $targetPath . $serverFileName;
 
-				$tempFile = $_FILES['file']['tmp_name'];
-				$fileName = $_FILES['file']['name'];
-				$targetPath = 'static/user_upload/';
-				$serverFileName = $this->generate_unique_file_name($album_id, $fileName);
-				$targetFile = $targetPath . $serverFileName;
+					// save file to server
+					move_uploaded_file($tempFile, $targetFile);
+					
+					// save to database
+					$this->load->model("restaurant/media_model");
+					$this->media_model->create_media($album_id, $serverFileName);
 
-				// save file to server
-				move_uploaded_file($tempFile, $targetFile);
-				
-				// save to database
-				$this->load->model("restaurant/media_model");
-				$this->media_model->create_media($album_id, $serverFileName);
+					// create and save image thumbnail
+					// configs for image library to create thumbnails
+					$config['image_library'] = 'gd2';
+					$config['create_thumb'] = TRUE;
+					$config['maintain_ratio'] = TRUE;
+					$config['width']	= 100;
+					$config['height']	= 100;
+					$config['source_image']	= $targetFile;
+					$this->image_lib->initialize($config);
+					$thumbnail = $this->image_lib->resize();
 
-				// create and save image thumbnail
-				// configs for image library to create thumbnails
-				$config['image_library'] = 'gd2';
-				$config['create_thumb'] = TRUE;
-				$config['maintain_ratio'] = TRUE;
-				$config['width']	= 100;
-				$config['height']	= 100;
-				$config['source_image']	= $targetFile;
-				$this->image_lib->initialize($config);
-				$thumbnail = $this->image_lib->resize();
-
-				// return the name as which the file is store in server (for removing if necessary)
-				echo($serverFileName);
+					// return the name as which the file is store in server (for removing if necessary)
+					echo($serverFileName);
+				}
 			}
 		}
     }

@@ -1633,3 +1633,17 @@ footer {
 .restaurant-detail {
 	margin-top: 20px;
 }
+
+.gallery-thumbnails:hover img{
+	opacity: 0.5;
+}
+
+.gallery-thumbnails:hover input {
+	display: block;
+}
+
+.gallery-thumbnails input {
+	position: absolute;
+	display: none;
+}
+
