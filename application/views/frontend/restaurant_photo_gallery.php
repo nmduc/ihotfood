@@ -27,7 +27,9 @@
 							<a class="clearing-img" href="<?php echo base_url() . 'static/user_upload/' . $photo->filename; ?>">
 								<img src="<?php echo base_url() . 'static/user_upload/' . $photo->thumbnailFilename; ?>">
 							</a>
-							<input class="delete-photo-button" type="button" value="Delete" onclick="deletePhoto('<?php echo $photo->filename; ?>')" />
+							<?php if($this->session->userdata('id') && $this->session->userdata('id') == $restaurant->owner_id ) { ?>
+								<input class="delete-photo-button" type="button" value="Delete" onclick="deletePhoto('<?php echo $photo->filename; ?>')" />
+							<?php } ?>
 						</div>
 					</li>
 				<?php } ?>
