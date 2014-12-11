@@ -188,11 +188,60 @@
 							/**************** BEGIN Duc ******************/
 							// start upload photos
 							$("form#review-photo-upload input[name=review-id]").val(data['new-review-id']);
+
 							var addReviewPhotoUploader = Dropzone.instances[0];
+
+							// if there is photo to upload, wait for the uploader to finish before reloading 
 							if(addReviewPhotoUploader.files.length > 0 ) {
-								addReviewPhotoUploader.processQueue();	
+								addReviewPhotoUploader.on("successmultiple", function() {
+									/**************** END Duc ******************/
+									$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
+										$('.comment-container').slideDown(1500);
+										new_html = $(html).find('.comments').html();
+										$('#comments-listing').html(new_html);
+										$('#comments-listing .star').rating(); 
+										SELF.reviewSubmit();
+										var channel_name = "channel_name_" + "<?php echo $restaurant->id?>";
+										var event_name = "<?php echo NEW_REVIEW_NOTIFCATION_EVENT ?>";
+										var channel = SELF.pusher.subscribe(channel_name);
+										channel.bind(event_name, function(data){
+											SELF.refreshComments(data.dest);
+										});
+										/******** BEGIN Duc **********/
+										SELF.reviewDelete();
+										Dropzone.instances.pop();
+										Dropzone.discover();
+										/******** END Duc ******/
+									});
+								});
+								addReviewPhotoUploader.processQueue();
 							}
-							/**************** END Duc ******************/
+
+							// otherwise, simply reload without delay
+							else {
+								/**************** END Duc ******************/
+								$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
+									$('.comment-container').slideDown(1500);
+									new_html = $(html).find('.comments').html();
+									$('#comments-listing').html(new_html);
+									$('#comments-listing .star').rating(); 
+									SELF.reviewSubmit();
+									var channel_name = "channel_name_" + "<?php echo $restaurant->id?>";
+									var event_name = "<?php echo NEW_REVIEW_NOTIFCATION_EVENT ?>";
+									var channel = SELF.pusher.subscribe(channel_name);
+									channel.bind(event_name, function(data){
+										SELF.refreshComments(data.dest);
+									});
+									/******** BEGIN Duc **********/
+									SELF.reviewDelete();
+									Dropzone.instances.pop();
+									Dropzone.discover();
+									/******** END Duc ******/
+								});
+							}
+
+							/************* BEGIN NGOC ORIGINAL ************/
+							/*
 							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 								$('.comment-container').slideDown(1500);
 								new_html = $(html).find('.comments').html();
@@ -205,12 +254,9 @@
 								channel.bind(event_name, function(data){
 									SELF.refreshComments(data.dest);
 								});
-								/******** BEGIN Duc **********/
-								SELF.reviewDelete();
-								Dropzone.instances.pop();
-								Dropzone.discover();
-								/******** END Duc ******/
 							});
+							*/
+							/************* END NGOC ORIGINAL ************/
 						}						
 					}
 				});

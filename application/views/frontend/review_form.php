@@ -40,7 +40,7 @@
 				</div>
 
 				<div class="large-3 large-centered">
-					<input class="button tiny" value="Upload photo" data-reveal-id="review-photo-modal");/>
+					<input class="button tiny" value="Review photo" data-reveal-id="review-photo-modal");/>
 				</div>
 			</fieldset>	
 		</form>
@@ -63,7 +63,7 @@
 		acceptedFiles: 'image/*',
 		addRemoveLinks: true,
 		autoProcessQueue: false,	
-		// maxFiles: 100,
+		maxFiles: 20,
 		parallelUploads: 100,
 	};
 

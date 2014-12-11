@@ -17,9 +17,16 @@ class Restaurant extends CI_Controller {
 		else {
 			$review_list = $this->review_model->get_restaurant_reviews($id);
 			$this->load->model("user/basic_user_model");
+			$this->load->model("restaurant/media_model");
+
 			$reviews = array();
 			foreach ($review_list as $review) {
 				$review->user_info = $this->basic_user_model->get_user_info_by_id($review->user_id);
+				$review->photos = $this->media_model->get_all_album_medias($review->album_id);
+				foreach($review->photos as $photo) {
+					$temp = explode('.',$photo->filename);
+					$photo->thumbnailFilename = $temp[0] . '_thumb.' . $temp[1];
+				}
 				array_push($reviews, $review);
 			}
 			$data = array (

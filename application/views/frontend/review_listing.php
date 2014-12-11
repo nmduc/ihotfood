@@ -65,6 +65,27 @@
 				<div class="large-12">
 					<span class="review-content"><?php echo(strip_tags($review->content));?></span>
 				</div>
+				<?php if(count($review->photos) > 0 ) { ?>
+					<div class="large-12">
+						<!-- <hr style="border-top: dotted 1px;width:50%;" /> -->
+						<br>
+						<span style="font-weight:bold">Review photos </span>
+						<ul class="clearing-thumbs" data-clearing>
+							<?php foreach($review->photos as $photo) { ?>
+								<li>
+									<div class="gallery-thumbnails"> 
+										<a class="clearing-img" href="<?php echo base_url() . 'static/user_upload/' . $photo->filename; ?>">
+											<img src="<?php echo base_url() . 'static/user_upload/' . $photo->thumbnailFilename; ?>">
+										</a>
+										<?php if($this->session->userdata('id') && $this->session->userdata('id') == $review->user_id ) { ?>
+											<input class="delete-photo-button" type="button" value="Delete" onclick="deletePhoto('<?php echo $photo->filename; ?>')" />
+										<?php } ?>
+									</div>
+								</li>
+							<?php } ?>
+						</ul>
+					</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>
