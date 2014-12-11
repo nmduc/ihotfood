@@ -121,10 +121,12 @@ class Photo extends CI_Controller {
     }
 
     public function generate_unique_file_name($album_id, $fileName) {
-    	$filename = tempnam('static/user_upload/', '');
-    	unlink($filename);
-    	// filename = "directory/<unique>.tmp"
-    	$temp = explode('\\', $filename);
-    	return explode('.', $temp[count($temp)-1])[0] . $_SERVER['REQUEST_TIME'] . $fileName;
+    	$tempFilename = tempnam('static/user_upload/', '');
+    	unlink($tempFilename);
+    	// tempFilename = "directory/<unique>.tmp"
+    	$temp = explode('\\', $tempFilename);
+    	// get file extension
+    	$temp2 = explode('.', $fileName);
+    	return explode('.', $temp[count($temp)-1])[0] . $_SERVER['REQUEST_TIME'] . '.' . $temp2[count($temp2) -1 ];
     }
 }

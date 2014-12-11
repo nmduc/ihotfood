@@ -87,6 +87,8 @@
 		}
 
 		function deletePhoto(filename) {
+			var confirmed = confirm("Delete this photo?");
+			if(! confirmed) return;
 			$.ajax({
 				type : 'POST',
 				url : "<?php echo site_url('photo/remove_photo/'); ?>",

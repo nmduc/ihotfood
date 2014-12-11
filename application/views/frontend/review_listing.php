@@ -99,17 +99,6 @@
 							jQuery("#comments-listing .star").rating(); 
 							SELF.reviewSubmit();
 						});
-
-  				// 		<?php if( isset($offset) && isset($review_per_load) ) { ?>
-						// 	var newOffset = parseInt($("p#next-offset").html()) - 1;
-				  // 			$("p#next-offset").html(newOffset);
-				  // 			console.log(newOffset);
-				  // 			$('a#next-reviews').attr('onclick','').unbind('click');
-	  			// 			$("a#next-reviews").on("click", function() {
-					 //  			load_review( newOffset, <?php echo $review_per_load ?>);
-					 //  		});
-						// <?php } ?>
-	  				
 	  				}	
 	  				else {
 	  					console.log("Something went wrong! Cannot delete review");
