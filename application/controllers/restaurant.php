@@ -29,9 +29,21 @@ class Restaurant extends CI_Controller {
 				}
 				array_push($reviews, $review);
 			}
+
+			// get sample photos 
+			$this->load->model( 'restaurant/media_model' );
+			$photos = $this->media_model->get_sample_album_medias($restaurant->album_id, 3);
+			$samplePhotos = array();
+			foreach ($photos as $photo) {
+				$temp = explode('.',$photo->filename);
+				$photo->thumbnailFilename = $temp[0] . '_thumb.' . $temp[1];
+				array_push($samplePhotos, $photo);
+			}
+
 			$data = array (
 				'restaurant' => $restaurant,
 				'reviews' => $reviews,
+				'samplePhotos' => $samplePhotos,
 			);
 			
 			$this->load->view ( 'frontend/view_restaurant', $data );

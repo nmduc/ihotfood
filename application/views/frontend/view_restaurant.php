@@ -1,8 +1,8 @@
-<?php include 'metadata.php'?>
+<?php include 'metadata.php' ?>
 <script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
 <link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
 <body>
-	<?php require 'nav.php'?>
+	<?php require 'nav.php' ?>
 	<!-- Begin Restaurant Navigation bar -->
 	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; "> 
  		<div class="large-12 large-centered" > 
@@ -14,7 +14,6 @@
  		</div> 
  	</div> 
 	
-	
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
 		<div class="large-12 large-centered">
@@ -23,7 +22,7 @@
 				<!-- Slides Container -->
 				<div u="slides"
 					style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 350px; overflow: hidden;">
-					<div>
+					<!-- <div>
 						<img u="image"
 							src="<?php echo base_url()?>static/user_upload/restaurant_1.jpeg"
 							alt="slide 1" /> 
@@ -41,7 +40,27 @@
 							src="<?php echo base_url()?>static/user_upload/restaurant_3.jpeg"
 							alt="slide 3" /> <img u="thumb"
 							src="<?php echo base_url()?>static/user_upload/restaurant_3_thumb.jpg" />
-					</div>
+					</div> -->
+					<?php if (count($samplePhotos) > 0 ) { ?>
+						<?php for($i = 0; $i < count($samplePhotos); $i++ ) { ?> 
+							<div>
+								<img u="image"
+									src="<?php echo base_url() . 'static/user_upload/' . $samplePhotos[$i]->filename; ?>"
+									alt="slide <?php echo $i; ?>" /> 
+								<img u="thumb"
+									src="<?php echo base_url() . 'static/user_upload/' . $samplePhotos[$i]->thumbnailFilename; ?>" />
+							</div>
+						<?php } ?>
+					<?php } else { ?>
+						<div>
+							<img u="image"
+								src="<?php echo base_url()?>static/user_upload/restaurant_2.jpeg"
+								alt="slide 1" /> 
+								<img u="thumb"
+								src="<?php echo base_url()?>static/user_upload/restaurant_2_thumb.jpg" />
+						</div>
+					<?php } ?>
+
 				</div>
 				<!-- Arrow Navigator Skin Begin -->
 				<!-- Arrow Left -->

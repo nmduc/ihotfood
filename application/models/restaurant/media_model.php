@@ -29,6 +29,16 @@ class Media_Model extends CI_Model{
 		return $media_list;
 	}
 
+	public function get_sample_album_medias($albumId, $nSamples) {
+		$this->db->where('album_id', $albumId);
+		$query = $this->db->get('medias',$nSamples);
+		$media_list = array();
+		foreach($query->result() as $media) {
+			array_push($media_list, $media);
+		}
+		return $media_list;
+	}
+
 	public function delete_media($filename) {
 		$this->db->where('filename', $filename);
 		$this->db->delete('medias');
