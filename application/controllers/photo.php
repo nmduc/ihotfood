@@ -113,10 +113,34 @@ class Photo extends CI_Controller {
 		}
     }
 
-    public function remove_photo($filename) {
+    public function remove_photo() {
 		$this->load->model("restaurant/media_model");
-	 	$this->media_model->delete_media($this->input->post('filename'));
+		$filename = $this->input->post('filename');
+		if( ! $this->session->userdata('id') || 
+			$this->session->userdata('id') != $this->media_model->get_media($filename)->user_id ) {
+	 		$jsonArr['status'] = 'false';	
+		}
+		else {
+			$this->media_model->delete_media($filename);
+	 		$jsonArr['status'] = 'true';	
+		}
+	 	echo(json_encode($jsonArr));
+    }
+
+    public function remove_review_photo() {
+    	$filenames = json_decode($this->input->post('filenames'));
+		$this->load->model("restaurant/media_model");
 	 	$jsonArr['status'] = 'true';
+    	foreach($filenames as $filename) {
+    		if( ! $this->session->userdata('id') || 
+				$this->session->userdata('id') != $this->media_model->get_media($filename)->user_id ) {
+		 		$jsonArr['status'] = 'false';
+		 		break;	
+			}
+			else {
+    			$this->media_model->delete_media($filename);
+    		}
+    	}
 	 	echo(json_encode($jsonArr));
     }
 

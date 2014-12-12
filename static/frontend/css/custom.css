@@ -1647,3 +1647,10 @@ footer {
 	display: none;
 }
 
+.gallery-thumbnails.selected input {
+	display: block;
+}
+
+.gallery-thumbnails.selected img {
+	opacity: 0.3;
+}

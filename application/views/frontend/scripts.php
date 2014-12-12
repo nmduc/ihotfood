@@ -185,16 +185,35 @@
 							});
 							$('.comment-container').slideDown(1000);
 						} else {
-							/**************** BEGIN Duc ******************/
-							// start upload photos
-							$("form#review-photo-upload input[name=review-id]").val(data['new-review-id']);
 
+						/**************** BEGIN Duc ******************/
+							// delete selected photos (in case of editting review)
+							var selectedPhotos = [];
+							$.each($('#review-photo-gallery').find('.selected'), function() {
+								selectedPhotos.push($(this).find('.filename').val());
+							});
+							if(selectedPhotos.length > 0 ) {
+								var jsonData = JSON.stringify(selectedPhotos);
+								$.ajax({
+									type : 'POST',
+									url : "<?php echo site_url('photo/remove_review_photo/') ?>",
+									data : 'filenames=' + jsonData,
+									dataType: 'json',
+									success : function (data, xhr) {
+										if(data['status'] == true ){ 
+											console.log('photos deleted successfully');
+										}
+									}
+								});
+							}
+
+							// start upload new photos
+							$("form#review-photo-upload input[name=review-id]").val(data['new-review-id']);
 							var addReviewPhotoUploader = Dropzone.instances[0];
 
 							// if there is photo to upload, wait for the uploader to finish before reloading 
 							if(addReviewPhotoUploader.files.length > 0 ) {
 								addReviewPhotoUploader.on("successmultiple", function() {
-									/**************** END Duc ******************/
 									$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 										$('.comment-container').slideDown(1500);
 										new_html = $(html).find('.comments').html();
@@ -207,11 +226,9 @@
 										channel.bind(event_name, function(data){
 											SELF.refreshComments(data.dest);
 										});
-										/******** BEGIN Duc **********/
 										SELF.reviewDelete();
 										Dropzone.instances.pop();
 										Dropzone.discover();
-										/******** END Duc ******/
 									});
 								});
 								addReviewPhotoUploader.processQueue();
@@ -219,7 +236,6 @@
 
 							// otherwise, simply reload without delay
 							else {
-								/**************** END Duc ******************/
 								$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 									$('.comment-container').slideDown(1500);
 									new_html = $(html).find('.comments').html();
@@ -232,15 +248,15 @@
 									channel.bind(event_name, function(data){
 										SELF.refreshComments(data.dest);
 									});
-									/******** BEGIN Duc **********/
 									SELF.reviewDelete();
 									Dropzone.instances.pop();
 									Dropzone.discover();
-									/******** END Duc ******/
 								});
 							}
+						/**************** END Duc ******************/
 
-							/************* BEGIN NGOC ORIGINAL ************/
+
+							/************* BEGIN NGOC'S ORIGINAL ************/
 							/*
 							$.get('<?php echo base_url("/index.php/restaurant/show_restaurant/" . $restaurant->id); ?>', function(html){
 								$('.comment-container').slideDown(1500);
@@ -256,7 +272,7 @@
 								});
 							});
 							*/
-							/************* END NGOC ORIGINAL ************/
+							/************* END NGOC'S ORIGINAL ************/
 						}						
 					}
 				});

@@ -40,14 +40,17 @@
 				</div>
 
 				<div class="large-3 large-centered">
-					<input class="button tiny" value="Review photo" data-reveal-id="review-photo-modal");/>
+					<input class="button tiny" value="Photos" data-reveal-id="review-photo-modal");/>
 				</div>
 			</fieldset>	
 		</form>
 		<div id="review-photo-modal" class="reveal-modal" data-reveal>
+			<div id="review-photo-gallery" data-clearing></div>
+			<br>
 			<form action="<?php echo site_url('/photo/upload_review_photo'); ?>" id="review-photo-upload" class="dropzone">
 				<input type="hidden" name="review-id" value="" />
 			</form>
+			<!-- <input class="update-review-photos" style="display:none" type="button" value="Update review photos" onclick="updateReviewPhotos(this)" /> -->
 		</div>
 		<hr>
 	<?php } ?>
@@ -70,4 +73,28 @@
 	function hide_review_form() {
 		$("#review-form").hide();
 	}
+
+	function updateReviewPhotos(event) {
+		// delete existing photos
+		var selectedPhotos = [];
+		$.each($(event).parent().find('#review-photo-gallery').find('.selected'), function() {
+			selectedPhotos.push($(this).find('.filename').val());
+		});
+		var jsonData = JSON.stringify(selectedPhotos);
+		$.ajax({
+			type : 'POST',
+			url : "<?php echo site_url('photo/remove_review_photo/') ?>",
+			data : 'filenames=' + jsonData,
+			dataType: 'json',
+			success : function (data, xhr) {
+				if(data['status'] == true ){ 
+					console.log('photos deleted successfully');
+				}
+			}
+		});
+
+		// $(this).parent().find('#review-photo-gallery').
+		// upload new photos
+	}
+
 </script>
