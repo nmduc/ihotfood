@@ -107,5 +107,17 @@ class Restaurant_Model extends CI_Model{
 		$this->db->where('id', $resId);
 		return $this->db->update('restaurants', $data);
 	}
+
+	public function update_average_rating($resId) {
+		$this->load->model('restaurant/review_model');
+		$reviews = $this->review_model->get_restaurant_reviews($resId);
+		$sum = 0;
+		foreach ($reviews as $review) {
+			$sum = $sum + $review->rating;
+		}
+		$averageScore = round($sum / count($reviews));
+		$this->db->where('id', $resId);
+		return $this->db->update('restaurants', array('average_score' => $averageScore)); 
+	}
 }
 

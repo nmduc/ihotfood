@@ -1,5 +1,5 @@
 <?php include 'metadata.php' ?>
-<script src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
 <link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
 <body>
 	<?php require 'nav.php' ?>
@@ -89,6 +89,34 @@
 			<div class="large-5 columns">
 				<div class="row">
 					<h3 class="restaurant-name" property="dc:title"><?php echo $restaurant->name ?></h3>
+					<div class="overall-rating" >
+						<?php if($restaurant->average_score == 1) { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" checked="checked"/>
+		        		<?php } else { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" />
+		        		<?php } ?>
+			        	<?php if($restaurant->average_score == 2) { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" checked="checked"/>
+		        		<?php } else { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" />
+		        		<?php } ?>
+		        		<?php if($restaurant->average_score == 3) { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" checked="checked"/>
+		        		<?php } else { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" />
+		        		<?php } ?>
+		        		<?php if($restaurant->average_score == 4) { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" checked="checked"/>
+		        		<?php } else { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" />
+		        		<?php } ?>
+		        		<?php if($restaurant->average_score == 5) { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" checked="checked"/>
+		        		<?php } else { ?>
+			        		<input class="star" type="radio" name="restaurant-score" disabled="disabled" />
+		        		<?php } ?>
+					</div>
+					<br>
 					<p class="restaurant-description">
 						<?php echo ( ((strlen($restaurant->description)) > 200) ? 
 								substr($restaurant->description, 0, 200) . "..." . "(<a href='#description'> read more</a>)" 
@@ -241,7 +269,6 @@
 		});
 	</script>
 	<script type="text/javascript">
-
 		function open_review_form() {
 			clear_edit_form();
 			$("#review-form").show();

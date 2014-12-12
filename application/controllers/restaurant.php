@@ -97,6 +97,7 @@ class Restaurant extends CI_Controller {
 			
 			if(! $this->input->post('review-id')) {
 				$new_review_id = $this->review_model->create_review($resId);
+				$this->restaurant_model->update_average_rating($resId);
 				if(! $new_review_id ) {
 					$data = array(
 						"heading" => "Unexpected error",
@@ -125,6 +126,7 @@ class Restaurant extends CI_Controller {
 			}
 			else {
 				$this->review_model->update_review($this->input->post('review-id'));
+				$this->restaurant_model->update_average_rating($resId);
 				$jsonArr['status'] = 'true';
 				$jsonArr['new-review-id'] = $this->input->post('review-id');
 			}
@@ -160,6 +162,11 @@ class Restaurant extends CI_Controller {
 				$this->album_model->delete_album($albumId);
 
 				$this->review_model->delete_review($reviewId);
+
+				// update restaurant average score
+				$this->load->model( 'restaurant/restaurant_model' );
+				$this->restaurant_model->update_average_rating($review->restaurant_id);
+
 				$jsonArr['status'] = 'true';
 			}
 		}
