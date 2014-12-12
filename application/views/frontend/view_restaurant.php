@@ -69,7 +69,7 @@
 			</div>
 			<div class="large-5 columns">
 				<div class="row">
-					<h3 class="restaurant-name"><?php echo $restaurant->name ?></h3>
+					<h3 class="restaurant-name" property="dc:title"><?php echo $restaurant->name ?></h3>
 					<p class="restaurant-description">
 						<?php echo ( ((strlen($restaurant->description)) > 200) ? 
 								substr($restaurant->description, 0, 200) . "..." . "(<a href='#description'> read more</a>)" 
@@ -162,7 +162,7 @@
 			&nbsp
 			<div class="row map-container">
 				<div class="large-12 comments">
-					<a name="description"><h5>Restaurant Description </h5></a>
+					<a name="description" property="dc:description"><h5>Restaurant Description </h5></a>
 					<p><?php echo($restaurant->description) ?></p>
 				</div>
 			</div>

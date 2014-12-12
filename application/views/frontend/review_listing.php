@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="large-12">
 					<div class="large-6 columns" style="padding-left:0px">
-						<a href=""><?php echo($review->user_info['username']); ?></a>
+						<a href="" property="dc:contributor"> <?php echo($review->user_info['username']); ?></a>
 						<span style="font-size:12px"><i>Posted on: (<?php echo($review->publish_time); ?>)</i></span>
 					</div>
 					<div class="large-6 columns">
@@ -31,7 +31,7 @@
 				</div>
 				<div class="row">
 					<div class="large-8 columns">
-						<h5 class="review-title"><?php echo($review->title); ?></h5>
+						<h5 class="review-title" property="dc:title"><?php echo($review->title); ?></h5>
 					</div>
 					<div class="large-2 columns">
 			        	<div class="row" style="position:relative; right:0px">
@@ -64,7 +64,7 @@
 					</div>
 				</div>
 				<div class="large-12">
-					<span class="review-content"><?php echo(strip_tags($review->content));?></span>
+					<span class="review-content" property="dc:description"><?php echo(strip_tags($review->content));?></span>
 				</div>
 				<?php if(count($review->photos) > 0 ) { ?>
 					<div class="large-12">
