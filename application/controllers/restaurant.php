@@ -40,10 +40,13 @@ class Restaurant extends CI_Controller {
 				array_push($samplePhotos, $photo);
 			}
 
+			$this->load->library("../controllers/user/facebook_login");
+			$facebookLoginURL = $this->facebook_login->get_facebook_login_url();
 			$data = array (
 				'restaurant' => $restaurant,
 				'reviews' => $reviews,
 				'samplePhotos' => $samplePhotos,
+				'facebookLoginURL' => $facebookLoginURL,
 			);
 			
 			$this->load->view ( 'frontend/view_restaurant', $data );
@@ -191,9 +194,12 @@ class Restaurant extends CI_Controller {
 			array_push($photos, $photo);
 		}
 
+		$this->load->library("../controllers/user/facebook_login");
+		$facebookLoginURL = $this->facebook_login->get_facebook_login_url();
 		$data = array(
 			'restaurant' => $restaurant,
 			'photos' => $photos,
+			'facebookLoginURL' => $facebookLoginURL,
 		);
 		$this->load->view ( 'frontend/restaurant_photo_gallery', $data);
 	}

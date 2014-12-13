@@ -8,10 +8,8 @@ class Welcome extends CI_Controller {
 	}
 	public function index() {
 		$this->session->set_userdata('uuid', uniqid());
-		
-		if(! $this->session->userdata('facebookLoginURL')) {
-			$this->session->set_userdata('facebookLoginURL', $this->facebook_login->get_facebook_login_url());
-		}
+		$facebookLoginURL = $this->facebook_login->get_facebook_login_url();
+
 		if( $this->session->userdata ( 'username' )) {
 			$restaurantList = $this->restaurant_model->get_restaurant_by_user((int)$this->session->userdata ( 'id' ));
 			// add items to session
@@ -24,6 +22,7 @@ class Welcome extends CI_Controller {
 
 		$data = array(
 			'restaurants' => $this->restaurant_model->get_restaurant_list(),
+			'facebookLoginURL' => $facebookLoginURL,
 		);
 		$this->load->view('frontend/index', $data);
 	}

@@ -11,8 +11,8 @@
  			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a> 
  			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> 
  			<div class="large-4 columns"></div> -->
- 		</div> 
- 	</div> 
+ 		</div>
+ 	</div>
 	
 	<!-- Begin Restaurant -->
 	<div class="row restaurant">
