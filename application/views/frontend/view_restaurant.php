@@ -2,13 +2,21 @@
 <script type="text/javascript" src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
 <link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=590280537744516&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 	<?php require 'nav.php' ?>
 	<!-- Begin Restaurant Navigation bar -->
 	<div class="row navigation" style="position: relative; top:20px; background: #565a5c; "> 
  		<div class="large-12 large-centered" > 
  			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a> 
  			<a href="<?php echo site_url('restaurant/photo_gallery')?>/<?php echo $restaurant->id ?>"><div class="large-2 columns">  <font color="white">Photos</font> </div></a> 
- 			<a href=""><div class="large-2 columns">  <font color="white">Articles</font> </div></a> 
  			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> 
  			<div class="large-4 columns"></div> -->
  		</div>
@@ -158,7 +166,15 @@
 							<input class="button tiny" type="button" value="Write a review" style="position:absolute;" onclick="open_review_form()"> 
 						</div>
 					<?php } ?>
+					<br>
+					<br>
 				<?php } ?>
+				<div class="row">
+					<div class="fb-like" 
+						data-href="http://ihotfood.com/index.php/restaurant/show_restaurant/<?php echo $restaurant->id; ?>" 
+						data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -274,5 +290,6 @@
 			$("#review-form").show();
 		}
 	</script>
+	
 </body>
 </html>
