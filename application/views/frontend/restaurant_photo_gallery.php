@@ -11,7 +11,6 @@
 				</div>
 			</a>
 			<a href=""><div class="large-2 columns">  <font color="white">Photos</font> </div></a>
-			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a>
 			<div class="large-4 columns"></div>
 		</div>
 	</div>

@@ -6,6 +6,8 @@ class Restaurant extends CI_Controller {
 	public function show_restaurant($id) {
 		$this->load->model( 'restaurant/restaurant_model' );
 		$this->load->model( 'restaurant/review_model' );
+		$this->load->model( 'restaurant/tag_restaurant_model' );
+
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($id);
 		if(! $restaurant ) {
 			$data = array (
@@ -47,6 +49,7 @@ class Restaurant extends CI_Controller {
 				'reviews' => $reviews,
 				'samplePhotos' => $samplePhotos,
 				'facebookLoginURL' => $facebookLoginURL,
+				'restaurantTags' => $this->tag_restaurant_model->get_restaurant_tag_list($id),
 			);
 			
 			$this->load->view ( 'frontend/view_restaurant', $data );
