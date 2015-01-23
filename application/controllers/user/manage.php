@@ -24,13 +24,10 @@ class Manage extends MY_Controller {
 		$this->load->model( 'restaurant/country_restaurant_model' );
 		$this->load->model( 'restaurant/category_restaurant_model' );
 		$this->load->model( 'restaurant/language_restaurant_model' );
-		$this->load->model( 'restaurant/tag_model' );
-
 		$data = array( 
 			'countries' => $this->country_restaurant_model->get_country_list(),
 			'categories' => $this->category_restaurant_model->get_category_list(),
 			'languages' => $this->language_restaurant_model->get_language_list(),
-			'tags' => $this->tag_model->get_all_tags(),
 		);
 		$this->load->view ( 'frontend/location_form', $data );
 	}
@@ -38,12 +35,8 @@ class Manage extends MY_Controller {
 		$this->load->model( 'restaurant/country_restaurant_model' );
 		$this->load->model( 'restaurant/category_restaurant_model' );
 		$this->load->model( 'restaurant/language_restaurant_model' );
-		$this->load->model( 'restaurant/tag_model' );
-		$this->load->model( 'restaurant/tag_restaurant_model' );
 		$this->load->model( 'restaurant/restaurant_model' );
-
 		$restaurant = $this->restaurant_model->get_restaurant_by_id($resId);
-
 		if( ! $restaurant) {
 			// raise 404
 			$data = array(
@@ -70,16 +63,12 @@ class Manage extends MY_Controller {
 			$this->load->view("../errors/error_403", $data);
 			return;
 		}
-
 		$data = array( 
 			'countries' => $this->country_restaurant_model->get_country_list(),
 			'categories' => $this->category_restaurant_model->get_category_list(),
 			'languages' => $this->language_restaurant_model->get_language_list(),
-			'tags' => $this->tag_model->get_all_tags(),
-			'restaurantTags' => $this->tag_restaurant_model->get_restaurant_tag_list($resId),
 			'restaurant' => $restaurant,
 		);
-		// var_dump($this->tag_restaurant_model->get_restaurant_tag_list($resId));
 		$this->load->view ( 'frontend/location_form', $data );
 	}
 	// --------------------------------------------------------------------
@@ -221,8 +210,6 @@ class Manage extends MY_Controller {
 			$this->load->model ( 'restaurant/country_restaurant_model' );
 			$this->load->model ( 'restaurant/category_restaurant_model' );
 			$this->load->model ( 'restaurant/language_restaurant_model' );
-			$this->load->model ( 'restaurant/tag_model' );
-			$this->load->model ( 'restaurant/tag_restaurant_model' );
 			
 			// get user ID
 			$userID = (int)$this->basic_user_model->get_user_info($this->session->userdata('username'))['id'];
@@ -241,18 +228,6 @@ class Manage extends MY_Controller {
 			// create link between restaurant and its spoken languages
 			foreach(explode(',', $this->input->post('languages')) as $abbrev) {
 				$this->language_restaurant_model->create_language_restaurant_link($restaurant_id, $abbrev);
-			}
-
-			// create link between restaurant and tags
-			foreach(explode(',', strtolower($this->input->post('tags'))) as $tag) {
-				// if tag does not exist in db -> add it
-				if( ! $this->tag_model->get_tag($tag) ) {
-					$tagID = $this->tag_model->create_tag($tag);
-				}
-				else {
-					$tagID = $this->tag_model->get_tag($tag)->id;
-				}
-				$this->tag_restaurant_model->create_tag_restaurant_link($restaurant_id, $tagID);
 			}
 			//redirect ( 'welcome' );
 			//$this->show_user_restaurant();
@@ -359,8 +334,6 @@ class Manage extends MY_Controller {
 			$this->load->model ( 'restaurant/country_restaurant_model' );
 			$this->load->model ( 'restaurant/category_restaurant_model' );
 			$this->load->model ( 'restaurant/language_restaurant_model' );
-			$this->load->model ( 'restaurant/tag_model' );
-			$this->load->model ( 'restaurant/tag_restaurant_model' );
 			
 			// update restaurant 
 			if( ! $this->restaurant_model->update_restaurant($restaurant->id)) {
@@ -390,19 +363,6 @@ class Manage extends MY_Controller {
 			// create link between restaurant and its spoken languages
 			foreach(explode(',', $this->input->post('languages')) as $abbrev) {
 				$this->language_restaurant_model->create_language_restaurant_link($restaurant->id, $abbrev);
-			}
-
-			// delete old links between restaurant and tag
-			$this->tag_restaurant_model->delete_all_tag_link_to_restaurant($restaurant->id);
-			// create link between restaurant and its tags
-			foreach(explode(',', strtolower($this->input->post('tags'))) as $tag) {
-				if( ! $this->tag_model->get_tag($tag) ) {
-					$tagID = $this->tag_model->create_tag($tag);
-				}
-				else {
-					$tagID = $this->tag_model->get_tag($tag)->id;
-				}
-				$this->tag_restaurant_model->create_tag_restaurant_link($restaurant->id, $tagID);
 			}
 			redirect( '/restaurant/show_restaurant/' .  $restaurant->id);
 		}

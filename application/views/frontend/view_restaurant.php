@@ -1,9 +1,6 @@
 <?php include 'metadata.php' ?>
 <script type="text/javascript" src="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.js"></script>
 <link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/rating/jquery.rating.css" />
-<script src="<?php echo base_url(); ?>static/frontend/js/tagging/tag-it.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/frontend/css/jquery.tagit.css">
-
 <body>
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
@@ -21,8 +18,7 @@
  			<a href=""><div class="large-2 columns">  <font color="white">Overview</font> </div></a> 
  			<a href="<?php echo site_url('restaurant/photo_gallery')?>/<?php echo $restaurant->id ?>"><div class="large-2 columns">  <font color="white">Photos</font> </div></a> 
  			<a href="#map"><div class="large-2 columns">  <font color="white">Map</font> </div></a> 
- 			<a href="#tags"><div class="large-2 columns">  <font color="white">Tags</font> </div></a> 
- 			<div class="large-4 columns"></div> 
+ 			<div class="large-4 columns"></div> -->
  		</div>
  	</div>
 	
@@ -234,19 +230,6 @@
 				</div>
 			</div>
 			&nbsp
-			<div class="row map-container">
-				<div class="large-12 comments">
-					<a name="tags"><h5>Tags by restaurant owner</h5></a>
-					<ul id="res-tags">
-		        		<?php if(isset($restaurantTags) ) { ?>
-		        			<?php foreach($restaurantTags as $tag ) { ?>
-		        				<li><?php echo $tag; ?></li>
-		        			<?php } ?>
-	        			<?php } ?>
-		        	</ul>
-				</div>
-			</div>
-			&nbsp
 		</div>
 		<div class="large-3 columns">
 			<div class="row">
@@ -299,10 +282,6 @@
 		      		return false;
 		    	}
 		  	});
-
-		  	$("#res-tags").tagit( {
-		  		readOnly : true,
-			});
 		});
 	</script>
 	<script type="text/javascript">

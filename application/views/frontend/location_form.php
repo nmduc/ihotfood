@@ -1,8 +1,6 @@
 <?php include 'metadata.php'?>
 <script src="<?php echo base_url(); ?>static/frontend/js/zmultiselect/zurb5-multiselect.js"></script>
 <link rel="stylesheet" href="<?php echo base_url(); ?>static/frontend/js/zmultiselect/zurb5-multiselect.css" />
-<script src="<?php echo base_url(); ?>static/frontend/js/tagging/tag-it.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/frontend/css/jquery.tagit.css">
 
 <script type="text/javascript">
 var lat, long;
@@ -83,8 +81,8 @@ function initialize() {
 	}
 
 	function setLatLong() {
-		lat = myMarker.position.lat();
-	  	long = myMarker.position.lng();
+		lat = myMarker.position.k;
+	  	long = myMarker.position.B;
 	  	document.getElementById("latlong").value = "" + lat +"," + long;
 	}
 
@@ -104,7 +102,7 @@ function initialize() {
   	});
 
   	  	// set map to restaurant location if restaurant exists (edit restaurant)
-	<?php if(isset($restaurant) ) { 
+	<?php if(isset($restaurant)) { 
 		echo("
 			var bounds = new google.maps.LatLngBounds();
 			var initialLocation = new google.maps.LatLng($restaurant->latlong);
@@ -402,24 +400,6 @@ $(document).ready(function() {
 				        ?>
 				    </div>
 				</fieldset>
-				<fieldset>
-					<legend>Tag your restaurant</legend>
-				    <div class="row">
-						<div class="small-3 columns">
-							<label>Your tags </label>
-				        </div>
-				        <div class="small-9 columns">
-				        	<ul id="res-tags">
-				        		<?php if(isset($restaurantTags) ) { ?>
-				        			<?php foreach($restaurantTags as $tag ) { ?>
-				        				<li><?php echo $tag; ?></li>
-				        			<?php } ?>
-			        			<?php } ?>
-				        	</ul>
-				        </div>
-				    </div>
-				</fieldset>
-
 				<div class="large-12">
 					<input class="button expand" type="submit" 
 						<?php 
@@ -435,7 +415,6 @@ $(document).ready(function() {
 			</form>
 		</div>
 	</div>
-
 	<script type="text/javascript">
 		$("select#language-select").zmultiselect({
 			live: "#selected-languages",
@@ -463,21 +442,6 @@ $(document).ready(function() {
 		    filterResultText: "Showed",
 		    selectedText: ['Selected','of']
 		});
-
-		$(document).ready(function() {
-			$("#res-tags").tagit( {
-				// availableTags : [
-				// 	<?php foreach($tags as $tag)  { ?>
-				// 		"<?php echo $tag; ?>",
-				// 	<?php } ?>
-				// ],
-				availableTags: ["c++", "java", "php", "javascript", "ruby", "python", "c"],
-				fieldName : "tags",
-				allowSpaces : true,
-				caseSensitive : false,
-				singleField :true, 	// all tags are included in a single field when submitting
-			});
-		});
 	</script>
 
 	<script>
@@ -490,7 +454,7 @@ $(document).ready(function() {
 		}
 	</script>
 
-	<?php require 'scripts.php' ?>
-	<?php require 'footer.php' ?>
+	<?php require 'scripts.php'?>
+	<?php require 'footer.php';?>
 </body>
 </html>

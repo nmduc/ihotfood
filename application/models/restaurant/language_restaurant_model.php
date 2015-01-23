@@ -1,6 +1,11 @@
 <?php
 
 class Language_Restaurant_Model extends CI_Model{
+	// --------------------------------------------------------------------
+ 	/**
+	  * Create new restaurant
+	  *
+	  */
 	public function get_language_list() {
 		$query = $this->db->get('languages');
 		$languageList = array();
